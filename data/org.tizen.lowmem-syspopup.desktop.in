@@ -1,0 +1,9 @@
+Name=Low memory system popup
+Type=Application
+Exec=/opt/apps/org.tizen.lowmem-syspopup/bin/lowmem-popup
+Nodisplay=True
+Icon=org.tizen.lowmem-syspopup.png
+Network={True/False}
+Comment=lowmem
+X-TIZEN-TaskManage=False
+X-TIZEN-Removable=False

@@ -1,0 +1,9 @@
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "배터리가 부족합니다"
+
+msgid "IDS_COM_BODY_SYSTEM_INFO_ABB"
+msgstr "시스템 정보"
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "배터리가 부족하여 휴대폰 전원이 꺼집니다"
+

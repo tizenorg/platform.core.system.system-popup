@@ -1,0 +1,9 @@
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Low battery"
+
+msgid "IDS_COM_BODY_SYSTEM_INFO_ABB"
+msgstr "System info"
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "Low battery. Phone will shut down"
+
