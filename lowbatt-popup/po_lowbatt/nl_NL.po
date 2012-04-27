@@ -7,3 +7,8 @@ msgstr "Systeeminfo"
 msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
 msgstr "Batterij bijna leeg. Uw telefoon wordt uitgeschakeld."
 
+msgid "IDS_COM_BODY_CHARGING_PAUSED_DUE_TO_EXTREME_TEMPERATURE"
+msgstr "Opladen gestopt vanwege te hoge of te lage temperatuur"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"

@@ -10,3 +10,5 @@ msgstr "%s 已關閉"
 msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY"
 msgstr "記憶體不足"
 
+msgid "IDS_ST_SK_OK"
+msgstr "確定"

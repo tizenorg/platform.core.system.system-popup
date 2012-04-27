@@ -10,3 +10,5 @@ msgstr "%s 已关闭"
 msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY"
 msgstr "没有足够内存"
 
+msgid "IDS_ST_SK_OK"
+msgstr "确认"

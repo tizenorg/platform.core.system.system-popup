@@ -15,7 +15,7 @@ INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/poweroff-popup)
 
 INCLUDE(FindPkgConfig)
 pkg_check_modules(pkgs REQUIRED appcore-efl elementary devman devman_haptic mm-sound syspopup 
-mm-keysound sysman utilX bundle pmapi evas ecore-evas notification vconf)
+mm-keysound sysman utilX bundle pmapi evas ecore-evas notification vconf ecore-input)
 
 FOREACH(flag ${pkgs_CFLAGS})
 	SET(EXTRA_CFLAGS "${EXTRA_CFLAGS} ${flag} -g")

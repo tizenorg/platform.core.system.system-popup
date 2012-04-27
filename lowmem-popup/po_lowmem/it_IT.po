@@ -10,3 +10,6 @@ msgstr "%s chiuso"
 msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY"
 msgstr "Memoria insufficiente"
 
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+

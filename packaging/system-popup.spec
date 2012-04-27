@@ -18,13 +18,13 @@ BuildRequires:  pkgconfig(appcore-efl)
 BuildRequires:  pkgconfig(devman)
 BuildRequires:  pkgconfig(utilX)
 BuildRequires:  pkgconfig(syspopup)
+BuildRequires:  pkgconfig(notification) 
 BuildRequires:  pkgconfig(pmapi)
-BuildRequires:  pkgconfig(notification)
 
 BuildRequires:  cmake
 BuildRequires:  edje-bin
 BuildRequires:  embryo-bin
-BuildRequires:  gettext-tools
+BuildRequires:  gettext-devel
 
 %description
 system-popup application (poweroff popup,sysevent-alert).

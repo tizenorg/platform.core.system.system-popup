@@ -1,3 +1,11 @@
+system-popup (0.1.7-67) unstable; urgency=low
+
+  * modify for bug for lowmem and lowbat popup
+  * Git: slp/pkgs/s/system-popup
+  * Tag: system-popup_0.1.7-67
+
+ -- Jinkun Jang <jinkun.jang@samsung.com>  Mon, 09 Apr 2012 14:50:31 +0900
+ 
 system-popup (0.1.7-60) unstable; urgency=low
 
   * Remove "Flight Mode" option in power-off popup

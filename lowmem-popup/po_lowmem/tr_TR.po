@@ -10,3 +10,5 @@ msgstr "%s kapatıldı"
 msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY"
 msgstr "Yeterli hafıza yok"
 
+msgid "IDS_ST_SK_OK"
+msgstr "Tamam"

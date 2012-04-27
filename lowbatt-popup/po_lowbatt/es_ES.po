@@ -7,3 +7,8 @@ msgstr "Información del sistema"
 msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
 msgstr "Batería baja. El teléfono se apagará"
 
+msgid "IDS_COM_BODY_CHARGING_PAUSED_DUE_TO_EXTREME_TEMPERATURE"
+msgstr "La carga se detuvo por temperatura alta"
+
+msgid "IDS_ST_SK_OK"
+msgstr "Aceptar"

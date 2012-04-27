@@ -31,6 +31,7 @@
 #include "poweroff.h"
 
 #include <Ecore_X.h>
+#include <Ecore_Input.h>
 #include <utilX.h>
 
 /* Time profiling support */
@@ -175,12 +176,11 @@ static int app_resume(void *data)
 static int app_reset(bundle *b, void *data)
 {
 	struct appdata *ad = data;
-	int ret = 0;
 
 	if (syspopup_has_popup(b)) {
 		syspopup_reset(b);
 	} else {
-		ret = syspopup_create(b, &handler, ad->win_main, ad);
+		syspopup_create(b, &handler, ad->win_main, ad);
 		evas_object_show(ad->win_main);
 
 		/* Start Main UI */
@@ -191,9 +191,6 @@ static int app_reset(bundle *b, void *data)
 }
 
 /* Customized print */
-/*
- * TODO: Remove this fuction
- */
 void system_print(const char *format, ...)
 {
 	/* Un-comment return to disable logs */
@@ -273,6 +270,8 @@ int create_and_show_basic_popup_min(struct appdata *ad)
 	xwin = elm_win_xwindow_get(ad->popup_poweroff);
 	ecore_x_netwm_window_type_set(xwin, ECORE_X_WINDOW_TYPE_NOTIFICATION);
 	utilx_set_system_notification_level(ecore_x_display_get(), xwin, UTILX_NOTIFICATION_LEVEL_HIGH);
+	utilx_grab_key(ecore_x_display_get(), xwin, KEY_SELECT, SHARED_GRAB);
+	ecore_event_handler_add(ECORE_EVENT_KEY_UP, poweroff_response_no_cb_min, NULL);
 	evas_object_show(ad->popup_poweroff);
 	
 	return 0;

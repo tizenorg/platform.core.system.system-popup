@@ -7,3 +7,8 @@ msgstr "Πληρ. Συστήμ."
 msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
 msgstr "Χαμηλή στάθμη μπαταρίας. Το τηλέφωνο θα απενεργοποιηθεί"
 
+msgid "IDS_COM_BODY_CHARGING_PAUSED_DUE_TO_EXTREME_TEMPERATURE"
+msgstr "Παύση φόρτισης λόγω ακραίας θερμοκρασίας"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"

@@ -7,3 +7,8 @@ msgstr "Systeminfo"
 msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
 msgstr "Akku leer. Gerät wird heruntergefahren"
 
+msgid "IDS_COM_BODY_CHARGING_PAUSED_DUE_TO_EXTREME_TEMPERATURE"
+msgstr "Laden aufgrund extremer Temperatur unterbrochen"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
