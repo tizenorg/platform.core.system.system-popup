@@ -5,6 +5,7 @@ Release:    1
 Group:      main
 License:    Samsung Proprietary License
 Source0:    %{name}-%{version}.tar.bz2
+Source1001: packaging/system-popup.manifest 
 BuildRequires:  pkgconfig(evas)
 BuildRequires:  pkgconfig(ecore-input)
 BuildRequires:  pkgconfig(ethumb)
@@ -57,6 +58,7 @@ system-popup application (lowmem  popup).
 
 
 %build
+cp %{SOURCE1001} .
 cmake . -DCMAKE_INSTALL_PREFIX=/usr
 make %{?jobs:-j%jobs}
 
@@ -65,6 +67,7 @@ make %{?jobs:-j%jobs}
 
 
 %files -n org.tizen.poweroff-syspopup
+%manifest system-popup.manifest
 /opt/apps/org.tizen.poweroff-syspopup/bin/poweroff-popup
 /opt/apps/org.tizen.lowbat-syspopup/res/icons/batt_full_icon.png
 /opt/share/applications/org.tizen.poweroff-syspopup.desktop
@@ -75,6 +78,7 @@ make %{?jobs:-j%jobs}
 
 
 %files -n org.tizen.lowmem-syspopup
+%manifest system-popup.manifest
 /opt/apps/org.tizen.lowmem-syspopup/bin/lowmem-popup
 /opt/share/applications/org.tizen.lowmem-syspopup.desktop
 /opt/apps/org.tizen.lowmem-syspopup/res/edje/lowmem/lowmem.edj
@@ -84,6 +88,7 @@ make %{?jobs:-j%jobs}
 /opt/apps/org.tizen.lowmem-syspopup/res/keysound/02_Warning.wav
 
 %files -n org.tizen.lowbat-syspopup
+%manifest system-popup.manifest
 /opt/apps/org.tizen.lowbat-syspopup/bin/lowbatt-popup
 /opt/share/applications/org.tizen.lowbat-syspopup.desktop
 /opt/apps/org.tizen.lowbat-syspopup/res/edje/lowbatt/lowbatt.edj
