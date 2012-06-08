@@ -1,0 +1,9 @@
+Name=Power off system popup
+Type=Application
+Exec=/opt/apps/org.tizen.poweroff-syspopup/bin/poweroff-popup
+Nodisplay=True
+Icon=org.tizen.poweroff-syspopup.png
+Network={True/False}
+Comment=poweroff
+X-TIZEN-TaskManage=False
+X-TIZEN-Removable=False
