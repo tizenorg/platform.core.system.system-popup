@@ -1,3 +1,28 @@
+/*
+ * Copyright (c) Samsung Electronics Co., Ltd. All rights reserved.
+ *
+ * Licensed under the Flora Software License (the "License"). 
+ *
+ * You may obtain a copy of the License at 
+ * http://www.tizenopensource.org/license
+ *
+ * Your use of this source code is conditioned on your acceptance of the 
+ * terms and conditions of the License. 
+ * If you do not agree to the terms and conditions of the License, 
+ * do not use the source code herein.
+ * 
+ * THIS SOURCE CODE IS LICENSED ONLY UNDER THE TERMS OF THE
+ * LICENSE. 
+ * 
+ * THIS SOURCE CODE IS DISTRIBUTED ON AN "AS-IS" BASIS AND
+ * "WITH ALL FAULTS", 
+ * WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND,
+ * EXPRESS OR IMPLIED.
+ *  
+ * See the License for specific language governing
+ * permissions and limitations.
+ */
+
 #define MAIN_W 480
 #define MAIN_H 800
 #define POPUP_MAIN_W 458 
