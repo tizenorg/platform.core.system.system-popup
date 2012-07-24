@@ -3,7 +3,7 @@ Summary:    system-popup application (poweroff popup,sysevent-alert)
 Version:    0.1.7
 Release:    1
 Group:      main
-License:    Samsung Proprietary License
+License:    Flora Software License
 Source0:    %{name}-%{version}.tar.bz2
 Source1001: packaging/system-popup.manifest 
 BuildRequires:  pkgconfig(evas)
