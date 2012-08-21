@@ -1,8 +1,5 @@
 msgid "IDS_ST_BODY_POWER_OFF"
-msgstr "Выключение телефона"
-
-msgid "IDS_ST_SK_OK"
-msgstr "Да"
+msgstr "Выключение"
 
 msgid "IDS_ST_BODY_SLEEP"
 msgstr "Сон"
@@ -13,8 +10,8 @@ msgstr "Отмена"
 msgid "IDS_COM_BODY_SYSTEM_INFO_ABB"
 msgstr "Системная информация"
 
-msgid "IDS_CLOG_SK_CANCEL_LITE"
-msgstr "Отмена"
+msgid "IDS_COM_SK_OK"
+msgstr "Да"
 
 msgid "IDS_ST_MBODY_SCREEN_READER_HTTS"
 msgstr "Чтение с экрана (TTS)"

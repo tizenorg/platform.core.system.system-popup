@@ -14,8 +14,8 @@ INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR})
 INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/poweroff-popup)
 
 INCLUDE(FindPkgConfig)
-pkg_check_modules(pkgs REQUIRED appcore-efl elementary devman devman_haptic mm-sound syspopup 
-mm-keysound sysman utilX bundle pmapi evas ecore-evas notification vconf ecore-input)
+pkg_check_modules(pkgs REQUIRED appcore-efl elementary devman devman_haptic mm-sound syspopup syspopup-caller
+mm-keysound sysman utilX bundle pmapi evas ecore-evas notification vconf ecore-input appsvc)
 
 FOREACH(flag ${pkgs_CFLAGS})
 	SET(EXTRA_CFLAGS "${EXTRA_CFLAGS} ${flag} -g")
@@ -52,9 +52,11 @@ INSTALL(FILES ${CMAKE_BINARY_DIR}/${PROJECT_NAME}/poweroff.edj DESTINATION /opt/
 
 # install desktop file & icon
 SET(PREFIX ${CMAKE_INSTALL_PREFIX})
-CONFIGURE_FILE(${CMAKE_SOURCE_DIR}/data/org.tizen.poweroff-syspopup.desktop.in ${CMAKE_SOURCE_DIR}/data/org.tizen.poweroff-syspopup.desktop)
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.poweroff-syspopup.desktop DESTINATION /opt/share/applications/)
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.poweroff-syspopup.png DESTINATION /opt/apps/org.tizen.poweroff-syspopup/res/icon)
+
+
+# install manifest xml file
+INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.poweroff-syspopup.xml DESTINATION /opt/share/packages/)
 
 # install ini file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/${PROJECT_NAME}.ini DESTINATION /opt/share/process-info)

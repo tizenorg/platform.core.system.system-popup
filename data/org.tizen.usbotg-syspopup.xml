@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" package="org.tizen.usbotg-syspopup" version="0.1.7" install-location="internal-only">
+	<label></label>
+	<author email="giyeol.ok@samsung.com" href="www.samsung.com">Giyeol Ok</author>
+	<description>system-popup application (usbotg popup)</description>
+	<ui-application appid="org.tizen.usbotg-syspopup" exec="/opt/apps/org.tizen.usbotg-syspopup/bin/usbotg-popup" nodisplay="true" multiple="false" type="capp" taskmanage="false">
+		<icon>org.tizen.usbotg-syspopup.png</icon>
+		<label>USB otg system popup</label>
+	</ui-application>
+</manifest>

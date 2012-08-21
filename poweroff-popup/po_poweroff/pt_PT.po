@@ -1,9 +1,6 @@
 msgid "IDS_ST_BODY_POWER_OFF"
 msgstr "Desligar"
 
-msgid "IDS_ST_SK_OK"
-msgstr "OK"
-
 msgid "IDS_ST_BODY_SLEEP"
 msgstr "Dormir"
 
@@ -13,8 +10,8 @@ msgstr "Cancelar"
 msgid "IDS_COM_BODY_SYSTEM_INFO_ABB"
 msgstr "Info. sist."
 
-msgid "IDS_CLOG_SK_CANCEL_LITE"
-msgstr "Canc."
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
 
 msgid "IDS_ST_MBODY_SCREEN_READER_HTTS"
 msgstr "Leitor de ecrã (TTS)"

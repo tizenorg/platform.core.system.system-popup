@@ -51,10 +51,12 @@ INSTALL(FILES ${CMAKE_BINARY_DIR}/${PROJECT_NAME}/lowmem.edj DESTINATION /opt/ap
 
 # install desktop file & icon
 SET(PREFIX ${CMAKE_INSTALL_PREFIX})
-CONFIGURE_FILE(${CMAKE_SOURCE_DIR}/data/org.tizen.lowmem-syspopup.desktop.in ${CMAKE_SOURCE_DIR}/data/org.tizen.lowmem-syspopup.desktop)
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.lowmem-syspopup.desktop DESTINATION /opt/share/applications/)
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.lowmem-syspopup.png DESTINATION /opt/apps/org.tizen.lowmem-syspopup/res/icon)
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/sound/02_Warning.wav DESTINATION /opt/apps/org.tizen.lowmem-syspopup/res/keysound)
+
+
+# install manifest xml file
+INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.lowmem-syspopup.xml DESTINATION /opt/share/packages/)
 
 # install ini file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/${PROJECT_NAME}.ini DESTINATION /opt/share/process-info)

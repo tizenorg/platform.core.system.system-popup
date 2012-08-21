@@ -1,9 +1,0 @@
-Name=Low battery system popup
-Type=Application
-Exec=/opt/apps/org.tizen.lowbat-syspopup/bin/lowbatt-popup
-Nodisplay=True
-Icon=org.tizen.lowbat-syspopup.png
-Network={True/False}
-Comment=lowbatt
-X-TIZEN-TaskManage=False
-X-TIZEN-Removable=False

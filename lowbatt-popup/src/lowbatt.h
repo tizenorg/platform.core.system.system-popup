@@ -38,7 +38,6 @@
 #define NEW_INDI
 #define APPLICATION_BG			1
 #define INDICATOR_HEIGHT		(38)
-#define SOUND_PATH			"/opt/apps/org.tizen.lowbat-syspopup/res/keysound/09_Low_Battery.wav"
 
 #ifndef PREDEF_POWEROFF
 #define PREDEF_POWEROFF			"poweroff"

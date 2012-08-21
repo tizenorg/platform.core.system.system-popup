@@ -102,7 +102,7 @@ static int lang_changed(void *data)
 		return 0;
 
 	update_ts(elm_layout_edje_get(ad->layout_main), main_txt,
-		  sizeof(main_txt) / sizeof(main_txt[0]));
+			sizeof(main_txt) / sizeof(main_txt[0]));
 	return 0;
 }
 
@@ -119,7 +119,7 @@ static Evas_Object *create_win(const char *name)
 		evas_object_smart_callback_add(eo, "delete,request", win_del, NULL);
 		elm_win_alpha_set(eo, EINA_TRUE);
 		ecore_x_window_size_get(ecore_x_window_root_first_get(), &w,
-					&h);
+				&h);
 		evas_object_resize(eo, w, h);
 	}
 
@@ -142,7 +142,7 @@ static Evas_Object *load_edj(Evas_Object * parent, const char *file,
 		}
 
 		evas_object_size_hint_weight_set(eo, EVAS_HINT_EXPAND,
-						 EVAS_HINT_EXPAND);
+				EVAS_HINT_EXPAND);
 	}
 
 	return eo;
@@ -300,21 +300,19 @@ int lowmem_create_and_show_basic_popup(struct appdata *ad)
 	ad->popup = elm_popup_add(ad->win_main);
 	evas_object_size_hint_weight_set(ad->popup, EVAS_HINT_EXPAND,
 					 EVAS_HINT_EXPAND);
-	evas_object_smart_callback_add(ad->popup, "block,clicked", bg_clicked_cb, ad);
 	elm_popup_timeout_set(ad->layout_main, 3);
 	elm_object_text_set(ad->popup, note);
 	elm_object_part_text_set(ad->popup, "title,text", _("IDS_COM_BODY_SYSTEM_INFO_ABB"));
-	evas_object_smart_callback_add(ad->popup, "response", (Evas_Smart_Cb)lowmem_timeout_func, ad);
 
 	btn1 = elm_button_add(ad->popup);
-	elm_object_text_set(btn1, _("IDS_ST_SK_OK"));
+	elm_object_text_set(btn1, _("IDS_COM_SK_OK"));
 	elm_object_part_content_set(ad->popup, "button1", btn1);
+	elm_object_style_set(btn1, "popup_button/default");
 	evas_object_smart_callback_add(btn1, "clicked", bg_clicked_cb, ad);
 
 	Ecore_X_Window xwin;
 	xwin = elm_win_xwindow_get(ad->popup);
 	ecore_x_netwm_window_type_set(xwin, ECORE_X_WINDOW_TYPE_NOTIFICATION);
-	utilx_set_system_notification_level(ecore_x_display_get(), xwin, UTILX_NOTIFICATION_LEVEL_HIGH);
 	evas_object_show(ad->popup);
 
 	free(note);

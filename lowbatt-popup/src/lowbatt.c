@@ -18,9 +18,7 @@
 #include <stdio.h>
 #include <appcore-efl.h>
 #include <sensor.h>
-#include <devman_haptic.h>
 #include <devman.h>
-#include <mmf/mm_sound.h>
 #include <pmapi.h>
 #include <sysman.h>
 #include "lowbatt.h"
@@ -28,15 +26,15 @@
 #include <vconf-keys.h>
 #include <Ecore_X.h>
 #include <utilX.h>
+#include <notification.h>
 #include <syspopup.h>
+#include <svi.h>
 
 #define CHECK_ACT 			0
 #define WARNING_ACT 		1
 #define POWER_OFF_ACT 		2
 #define CHARGE_ERROR_ACT 	3
 
-#define BATTERY_FULL_ICON_PATH			"/opt/apps/com.samsung.lowbat-syspopup/res/icons/batt_full_icon.png"
-#define VCONFKEY_TESTMODE_LOW_BATT_POPUP	"db/testmode/low_batt_popup"
 
 static int option = -1;
 
@@ -185,7 +183,7 @@ static int app_reset(bundle *b, void *data)
 		option = CHECK_ACT;
 
 	if (syspopup_has_popup(b)) {
-		if(option == CHECK_ACT) {
+		if (option == CHECK_ACT) {
 			return 0;
 		}
 		syspopup_reset(b);
@@ -232,10 +230,10 @@ static void bg_clicked_cb(void *data, Evas * e, Evas_Object * obj, void *event_i
 {
 	system_print("\n system-popup : Inside bg clicked \n");
 	exit(0);
-}   
-        
+}
+
 static void bg_noti_cb(void *data)
-{   
+{
 	ui_bgimg_reload((Evas_Object *) data);
 }
 
@@ -246,26 +244,6 @@ static int lowbatt_create_indicator(struct appdata *ad)
 	return 0;
 }
 
-/* Play vibration */
-static int lowbatt_play_vibration()
-{
-	int ret_val = 0;
-	int dev_handle = 0;
-	int mode = 0;
-
-	/* Open the haptic device */
-	dev_handle = device_haptic_open(DEV_IDX_0, mode);
-	if (dev_handle < 0)
-		return -1;
-
-	/* Play a monotone pattern for 1s */
-	ret_val = device_haptic_play_monotone(dev_handle, 1000);
-	device_haptic_close(dev_handle);
-	if (ret_val < 0)
-		return -1;
-
-	return 0;
-}
 
 void lowbatt_timeout_func(void *data)
 {
@@ -274,13 +252,13 @@ void lowbatt_timeout_func(void *data)
 
 	/* If poweroff requested */
 	if (option == POWER_OFF_ACT) {
-			if (sysman_call_predef_action(PREDEF_POWEROFF, 0) == -1) {
-				system_print
-				    ("System-popup : failed to request poweroff to system_server \n");
-				fflush(stdout);
-				system("poweroff");
-			}
+		if (sysman_call_predef_action(PREDEF_POWEROFF, 0) == -1) {
+			system_print
+				("System-popup : failed to request poweroff to system_server \n");
+			fflush(stdout);
+			system("poweroff");
 		}
+	}
 	/* Now get lost */
 	exit(0);
 }
@@ -297,9 +275,8 @@ static int lowbatt_create_and_show_basic_popup(struct appdata *ad)
 		system_print("\n System-popup : Add popup failed \n");
 		return -1;
 	}
-	evas_object_smart_callback_add(ad->popup, "block,clicked", lowbatt_timeout_func, ad);
 	evas_object_size_hint_weight_set(ad->popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-
+	
 	elm_popup_timeout_set(ad->layout_main, 3);
 
 	/* Check launch option */
@@ -312,23 +289,41 @@ static int lowbatt_create_and_show_basic_popup(struct appdata *ad)
 	elm_object_part_text_set(ad->popup, "title,text", _("IDS_COM_BODY_SYSTEM_INFO_ABB"));
 
 	btn1 = elm_button_add(ad->popup);
-	elm_object_text_set(btn1, _("IDS_ST_SK_OK"));
+	elm_object_text_set(btn1, _("IDS_COM_SK_OK"));
 	elm_object_part_content_set(ad->popup, "button1", btn1);
+	elm_object_style_set(btn1, "popup_button/default");
 	evas_object_smart_callback_add(btn1, "clicked", lowbatt_timeout_func, ad);
 
-
-	/* Add callback */
-	evas_object_smart_callback_add(ad->popup, "response", lowbatt_timeout_func, ad);
 
 	Ecore_X_Window xwin;
 	xwin = elm_win_xwindow_get(ad->popup);
 	ecore_x_netwm_window_type_set(xwin, ECORE_X_WINDOW_TYPE_NOTIFICATION);
-	utilx_set_system_notification_level(ecore_x_display_get(), xwin, UTILX_NOTIFICATION_LEVEL_HIGH);
 	evas_object_show(ad->popup);
 
 	return 0;
 }
+static int lowbatt_svi_play(void)
+{
+	int r = 0;
+	int handle = 0;
+	r = svi_init(&handle); //Initialize SVI
 
+	if ( r != SVI_SUCCESS ) {
+		system_print("Cannot initialize SVI.\n");
+		return 0;
+	} else {
+		r = svi_play(handle, SVI_VIB_OPERATION_LOWBATT, SVI_SND_OPERATION_LOWBATT);
+		if (r != SVI_SUCCESS) {
+			system_print("Cannot play sound or vibration.\n");
+		}
+		r = svi_fini(handle); //Finalize SVI
+		if (r != SVI_SUCCESS) {
+			system_print("Cannot close SVI.\n");
+			return 0;
+		}
+	}
+	return 1;
+}
 int lowbatt_start(void *data)
 {
 	struct appdata *ad = data;
@@ -338,21 +333,11 @@ int lowbatt_start(void *data)
 	ret_val = lowbatt_create_and_show_basic_popup(ad);
 	if (ret_val != 0)
 		return -1;
-
+	lowbatt_svi_play();
 	/* Change LCD brightness */
 	ret_val = pm_change_state(LCD_NORMAL);
 	if (ret_val != 0)
 		return -1;
-
-	/* Play vibration */
-	ret_val = lowbatt_play_vibration();
-	if (ret_val == -1)
-		system_print("\n Lowbatt : Play vibration failed \n");
-
-	/* Play the sound alert */
-	ret_val = mm_sound_play_keysound(SOUND_PATH, 1);
-	if (ret_val != 0)
-		system_print("\n Lowmem : Play sound failed \n");
 
 	return 0;
 }
@@ -370,7 +355,7 @@ int app_create(void *data)
 
 	ad->win_main = win;
 
-	elm_theme_overlay_add(NULL,EDJ_NAME); 
+	elm_theme_overlay_add(NULL,EDJ_NAME);
 
 	return 0;
 }

@@ -1,9 +1,6 @@
 msgid "IDS_ST_BODY_POWER_OFF"
 msgstr "電源關閉"
 
-msgid "IDS_ST_SK_OK"
-msgstr "確定"
-
 msgid "IDS_ST_BODY_SLEEP"
 msgstr "睡眠"
 
@@ -13,8 +10,8 @@ msgstr "取消"
 msgid "IDS_COM_BODY_SYSTEM_INFO_ABB"
 msgstr "系統訊息"
 
-msgid "IDS_CLOG_SK_CANCEL_LITE"
-msgstr "取消"
+msgid "IDS_COM_SK_OK"
+msgstr "確定"
 
 msgid "IDS_ST_MBODY_SCREEN_READER_HTTS"
 msgstr "螢幕讀取軟體 (TTS)"

@@ -1,9 +1,6 @@
 msgid "IDS_ST_BODY_POWER_OFF"
 msgstr "Kapat"
 
-msgid "IDS_ST_SK_OK"
-msgstr "Tamam"
-
 msgid "IDS_ST_BODY_SLEEP"
 msgstr "Uyku"
 
@@ -13,8 +10,8 @@ msgstr "İptal"
 msgid "IDS_COM_BODY_SYSTEM_INFO_ABB"
 msgstr "Sistem bilgi."
 
-msgid "IDS_CLOG_SK_CANCEL_LITE"
-msgstr "İptal"
+msgid "IDS_COM_SK_OK"
+msgstr "Tamam"
 
 msgid "IDS_ST_MBODY_SCREEN_READER_HTTS"
 msgstr "Ekran okuyucu (TTS)"
@@ -42,3 +39,4 @@ msgstr "Yardımcı ışığı kapat"
 
 msgid "IDS_COM_BODY_PHONE_OPTIONS"
 msgstr "Telefon seçenekleri"
+

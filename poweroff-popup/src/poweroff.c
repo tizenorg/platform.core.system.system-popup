@@ -188,7 +188,6 @@ static int app_reset(bundle *b, void *data)
 void system_print(const char *format, ...)
 {
 	/* Un-comment return to disable logs */
-	return;
 
 	va_list args;
 	va_start(args, format);
@@ -252,18 +251,19 @@ int create_and_show_basic_popup_min(struct appdata *ad)
 	elm_object_part_text_set(ad->popup_poweroff, "title,text", _("IDS_COM_BODY_SYSTEM_INFO_ABB"));
 
 	btn1 = elm_button_add(ad->popup_poweroff);
-	elm_object_text_set(btn1, _("IDS_ST_SK_OK"));
+	elm_object_text_set(btn1, _("IDS_COM_SK_OK"));
 	elm_object_part_content_set(ad->popup_poweroff, "button1", btn1);
+	elm_object_style_set (btn1,"popup_button/default");
 	evas_object_smart_callback_add(btn1, "clicked", poweroff_response_yes_cb_min, ad);
 	btn2 = elm_button_add(ad->popup_poweroff);
 	elm_object_text_set(btn2, _("IDS_COM_SK_CANCEL"));
 	elm_object_part_content_set(ad->popup_poweroff, "button2", btn2);
+	elm_object_style_set (btn2,"popup_button/default");
 	evas_object_smart_callback_add(btn2, "clicked", poweroff_response_no_cb_min, ad);
 
 	Ecore_X_Window xwin;
 	xwin = elm_win_xwindow_get(ad->popup_poweroff);
 	ecore_x_netwm_window_type_set(xwin, ECORE_X_WINDOW_TYPE_NOTIFICATION);
-	utilx_set_system_notification_level(ecore_x_display_get(), xwin, UTILX_NOTIFICATION_LEVEL_HIGH);
 	utilx_grab_key(ecore_x_display_get(), xwin, KEY_SELECT, SHARED_GRAB);
 	ecore_event_handler_add(ECORE_EVENT_KEY_UP, poweroff_response_no_cb_min, NULL);
 	evas_object_show(ad->popup_poweroff);

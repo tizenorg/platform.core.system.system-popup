@@ -1,9 +1,6 @@
 msgid "IDS_ST_BODY_POWER_OFF"
 msgstr "Spegnimento"
 
-msgid "IDS_ST_SK_OK"
-msgstr "OK"
-
 msgid "IDS_ST_BODY_SLEEP"
 msgstr "Dormire"
 
@@ -13,8 +10,8 @@ msgstr "Annulla"
 msgid "IDS_COM_BODY_SYSTEM_INFO_ABB"
 msgstr "Info sistema"
 
-msgid "IDS_CLOG_SK_CANCEL_LITE"
-msgstr "Annulla"
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
 
 msgid "IDS_ST_MBODY_SCREEN_READER_HTTS"
 msgstr "Lettura schermo (TTS)"
@@ -42,3 +39,4 @@ msgstr "Spegni luce di accesso facilitato"
 
 msgid "IDS_COM_BODY_PHONE_OPTIONS"
 msgstr "Opzioni telefono"
+

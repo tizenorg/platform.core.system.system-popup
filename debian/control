@@ -21,8 +21,18 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Low battery popup application
 
+Package: org.tizen.usbotg-syspopup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: USB otg popup application
+
+Package: org.tizen.usbotg-unmount-popup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: USB otg unmount popup application
+
 Package: system-popup-dbg
 Section: debug
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, org.tizen.poweroff-syspopup (= ${Source-Version}), org.tizen.lowmem-syspopup (= ${Source-Version}), org.tizen.lowbat-syspopup (= ${Source-Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, org.tizen.poweroff-syspopup (= ${Source-Version}), org.tizen.lowmem-syspopup (= ${Source-Version}), org.tizen.lowbat-syspopup (= ${Source-Version}), org.tizen.usbotg-syspopup (= ${Source-Version}), org.tizen.usbotg-unmount-popup (= ${Source-Version})
 Description: System popup application (unstripped)

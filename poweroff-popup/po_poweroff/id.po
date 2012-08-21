@@ -1,0 +1,42 @@
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "Daya mati"
+
+msgid "IDS_ST_BODY_SLEEP"
+msgstr "Tidur"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Batal"
+
+msgid "IDS_COM_BODY_SYSTEM_INFO_ABB"
+msgstr "Info sistem"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_MBODY_SCREEN_READER_HTTS"
+msgstr "Pembaca layar (TTS)"
+
+msgid "IDS_ST_HEADER_ACCESSIBILITY"
+msgstr "Aksesibilitas"
+
+msgid "IDS_ST_BODY_DISABLE_NEGATIVE_COLOURS"
+msgstr "Nonaktifkan warna negatif"
+
+msgid "IDS_ST_BODY_ENABLE_NEGATIVE_COLOURS"
+msgstr "Aktifkan warna negatif"
+
+msgid "IDS_ST_BODY_DISABLE_ZOOM"
+msgstr "Nonaktifkan pembesaran"
+
+msgid "IDS_ST_BODY_ENABLE_ZOOM"
+msgstr "Aktifkan pembesaran"
+
+msgid "IDS_ST_BODY_TURN_ON_ASSISTIVE_LIGHT"
+msgstr "Hidupkan lampu bantuan"
+
+msgid "IDS_ST_BODY_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "Matikan lampu bantuan"
+
+msgid "IDS_COM_BODY_PHONE_OPTIONS"
+msgstr "Opsi telepon"
+

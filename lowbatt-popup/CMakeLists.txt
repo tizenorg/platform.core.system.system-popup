@@ -12,6 +12,7 @@ MESSAGE("Build type: ${CMAKE_BUILD_TYPE}")
 
 INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR})
 INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/lowbatt-popup)
+INCLUDE_DIRECTORIES(/usr/include/svi)
 
 INCLUDE(FindPkgConfig)
 pkg_check_modules(pkgs REQUIRED appcore-efl elementary devman devman_haptic mm-sound notification sysman)
@@ -37,7 +38,7 @@ ADD_DEFINITIONS("-DSLP_DEBUG")
 SET(CMAKE_EXE_LINKER_FLAGS "-Wl,--as-needed")
 
 ADD_EXECUTABLE(${PROJECT_NAME} ${SRCS})
-TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${pkgs_LDFLAGS})
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${pkgs_LDFLAGS} "-lsvi")
 
 ADD_CUSTOM_TARGET(lowbatt.edj
 		COMMAND edje_cc -id ${CMAKE_SOURCE_DIR}/../images
@@ -51,11 +52,10 @@ INSTALL(FILES ${CMAKE_BINARY_DIR}/${PROJECT_NAME}/lowbatt.edj DESTINATION /opt/a
 
 # install desktop file & icon
 SET(PREFIX ${CMAKE_INSTALL_PREFIX})
-CONFIGURE_FILE(${CMAKE_SOURCE_DIR}/data/org.tizen.lowbat-syspopup.desktop.in ${CMAKE_SOURCE_DIR}/data/org.tizen.lowbat-syspopup.desktop)
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.lowbat-syspopup.desktop DESTINATION /opt/share/applications/)
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.lowbat-syspopup.png DESTINATION /opt/apps/org.tizen.lowbat-syspopup/res/icon)
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/sound/09_Low_Battery.wav DESTINATION /opt/apps/org.tizen.lowbat-syspopup/res/keysound)
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/batt_full_icon.png DESTINATION /opt/apps/org.tizen.lowbat-syspopup/res/icons/)
+# install manifest xml file
+
+INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.lowbat-syspopup.xml DESTINATION /opt/share/packages/)
 
 # install ini file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/${PROJECT_NAME}.ini DESTINATION /opt/share/process-info)

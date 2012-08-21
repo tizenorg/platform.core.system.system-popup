@@ -1,9 +1,6 @@
 msgid "IDS_ST_BODY_POWER_OFF"
 msgstr "Απενεργοποίηση"
 
-msgid "IDS_ST_SK_OK"
-msgstr "OK"
-
 msgid "IDS_ST_BODY_SLEEP"
 msgstr "Ύπνος"
 
@@ -13,8 +10,8 @@ msgstr "Άκυρο"
 msgid "IDS_COM_BODY_SYSTEM_INFO_ABB"
 msgstr "Πληρ. Συστήμ."
 
-msgid "IDS_CLOG_SK_CANCEL_LITE"
-msgstr "Ακύρωση"
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
 
 msgid "IDS_ST_MBODY_SCREEN_READER_HTTS"
 msgstr "Λόγος πλευρ. οθ."
