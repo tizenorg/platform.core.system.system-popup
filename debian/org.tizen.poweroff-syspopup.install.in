@@ -1,0 +1,6 @@
+/usr/apps/org.tizen.poweroff-syspopup/bin/poweroff-popup
+/usr/apps/org.tizen.poweroff-syspopup/res/edje/poweroff/poweroff.edj
+/usr/share/applications/org.tizen.poweroff-syspopup.desktop
+/usr/share/process-info/poweroff-popup.ini
+/usr/apps/org.tizen.poweroff-syspopup/res/locale/*
+

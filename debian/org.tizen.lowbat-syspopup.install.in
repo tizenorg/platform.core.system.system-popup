@@ -1,0 +1,5 @@
+/usr/apps/org.tizen.lowbat-syspopup/bin/lowbatt-popup
+/usr/apps/org.tizen.lowbat-syspopup/res/edje/lowbatt/lowbatt.edj
+/usr/share/applications/org.tizen.lowbat-syspopup.desktop
+/usr/share/process-info/lowbatt-popup.ini
+/usr/apps/org.tizen.lowbat-syspopup/res/locale/*
