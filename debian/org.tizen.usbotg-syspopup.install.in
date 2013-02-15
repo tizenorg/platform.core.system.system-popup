@@ -1,0 +1,6 @@
+/usr/apps/org.tizen.usbotg-syspopup/bin/usbotg-popup
+/usr/apps/org.tizen.usbotg-syspopup/res/keysound/02_Warning.wav
+/usr/apps/org.tizen.usbotg-syspopup/res/edje/usbotg/usbotg.edj
+/usr/share/applications/org.tizen.usbotg-syspopup.desktop
+/usr/share/process-info/usbotg-popup.ini
+/usr/apps/org.tizen.usbotg-syspopup/res/locale/*
