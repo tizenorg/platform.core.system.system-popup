@@ -1,16 +1,16 @@
 Name:       system-popup
 Summary:    system-popup application (poweroff popup,sysevent-alert)
-Version: 0.1.13
+Version: 0.1.16
 Release:    2
-Group:      framework-system
-License:    APLv2
+Group:      framework/system
+License:    Apache License, Version 2.0
 Source0:    %{name}-%{version}.tar.bz2
 Source1001:    org.tizen.poweroff-syspopup.manifest
 Source1002:    org.tizen.lowmem-syspopup.manifest
 Source1003:    org.tizen.lowbat-syspopup.manifest
-Source1004:    org.tizen.usbotg-syspopup.manifest
-Source1005:    org.tizen.usbotg-unmount-popup.manifest
-Source1006:    org.tizen.mmc-syspopup.manifest
+Source1004:    org.tizen.mmc-syspopup.manifest
+Source1005:    org.tizen.usb-syspopup.manifest
+Source1006:    org.tizen.usbotg-syspopup.manifest
 BuildRequires:  pkgconfig(evas)
 BuildRequires:  pkgconfig(ecore-input)
 BuildRequires:  pkgconfig(ethumb)
@@ -29,7 +29,9 @@ BuildRequires:  pkgconfig(notification)
 BuildRequires:  pkgconfig(pmapi)
 BuildRequires:  pkgconfig(appsvc)
 BuildRequires:  pkgconfig(svi)
-
+BuildRequires:  pkgconfig(bundle)
+BuildRequires:  pkgconfig(vconf)
+BuildRequires:  pkgconfig(dlog)
 BuildRequires:  cmake
 BuildRequires:  edje-bin
 BuildRequires:  embryo-bin
@@ -63,22 +65,6 @@ Requires:   %{name} = %{version}-%{release}
 %description -n org.tizen.lowbat-syspopup
 system-popup application (lowmem  popup).
 
-%package -n org.tizen.usbotg-syspopup
-Summary:    system-popup application (usbotg  popup)
-Group:      main
-Requires:   %{name} = %{version}-%{release}
-
-%description -n org.tizen.usbotg-syspopup
-system-popup application (usbotg  popup).
-
-%package -n org.tizen.usbotg-unmount-popup
-Summary:    system-popup application (usbotg unmount popup)
-Group:      main
-Requires:   %{name} = %{version}-%{release}
-
-%description -n org.tizen.usbotg-unmount-popup
-system-popup application (usbotg unmount popup).
-
 %package -n org.tizen.mmc-syspopup
 Summary:    system-popup application (mmc  popup)
 Group:      main
@@ -86,6 +72,22 @@ Requires:   %{name} = %{version}-%{release}
 
 %description -n org.tizen.mmc-syspopup
 system-popup application (mmc  popup).
+
+%package -n org.tizen.usb-syspopup
+Summary:    system-popup application (usb popup)
+Group:      main
+Requires:   %{name} = %{version}-%{release}
+
+%description -n org.tizen.usb-syspopup
+system-popup application (usb popup).
+
+%package -n org.tizen.usbotg-syspopup
+Summary:    system-popup application (usb otg popup)
+Group:      main
+Requires:   %{name} = %{version}-%{release}
+
+%description -n org.tizen.usbotg-syspopup
+system-popup application (usb otg popup).
 
 %prep
 %setup -q
@@ -98,13 +100,15 @@ cp %{SOURCE1003} .
 cp %{SOURCE1004} .
 cp %{SOURCE1005} .
 cp %{SOURCE1006} .
-cmake . -DCMAKE_INSTALL_PREFIX=/usr
+cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix}
 make %{?jobs:-j%jobs}
 
 %install
 rm -rf %{buildroot}
 %make_install
 
+%post
+vconftool set -t int db/setting/select_popup_btn "0" -u 5000 -f
 
 %files
 %defattr(-,root,root,-)
@@ -141,28 +145,6 @@ rm -rf %{buildroot}
 /usr/share/packages/org.tizen.lowbat-syspopup.xml
 /usr/share/process-info/lowbatt-popup.ini
 
-%files -n org.tizen.usbotg-syspopup
-%manifest org.tizen.usbotg-syspopup.manifest
-%defattr(-,root,root,-)
-/usr/apps/org.tizen.usbotg-syspopup/bin/usbotg-popup
-/usr/apps/org.tizen.usbotg-syspopup/res/keysound/02_Warning.wav
-/usr/apps/org.tizen.usbotg-syspopup/res/edje/usbotg/usbotg.edj
-/usr/apps/org.tizen.usbotg-syspopup/res/icons/usb_icon.png
-/usr/apps/org.tizen.usbotg-syspopup/res/icon/org.tizen.usbotg-syspopup.png
-/usr/share/packages/org.tizen.usbotg-syspopup.xml
-/usr/share/process-info/usbotg-popup.ini
-/usr/apps/org.tizen.usbotg-syspopup/res/locale/*/LC_MESSAGES/*.mo
-
-%files -n org.tizen.usbotg-unmount-popup
-%manifest org.tizen.usbotg-unmount-popup.manifest
-%defattr(-,root,root,-)
-/usr/apps/org.tizen.usbotg-unmount-popup/bin/usbotg-unmount-popup
-/usr/apps/org.tizen.usbotg-unmount-popup/res/keysound/02_Warning.wav
-/usr/apps/org.tizen.usbotg-unmount-popup/res/edje/usbotg-unmount/usbotg-unmount.edj
-/usr/apps/org.tizen.usbotg-unmount-popup/res/icon/org.tizen.usbotg-unmount-popup.png
-/usr/share/packages/org.tizen.usbotg-unmount-popup.xml
-/usr/share/process-info/usbotg-unmount-popup.ini
-/usr/apps/org.tizen.usbotg-unmount-popup/res/locale/*/LC_MESSAGES/*.mo
 %files -n org.tizen.mmc-syspopup
 %manifest org.tizen.mmc-syspopup.manifest
 %defattr(-,root,root,-)
@@ -170,3 +152,16 @@ rm -rf %{buildroot}
 /usr/share/packages/org.tizen.mmc-syspopup.xml
 /usr/share/process-info/mmc-popup.ini
 /usr/apps/org.tizen.mmc-syspopup/res/locale/*/LC_MESSAGES/*.mo
+
+%files -n org.tizen.usb-syspopup
+%manifest org.tizen.usb-syspopup.manifest
+%defattr(440,root,root,-)
+%attr(555,app,app) /usr/apps/org.tizen.usb-syspopup/bin/usb-syspopup
+%attr(440,app,app) /usr/apps/org.tizen.usb-syspopup/res/locale/*/LC_MESSAGES/usb-syspopup.mo
+/usr/share/packages/org.tizen.usb-syspopup.xml
+
+%files -n org.tizen.usbotg-syspopup
+%manifest org.tizen.usbotg-syspopup.manifest
+%defattr(440,root,root,-)
+%attr(555,app,app) /usr/apps/org.tizen.usbotg-syspopup/bin/usbotg-syspopup
+/usr/share/packages/org.tizen.usbotg-syspopup.xml

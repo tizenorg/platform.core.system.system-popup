@@ -11,8 +11,8 @@ SET(INCLUDEDIR "\${prefix}/include")
 ADD_SUBDIRECTORY(poweroff-popup)
 ADD_SUBDIRECTORY(lowbatt-popup)
 ADD_SUBDIRECTORY(lowmem-popup)
-ADD_SUBDIRECTORY(usbotg-popup)
-ADD_SUBDIRECTORY(usbotg-unmount-popup)
 ADD_SUBDIRECTORY(mmc-popup)
+ADD_SUBDIRECTORY(usb-popup)
+ADD_SUBDIRECTORY(usbotg-popup)
 
 ############## END ##############

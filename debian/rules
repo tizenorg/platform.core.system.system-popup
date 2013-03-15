@@ -63,7 +63,7 @@ clean:
 	rm -rf *.so
 	rm -rf *.edj
 	rm -rf data/*.desktop
-	for i in lowbatt-popup lowmem-popup poweroff-popup usbotg-popup usbotg-unmount-popup; do \
+	for i in lowbatt-popup lowmem-popup poweroff-popup; do \
 		rm -rf $$i/CMakeCache.txt; \
 		rm -rf $$i/CMakeFiles; \
 		rm -rf $$i/cmake_install.cmake; \

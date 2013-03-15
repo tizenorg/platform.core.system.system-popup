@@ -238,12 +238,10 @@ void poweroff_response_yes_cb_min(void *data, Evas_Object * obj, void *event_inf
 	if (data != NULL)
 		poweroff_cleanup(data);
 
-	/* Sysman API to poweroff */
 	if (sysman_call_predef_action(PREDEF_POWEROFF, 0) == -1) {
 		system_print("System-popup : failed to request poweroff to system_server \n");
 		system("poweroff");
 	}
-//	exit(0);
 }
 
 void poweroff_response_no_cb_min(void *data, Evas_Object * obj, void *event_info)
