@@ -54,7 +54,7 @@ static int ipc_socket_client_init()
 		return -1;;
 	}
 	remote.sun_family = AF_UNIX;
-	strncpy(remote.sun_path, SOCK_PATH, sizeof(remote.sun_family));
+	strncpy(remote.sun_path, SOCK_PATH, strlen(SOCK_PATH) + 1 );
 	if (connect(sockFd, (struct sockaddr *)&remote, sizeof(remote)) == -1) {
 		USB_LOG("FAIL: connect()");
 		close(sockFd);

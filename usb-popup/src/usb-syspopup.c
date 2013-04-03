@@ -745,6 +745,7 @@ static void load_select_pkg_for_acc_popup(struct appdata *ad)
 	if (0 > ret) {
 		USB_LOG("FAIL: get_accessory_info(ad)");
 		elm_exit();
+		return ;
 	}
 
 	numOfApps = get_accessory_matched(ad);
@@ -789,6 +790,7 @@ static void load_select_pkg_for_host_popup(struct appdata *ad)
 	if (0 > ret) {
 		USB_LOG("FAIL: get_host_info(ad)");
 		elm_exit();
+		return ;
 	}
 
 	numOfApps = get_host_matched(ad);
@@ -856,6 +858,7 @@ static int __app_reset(bundle *b, void *data)
 	if (!type) {
 		USB_LOG("ERROR: Non existing type of popup\n");
 		elm_exit();
+		return -1;
 	}
 
 	ad->type = atoi(type);
@@ -879,7 +882,7 @@ static int __app_reset(bundle *b, void *data)
 		USB_LOG("ERROR: The popup type(%d) does not exist\n", ad->type);
 		ad->isClientOrHost = USB_DEVICE_UNKNOWN;
 		elm_exit();
-		break;
+		return -1;
 	}
 
 	switch(ad->type) {
