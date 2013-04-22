@@ -11,7 +11,7 @@ msgid "IDS_COM_BODY_SYSTEM_INFO_ABB"
 msgstr "სისტემ.ინფო"
 
 msgid "IDS_COM_SK_OK"
-msgstr "OK"
+msgstr "კი"
 
 msgid "IDS_ST_MBODY_SCREEN_READER_HTTS"
 msgstr "ეკრანზე წამკითხველი (TTS)"
