@@ -57,6 +57,9 @@ INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.lowbat-syspopup.png DESTINATION
 
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.lowbat-syspopup.xml DESTINATION /usr/share/packages/)
 
+# instatll rule file
+INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.lowbat-syspopup.rule DESTINATION /etc/smack/accesses2.d)
+
 # install ini file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/${PROJECT_NAME}.ini DESTINATION /usr/share/process-info)
 

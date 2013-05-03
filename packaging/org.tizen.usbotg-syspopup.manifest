@@ -1,5 +1,8 @@
 <manifest>
-    <request>
-        <domain name="_"/>
-    </request>
+	<define>
+		<domain name="org.tize.usbotg-syspopup"/>
+	</define>
+	<request>
+		<domain name="org.tize.usbotg-syspopup"/>
+	</request>
 </manifest>

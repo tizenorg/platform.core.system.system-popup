@@ -1,5 +1,8 @@
 <manifest>
+    <define>
+        <domain name="org.tize.poweroff-syspopup"/>
+    </define>
     <request>
-        <domain name="_"/>
+        <domain name="org.tize.poweroff-syspopup"/>
     </request>
 </manifest>
