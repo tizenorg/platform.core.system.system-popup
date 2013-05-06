@@ -58,9 +58,6 @@ INSTALL(FILES ${CMAKE_SOURCE_DIR}/sound/02_Warning.wav DESTINATION /usr/apps/org
 # install manifest xml file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.lowmem-syspopup.xml DESTINATION /usr/share/packages/)
 
-# instatll rule file
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.lowmem-syspopup.rule DESTINATION /etc/smack/accesses2.d)
-
 # install ini file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/${PROJECT_NAME}.ini DESTINATION /usr/share/process-info)
 

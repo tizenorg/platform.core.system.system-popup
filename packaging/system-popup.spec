@@ -11,12 +11,6 @@ Source1003:    org.tizen.lowbat-syspopup.manifest
 Source1004:    org.tizen.mmc-syspopup.manifest
 Source1005:    org.tizen.usb-syspopup.manifest
 Source1006:    org.tizen.usbotg-syspopup.manifest
-Source1007:    org.tizen.poweroff-syspopup.rule
-Source1008:    org.tizen.lowmem-syspopup.rule
-Source1009:    org.tizen.lowbat-syspopup.rule
-Source1010:    org.tizen.mmc-syspopup.rule
-Source1011:    org.tizen.usb-syspopup.rule
-Source1012:    org.tizen.usbotg-syspopup.rule
 BuildRequires:  pkgconfig(evas)
 BuildRequires:  pkgconfig(ecore-input)
 BuildRequires:  pkgconfig(ethumb)
@@ -106,12 +100,6 @@ cp %{SOURCE1003} .
 cp %{SOURCE1004} .
 cp %{SOURCE1005} .
 cp %{SOURCE1006} .
-cp %{SOURCE1007} .
-cp %{SOURCE1008} .
-cp %{SOURCE1009} .
-cp %{SOURCE1010} .
-cp %{SOURCE1011} .
-cp %{SOURCE1012} .
 
 cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix}
 make %{?jobs:-j%jobs}
@@ -136,7 +124,6 @@ vconftool set -t int db/setting/select_popup_btn "0" -u 5000 -f
 /usr/share/packages/org.tizen.poweroff-syspopup.xml
 /usr/share/process-info/poweroff-popup.ini
 /usr/apps/org.tizen.poweroff-syspopup/res/locale/*/LC_MESSAGES/*.mo
-/etc/smack/accesses2.d/org.tizen.poweroff-syspopup.rule
 
 %files -n org.tizen.lowmem-syspopup
 %manifest org.tizen.lowmem-syspopup.manifest
@@ -148,7 +135,6 @@ vconftool set -t int db/setting/select_popup_btn "0" -u 5000 -f
 /usr/share/packages/org.tizen.lowmem-syspopup.xml
 /usr/share/process-info/lowmem-popup.ini
 /usr/apps/org.tizen.lowmem-syspopup/res/locale/*/LC_MESSAGES/*.mo
-/etc/smack/accesses2.d/org.tizen.lowmem-syspopup.rule
 
 %files -n org.tizen.lowbat-syspopup
 %manifest org.tizen.lowbat-syspopup.manifest
@@ -159,7 +145,6 @@ vconftool set -t int db/setting/select_popup_btn "0" -u 5000 -f
 /usr/apps/org.tizen.lowbat-syspopup/res/icon/org.tizen.lowbat-syspopup.png
 /usr/share/packages/org.tizen.lowbat-syspopup.xml
 /usr/share/process-info/lowbatt-popup.ini
-/etc/smack/accesses2.d/org.tizen.lowbat-syspopup.rule
 
 %files -n org.tizen.mmc-syspopup
 %manifest org.tizen.mmc-syspopup.manifest
@@ -168,7 +153,6 @@ vconftool set -t int db/setting/select_popup_btn "0" -u 5000 -f
 /usr/share/packages/org.tizen.mmc-syspopup.xml
 /usr/share/process-info/mmc-popup.ini
 /usr/apps/org.tizen.mmc-syspopup/res/locale/*/LC_MESSAGES/*.mo
-/etc/smack/accesses2.d/org.tizen.mmc-syspopup.rule
 
 %files -n org.tizen.usb-syspopup
 %manifest org.tizen.usb-syspopup.manifest
@@ -176,11 +160,9 @@ vconftool set -t int db/setting/select_popup_btn "0" -u 5000 -f
 %attr(555,app,app) /usr/apps/org.tizen.usb-syspopup/bin/usb-syspopup
 %attr(440,app,app) /usr/apps/org.tizen.usb-syspopup/res/locale/*/LC_MESSAGES/usb-syspopup.mo
 /usr/share/packages/org.tizen.usb-syspopup.xml
-/etc/smack/accesses2.d/org.tizen.usb-syspopup.rule
 
 %files -n org.tizen.usbotg-syspopup
 %manifest org.tizen.usbotg-syspopup.manifest
 %defattr(440,root,root,-)
 %attr(555,app,app) /usr/apps/org.tizen.usbotg-syspopup/bin/usbotg-syspopup
 /usr/share/packages/org.tizen.usbotg-syspopup.xml
-/etc/smack/accesses2.d/org.tizen.usbotg-syspopup.rule

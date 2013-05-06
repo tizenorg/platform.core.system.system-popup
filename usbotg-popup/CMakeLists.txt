@@ -41,6 +41,3 @@ INSTALL(TARGETS ${PACKAGE} DESTINATION ${BINDIR})
 
 # install manifest xml file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/${PKGNAME}.xml DESTINATION ${MANIFESTDIR})
-
-# install smack rule file
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/packaging/${PKGNAME}.rule DESTINATION /etc/smack/accesses2.d)
