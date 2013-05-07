@@ -61,6 +61,9 @@ INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.lowmem-syspopup.xml DESTINATION
 # install ini file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/${PROJECT_NAME}.ini DESTINATION /usr/share/process-info)
 
+# instatll rule file
+INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.lowmem-syspopup.rule DESTINATION /opt/etc/smack/accesses.d)
+
 # i18n
 ADD_SUBDIRECTORY(po_lowmem)
 

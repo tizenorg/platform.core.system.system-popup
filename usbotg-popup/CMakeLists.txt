@@ -41,3 +41,6 @@ INSTALL(TARGETS ${PACKAGE} DESTINATION ${BINDIR})
 
 # install manifest xml file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/${PKGNAME}.xml DESTINATION ${MANIFESTDIR})
+
+# instatll rule file
+INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.usbotg-syspopup.rule DESTINATION /opt/etc/smack/accesses.d)
