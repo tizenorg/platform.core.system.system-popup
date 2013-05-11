@@ -3,6 +3,6 @@
         <domain name="org.tizen.lowbat-syspopup"/>
     </define>
     <request>
-        <domain name="org.tize.lowbat-syspopup"/>
+        <domain name="org.tizen.lowbat-syspopup"/>
     </request>
 </manifest>
