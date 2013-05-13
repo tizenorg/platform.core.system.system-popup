@@ -284,7 +284,6 @@ int create_and_show_basic_popup_min(struct appdata *ad)
 	xwin = elm_win_xwindow_get(ad->popup_poweroff);
 	ecore_x_netwm_window_type_set(xwin, ECORE_X_WINDOW_TYPE_NOTIFICATION);
 	utilx_grab_key(ecore_x_display_get(), xwin, KEY_SELECT, SHARED_GRAB);
-	ecore_event_handler_add(ECORE_EVENT_KEY_UP, poweroff_response_no_cb_min, NULL);
 	evas_object_show(ad->popup_poweroff);
 	vconf_notify_key_changed(VCONFKEY_PM_STATE, poweroff_popup_direct_cancel, ad);
 	
