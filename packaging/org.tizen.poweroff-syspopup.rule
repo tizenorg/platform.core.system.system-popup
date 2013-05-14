@@ -34,12 +34,16 @@ org.tizen.poweroff-syspopup device::app_logging -w---
 org.tizen.poweroff-syspopup device::led rw---
 org.tizen.poweroff-syspopup org.tizen.svoice rw---
 org.tizen.poweroff-syspopup org.tizen.voicerecorder rw---
+org.tizen.poweroff-syspopup mobileprint --x--
+org.tizen.poweroff-syspopup default-fonts-fc-sdk::config r----
+org.tizen.poweroff-syspopup e17 rw---
+sdbd org.tizen.poweroff-syspopup r----
 stest-service org.tizen.poweroff-syspopup r-x--
 system-server org.tizen.poweroff-syspopup -w---
 deviced org.tizen.poweroff-syspopup -w---
 display_wd org.tizen.poweroff-syspopup -w---
 dbus org.tizen.poweroff-syspopup -w---
-e17 org.tizen.poweroff-syspopup -w---
+e17 org.tizen.poweroff-syspopup rw---
 pulseaudio org.tizen.poweroff-syspopup -w---
 org.tizen.app-tray org.tizen.poweroff-syspopup r-x--
 tts-server org.tizen.poweroff-syspopup rw---

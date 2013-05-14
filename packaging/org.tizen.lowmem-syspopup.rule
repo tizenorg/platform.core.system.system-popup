@@ -34,12 +34,14 @@ org.tizen.lowmem-syspopup device::app_logging -w---
 org.tizen.lowmem-syspopup device::led r----
 org.tizen.lowmem-syspopup org.tizen.svoice rw---
 org.tizen.lowmem-syspopup org.tizen.voicerecorder rw---
+org.tizen.lowmem-syspopup e17 rw---
+sdbd org.tizen.lowmem-syspopup r----
 stest-service org.tizen.lowmem-syspopup r-x--
 system-server org.tizen.lowmem-syspopup -w---
 deviced org.tizen.lowmem-syspopup -w---
 display_wd org.tizen.lowmem-syspopup -w---
 dbus org.tizen.lowmem-syspopup -w---
-e17 org.tizen.lowmem-syspopup -w---
+e17 org.tizen.lowmem-syspopup rw---
 pulseaudio org.tizen.lowmem-syspopup -w---
 org.tizen.app-tray org.tizen.lowmem-syspopup r-x--
 tts-server org.tizen.lowmem-syspopup rw---
