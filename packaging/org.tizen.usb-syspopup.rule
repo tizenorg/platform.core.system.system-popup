@@ -18,4 +18,4 @@ org.tizen.usb-syspopup mobileprint --x--
 org.tizen.usb-syspopup system::media rwxat
 org.tizen.usb-syspopup wrt_launchpad_daemon r----
 org.tizen.app-tray org.tizen.usb-syspopup r-x--
-e17 org.tizen.usb-syspopup -wx--
+e17 org.tizen.usb-syspopup rwx--
