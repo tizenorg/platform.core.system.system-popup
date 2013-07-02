@@ -1,7 +1,7 @@
 Name:       system-popup
 Summary:    System Popup application (poweroff popup,sysevent-alert)
-Version: 0.1.16
-Release:    2
+Version:    0.1.17
+Release:    1
 Group:      System/Utilities
 License:    Apache-2.0
 Source0:    %{name}-%{version}.tar.bz2
@@ -123,6 +123,9 @@ vconftool set -t int db/setting/select_popup_btn "0" -u 5000 -f
 %files
 %manifest %{name}.manifest
 %defattr(-,root,root,-)
+%{_bindir}/sys_device_noti
+%{_datadir}/system-server/sys_device_noti/batt_full_icon.png
+%{_datadir}/system-server/sys_device_noti/res/locale/*/LC_MESSAGES/*.mo
 
 
 %files -n org.tizen.poweroff-syspopup
