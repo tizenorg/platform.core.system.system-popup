@@ -5,12 +5,7 @@ Release:    2
 Group:      framework/system
 License:    Apache License, Version 2.0
 Source0:    %{name}-%{version}.tar.bz2
-Source1001:    org.tizen.poweroff-syspopup.manifest
-Source1002:    org.tizen.lowmem-syspopup.manifest
-Source1003:    org.tizen.lowbat-syspopup.manifest
-Source1004:    org.tizen.mmc-syspopup.manifest
-Source1005:    org.tizen.usb-syspopup.manifest
-Source1006:    org.tizen.usbotg-syspopup.manifest
+Source1001:    %{name}.manifest
 Source1007:    org.tizen.poweroff-syspopup.rule
 Source1008:    org.tizen.lowmem-syspopup.rule
 Source1009:    org.tizen.lowbat-syspopup.rule
@@ -101,11 +96,6 @@ system-popup application (usb otg popup).
 
 %build
 cp %{SOURCE1001} .
-cp %{SOURCE1002} .
-cp %{SOURCE1003} .
-cp %{SOURCE1004} .
-cp %{SOURCE1005} .
-cp %{SOURCE1006} .
 cp %{SOURCE1007} .
 cp %{SOURCE1008} .
 cp %{SOURCE1009} .
