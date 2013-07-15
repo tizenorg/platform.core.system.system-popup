@@ -5,7 +5,7 @@ Release:    2
 Group:      framework/system
 License:    Apache License, Version 2.0
 Source0:    %{name}-%{version}.tar.bz2
-Source1001:    org.tizen.poweroff-syspopup.manifest
+Source1001:    %{name}.manifest
 Source1002:    org.tizen.lowmem-syspopup.manifest
 Source1003:    org.tizen.lowbat-syspopup.manifest
 Source1004:    org.tizen.mmc-syspopup.manifest
@@ -17,6 +17,7 @@ Source1009:    org.tizen.lowbat-syspopup.rule
 Source1010:    org.tizen.mmc-syspopup.rule
 Source1011:    org.tizen.usb-syspopup.rule
 Source1012:    org.tizen.usbotg-syspopup.rule
+Source1013:    org.tizen.poweroff-syspopup.manifest
 BuildRequires:  pkgconfig(evas)
 BuildRequires:  pkgconfig(ecore-input)
 BuildRequires:  pkgconfig(ethumb)
@@ -112,6 +113,7 @@ cp %{SOURCE1009} .
 cp %{SOURCE1010} .
 cp %{SOURCE1011} .
 cp %{SOURCE1012} .
+cp %{SOURCE1013} .
 
 cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix}
 make %{?jobs:-j%jobs}
