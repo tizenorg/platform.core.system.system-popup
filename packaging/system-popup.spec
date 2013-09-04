@@ -1,9 +1,9 @@
 Name:       system-popup
-Summary:    system-popup application (poweroff popup,sysevent-alert)
+Summary:    System Popup application (poweroff popup,sysevent-alert)
 Version: 0.1.16
 Release:    2
-Group:      framework/system
-License:    Apache License, Version 2.0
+Group:      System/Utilities
+License:    Apache-2.0
 Source0:    %{name}-%{version}.tar.bz2
 Source1001:    %{name}.manifest
 Source1002:    org.tizen.lowmem-syspopup.manifest
@@ -45,56 +45,50 @@ BuildRequires:  embryo-bin
 BuildRequires:  gettext-devel
 
 %description
-system-popup application (poweroff popup,sysevent-alert).
+System Popup application (poweroff popup,sysevent-alert).
 
 
 %package -n org.tizen.poweroff-syspopup
-Summary:    system-popup application (poweroff popup,sysevent-alert)
-Group:      main
+Summary:    System Popup application (poweroff popup,sysevent-alert)
 Requires:   %{name} = %{version}-%{release}
 
 %description -n org.tizen.poweroff-syspopup
-system-popup application (poweroff popup,sysevent-alert).
+System Popup application (poweroff popup,sysevent-alert).
 
 %package -n org.tizen.lowmem-syspopup
-Summary:    system-popup application (lowbatt popup)
-Group:      main
+Summary:    System Popup application (lowbatt popup)
 Requires:   %{name} = %{version}-%{release}
 
 %description -n org.tizen.lowmem-syspopup
-system-popup application (lowbatt popup).
+System Popup application (lowbatt popup).
 
 %package -n org.tizen.lowbat-syspopup
-Summary:    system-popup application (lowmem  popup)
-Group:      main
+Summary:    System Popup application (lowmem  popup)
 Requires:   %{name} = %{version}-%{release}
 
 %description -n org.tizen.lowbat-syspopup
-system-popup application (lowmem  popup).
+System Popup application (lowmem  popup).
 
 %package -n org.tizen.mmc-syspopup
-Summary:    system-popup application (mmc  popup)
-Group:      main
+Summary:    System Popup application (mmc  popup)
 Requires:   %{name} = %{version}-%{release}
 
 %description -n org.tizen.mmc-syspopup
-system-popup application (mmc  popup).
+System Popup application (mmc  popup).
 
 %package -n org.tizen.usb-syspopup
-Summary:    system-popup application (usb popup)
-Group:      main
+Summary:    System Popup application (usb popup)
 Requires:   %{name} = %{version}-%{release}
 
 %description -n org.tizen.usb-syspopup
-system-popup application (usb popup).
+System Popup application (usb popup).
 
 %package -n org.tizen.usbotg-syspopup
-Summary:    system-popup application (usb otg popup)
-Group:      main
+Summary:    System Popup application (usb otg popup)
 Requires:   %{name} = %{version}-%{release}
 
 %description -n org.tizen.usbotg-syspopup
-system-popup application (usb otg popup).
+System Popup application (usb otg popup).
 
 %prep
 %setup -q
