@@ -43,6 +43,7 @@ BuildRequires:  cmake
 BuildRequires:  edje-bin
 BuildRequires:  embryo-bin
 BuildRequires:  gettext-devel
+Requires(post): /usr/bin/vconftool
 
 %description
 System Popup application (poweroff popup,sysevent-alert).
