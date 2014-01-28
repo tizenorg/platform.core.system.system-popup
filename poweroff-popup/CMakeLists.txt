@@ -3,7 +3,8 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
 PROJECT(poweroff-popup C)
 
-SET(SRCS ${CMAKE_SOURCE_DIR}/poweroff-popup/src/poweroff.c)
+SET(SRCS ${CMAKE_SOURCE_DIR}/poweroff-popup/src/poweroff.c
+		 ${CMAKE_SOURCE_DIR}/share/common.c)
 
 IF("${CMAKE_BUILD_TYPE}" STREQUAL "")
 	SET(CMAKE_BUILD_TYPE "Release")
@@ -12,10 +13,12 @@ MESSAGE("Build type: ${CMAKE_BUILD_TYPE}")
 
 INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR})
 INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/poweroff-popup)
+INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/share)
+INCLUDE_DIRECTORIES(/usr/include/svi)
 
 INCLUDE(FindPkgConfig)
-pkg_check_modules(pkgs REQUIRED appcore-efl elementary devman devman_haptic mm-sound syspopup syspopup-caller
-mm-keysound sysman utilX bundle pmapi evas ecore-evas notification vconf ecore-input appsvc)
+pkg_check_modules(pkgs REQUIRED appcore-efl elementary syspopup syspopup-caller dlog devman sysman pmapi
+deviced utilX bundle evas ecore-evas notification vconf ecore-input appsvc)
 
 FOREACH(flag ${pkgs_CFLAGS})
 	SET(EXTRA_CFLAGS "${EXTRA_CFLAGS} ${flag} -g")
@@ -38,10 +41,10 @@ ADD_DEFINITIONS("-DSLP_DEBUG")
 SET(CMAKE_EXE_LINKER_FLAGS "-Wl,--as-needed")
 
 ADD_EXECUTABLE(${PROJECT_NAME} ${SRCS})
-TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${pkgs_LDFLAGS})
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${pkgs_LDFLAGS} "-lsvi")
 
 ADD_CUSTOM_TARGET(poweroff.edj
-		COMMAND edje_cc -id ${CMAKE_SOURCE_DIR}/images
+		COMMAND edje_cc -id ${CMAKE_SOURCE_DIR}/edcs/icons
 		${CMAKE_SOURCE_DIR}/edcs/poweroff.edc ${CMAKE_BINARY_DIR}/${PROJECT_NAME}/poweroff.edj
 		DEPENDS ${CMAKE_SOURCE_DIR}/edcs/poweroff.edc
 )
