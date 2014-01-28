@@ -48,9 +48,6 @@ SET(PREFIX ${CMAKE_INSTALL_PREFIX})
 # install manifest xml file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.mmc-syspopup.xml DESTINATION /usr/share/packages/)
 
-# install ini file
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/${PROJECT_NAME}.ini DESTINATION /usr/share/process-info)
-
 # instatll rule file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.mmc-syspopup.rule DESTINATION /opt/etc/smack/accesses.d)
 

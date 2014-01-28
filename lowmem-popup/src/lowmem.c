@@ -28,7 +28,6 @@
 
 #define APPLICATION_BG		1
 #define INDICATOR_HEIGHT	(38)	/* the case of 480*800 */
-#define SOUND_PATH		PREFIX"/apps/org.tizen.lowmem-syspopup/res/keysound/02_Warning.wav"
 #define NEW_INDI
 
 #define ACCT_PROF
@@ -350,11 +349,6 @@ int lowmem_start(void *data)
 	/* Play vibration */
 	ret_val = lowmem_play_vibration();
 	if (ret_val == -1)
-		system_print("\n Lowmem : Play vibration failed \n");
-
-	/* Play the sound alert */
-	ret_val = mm_sound_play_keysound(SOUND_PATH, 1);
-	if (ret_val != 0)
 		system_print("\n Lowmem : Play vibration failed \n");
 
 	return 0;

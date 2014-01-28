@@ -131,19 +131,13 @@ vconftool set -t int db/setting/select_popup_btn "0" -u 5000 -f
 %files
 %manifest %{name}.manifest
 %defattr(-,root,root,-)
-%{_bindir}/sys_device_noti
-%{_datadir}/system-server/sys_device_noti/batt_full_icon.png
-%{_datadir}/system-server/sys_device_noti/res/locale/*/LC_MESSAGES/*.mo
-
 
 %files -n org.tizen.poweroff-syspopup
 %manifest %{name}.manifest
 %defattr(-,root,root,-)
 /usr/apps/org.tizen.poweroff-syspopup/bin/poweroff-popup
 /usr/apps/org.tizen.poweroff-syspopup/res/edje/poweroff/poweroff.edj
-/usr/apps/org.tizen.poweroff-syspopup/res/icon/org.tizen.poweroff-syspopup.png
 /usr/share/packages/org.tizen.poweroff-syspopup.xml
-/usr/share/process-info/poweroff-popup.ini
 /usr/apps/org.tizen.poweroff-syspopup/res/locale/*/LC_MESSAGES/*.mo
 /opt/etc/smack/accesses.d/org.tizen.poweroff-syspopup.rule
 /usr/share/license/org.tizen.poweroff-syspopup
@@ -152,11 +146,8 @@ vconftool set -t int db/setting/select_popup_btn "0" -u 5000 -f
 %manifest %{name}.manifest
 %defattr(-,root,root,-)
 /usr/apps/org.tizen.lowmem-syspopup/bin/lowmem-popup
-/usr/apps/org.tizen.lowmem-syspopup/res/keysound/02_Warning.wav
 /usr/apps/org.tizen.lowmem-syspopup/res/edje/lowmem/lowmem.edj
-/usr/apps/org.tizen.lowmem-syspopup/res/icon/org.tizen.lowmem-syspopup.png
 /usr/share/packages/org.tizen.lowmem-syspopup.xml
-/usr/share/process-info/lowmem-popup.ini
 /usr/apps/org.tizen.lowmem-syspopup/res/locale/*/LC_MESSAGES/*.mo
 /opt/etc/smack/accesses.d/org.tizen.lowmem-syspopup.rule
 /usr/share/license/org.tizen.lowmem-syspopup
@@ -167,9 +158,7 @@ vconftool set -t int db/setting/select_popup_btn "0" -u 5000 -f
 /usr/apps/org.tizen.lowbat-syspopup/bin/lowbatt-popup
 /usr/apps/org.tizen.lowbat-syspopup/res/edje/lowbatt/lowbatt.edj
 /usr/apps/org.tizen.lowbat-syspopup/res/locale/*/LC_MESSAGES/*.mo
-/usr/apps/org.tizen.lowbat-syspopup/res/icon/org.tizen.lowbat-syspopup.png
 /usr/share/packages/org.tizen.lowbat-syspopup.xml
-/usr/share/process-info/lowbatt-popup.ini
 /opt/etc/smack/accesses.d/org.tizen.lowbat-syspopup.rule
 /usr/share/license/org.tizen.lowbat-syspopup
 
@@ -178,7 +167,6 @@ vconftool set -t int db/setting/select_popup_btn "0" -u 5000 -f
 %defattr(-,root,root,-)
 /usr/apps/org.tizen.mmc-syspopup/bin/mmc-popup
 /usr/share/packages/org.tizen.mmc-syspopup.xml
-/usr/share/process-info/mmc-popup.ini
 /usr/apps/org.tizen.mmc-syspopup/res/locale/*/LC_MESSAGES/*.mo
 /opt/etc/smack/accesses.d/org.tizen.mmc-syspopup.rule
 /usr/share/license/org.tizen.mmc-syspopup

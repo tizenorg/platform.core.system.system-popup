@@ -52,13 +52,8 @@ INSTALL(FILES ${CMAKE_BINARY_DIR}/${PROJECT_NAME}/lowbatt.edj DESTINATION /usr/a
 
 # install desktop file & icon
 SET(PREFIX ${CMAKE_INSTALL_PREFIX})
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.lowbat-syspopup.png DESTINATION /usr/apps/org.tizen.lowbat-syspopup/res/icon)
-# install manifest xml file
 
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.lowbat-syspopup.xml DESTINATION /usr/share/packages/)
-
-# install ini file
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/${PROJECT_NAME}.ini DESTINATION /usr/share/process-info)
 
 # instatll rule file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.lowbat-syspopup.rule DESTINATION /opt/etc/smack/accesses.d)

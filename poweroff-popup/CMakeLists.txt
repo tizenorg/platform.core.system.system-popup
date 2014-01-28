@@ -52,14 +52,9 @@ INSTALL(FILES ${CMAKE_BINARY_DIR}/${PROJECT_NAME}/poweroff.edj DESTINATION /usr/
 
 # install desktop file & icon
 SET(PREFIX ${CMAKE_INSTALL_PREFIX})
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.poweroff-syspopup.png DESTINATION /usr/apps/org.tizen.poweroff-syspopup/res/icon)
-
 
 # install manifest xml file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.poweroff-syspopup.xml DESTINATION /usr/share/packages/)
-
-# install ini file
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/${PROJECT_NAME}.ini DESTINATION /usr/share/process-info)
 
 # instatll rule file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.poweroff-syspopup.rule DESTINATION /opt/etc/smack/accesses.d)

@@ -14,6 +14,5 @@ ADD_SUBDIRECTORY(lowmem-popup)
 ADD_SUBDIRECTORY(mmc-popup)
 ADD_SUBDIRECTORY(usb-popup)
 ADD_SUBDIRECTORY(usbotg-popup)
-ADD_SUBDIRECTORY(sys_device_noti)
 
 ############## END ##############
