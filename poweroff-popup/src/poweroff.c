@@ -46,12 +46,6 @@ syspopup_handler handler = {
 	.def_timeout_fn = mytimeout
 };
 
-/* App Life cycle funtions */
-static void win_del(void *data, Evas_Object * obj, void *event)
-{
-	popup_terminate();
-}
-
 /* Cleanup objects to avoid mem-leak */
 void poweroff_cleanup(struct appdata *ad)
 {
@@ -76,7 +70,6 @@ void poweroff_response_yes_cb(void *data, Evas_Object * obj, void *event_info)
 
 	if (sysman_call_predef_action(PREDEF_POWEROFF, 0) == -1) {
 		_E("System-popup : failed to request poweroff to system_server");
-		system("poweroff");
 	}
 }
 

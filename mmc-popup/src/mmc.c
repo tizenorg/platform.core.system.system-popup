@@ -33,6 +33,8 @@
 
 static int option = -1;
 
+int mmc_popup_start(void *data);
+
 int myterm(bundle *b, void *data)
 {
 	return 0;
@@ -47,12 +49,6 @@ syspopup_handler handler = {
 	.def_term_fn = myterm,
 	.def_timeout_fn = mytimeout
 };
-
-/* App Life cycle funtions */
-static void win_del(void *data, Evas_Object * obj, void *event)
-{
-	popup_terminate();
-}
 
 /* Terminate noti handler */
 static int app_terminate(void *data)
@@ -86,18 +82,23 @@ static int app_reset(bundle *b, void *data)
 {
 	struct appdata *ad = data;
 	char *opt = NULL;
+	int ret;
 
-	opt = bundle_get_val(b, "_SYSPOPUP_CONTENT_");
+	opt = (char *)bundle_get_val(b, "_SYSPOPUP_CONTENT_");
 	if (!strcmp(opt,"mounterr"))
 		option = MOUNT_ERROR_ACT;
-	
+
 	if (syspopup_has_popup(b)) {
 		syspopup_reset(b);
 	} else {
 		syspopup_create(b, &handler, ad->win_main, ad);
 		evas_object_show(ad->win_main);
 		/* Start Main UI */
-		mmc_popup_start((void *)ad);
+		ret = mmc_popup_start((void *)ad);
+		if (ret < 0) {
+			_E("Failed to show popup (%d)", ret);
+			return ret;
+		}
 	}
 
 	return 0;
@@ -128,7 +129,7 @@ void mmc_cleanup(struct appdata *ad)
 		evas_object_del(ad->layout_main);
 }
 
-void mmc_response(void *data)
+void mmc_response(void *data, Evas_Object * obj, void *event_info)
 {
 	if (data != NULL)
 		mmc_cleanup(data);

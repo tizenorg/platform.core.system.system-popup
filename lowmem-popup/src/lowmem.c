@@ -59,12 +59,6 @@ struct text_part {
 	char *msgid;
 };
 
-/* App Life cycle funtions */
-static void win_del(void *data, Evas_Object *obj, void *event)
-{
-	popup_terminate();
-}
-
 /* Cleanup objects to avoid mem-leak */
 void lowmem_cleanup(struct appdata *ad)
 {
@@ -272,6 +266,10 @@ static int app_reset(bundle *b, void *data)
 		return 0;
 	}
 	ret = syspopup_create(b, &handler, ad->win_main, ad);
+	if (ret < 0) {
+		_E("Failed to create popup(%d)", ret);
+		return ret;
+	}
 	evas_object_show(ad->win_main);
 
 	memnoti_level = bundle_get_val(b, "_MEM_NOTI_");
