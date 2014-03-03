@@ -19,26 +19,13 @@
 
 
 #include <stdio.h>
-#include <appcore-efl.h>
-#include <sensor.h>
-//#include <dd-deviced.h>
-//#include <dd-display.h>
 #include <svi.h>
 #include <sysman.h>
 #include "poweroff.h"
 #include "common.h"
 
 #include <Ecore_X.h>
-#include <Ecore_Input.h>
 #include <utilX.h>
-
-/* Time profiling support */
-#ifdef ACCT_PROF
-#include <sys/acct.h>
-#endif /* ACCT_PROF */
-
-#include <syspopup.h>
-#include <vconf.h>
 
 int create_and_show_basic_popup_min(struct appdata *ad);
 void poweroff_response_yes_cb(void *data, Evas_Object * obj, void *event_info);
@@ -65,38 +52,14 @@ static void win_del(void *data, Evas_Object * obj, void *event)
 	popup_terminate();
 }
 
-/* Create main window */
-static Evas_Object *create_win(const char *name)
-{
-	Evas_Object *eo;
-	Ecore_X_Window xwin;
-	int w, h;
-	unsigned int val = 1;
-
-	eo = elm_win_add(NULL, name, ELM_WIN_DIALOG_BASIC);
-	if (eo) {
-		elm_win_title_set(eo, name);
-		elm_win_borderless_set(eo, EINA_TRUE);
-		evas_object_smart_callback_add(eo, "delete,request", win_del, NULL);
-		elm_win_alpha_set(eo, EINA_TRUE);
-		ecore_x_window_size_get(ecore_x_window_root_first_get(), &w,
-					&h);
-		evas_object_resize(eo, w, h);
-	}
-	xwin = elm_win_xwindow_get(eo);
-	ecore_x_window_prop_card32_set(xwin, ECORE_X_ATOM_E_ILLUME_ACCESS_CONTROL, &val, 1);
-
-	return eo;
-}
-
 /* Cleanup objects to avoid mem-leak */
 void poweroff_cleanup(struct appdata *ad)
 {
 	if (!ad)
 		return;
 
-	if (ad->popup_poweroff)
-		evas_object_del(ad->popup_poweroff);
+	if (ad->popup)
+		evas_object_del(ad->popup);
 	if (ad->layout_main)
 		evas_object_del(ad->layout_main);
 }
@@ -129,33 +92,33 @@ int create_and_show_basic_popup(struct appdata *ad)
 	Evas_Object *btn1;
 	Evas_Object *btn2;
 
-	ad->popup_poweroff = elm_popup_add(ad->win_main);
-	if (ad->popup_poweroff == NULL) {
+	ad->popup = elm_popup_add(ad->win_main);
+	if (ad->popup == NULL) {
 		_E("System-popup : Add popup failed ");
 		return -1;
 	}
 
-	evas_object_size_hint_weight_set(ad->popup_poweroff, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-	elm_object_style_set(ad->popup_poweroff, "transparent");
-	elm_object_text_set(ad->popup_poweroff, _("IDS_ST_BODY_POWER_OFF"));
-	elm_object_part_text_set(ad->popup_poweroff, "title,text", _("IDS_COM_BODY_SYSTEM_INFO_ABB"));
+	evas_object_size_hint_weight_set(ad->popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+	elm_object_style_set(ad->popup, "transparent");
+	elm_object_text_set(ad->popup, _("IDS_ST_BODY_POWER_OFF"));
+	elm_object_part_text_set(ad->popup, "title,text", _("IDS_COM_BODY_SYSTEM_INFO_ABB"));
 
-	btn1 = elm_button_add(ad->popup_poweroff);
+	btn1 = elm_button_add(ad->popup);
 	elm_object_text_set(btn1, _("IDS_COM_SK_CANCEL"));
-	elm_object_part_content_set(ad->popup_poweroff, "button1", btn1);
+	elm_object_part_content_set(ad->popup, "button1", btn1);
 	elm_object_style_set (btn1,"popup_button/default");
 	evas_object_smart_callback_add(btn1, "clicked", poweroff_response_no_cb, ad);
-	btn2 = elm_button_add(ad->popup_poweroff);
+	btn2 = elm_button_add(ad->popup);
 	elm_object_text_set(btn2, _("IDS_COM_SK_OK"));
-	elm_object_part_content_set(ad->popup_poweroff, "button2", btn2);
+	elm_object_part_content_set(ad->popup, "button2", btn2);
 	elm_object_style_set (btn2,"popup_button/default");
 	evas_object_smart_callback_add(btn2, "clicked", poweroff_response_yes_cb, ad);
 
 	Ecore_X_Window xwin;
-	xwin = elm_win_xwindow_get(ad->popup_poweroff);
+	xwin = elm_win_xwindow_get(ad->popup);
 	ecore_x_netwm_window_type_set(xwin, ECORE_X_WINDOW_TYPE_NOTIFICATION);
 	utilx_grab_key(ecore_x_display_get(), xwin, KEY_SELECT, SHARED_GRAB);
-	evas_object_show(ad->popup_poweroff);
+	evas_object_show(ad->popup);
 	return 0;
 }
 
@@ -167,11 +130,6 @@ int poweroff_start(void *data)
 
 	/* Create and show popup */
 	ret_val = create_and_show_basic_popup(ad);
-	if (ret_val != 0)
-		return -1;
-
-	/* Change LCD brightness */
-//	ret_val = display_change_state(LCD_NORMAL);
 	if (ret_val != 0)
 		return -1;
 

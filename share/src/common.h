@@ -25,14 +25,20 @@
 #include <appcore-efl.h>
 #include <Elementary.h>
 #include <utilX.h>
-#include <syspopup.h>
 #include <dlog.h>
+#include <bundle.h>
+#include <glib.h>
+#include <syspopup.h>
+#include <syspopup_caller.h>
 
 #undef LOG_TAG
-#define LOG_TAG "SYSTEM_POPUP"
+#define LOG_TAG "SYSTEM_APPS"
 #define _D(fmt, args...)   SLOGD(fmt, ##args)
 #define _E(fmt, args...)   SLOGE(fmt, ##args)
 #define _I(fmt, args...)   SLOGI(fmt, ##args)
+
+#define LANG_DOMAIN "system-apps"
+#define LOCALE_DIR  "/usr/share/locale"
 
 #define FREE(arg) \
 	do { \
@@ -42,21 +48,21 @@
 		} \
 	} while (0);
 
+#define ARRAY_SIZE(name) (sizeof(name)/sizeof(name[0]))
+
+#define max(a,b) \
+	({ __typeof__ (a) _a = (a); \
+	   __typeof__ (b) _b = (b);  \
+	   _a > _b ? _a : _b; })
+
 struct appdata {
 	/* Common */
 	Evas_Object *win_main;
 	Evas_Object *layout_main;
 	Evas_Object *popup;
 	bundle      *b;
-	syspopup_handler handler;
 
-	/* For poweroff popup */
-	Evas_Object *popup_poweroff;
-	Evas_Object *popup_access;
-	Evas_Object *popup_notification;
-	Evas_Object *popup_chk;
-	Evas_Object *list;
-	Evas_Object *list_access;
+	syspopup_handler handler;
 
 	/* For usbotg popup */
 	Evas_Object *storage_added_popup;
@@ -72,13 +78,42 @@ struct appdata {
 };
 
 void popup_terminate(void);
-int load_normal_popup(struct appdata *ad,
+void release_evas_object(Evas_Object **obj);
+void object_cleanup(struct appdata *ad);
+Evas_Object *create_win(const char *name);
+Evas_Object *load_normal_popup(struct appdata *ad,
 		char *title,
 		char *content,
 		char *lbtnText,
 		Evas_Smart_Cb lbtn_cb,
 		char *rbtnText,
 		Evas_Smart_Cb rbtn_cb);
+Evas_Object *load_popup_with_vertical_buttons(struct appdata *ad,
+		char *title,
+		char *content,
+		char *ubtnText,
+		Evas_Smart_Cb ubtn_cb,
+		char *dbtnText,
+		Evas_Smart_Cb dbtn_cb);
+Evas_Object *load_scrollable_popup(struct appdata *ad,
+		char *title,
+		char *content,
+		char *lbtnText,
+		Evas_Smart_Cb lbtn_cb,
+		char *rbtnText,
+		Evas_Smart_Cb rbtn_cb);
+
+void set_display(void);
+
+/* Send dbus signal */
+int broadcast_dbus_signal(const char *path,
+		const char *interface,
+		const char *name,
+		const char *sig,
+		char *param[]);
+
+int reset_window_priority(Evas_Object *win, int priority);
+int set_popup_focus(Evas_Object *win, bool focus);
 
 
 #endif				/* __COMMON_H__ */

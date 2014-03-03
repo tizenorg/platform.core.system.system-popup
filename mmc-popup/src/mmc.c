@@ -17,15 +17,11 @@
 
 
 #include <stdio.h>
-#include <appcore-efl.h>
-#include <sensor.h>
 #include <devman.h>
 #include <pmapi.h>
 #include <sysman.h>
 #include "mmc.h"
-#include <vconf.h>
-#include <vconf-keys.h>
-#include <Ecore_X.h>
+#include "common.h"
 #include <utilX.h>
 #include <notification.h>
 #include <syspopup.h>
@@ -52,44 +48,10 @@ syspopup_handler handler = {
 	.def_timeout_fn = mytimeout
 };
 
-static Eina_Bool exit_idler_cb(void *data)
-{
-	elm_exit();
-	return ECORE_CALLBACK_CANCEL;
-}
-
-void popup_terminate(void)
-{
-	if (ecore_idler_add(exit_idler_cb, NULL))
-		return;
-
-	exit_idler_cb(NULL);
-}
-
 /* App Life cycle funtions */
 static void win_del(void *data, Evas_Object * obj, void *event)
 {
 	popup_terminate();
-}
-
-/* Create main window */
-static Evas_Object *create_win(const char *name)
-{
-	Evas_Object *eo;
-	int w, h;
-
-	eo = elm_win_add(NULL, name, ELM_WIN_DIALOG_BASIC);
-	if (eo) {
-		elm_win_title_set(eo, name);
-		elm_win_borderless_set(eo, EINA_TRUE);
-		evas_object_smart_callback_add(eo, "delete,request", win_del, NULL);
-		elm_win_alpha_set(eo, EINA_TRUE);
-		ecore_x_window_size_get(ecore_x_window_root_first_get(), &w,
-					&h);
-		evas_object_resize(eo, w, h);
-	}
-
-	return eo;
 }
 
 /* Terminate noti handler */

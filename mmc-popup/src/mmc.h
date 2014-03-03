@@ -38,38 +38,4 @@
 
 #define BEAT
 
-/* Acct profiling support */
-#define  ACCT_PROF
-#ifdef   ACCT_PROF
-#include <sys/acct.h>
-#endif /* ACCT_PROF */
-
-/* Text layout */
-struct text_part {
-	char *part;
-	char *msgid;
-};
-
-/* Main text */
-struct text_part main_txt[] = {
-	{"txt_title", N_("Mmc"),},
-	{"txt_mesg", N_(""),},
-};
-
-struct appdata {
-	Evas *evas;
-	Evas_Object *win_main;
-	Evas_Object *popup;
-	Evas_Object *layout_main;
-
-	Evas_Object *root_w;
-	Evas_Object *root_h;
-	Evas_Object *bg;
-	Evas_Object *indicator;
-
-	double w_ratio;
-	double h_ratio;
-
-};
-
 #endif				/* __DEF_mmc_H__ */

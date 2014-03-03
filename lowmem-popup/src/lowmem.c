@@ -19,26 +19,14 @@
 
 
 #include <stdio.h>
-#include <appcore-efl.h>
-#include <sensor.h>
 #include "lowmem.h"
-#include <Ecore_X.h>
 #include <utilX.h>
-#include <syspopup.h>
 #include <svi.h>
-//#include <dd-display.h>
-//#include <dd-deviced.h>
-#include <vconf.h>
 #include "common.h"
 
 #define APPLICATION_BG		1
 #define INDICATOR_HEIGHT	(38)	/* the case of 480*800 */
 #define NEW_INDI
-
-#define ACCT_PROF
-#ifdef ACCT_PROF
-#include <sys/acct.h>
-#endif /* ACCT_PROF */
 
 #define PROCESS_NOTI_ACT	0
 #define LOWMEM_NOTI_ACT		1
@@ -75,30 +63,6 @@ struct text_part {
 static void win_del(void *data, Evas_Object *obj, void *event)
 {
 	popup_terminate();
-}
-
-/* Create main window */
-static Evas_Object *create_win(const char *name)
-{
-	Evas_Object *eo;
-	Ecore_X_Window xwin;
-	int w, h;
-	unsigned int val = 1;
-
-	eo = elm_win_add(NULL, name, ELM_WIN_DIALOG_BASIC);
-	if (eo) {
-		elm_win_title_set(eo, name);
-		elm_win_borderless_set(eo, EINA_TRUE);
-		evas_object_smart_callback_add(eo, "delete,request", win_del, NULL);
-		elm_win_alpha_set(eo, EINA_TRUE);
-		ecore_x_window_size_get(ecore_x_window_root_first_get(), &w,
-				&h);
-		evas_object_resize(eo, w, h);
-	}
-	xwin = elm_win_xwindow_get(eo);
-	ecore_x_window_prop_card32_set(xwin, ECORE_X_ATOM_E_ILLUME_ACCESS_CONTROL, &val, 1);
-
-	return eo;
 }
 
 /* Cleanup objects to avoid mem-leak */
