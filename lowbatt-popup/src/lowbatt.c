@@ -19,7 +19,6 @@
 
 
 #include <stdio.h>
-#include "lowbatt.h"
 #include <vconf.h>
 #include <utilX.h>
 #include <notification.h>
@@ -31,6 +30,9 @@
 #define POWER_OFF_ACT		2
 #define CHARGE_ERROR_ACT	3
 #define BATTERY_DISCONNECT_ACT	4
+
+#define EDJ_PATH            PREFIX"/apps/org.tizen.lowbat-syspopup/res/edje/lowbatt"
+#define EDJ_NAME            EDJ_PATH"/lowbatt.edj"
 
 static int option = -1;
 
