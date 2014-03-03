@@ -1,0 +1,431 @@
+msgid "IDS_PN_FREE_SPACE_DECREASES"
+msgstr "Free space decreases"
+
+msgid "IDS_PN_FREE_SPACE_OF_THE_DEVICE_IS_LOW"
+msgstr "Free space decreases. Some functions and applications may not be available.\nOpen Settings and uninstall some apps to make space."
+
+msgid "IDS_ST_BODY_KEYBOARD"
+msgstr "键盘"
+
+msgid "IDS_COM_BODY_CAMERA"
+msgstr "照相机"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "设定"
+
+msgid "IDS_ST_HEADER_ACCESSIBILITY"
+msgstr "辅助工具"
+
+msgid "IDS_USB_POP_CONNECTING_KIES_VIA_USB_WILL_TURN_OFF_KIES_VIA_WI_FI_CONTINUE_Q"
+msgstr "通过USB连接Kies将关闭通过Wi-FiKies。继续？"
+
+msgid "IDS_USB_POP_SAMSUNG_KIES_MODE_ENABLED"
+msgstr "Samsung Kies 模式已启动。"
+
+msgid "IDS_COM_POP_VIBRATION"
+msgstr "振动"
+
+msgid "IDS_COM_BUTTON_CLOSE"
+msgstr "关闭"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "关机"
+
+msgid "IDS_COM_BODY_SYSTEM_INFO_ABB"
+msgstr "系统信息"
+
+msgid "IDS_COM_POP_NOT_ENOUGH_MEMORY"
+msgstr "内存不足"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "正在初始化 MMC 数据..."
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "重试"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "USB 连接失败"
+
+msgid "IDS_ST_POP_PS_ENABLED"
+msgstr "%s已启动。"
+
+msgid "IDS_ST_BODY_DISABLE_NEGATIVE_COLOURS"
+msgstr "禁用负色"
+
+msgid "IDS_ST_BODY_ENABLE_NEGATIVE_COLOURS"
+msgstr "启用负色"
+
+msgid "IDS_ST_BODY_DISABLE_ZOOM"
+msgstr "禁用缩放"
+
+msgid "IDS_ST_BODY_ENABLE_ZOOM"
+msgstr "启用缩放"
+
+msgid "IDS_ST_BODY_TURN_ON_ASSISTIVE_LIGHT"
+msgstr "开启辅助光"
+
+msgid "IDS_ST_BODY_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "关闭辅助光"
+
+msgid "IDS_COM_BODY_CHARGING_PAUSED_DUE_TO_EXTREME_TEMPERATURE"
+msgstr "温度过高，暂停充电"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "内存不足。"
+
+msgid "IDS_IDLE_POP_PS_CLOSED"
+msgstr "%s 已关闭。"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "电量低"
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "电量低。电话将关闭。"
+
+msgid "IDS_COM_POP_ENABLED"
+msgstr "已启动"
+
+msgid "IDS_COM_POP_DISABLED"
+msgstr "已关闭"
+
+msgid "IDS_ST_MBODY_SOUND_ABB"
+msgstr "声音"
+
+msgid "IDS_ST_BODY_CAMERA"
+msgstr "照相机"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "充电完毕"
+
+msgid "IDS_CST_BODY_NOTICE"
+msgstr "注意"
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "打印机已连接。"
+
+msgid "IDS_COM_POP_PRINTER_DISCONNECTED_ABB2"
+msgstr "打印机已断开。"
+
+msgid "IDS_QP_BODY_UNPLUG_CHARGER"
+msgstr "拔下充电器"
+
+msgid "IDS_COM_BODY_FLIGHT_MODE"
+msgstr "飞行模式"
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "已连接USB连接器。"
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "已断开USB连接器。"
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "键盘已连接。"
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "鼠标已连接。"
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "摄像头已连接。"
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "USB 大容量存储已连接。"
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "已连接未知USB设备。"
+
+msgid "IDS_COM_BODY_USB_DEVICE_SAFELY_REMOVED"
+msgstr "已安全移除USB设备。"
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "USB 大容量存储已意外移除。"
+
+msgid "IDS_COM_BODY_UNABLE_TO_USE_USB_STORAGE_AS_USB_MASS_STORAGE_ERROR_OCCURRED"
+msgstr "无法使用 USB 存储为 USB 大容量存储。出现错误。"
+
+msgid "IDS_LBS_BODY_RESTART"
+msgstr "重新启动"
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "安装SD卡失败。重新插入或格式化SD卡。"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s 已意外关闭。"
+
+msgid "IDS_COM_POP_KEYBOARD_DISCONNECTED_ABB2"
+msgstr "键盘已断开。"
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "已安装的 SD 卡为只读。"
+
+msgid "IDS_DAV_BODY_LOW_MEMORY_LEFT_ORANGE"
+msgstr "剩余空间不足"
+
+msgid "IDS_ST_POP_TURN_OFF_ASSISTIVE_LIGHT_WHEN_YOU_NO_LONGER_NEED_IT"
+msgstr "当您不再需要时关闭辅助光。"
+
+msgid "IDS_IS_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "不要再显示"
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "辅助光已开启。"
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "轻敲以关闭辅助光。"
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "移除前卸载 USB 大容量存储以避免数据丢失。"
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "卸下"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "是否浏览通过 USB 连接的摄像头？"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "浏览"
+
+msgid "IDS_PB_HEADER_USB_STORAGE_NOT_AVAILABLE"
+msgstr "USB 存储不可用"
+
+msgid "IDS_COM_HEADER_USB_MASS_STORAGE_DISCONNECTED_ABB"
+msgstr "USB 大容量存储已断开"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "已连接 %d 个 USB 设备"
+
+msgid "IDS_EMAIL_POP_THIS_ACTION_HAS_BEEN_BLOCKED_BY_MDM_CONTACT_THE_MDM_ADMINISTRATOR"
+msgstr "该动作已由 MDM 阻止。请联系 MDM 管理员。"
+
+msgid "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+msgstr "电量低"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "是否浏览通过 USB 连接的存储？"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "电池已取下。"
+
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "设备将重启。"
+
+msgid "IDS_ST_BODY_USBSETTINGS_PRINTER"
+msgstr "打印机"
+
+msgid "IDS_SMEMO_BODY_MOUSE_M_IDEA_SKETCH"
+msgstr "老鼠"
+
+msgid "IDS_COM_POP_FLIGHT_MODE_WILL_BE_DISABLED"
+msgstr "将禁用飞行模式。"
+
+msgid "IDS_COM_POP_FLIGHT_MODE_WILL_BE_ENABLED"
+msgstr "将启用飞行模式。"
+
+msgid "IDS_COM_BODY_DEVICE_WILL_NOW_SHUT_DOWN"
+msgstr "设备现在将关闭。"
+
+msgid "IDS_COM_HEADER_DEVICE_OPTIONS"
+msgstr "设备选项"
+
+msgid "IDS_PN_BODY_THE_DEVICE_MEMORY_IS_FULL_JPN_DCM"
+msgstr "设备内存已满"
+
+msgid "IDS_PN_BODY_NOT_ENOUGH_STORAGE_AVAILABLE_SOME_FUNCTIONS_AND_APPLICATIONS_MAY_NOT_BE_AVAILABLE_NOTI_MSG_JPN_DCM"
+msgstr "可用存储空间不足。部分功能和应用程序可能不可用。\n打开设置并卸载一些应用程序以腾出空间"
+
+msgid "IDS_ST_BODY_FLIGHT_MODE_MSG"
+msgstr "飞行模式可让您关闭通话、信息和数据网络功能。其也将关闭 Wi-Fi 和蓝牙等连接性功能。若要使用 Wi-Fi 和蓝牙，请在设置或通知面板中将其开启。"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "SD 卡解密發生錯誤。"
+
+msgid "IDS_PN_OPT_DISABLE_FLIGHT_MODE_ABB"
+msgstr "禁用飞行模式"
+
+msgid "IDS_PN_OPT_ENABLE_FLIGHT_MODE_ABB"
+msgstr "启用飞行模式"
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "正在加密SD卡…"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "正在解密SD卡…"
+
+msgid "IDS_COM_POP_LOW_BATTERY_CHARGE_YOUR_PHONE"
+msgstr "电池电量低。请为手机充电。"
+
+msgid "IDS_COM_BODY_NO_BATTERY"
+msgstr "电池耗尽"
+
+msgid "IDS_ST_POP_WARNING_MSG"
+msgstr "警告讯息"
+
+msgid "IDS_DN_POP_DATA_DECRYPTED"
+msgstr "已解密数据。"
+
+msgid "IDS_DN_POP_DATA_ENCRYPTED"
+msgstr "已加密数据。"
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "USB 设备"
+
+msgid "IDS_TPLATFORM_OPT_ENABLE_SCREEN_READER_ABB"
+msgstr "启用屏幕阅读器"
+
+msgid "IDS_TPLATFORM_OPT_DISABLE_SCREEN_READER_ABB"
+msgstr "关闭屏幕阅读器"
+
+msgid "IDS_DN_HEADER_DATA_DECRYPTION_ABB"
+msgstr "数据解密"
+
+msgid "IDS_DN_HEADER_DATA_ENCRYPTION_ABB"
+msgstr "数据加密"
+
+msgid "IDS_ST_BUTTON_CONTINUE_ABB"
+msgstr "继续"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "数据使用量警报"
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "轻敲以查看使用量和设置。"
+
+msgid "IDS_PN_OPT_TURN_ON_VIBRATION_ABB_JPN_DCM"
+msgstr "开启振动"
+
+msgid "IDS_PN_OPT_TURN_OFF_VIBRATION_ABB_JPN_DCM"
+msgstr "关闭振动"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "移动数据已禁用"
+
+msgid "IDS_QP_BODY_MAXIMUM_DATA_USAGE_LIMIT_HPS_EXCEEDED_MOBILE_DATA_DISABLED_ENABLING_MOBILE_DATA_MAY_INCUR_ADDITIONAL_CHARGES"
+msgstr "已超过最大数据使用限制 (%s)。移动数据已禁用。启用移动数据可能产生额外费用。"
+
+msgid "IDS_ST_BODY_MUTE"
+msgstr "静音"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "安全策略可防止桌面同步的使用。"
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "USB存储设备空白或有不支持的文件系统。"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "USB 大容量存储已安全移除。"
+
+msgid "IDS_COM_BODY_OUR_PHONE_WILL_SHUT_DOWN"
+msgstr "您的手机将关机。"
+
+msgid "IDS_DLNA_BODY_MOUSE_M_ACCESSORY"
+msgstr "鼠标"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "基座已连接。"
+
+msgid "IDS_EMM_MBODY_EMERGENCY_MODE_JPN_DCM"
+msgstr "紧急模式"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "已连接HDMI数据线。"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "已断开HDMI数据线。"
+
+msgid "IDS_ST_BODY_EMERGENCY_MODE_ABB"
+msgstr "緊急模式"
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "无法加密 SD 卡。卡上空间不足。大约需要 %.2f MB。删除一些文件。"
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "无法解密 SD 卡。卡上空间不足。大约需要 %.2f MB。删除一些文件。"
+
+msgid "IDS_ST_POP_THIS_SD_CARD_IS_NOT_ENCRYPTED_YOU_CANNOT_DISABLE_ENCRYPT_SD_CARD_BECAUSE_IT_HAS_BEEN_ENABLED_BY_AN_ADMINISTRATOR_ENCRYPT_Q"
+msgstr "该 SD 卡未加密。您无法禁用加密 SD 卡，因为它已由管理员启用。是否加密？"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "加密 SD 卡"
+
+msgid "IDS_ST_BODY_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_TAP_CONTINUE_TO_DECRYPT_YOUR_SD_CARD"
+msgstr "若要使用您的 SD 卡，必须进行解密。轻敲继续以解密您的 SD 卡。"
+
+msgid "IDS_IDLE_POP_UNABLE_CHANGE_BATTERY_TEMA_HIGH"
+msgstr "无法充电。手机温度太高。"
+
+msgid "IDS_IDLE_POP_UNABLE_CHANGE_BATTERY_TEMA_LOW"
+msgstr "无法充电。手机温度太低。"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "已连接为媒体设备"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "只读 USB 设备已连接"
+
+msgid "IDS_COM_POP_CHARGING_PAUSED_VOLTAGE_TOO_HIGH"
+msgstr "充电已暂停。电压过高。"
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "SD 卡加密发生错误。"
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION"
+msgstr "SD 卡加密"
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_HAS_BEEN_ENABLED"
+msgstr "SD 卡加密已启用。"
+
+msgid "IDS_TPLATFORM_BODY_SCREEN_OFF_T_TTS"
+msgstr "屏幕关闭。"
+
+msgid "IDS_VR_POP_BATTERY_CRITICALLY_LOW_DEVICE_WILL_NOW_SHUT_DOWN"
+msgstr "电量极低。设备将关机。"
+
+msgid "IDS_ST_POP_THE_BATTERY_POWER_IS_LOW_RECHARGE_YOUR_GEAR_SOON_TO_KEEP_USING_IT"
+msgstr "电池电力不足。尽快帮您的 Gear 充电以继续使用。"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "停用加密"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "啟用加密"
+
+msgid "IDS_ACCS_POP_EMERGENCY_MODE_AND_SCREEN_READER_CANNOT_BOTH_BE_ENABLED_GO_TO_SETTINGS_TO_DISABLE_SCREEN_READER_Q"
+msgstr "緊急模式與螢幕閱讀器無法同時啟用。前往設定以停用螢幕閱讀器嗎？"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_DEVICE_SOON_TO_KEEP_USING"
+msgstr "電量不足。請盡快為電池充電，以繼續使用。"
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "電力嚴重不足"
+
+msgid "IDS_ST_POP_THE_BATTERY_POWER_IS_CRITICALLY_LOW_RECHARGE_YOUR_GEAR_NOW_TO_KEEP_USING_IT"
+msgstr "電池電量嚴重不足。立刻幫您的 Gear 充電以繼續使用。"
+
+msgid "IDS_ST_POP_THE_BATTERY_POWER_IS_CRITICALLY_LOW_MSG"
+msgstr "電量嚴重不足。您的 Gear 將從流動裝置中斷連接。您僅可使用預設時鐘。立即為您的 Gear 充電以繼續使用。"
+
+msgid "IDS_ST_POP_THE_BATTERY_POWER_IS_CRITICALLY_LOW_YOU_CAN_ONLY_USE_THE_DEFAULT_CLOCK_RECHARGE_YOUR_GEAR_NOW_TO_KEEP_USING_IT"
+msgstr "電池電量嚴重不足。您僅可使用預設時鐘。立刻幫您的 Gear 充電以繼續使用。"
+
+msgid "IDS_COM_POP_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH_OR_LOW"
+msgstr "充電暫停。手機溫度太高或太低。"
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "充電已暫停。電池溫度太低。"
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "充電已暫停。電池溫度太高。"
+
+msgid "IDS_COM_HEADER_BATTERY_LOW_ABB"
+msgstr "电量不足"
+
+msgid "IDS_ST_BODY_OUTDOOR_MODE_ABB"
+msgstr "户外模式"
+
+msgid "IDS_COM_POP_DEVICE_WILL_TURN_OFF"
+msgstr "裝置將關閉。"
+
+msgid "IDS_IDLE_POP_AFTER_P1SD_MINS_BRIGHTNESS_WILL_BE_RESET_TO_DEFAULT_LEVEL_HP2SD"
+msgstr "%1$d 分钟后，亮度将重置为默认水平 (%2$d)。"
+
+msgid "IDS_ST_BUTTON_BRIGHTNESS"
+msgstr "亮度"

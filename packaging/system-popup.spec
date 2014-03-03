@@ -20,9 +20,7 @@ Source1012:    org.tizen.usbotg-syspopup.rule
 Source1013:    org.tizen.poweroff-syspopup.manifest
 BuildRequires:  pkgconfig(evas)
 BuildRequires:  pkgconfig(ecore-input)
-BuildRequires:  pkgconfig(ethumb)
 BuildRequires:  pkgconfig(elementary)
-BuildRequires:  pkgconfig(efreet)
 BuildRequires:  pkgconfig(deviced)
 BuildRequires:  pkgconfig(sysman)
 BuildRequires:  pkgconfig(mm-sound)
@@ -126,12 +124,11 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.mmc-syspopup
 cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usb-syspopup
 cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 
-%post
-vconftool set -t int db/setting/select_popup_btn "0" -u 5000 -f
 
 %files
 %manifest %{name}.manifest
 %defattr(-,root,root,-)
+%{_datadir}/locale/*/LC_MESSAGES/*.mo
 
 %files -n org.tizen.poweroff-syspopup
 %manifest %{name}.manifest

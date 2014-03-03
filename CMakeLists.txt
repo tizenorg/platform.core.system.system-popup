@@ -3,11 +3,11 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
 PROJECT(system-popup C)
 
 SET(PREFIX ${CMAKE_INSTALL_PREFIX})
-SET(EXEC_PREFIX "\${prefix}")
-SET(LIBDIR "\${prefix}/lib")
-SET(INCLUDEDIR "\${prefix}/include")
+SET(SYSTEM_RESDIR "${PREFIX}/share/system-apps/res")
+SET(SYSTEM_ICONDIR "${SYSTEM_RESDIR}/icons")
 
 # SUbmodules
+ADD_SUBDIRECTORY(po)
 ADD_SUBDIRECTORY(poweroff-popup)
 ADD_SUBDIRECTORY(lowbatt-popup)
 ADD_SUBDIRECTORY(lowmem-popup)
