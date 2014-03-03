@@ -19,9 +19,11 @@
 
 
 #include <stdio.h>
-#include "lowmem.h"
 #include <utilX.h>
 #include <svi.h>
+#include <Elementary.h>
+#include <sys/types.h>
+#include <sys/stat.h>
 #include "common.h"
 
 #define APPLICATION_BG		1
@@ -32,6 +34,11 @@
 #define LOWMEM_NOTI_ACT		1
 #define LOWMEM_LEVEL_WARNING	"warning"
 #define LOWMEM_LEVEL_CRITICAL	"critical"
+
+#define EDJ_PATH        PREFIX"/apps/org.tizen.lowmem-syspopup/res/edje/lowmem"
+#define EDJ_NAME        EDJ_PATH"/lowmem.edj"
+
+#define MAX_PROCESS_NAME    100
 
 static int lowmem_option = -1;
 
