@@ -20,12 +20,11 @@
 #include <devman.h>
 #include <pmapi.h>
 #include <sysman.h>
-#include "mmc.h"
-#include "common.h"
 #include <utilX.h>
 #include <notification.h>
 #include <syspopup.h>
 #include <svi.h>
+#include "common.h"
 
 #define CHECK_ACT 			0
 #define MOUNT_ERROR_ACT 		1
