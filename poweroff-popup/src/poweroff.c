@@ -21,11 +21,15 @@
 #include <stdio.h>
 #include <svi.h>
 #include <sysman.h>
-#include "poweroff.h"
-#include "common.h"
-
+#include <Elementary.h>
+#include <bundle.h>
 #include <Ecore_X.h>
 #include <utilX.h>
+#include "common.h"
+
+#define EDJ_PATH PREFIX"/apps/org.tizen.poweroff-syspopup/res/edje/poweroff"
+#define EDJ_NAME EDJ_PATH"/poweroff.edj"
+#define PREDEF_POWEROFF "poweroff"
 
 int create_and_show_basic_popup_min(struct appdata *ad);
 void poweroff_response_yes_cb(void *data, Evas_Object * obj, void *event_info);
