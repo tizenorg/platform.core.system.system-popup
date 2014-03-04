@@ -27,127 +27,78 @@
 #include <utilX.h>
 #include "common.h"
 
-#define EDJ_PATH PREFIX"/apps/org.tizen.poweroff-syspopup/res/edje/poweroff"
-#define EDJ_NAME EDJ_PATH"/poweroff.edj"
 #define PREDEF_POWEROFF "poweroff"
 
-int create_and_show_basic_popup_min(struct appdata *ad);
-void poweroff_response_yes_cb(void *data, Evas_Object * obj, void *event_info);
-void poweroff_response_no_cb(void *data, Evas_Object * obj, void *event_info);
-
-int myterm(bundle *b, void *data)
+static void response_poweroff_yes_clicked(void *data, Evas_Object * obj, void *event_info)
 {
-	return 0;
-}
+	struct appdata *ad = (struct appdata *)data;
+	Evas_Object *rect;
+	Evas_Coord w, h, size;
+	static bool multi = false;
 
-int mytimeout(bundle *b, void *data)
-{
-	return 0;
-}
-
-syspopup_handler handler = {
-	.def_term_fn = myterm,
-	.def_timeout_fn = mytimeout
-};
-
-/* Cleanup objects to avoid mem-leak */
-void poweroff_cleanup(struct appdata *ad)
-{
-	if (!ad)
+	if (multi)
 		return;
+	multi = true;
 
-	if (ad->popup)
-		evas_object_del(ad->popup);
-	if (ad->layout_main)
-		evas_object_del(ad->layout_main);
-}
+	_I("OK clicked");
 
-void poweroff_response_yes_cb(void *data, Evas_Object * obj, void *event_info)
-{
-	static int bPowerOff = 0;
-	if (1 == bPowerOff)
-		return;
-	bPowerOff = 1;
-	_I("System-popup : Switching off phone !! Bye Bye");
-	/* This will cleanup the memory */
-	poweroff_cleanup(data);
+	if (ad && ad->popup && ad->win_main) {
+		release_evas_object(&(ad->popup));
 
-	if (sysman_call_predef_action(PREDEF_POWEROFF, 0) == -1) {
-		_E("System-popup : failed to request poweroff to system_server");
+		rect = evas_object_rectangle_add(evas_object_evas_get(ad->win_main));
+		evas_object_geometry_get(ad->win_main, NULL, NULL, &w, &h);
+		size = max(w, h);
+		evas_object_resize(rect, size, size);
+		evas_object_color_set(rect, 0, 0, 0, 255);
+		evas_object_show(rect);
 	}
+
+/*	if (vconf_set_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, SYSTEMD_STOP_POWER_OFF) != 0)*/
+	if (sysman_call_predef_action(PREDEF_POWEROFF, 0) == -1)
+		_E("Failed to request poweroff to deviced");
 }
 
-void poweroff_response_no_cb(void *data, Evas_Object * obj, void *event_info)
+static void response_poweroff_no_clicked(void *data, Evas_Object * obj, void *event_info)
 {
-	_I("System-popup: Option is Wrong");
-	poweroff_cleanup(data);
+	_I("Cancel clicked");
+	object_cleanup(data);
 	popup_terminate();
 }
 
-int create_and_show_basic_popup(struct appdata *ad)
+static int show_poweroff_popup(struct appdata *ad)
 {
-	Evas_Object *btn1;
-	Evas_Object *btn2;
+	if (!ad)
+		return -EINVAL;
 
-	ad->popup = elm_popup_add(ad->win_main);
-	if (ad->popup == NULL) {
-		_E("System-popup : Add popup failed ");
-		return -1;
+	ad->popup = load_normal_popup(ad,
+			_("IDS_ST_BODY_POWER_OFF"),
+			_("IDS_COM_BODY_OUR_PHONE_WILL_SHUT_DOWN"),
+			dgettext("sys_string","IDS_COM_SK_CANCEL"),
+			response_poweroff_no_clicked,
+			dgettext("sys_string","IDS_COM_SK_OK"),
+			response_poweroff_yes_clicked);
+	if (!(ad->popup)) {
+		_E("Failed to make popup");
+		return -ENOMEM;
 	}
 
-	evas_object_size_hint_weight_set(ad->popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-	elm_object_style_set(ad->popup, "transparent");
-	elm_object_text_set(ad->popup, _("IDS_ST_BODY_POWER_OFF"));
-	elm_object_part_text_set(ad->popup, "title,text", _("IDS_COM_BODY_SYSTEM_INFO_ABB"));
-
-	btn1 = elm_button_add(ad->popup);
-	elm_object_text_set(btn1, _("IDS_COM_SK_CANCEL"));
-	elm_object_part_content_set(ad->popup, "button1", btn1);
-	elm_object_style_set (btn1,"popup_button/default");
-	evas_object_smart_callback_add(btn1, "clicked", poweroff_response_no_cb, ad);
-	btn2 = elm_button_add(ad->popup);
-	elm_object_text_set(btn2, _("IDS_COM_SK_OK"));
-	elm_object_part_content_set(ad->popup, "button2", btn2);
-	elm_object_style_set (btn2,"popup_button/default");
-	evas_object_smart_callback_add(btn2, "clicked", poweroff_response_yes_cb, ad);
-
-	Ecore_X_Window xwin;
-	xwin = elm_win_xwindow_get(ad->popup);
-	ecore_x_netwm_window_type_set(xwin, ECORE_X_WINDOW_TYPE_NOTIFICATION);
-	utilx_grab_key(ecore_x_display_get(), xwin, KEY_SELECT, SHARED_GRAB);
-	evas_object_show(ad->popup);
 	return 0;
 }
 
-/* Start UI */
-int poweroff_start(void *data)
-{
-	struct appdata *ad = data;
-	int ret_val = 0;
-
-	/* Create and show popup */
-	ret_val = create_and_show_basic_popup(ad);
-	if (ret_val != 0)
-		return -1;
-
-	return 0;
-}
-
-/* App init */
-int app_create(void *data)
+static int app_create(void *data)
 {
 	Evas_Object *win;
 	struct appdata *ad = data;
 	int ret;
 
-	/* Create window (Reqd for sys-popup) */
+	ad->handler.def_term_fn = NULL;
+	ad->handler.def_timeout_fn = NULL;
+
 	win = create_win(PACKAGE);
 	if (win == NULL)
 		return -1;
 
 	ad->win_main = win;
-
-	elm_theme_overlay_add(NULL,EDJ_NAME);
 
 	ret = appcore_set_i18n(LANG_DOMAIN, LOCALE_DIR);
 	if (ret != 0)
@@ -156,49 +107,52 @@ int app_create(void *data)
 	return 0;
 }
 
-/* Terminate noti handler */
 static int app_terminate(void *data)
 {
 	struct appdata *ad = data;
 
-	if (ad->layout_main)
-		evas_object_del(ad->layout_main);
-
-	if (ad->win_main)
-		evas_object_del(ad->win_main);
+	release_evas_object(&(ad->win_main));
 
 	return 0;
 }
 
-/* Pause/background */
 static int app_pause(void *data)
 {
 	return 0;
 }
 
-/* Resume */
 static int app_resume(void *data)
 {
 	return 0;
 }
 
-
-/* Reset */
 static int app_reset(bundle *b, void *data)
 {
 	struct appdata *ad = data;
+	int ret;
 
 	if (syspopup_has_popup(b)) {
 		syspopup_reset(b);
-	} else {
-		syspopup_create(b, &handler, ad->win_main, ad);
-		evas_object_show(ad->win_main);
-
-		/* Start Main UI */
-		poweroff_start((void *)ad);
+		return 0;
 	}
 
-	return 0;
+	ret = syspopup_create(b, &(ad->handler), ad->win_main, ad);
+	if (ret < 0) {
+		_E("Failed to create syspopup(%d)", ret);
+		goto out;
+	}
+
+	evas_object_show(ad->win_main);
+
+	ret = show_poweroff_popup(ad);
+	if (ret < 0)
+		_E("Failed to show poweroff popup (%d)", ret);
+
+out:
+	if (ret < 0)
+		popup_terminate();
+
+	return ret;
 }
 
 int main(int argc, char *argv[])
@@ -217,6 +171,5 @@ int main(int argc, char *argv[])
 	memset(&ad, 0x0, sizeof(struct appdata));
 	ops.data = &ad;
 
-	/* Go into loop */
 	return appcore_efl_main(PACKAGE, &argc, &argv, &ops);
 }

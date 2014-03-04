@@ -30,6 +30,7 @@ SET(PKG_MODULES ${PKG_MODULES}
 		bundle
 		evas
 		vconf
+		svi
 )
 
 INCLUDE(FindPkgConfig)

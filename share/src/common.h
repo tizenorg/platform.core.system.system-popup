@@ -37,9 +37,6 @@
 #define _E(fmt, args...)   SLOGE(fmt, ##args)
 #define _I(fmt, args...)   SLOGI(fmt, ##args)
 
-#define LANG_DOMAIN "system-apps"
-#define LOCALE_DIR  "/usr/share/locale"
-
 #define FREE(arg) \
 	do { \
 		if(arg) { \

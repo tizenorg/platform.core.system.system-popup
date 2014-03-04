@@ -147,7 +147,6 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 %manifest %{name}.manifest
 %defattr(-,root,root,-)
 /usr/apps/org.tizen.poweroff-syspopup/bin/poweroff-popup
-/usr/apps/org.tizen.poweroff-syspopup/res/edje/poweroff/poweroff.edj
 /usr/share/packages/org.tizen.poweroff-syspopup.xml
 /opt/etc/smack/accesses.d/org.tizen.poweroff-syspopup.rule
 /usr/share/license/org.tizen.poweroff-syspopup
