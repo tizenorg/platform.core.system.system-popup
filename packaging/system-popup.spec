@@ -166,7 +166,6 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 %manifest %{name}.manifest
 %defattr(-,root,root,-)
 /usr/apps/org.tizen.lowbat-syspopup/bin/lowbatt-popup
-/usr/apps/org.tizen.lowbat-syspopup/res/edje/lowbatt/lowbatt.edj
 /usr/share/packages/org.tizen.lowbat-syspopup.xml
 /opt/etc/smack/accesses.d/org.tizen.lowbat-syspopup.rule
 /usr/share/license/org.tizen.lowbat-syspopup

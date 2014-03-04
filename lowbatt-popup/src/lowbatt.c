@@ -20,167 +20,281 @@
 
 #include <stdio.h>
 #include <vconf.h>
-#include <utilX.h>
-#include <notification.h>
 #include <svi.h>
 #include "common.h"
 
-#define CHECK_ACT			0
-#define WARNING_ACT			1
-#define POWER_OFF_ACT		2
-#define CHARGE_ERROR_ACT	3
-#define BATTERY_DISCONNECT_ACT	4
+#define DEVICED_PATH_SYSNOTI        "/Org/Tizen/System/DeviceD/SysNoti"
+#define DEVICED_INTERFACE_SYSNOTI   "org.tizen.system.deviced.SysNoti"
+#define SIGNAL_CHARGEERR_RESPONSE   "ChargeErrResponse"
 
-#define EDJ_PATH            PREFIX"/apps/org.tizen.lowbat-syspopup/res/edje/lowbatt"
-#define EDJ_NAME            EDJ_PATH"/lowbatt.edj"
 
-static int option = -1;
+#define LOWBATT_WARNING_TITLE      "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+#define LOWBATT_WARNING_CONTENT    "IDS_COM_POP_LOW_BATTERY_CHARGE_YOUR_PHONE"
+#define LOWBATT_POWEROFF_TITLE     "IDS_ST_BODY_LEDOT_LOW_BATTERY"
+#define LOWBATT_POWEROFF_CONTENT   "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+#define LOWBATT_CRITICAL_TITLE     LOWBATT_WARNING_TITLE
+#define LOWBATT_CRITICAL_CONTENT   LOWBATT_WARNING_CONTENT
+#define LOWBATT_EXTREME_TITLE      LOWBATT_WARNING_TITLE
+#define LOWBATT_EXTREME_CONTENT    LOWBATT_WARNING_CONTENT
+#define CHARGE_ERR_TITLE           "IDS_ST_POP_WARNING_MSG"
+#define CHARGE_ERR_CONTENT         "IDS_COM_BODY_CHARGING_PAUSED_DUE_TO_EXTREME_TEMPERATURE"
+#define CHARGE_ERR_LOW_TITLE       "IDS_ST_POP_WARNING_MSG"
+#define CHARGE_ERR_LOW_CONTENT     "IDS_IDLE_POP_UNABLE_CHANGE_BATTERY_TEMA_LOW"
+#define CHARGE_ERR_HIGH_TITLE      "IDS_ST_POP_WARNING_MSG"
+#define CHARGE_ERR_HIGH_CONTENT    "IDS_IDLE_POP_UNABLE_CHANGE_BATTERY_TEMA_HIGH"
+#define CHARGE_ERR_OVP_TITLE       "IDS_ST_POP_WARNING_MSG"
+#define CHARGE_ERR_OVP_CONTENT     "IDS_COM_POP_CHARGING_PAUSED_VOLTAGE_TOO_HIGH"
+#define BATT_DISCONNECTED_TITLE    "IDS_COM_BODY_NO_BATTERY"
+#define BATT_DISCONNECTED_CONTENT  "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 
-int myterm(bundle *b, void *data)
-{
-	return 0;
-}
-
-int mytimeout(bundle *b, void *data)
-{
-	return 0;
-}
-
-syspopup_handler handler = {
-	.def_term_fn = myterm,
-	.def_timeout_fn = mytimeout
+enum lowbat_options {
+	LOWBAT_WARNING,
+	LOWBAT_POWEROFF,
+	LOWBAT_CRITICAL,
+	LOWBAT_EXTREME,
+	LOWBAT_CHARGE_ERR,
+	LOWBAT_CHARGE_ERR_LOW,
+	LOWBAT_CHARGE_ERR_HIGH,
+	LOWBAT_CHARGE_ERR_OVP,
+	LOWBAT_BATT_DISCONNECT,
 };
 
-/* Cleanup objects to avoid mem-leak */
-void lowbatt_cleanup(struct appdata *ad)
+struct popup_type {
+	char *name;
+	int type;
+};
+
+static const struct popup_type lowbat_type[] = {
+	{ "warning"           , LOWBAT_WARNING            },
+	{ "poweroff"          , LOWBAT_POWEROFF           },
+	{ "critical"          , LOWBAT_CRITICAL           },
+	{ "extreme"           , LOWBAT_EXTREME           },
+	{ "chargeerr"         , LOWBAT_CHARGE_ERR         },
+	{ "chargeerrlow"      , LOWBAT_CHARGE_ERR_LOW     },
+	{ "chargeerrhigh"     , LOWBAT_CHARGE_ERR_HIGH    },
+	{ "chargeerrovp"      , LOWBAT_CHARGE_ERR_OVP     },
+	{ "battdisconnect"    , LOWBAT_BATT_DISCONNECT    },
+};
+
+static void lowbatt_ok_clicked(void *data, Evas_Object *obj, void *event_info)
 {
-	if (ad == NULL)
-		return;
-
-	if (ad->popup)
-		evas_object_del(ad->popup);
-	if (ad->layout_main)
-		evas_object_del(ad->layout_main);
-}
-
-void lowbatt_timeout_func(void *data, Evas_Object *obj, void *event_info)
-{
-	_D("System-popup : In Lowbatt timeout");
-	lowbatt_cleanup(data);
-
-	/* If poweroff requested */
-	if (option != POWER_OFF_ACT)
-		goto LOWBAT_EXIT;
-
-	if (vconf_set_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, VCONFKEY_SYSMAN_POWER_OFF_DIRECT) != 0)
-		if (system("poweroff") == -1)
-			_E("FAIL: system(\"poweroff\")");
-LOWBAT_EXIT:
-	/* Now get lost */
+	_I("OK clicked");
+	object_cleanup(data);
 	popup_terminate();
 }
 
-/* Basic popup widget */
-static int lowbatt_create_and_show_basic_popup(struct appdata *ad)
+static void lowbatt_shutdown_clicked(void *data, Evas_Object *obj, void *event_info)
 {
-	Evas_Object *btn1;
-
-	/* Add beat ui popup */
-	/* No need to pass main window ptr */
-	ad->popup = elm_popup_add(ad->win_main);
-	if (ad->popup == NULL) {
-		_E("System-popup : Add popup failed ");
-		return -1;
-	}
-	evas_object_size_hint_weight_set(ad->popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-
-	elm_object_style_set(ad->popup, "transparent");
-	elm_popup_timeout_set(ad->layout_main, 3);
-
-	/* Check launch option */
-	if (option == CHARGE_ERROR_ACT) {
-		elm_object_text_set(ad->popup, _("IDS_COM_BODY_CHARGING_PAUSED_DUE_TO_EXTREME_TEMPERATURE"));
-		elm_object_part_text_set(ad->popup, "title,text", _("IDS_ST_POP_WARNING_MSG"));
-	} else if (option == BATTERY_DISCONNECT_ACT) {
-		elm_object_text_set(ad->popup, _("IDS_COM_POP_BATTERY_DISCONNECTED_ABB"));
-		elm_object_part_text_set(ad->popup, "title,text", _("IDS_COM_BODY_NO_BATTERY"));
-	} else if (option == WARNING_ACT) {
-		elm_object_text_set(ad->popup, _("IDS_COM_POP_LOW_BATTERY_CHARGE_YOUR_PHONE"));
-		elm_object_part_text_set(ad->popup, "title,text", _("IDS_COM_POP_BATTERYLOW"));
-	} else {
-		elm_object_text_set(ad->popup, _("IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"));
-		elm_object_part_text_set(ad->popup, "title,text", _("IDS_COM_POP_BATTERYLOW"));
-	}
-
-	btn1 = elm_button_add(ad->popup);
-	elm_object_text_set(btn1, _("IDS_COM_SK_OK"));
-	elm_object_part_content_set(ad->popup, "button1", btn1);
-	elm_object_style_set(btn1, "popup_button/default");
-	evas_object_smart_callback_add(btn1, "clicked", lowbatt_timeout_func, ad);
-
-
-	Ecore_X_Window xwin;
-	xwin = elm_win_xwindow_get(ad->popup);
-	ecore_x_netwm_window_type_set(xwin, ECORE_X_WINDOW_TYPE_NOTIFICATION);
-	evas_object_show(ad->popup);
-
-	return 0;
+	_I("Shutdown clicked");
+	object_cleanup(data);
+	if (vconf_set_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, VCONFKEY_SYSMAN_POWER_OFF_DIRECT) != 0)
+		_E("Failed to request poweroff to deviced");
+	popup_terminate();
 }
-static int lowbatt_svi_play(void)
-{
-	int r = 0;
-	int handle = 0;
-	r = svi_init(&handle); //Initialize SVI
 
-	if ( r != SVI_SUCCESS ) {
-		_E("Cannot initialize SVI.");
-		return 0;
-	} else {
-		r = svi_play(handle, SVI_VIB_OPERATION_LOWBATT, SVI_SND_OPERATION_LOWBATT);
-		if (r != SVI_SUCCESS) {
-			_E("Cannot play sound or vibration.");
-		}
-		r = svi_fini(handle); //Finalize SVI
-		if (r != SVI_SUCCESS) {
-			_E("Cannot close SVI.");
-			return 0;
-		}
-	}
-	return 1;
+static void charge_error_response(void *data, Evas_Object *obj, void *event_info)
+{
+	_I("Charge error");
+	object_cleanup(data);
+
+	if (broadcast_dbus_signal(DEVICED_PATH_SYSNOTI,
+				DEVICED_INTERFACE_SYSNOTI,
+				SIGNAL_CHARGEERR_RESPONSE,
+				NULL, NULL) < 0)
+		_E("Failed to send signal for error popup button");
+
+	popup_terminate();
 }
-int lowbatt_start(void *data)
-{
-	struct appdata *ad = data;
-	int ret_val = 0;
 
-	/* Create and show popup */
-	ret_val = lowbatt_create_and_show_basic_popup(ad);
-	if (ret_val != 0)
-		return -1;
-	lowbatt_svi_play();
-	/* Change LCD brightness */
-//	ret_val = display_change_state(LCD_NORMAL);
-	if (ret_val != 0)
-		return -1;
+static int load_battery_warning_popup(struct appdata *ad)
+{
+	if (!ad)
+		return -EINVAL;
+
+	ad->popup = load_normal_popup(ad,
+			_(LOWBATT_WARNING_TITLE),
+			_(LOWBATT_WARNING_CONTENT),
+			dgettext("sys_string","IDS_COM_SK_OK"),
+			lowbatt_ok_clicked,
+			NULL, NULL);
+	if (!(ad->popup)) {
+		_E("FAIL: load_normal_popup()");
+		return -ENOMEM;
+	}
 
 	return 0;
 }
 
-/* App init */
+static int load_battery_poweroff_popup(struct appdata *ad)
+{
+	if (!ad)
+		return -EINVAL;
+
+	ad->popup = load_normal_popup(ad,
+			_(LOWBATT_POWEROFF_TITLE),
+			_(LOWBATT_POWEROFF_CONTENT),
+			dgettext("sys_string","IDS_COM_SK_OK"),
+			lowbatt_shutdown_clicked,
+			NULL, NULL);
+	if (!(ad->popup)) {
+		_E("FAIL: load_normal_popup()");
+		return -ENOMEM;
+	}
+
+	return 0;
+}
+
+static int load_battery_critical_popup(struct appdata *ad)
+{
+	if (!ad)
+		return -EINVAL;
+
+	ad->popup = load_normal_popup(ad,
+			_(LOWBATT_CRITICAL_TITLE),
+			_(LOWBATT_CRITICAL_CONTENT),
+			dgettext("sys_string","IDS_COM_SK_OK"),
+			lowbatt_ok_clicked,
+			NULL, NULL);
+	if (!(ad->popup)) {
+		_E("FAIL: load_normal_popup()");
+		return -ENOMEM;
+	}
+
+	return 0;
+}
+
+static int load_battery_extreme_popup(struct appdata *ad)
+{
+	if (!ad)
+		return -EINVAL;
+
+	ad->popup = load_normal_popup(ad,
+			_(LOWBATT_EXTREME_TITLE),
+			_(LOWBATT_EXTREME_CONTENT),
+			dgettext("sys_string","IDS_COM_SK_OK"),
+			lowbatt_ok_clicked,
+			NULL, NULL);
+	if (!(ad->popup)) {
+		_E("FAIL: load_normal_popup()");
+		return -ENOMEM;
+	}
+
+	return 0;
+}
+
+static int load_charge_error_popup(struct appdata *ad)
+{
+	if (!ad)
+		return -EINVAL;
+
+	ad->popup = load_normal_popup(ad,
+			_(CHARGE_ERR_TITLE),
+			_(CHARGE_ERR_CONTENT),
+			dgettext("sys_string","IDS_COM_SK_OK"),
+			charge_error_response,
+			NULL, NULL);
+	if (!(ad->popup)) {
+		_E("FAIL: load_normal_popup()");
+		return -ENOMEM;
+	}
+
+	return 0;
+}
+
+static int load_charge_error_low_popup(struct appdata *ad)
+{
+	if (!ad)
+		return -EINVAL;
+
+	reset_window_priority(ad->win_main, 2);
+
+	ad->popup = load_normal_popup(ad,
+			_(CHARGE_ERR_LOW_TITLE),
+			_(CHARGE_ERR_LOW_CONTENT),
+			dgettext("sys_string","IDS_COM_SK_OK"),
+			charge_error_response,
+			NULL, NULL);
+	if (!(ad->popup)) {
+		_E("FAIL: load_normal_popup()");
+		return -ENOMEM;
+	}
+
+	return 0;
+}
+
+static int load_charge_error_high_popup(struct appdata *ad)
+{
+	if (!ad)
+		return -EINVAL;
+
+	reset_window_priority(ad->win_main, 2);
+
+	ad->popup = load_normal_popup(ad,
+			_(CHARGE_ERR_HIGH_TITLE),
+			_(CHARGE_ERR_HIGH_CONTENT),
+			dgettext("sys_string","IDS_COM_SK_OK"),
+			charge_error_response,
+			NULL, NULL);
+	if (!(ad->popup)) {
+		_E("FAIL: load_normal_popup()");
+		return -ENOMEM;
+	}
+
+	return 0;
+}
+
+static int load_charge_error_ovp_popup(struct appdata *ad)
+{
+	if (!ad)
+		return -EINVAL;
+
+	ad->popup = load_normal_popup(ad,
+			_(CHARGE_ERR_OVP_TITLE),
+			_(CHARGE_ERR_OVP_CONTENT),
+			dgettext("sys_string","IDS_COM_SK_OK"),
+			lowbatt_ok_clicked,
+			NULL, NULL);
+	if (!(ad->popup)) {
+		_E("FAIL: load_normal_popup()");
+		return -ENOMEM;
+	}
+
+	return 0;
+}
+
+static int load_battery_disconnected_popup(struct appdata *ad)
+{
+	if (!ad)
+		return -EINVAL;
+
+	ad->popup = load_normal_popup(ad,
+			_(BATT_DISCONNECTED_TITLE),
+			_(BATT_DISCONNECTED_CONTENT),
+			dgettext("sys_string","IDS_COM_SK_OK"),
+			lowbatt_ok_clicked,
+			NULL, NULL);
+	if (!(ad->popup)) {
+		_E("FAIL: load_normal_popup()");
+		return -ENOMEM;
+	}
+
+	return 0;
+}
+
 int app_create(void *data)
 {
 	Evas_Object *win;
 	struct appdata *ad = data;
 	int ret;
 
-	/* create window */
+	ad->handler.def_term_fn = NULL;
+	ad->handler.def_timeout_fn = NULL;
+
 	win = create_win(PACKAGE);
 	if (win == NULL)
 		return -1;
 
 	ad->win_main = win;
-
-	elm_theme_overlay_add(NULL,EDJ_NAME);
 
 	ret = appcore_set_i18n(LANG_DOMAIN, LOCALE_DIR);
 	if (ret != 0)
@@ -189,79 +303,118 @@ int app_create(void *data)
 	return 0;
 }
 
-/* Terminate noti handler */
 static int app_terminate(void *data)
 {
 	struct appdata *ad = data;
 
-	if (ad->layout_main)
-		evas_object_del(ad->layout_main);
-
-	if (ad->win_main)
-		evas_object_del(ad->win_main);
+	release_evas_object(&(ad->win_main));
 
 	return 0;
 }
 
-/* Pause/background */
 static int app_pause(void *data)
 {
 	return 0;
 }
 
-/* Resume */
 static int app_resume(void *data)
 {
 	return 0;
 }
 
-/* Reset */
 static int app_reset(bundle *b, void *data)
 {
 	struct appdata *ad = data;
 	const char *opt;
+	int type, i, ret;
 
-	opt = bundle_get_val(b, "_SYSPOPUP_CONTENT_");
-	if (opt == NULL)
-		option = CHECK_ACT;
-	else if (!strcmp(opt,"warning"))
-		option = WARNING_ACT;
-	else if (!strcmp(opt,"poweroff"))
-		option = POWER_OFF_ACT;
-	else if (!strcmp(opt,"chargeerr"))
-		option = CHARGE_ERROR_ACT;
-	else if (!strcmp(opt,"battdisconnect"))
-		option = BATTERY_DISCONNECT_ACT;
-	else
-		option = CHECK_ACT;
-
-	if (syspopup_has_popup(b)) {
-		if (option == CHECK_ACT) {
-			return 0;
-		}
-		syspopup_reset(b);
-	} else {
-		if(option == CHECK_ACT) {
-			popup_terminate();
-			return 0;
-		}
-		syspopup_create(b, &handler, ad->win_main, ad);
-		if (option == BATTERY_DISCONNECT_ACT)
-			syspopup_reset_timeout(b, -1);
-		evas_object_show(ad->win_main);
-
-		/* Start Main UI */
-		lowbatt_start((void *)ad);
+	if (!ad || !b) {
+		ret = -EINVAL;
+		goto out;
 	}
 
-	return 0;
+	if (syspopup_has_popup(b)) {
+		syspopup_reset(b);
+		return 0;
+	}
+
+	opt = bundle_get_val(b, "_SYSPOPUP_CONTENT_");
+	if (!opt) {
+		_E("Failed to get bundle value");
+		ret = -ENOMEM;
+		goto out;
+	}
+
+	type = -1;
+	for (i = 0 ; i < ARRAY_SIZE(lowbat_type) ; i++) {
+		if (!strncmp(opt, lowbat_type[i].name, strlen(opt))) {
+			type = lowbat_type[i].type;
+			break;
+		}
+	}
+	if (type < 0) {
+		_E("Failed to get popup type(%d)", type);
+		ret = -EINVAL;
+		goto out;
+	}
+
+	ret = syspopup_create(b, &(ad->handler), ad->win_main, ad);
+	if (ret < 0) {
+		_E("Failed to create syspopup(%d)", ret);
+		goto out;
+	}
+
+	syspopup_reset_timeout(b, -1);
+
+	evas_object_show(ad->win_main);
+
+	switch (type) {
+	case LOWBAT_WARNING:
+		ret = load_battery_warning_popup(ad);
+		break;
+	case LOWBAT_POWEROFF:
+		ret = load_battery_poweroff_popup(ad);
+		break;
+	case LOWBAT_CRITICAL:
+		ret = load_battery_critical_popup(ad);
+		break;
+	case LOWBAT_EXTREME:
+		ret = load_battery_extreme_popup(ad);
+		break;
+	case LOWBAT_CHARGE_ERR:
+		ret = load_charge_error_popup(ad);
+		break;
+	case LOWBAT_CHARGE_ERR_LOW:
+		ret = load_charge_error_low_popup(ad);
+		break;
+	case LOWBAT_CHARGE_ERR_HIGH:
+		ret = load_charge_error_high_popup(ad);
+		break;
+	case LOWBAT_CHARGE_ERR_OVP:
+		ret = load_charge_error_ovp_popup(ad);
+		break;
+	case LOWBAT_BATT_DISCONNECT:
+		ret = load_battery_disconnected_popup(ad);
+		break;
+	default:
+		_E("Known popup type (%d)", type);
+		ret = -EINVAL;
+		break;
+	}
+	if (ret < 0)
+		goto out;
+
+out:
+	if (ret < 0)
+		popup_terminate();
+
+	return ret;
 }
 
 int main(int argc, char *argv[])
 {
 	struct appdata ad;
 
-	/* App life cycle management */
 	struct appcore_ops ops = {
 		.create = app_create,
 		.terminate = app_terminate,
