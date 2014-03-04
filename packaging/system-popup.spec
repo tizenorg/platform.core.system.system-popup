@@ -6,6 +6,7 @@ Group:      System/Utilities
 License:    Apache-2.0
 Source0:    %{name}-%{version}.tar.bz2
 Source1001:    %{name}.manifest
+Source1:    system-apps.manifest
 Source1002:    org.tizen.lowmem-syspopup.manifest
 Source1003:    org.tizen.lowbat-syspopup.manifest
 Source1004:    org.tizen.mmc-syspopup.manifest
@@ -129,6 +130,18 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 %manifest %{name}.manifest
 %defattr(-,root,root,-)
 %{_datadir}/locale/*/LC_MESSAGES/*.mo
+/usr/share/system-apps/res/icons/datausage_warning.png
+/usr/share/system-apps/res/icons/led_torch.png
+/usr/share/system-apps/res/icons/sdcard_encryption.png
+/usr/share/system-apps/res/icons/sdcard_decryption.png
+/usr/share/system-apps/res/icons/sdcard_encryption_error.png
+/usr/share/system-apps/res/icons/sdcard_decryption_error.png
+/usr/share/system-apps/res/icons/usb.png
+/usr/share/system-apps/res/icons/battery_full_noti.png
+/usr/share/system-apps/res/icons/battery_full_indi.png
+%{_bindir}/popup-launcher
+/usr/share/dbus-1/services/org.tizen.system.popup.service
+/etc/smack/accesses2.d/system-apps.rule
 
 %files -n org.tizen.poweroff-syspopup
 %manifest %{name}.manifest
