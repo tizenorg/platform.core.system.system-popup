@@ -46,50 +46,50 @@ BuildRequires:  gettext-devel
 Requires(post): /usr/bin/vconftool
 
 %description
-System Popup application (poweroff popup,sysevent-alert).
-
+System applications such as popup-launcher
+and service file for dbus activation
 
 %package -n org.tizen.poweroff-syspopup
 Summary:    System Popup application (poweroff popup,sysevent-alert)
 Requires:   %{name} = %{version}-%{release}
 
 %description -n org.tizen.poweroff-syspopup
-System Popup application (poweroff popup,sysevent-alert).
+Power off popup application which is launched by dbus activation
 
 %package -n org.tizen.lowmem-syspopup
-Summary:    System Popup application (lowbatt popup)
+Summary:    System Popup application (lowmem popup)
 Requires:   %{name} = %{version}-%{release}
 
 %description -n org.tizen.lowmem-syspopup
-System Popup application (lowbatt popup).
+Low memory popup application which is launched by dbus activation
 
 %package -n org.tizen.lowbat-syspopup
-Summary:    System Popup application (lowmem  popup)
+Summary:    System Popup application (lowbat popup)
 Requires:   %{name} = %{version}-%{release}
 
 %description -n org.tizen.lowbat-syspopup
-System Popup application (lowmem  popup).
+Low battery popup application which is launched by dbus activation
 
 %package -n org.tizen.mmc-syspopup
-Summary:    System Popup application (mmc  popup)
+Summary:    System Popup application (mmc popup)
 Requires:   %{name} = %{version}-%{release}
 
 %description -n org.tizen.mmc-syspopup
-System Popup application (mmc  popup).
+Mmc popup application which is launched by dbus activation
 
 %package -n org.tizen.usb-syspopup
 Summary:    System Popup application (usb popup)
 Requires:   %{name} = %{version}-%{release}
 
 %description -n org.tizen.usb-syspopup
-System Popup application (usb popup).
+Usb popup application which is launched by dbus activation
 
 %package -n org.tizen.usbotg-syspopup
 Summary:    System Popup application (usb otg popup)
 Requires:   %{name} = %{version}-%{release}
 
 %description -n org.tizen.usbotg-syspopup
-System Popup application (usb otg popup).
+Usb otg popup application which is launched by dbus activation
 
 %prep
 %setup -q
@@ -118,6 +118,7 @@ rm -rf %{buildroot}
 %make_install
 
 mkdir -p %{buildroot}/usr/share/license
+cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/system-popup
 cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.poweroff-syspopup
 cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.lowbat-syspopup
 cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.lowmem-syspopup
@@ -142,6 +143,7 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 %{_bindir}/popup-launcher
 /usr/share/dbus-1/services/org.tizen.system.popup.service
 /etc/smack/accesses2.d/system-apps.rule
+/usr/share/license/system-popup
 
 %files -n org.tizen.poweroff-syspopup
 %manifest %{name}.manifest
@@ -179,16 +181,16 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 
 %files -n org.tizen.usb-syspopup
 %manifest %{name}.manifest
-%defattr(440,root,root,-)
-%attr(555,app,app) /usr/apps/org.tizen.usb-syspopup/bin/usb-syspopup
+%defattr(-,root,root,-)
+/usr/apps/org.tizen.usb-syspopup/bin/usb-syspopup
 /usr/share/packages/org.tizen.usb-syspopup.xml
 /opt/etc/smack/accesses.d/org.tizen.usb-syspopup.rule
 /usr/share/license/org.tizen.usb-syspopup
 
 %files -n org.tizen.usbotg-syspopup
 %manifest %{name}.manifest
-%defattr(440,root,root,-)
-%attr(555,app,app) /usr/apps/org.tizen.usbotg-syspopup/bin/usbotg-syspopup
+%defattr(-,root,root,-)
+/usr/apps/org.tizen.usbotg-syspopup/bin/usbotg-syspopup
 /usr/share/packages/org.tizen.usbotg-syspopup.xml
 /opt/etc/smack/accesses.d/org.tizen.usbotg-syspopup.rule
 /usr/share/license/org.tizen.usbotg-syspopup
