@@ -64,7 +64,3 @@ INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.poweroff-syspopup.xml DESTINATI
 
 # instatll rule file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.poweroff-syspopup.rule DESTINATION /opt/etc/smack/accesses.d)
-
-# i18n
-ADD_SUBDIRECTORY(po_poweroff)
-

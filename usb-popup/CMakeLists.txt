@@ -46,5 +46,3 @@ INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/${PKGNAME}.xml DESTINATION ${MANIFESTDIR}
 
 # instatll rule file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.usb-syspopup.rule DESTINATION /opt/etc/smack/accesses.d)
-
-ADD_SUBDIRECTORY(po)

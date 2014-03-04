@@ -223,6 +223,7 @@ int app_create(void *data)
 {
 	Evas_Object *win;
 	struct appdata *ad = data;
+	int ret;
 
 	/* create window */
 	win = create_win(PACKAGE);
@@ -230,6 +231,10 @@ int app_create(void *data)
 		return -1;
 
 	ad->win_main = win;
+
+	ret = appcore_set_i18n(LANG_DOMAIN, LOCALE_DIR);
+	if (ret != 0)
+		_E("FAIL: appcore_set_i18n()");
 
 	return 0;
 

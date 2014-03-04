@@ -63,9 +63,6 @@ INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.lowbat-syspopup.xml DESTINATION
 # instatll rule file
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.lowbat-syspopup.rule DESTINATION /opt/etc/smack/accesses.d)
 
-# i18n
-ADD_SUBDIRECTORY(po_lowbatt)
-
 ###############################################################
 
 

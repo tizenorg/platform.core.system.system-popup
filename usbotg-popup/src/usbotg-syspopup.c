@@ -204,10 +204,9 @@ static int app_create(void *data)
 	}
 
 	/* init internationalization */
-	if (0 !=  appcore_set_i18n(PACKAGE, LOCALEDIR)) {
-		USB_LOG("FAIL: appcore_set_i18n(PACKAGE, LOCALEDIR)\n");
-		return -1;
-	}
+	ret = appcore_set_i18n(LANG_DOMAIN, LOCALE_DIR);
+	if (ret != 0)
+		USB_LOG("FAIL: appcore_set_i18n()");
 
 	__USB_FUNC_EXIT__;
 	return 0;

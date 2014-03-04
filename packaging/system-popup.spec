@@ -136,7 +136,6 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 /usr/apps/org.tizen.poweroff-syspopup/bin/poweroff-popup
 /usr/apps/org.tizen.poweroff-syspopup/res/edje/poweroff/poweroff.edj
 /usr/share/packages/org.tizen.poweroff-syspopup.xml
-/usr/apps/org.tizen.poweroff-syspopup/res/locale/*/LC_MESSAGES/*.mo
 /opt/etc/smack/accesses.d/org.tizen.poweroff-syspopup.rule
 /usr/share/license/org.tizen.poweroff-syspopup
 
@@ -146,7 +145,6 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 /usr/apps/org.tizen.lowmem-syspopup/bin/lowmem-popup
 /usr/apps/org.tizen.lowmem-syspopup/res/edje/lowmem/lowmem.edj
 /usr/share/packages/org.tizen.lowmem-syspopup.xml
-/usr/apps/org.tizen.lowmem-syspopup/res/locale/*/LC_MESSAGES/*.mo
 /opt/etc/smack/accesses.d/org.tizen.lowmem-syspopup.rule
 /usr/share/license/org.tizen.lowmem-syspopup
 
@@ -155,7 +153,6 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 %defattr(-,root,root,-)
 /usr/apps/org.tizen.lowbat-syspopup/bin/lowbatt-popup
 /usr/apps/org.tizen.lowbat-syspopup/res/edje/lowbatt/lowbatt.edj
-/usr/apps/org.tizen.lowbat-syspopup/res/locale/*/LC_MESSAGES/*.mo
 /usr/share/packages/org.tizen.lowbat-syspopup.xml
 /opt/etc/smack/accesses.d/org.tizen.lowbat-syspopup.rule
 /usr/share/license/org.tizen.lowbat-syspopup
@@ -165,7 +162,6 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 %defattr(-,root,root,-)
 /usr/apps/org.tizen.mmc-syspopup/bin/mmc-popup
 /usr/share/packages/org.tizen.mmc-syspopup.xml
-/usr/apps/org.tizen.mmc-syspopup/res/locale/*/LC_MESSAGES/*.mo
 /opt/etc/smack/accesses.d/org.tizen.mmc-syspopup.rule
 /usr/share/license/org.tizen.mmc-syspopup
 
@@ -173,7 +169,6 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 %manifest %{name}.manifest
 %defattr(440,root,root,-)
 %attr(555,app,app) /usr/apps/org.tizen.usb-syspopup/bin/usb-syspopup
-%attr(440,app,app) /usr/apps/org.tizen.usb-syspopup/res/locale/*/LC_MESSAGES/usb-syspopup.mo
 /usr/share/packages/org.tizen.usb-syspopup.xml
 /opt/etc/smack/accesses.d/org.tizen.usb-syspopup.rule
 /usr/share/license/org.tizen.usb-syspopup
