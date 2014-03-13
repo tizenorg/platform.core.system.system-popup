@@ -3,7 +3,7 @@
 	<label>Usb syspopup</label>
 	<author email="ty317.kim@samsung.com" href="www.samsung.com">Taeyoung Kim</author>
 	<description>USB System Popup Application</description>
-	<ui-application appid="org.tizen.usb-syspopup" exec="/usr/apps/org.tizen.usb-syspopup/bin/usb-syspopup" nodisplay="true" multiple="false" type="capp" taskmanage="false">
+	<ui-application appid="org.tizen.usb-syspopup" exec="@TZ_SYS_RO_APP@/org.tizen.usb-syspopup/bin/usb-syspopup" nodisplay="true" multiple="false" type="capp" taskmanage="false">
 		<label>Usb syspopup</label>
 		<label xml:lang="en-us">Usb system popup</label>
 		<label xml:lang="nl-nl">Usb-systeem pop-up</label>

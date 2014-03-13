@@ -31,6 +31,7 @@ SET(PKG_MODULES ${PKG_MODULES}
 		evas
 		vconf
 		svi
+		libtzplatform-config
 )
 
 INCLUDE(FindPkgConfig)

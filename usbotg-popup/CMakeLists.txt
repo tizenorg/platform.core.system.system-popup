@@ -5,11 +5,11 @@ SET(SRCS src/usbotg-syspopup.c)
 SET(VENDOR "tizen")
 SET(PACKAGE "usbotg-syspopup")
 SET(PKGNAME "org.${VENDOR}.${PACKAGE}")
-SET(PREFIX "${CMAKE_INSTALL_PREFIX}/apps/${PKGNAME}")
+SET(PREFIX "${TZ_SYS_RO_APP}/${PKGNAME}")
 SET(BINDIR "${PREFIX}/bin")
 SET(RESDIR "${PREFIX}/res")
 SET(LOCALEDIR "${RESDIR}/locale")
-SET(MANIFESTDIR "${CMAKE_INSTALL_PREFIX}/share/packages")
+SET(MANIFESTDIR "${TZ_SYS_RO_PACKAGES}")
 
 INCLUDE(FindPkgConfig)
 pkg_check_modules(pkgs REQUIRED
@@ -21,7 +21,8 @@ pkg_check_modules(pkgs REQUIRED
 			ecore-evas
 			vconf
 			appsvc
-			dlog)
+			dlog
+			libtzplatform-config)
 
 FOREACH(flag ${pkgs_CFLAGS})
 	SET(EXTRA_CFLAGS "${EXTRA_CFLAGS} ${flag}")
@@ -40,7 +41,8 @@ TARGET_LINK_LIBRARIES(${PACKAGE} syspopup ${pkgs_LDFLAGS})
 INSTALL(TARGETS ${PACKAGE} DESTINATION ${BINDIR})
 
 # install manifest xml file
+CONFIGURE_FILE(${CMAKE_SOURCE_DIR}/data/org.tizen.usbotg-syspopup.xml.in ${CMAKE_SOURCE_DIR}/data/org.tizen.usbotg-syspopup.xml)
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/${PKGNAME}.xml DESTINATION ${MANIFESTDIR})
 
 # instatll rule file
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.usbotg-syspopup.rule DESTINATION /opt/etc/smack/accesses.d)
+INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.usbotg-syspopup.rule DESTINATION ${TZ_SYS_SMACK}/accesses.d)

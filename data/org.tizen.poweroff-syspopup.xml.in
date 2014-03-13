@@ -3,7 +3,7 @@
 	<label>poweroff-syspopup</label>
 	<author email="giyeol.ok@samsung.com" href="www.samsung.com">Giyeol Ok</author>
 	<description>system-popup application (poweroff popup)</description>
-	<ui-application appid="org.tizen.poweroff-syspopup" exec="/usr/apps/org.tizen.poweroff-syspopup/bin/poweroff-popup" nodisplay="true" multiple="false" type="capp" taskmanage="false">
+	<ui-application appid="org.tizen.poweroff-syspopup" exec="@TZ_SYS_RO_APP@/org.tizen.poweroff-syspopup/bin/poweroff-popup" nodisplay="true" multiple="false" type="capp" taskmanage="false">
 		<label>Power off system popup</label>
 	</ui-application>
 </manifest>

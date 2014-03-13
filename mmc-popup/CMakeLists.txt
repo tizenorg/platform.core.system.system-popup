@@ -19,7 +19,7 @@ INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/share/src)
 INCLUDE_DIRECTORIES(/usr/include/svi)
 
 INCLUDE(FindPkgConfig)
-pkg_check_modules(pkgs REQUIRED appcore-efl elementary devman devman_haptic mm-sound notification sysman)
+pkg_check_modules(pkgs REQUIRED appcore-efl elementary devman devman_haptic mm-sound notification sysman libtzplatform-config)
 
 FOREACH(flag ${pkgs_CFLAGS})
 	SET(EXTRA_CFLAGS "${EXTRA_CFLAGS} ${flag} -g")
@@ -45,16 +45,17 @@ SET(CMAKE_EXE_LINKER_FLAGS "-Wl,--as-needed")
 ADD_EXECUTABLE(${PROJECT_NAME} ${SRCS})
 TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${pkgs_LDFLAGS} "-lsvi")
 
-INSTALL(TARGETS ${PROJECT_NAME} DESTINATION /usr/apps/org.tizen.mmc-syspopup/bin)
+INSTALL(TARGETS ${PROJECT_NAME} DESTINATION ${TZ_SYS_RO_APP}/org.tizen.mmc-syspopup/bin)
 
 # install desktop file & icon
 SET(PREFIX ${CMAKE_INSTALL_PREFIX})
 
 # install manifest xml file
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.mmc-syspopup.xml DESTINATION /usr/share/packages/)
+CONFIGURE_FILE(${CMAKE_SOURCE_DIR}/data/org.tizen.mmc-syspopup.xml.in ${CMAKE_SOURCE_DIR}/data/org.tizen.mmc-syspopup.xml)
+INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.mmc-syspopup.xml DESTINATION ${TZ_SYS_RO_PACKAGES}/)
 
 # instatll rule file
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.mmc-syspopup.rule DESTINATION /opt/etc/smack/accesses.d)
+INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.mmc-syspopup.rule DESTINATION ${TZ_SYS_SMACK}/accesses.d)
 
 ###############################################################
 

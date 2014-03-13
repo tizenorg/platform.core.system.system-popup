@@ -15,6 +15,7 @@
  * limitations under the License.
  */
 
+#include <tzplatform_config.h>
 #include <stdio.h>
 #include <appcore-efl.h>
 #include <pmapi.h>
@@ -33,7 +34,7 @@
 #define SOCK_STR_LEN 1542
 #define UNMOUNT_USB_STORAGE 60
 
-#define USB_MOUNT_PATH   "/opt/storage/usb"
+#define USB_MOUNT_PATH    tzplatform_mkpath(TZ_SYS_STORAGE, "usb")
 #define MYFILE_APP_NAME  "org.tizen.myfile"
 #define GALLERY_APP_NAME "org.tizen.gallery"
 

@@ -3,7 +3,7 @@
 	<label>Usb otg syspopup</label>
 	<author email="ty317.kim@samsung.com" href="www.samsung.com">Taeyoung Kim</author>
 	<description>USB otg system Popup Application</description>
-	<ui-application appid="org.tizen.usbotg-syspopup" exec="/usr/apps/org.tizen.usbotg-syspopup/bin/usbotg-syspopup" nodisplay="true" multiple="false" type="capp" taskmanage="false">
+	<ui-application appid="org.tizen.usbotg-syspopup" exec="@TZ_SYS_RO_APP@/org.tizen.usbotg-syspopup/bin/usbotg-syspopup" nodisplay="true" multiple="false" type="capp" taskmanage="false">
 		<label>Usb otg syspopup</label>
 		<label xml:lang="en-us">Usb otg system popup</label>
 		<label xml:lang="nl-nl">Usb otg systeem pop-up</label>

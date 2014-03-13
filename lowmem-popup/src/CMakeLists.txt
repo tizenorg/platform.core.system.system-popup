@@ -36,7 +36,7 @@ SET(CMAKE_EXE_LINKER_FLAGS "-Wl,--as-needed")
 
 ADD_EXECUTABLE(${PACKAGE} ${SRCS})
 TARGET_LINK_LIBRARIES(${PACKAGE} ${pkgs_LDFLAGS})
-
-INSTALL(TARGETS ${PACKAGE} DESTINATION /usr/apps/org.tizen.lowmem-syspopup/bin)
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.lowmem-syspopup.xml DESTINATION /usr/share/packages/)
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.lowmem-syspopup.rule DESTINATION /opt/etc/smack/accesses.d)
+CONFIGURE_FILE(${CMAKE_SOURCE_DIR}/data/org.tizen.lowmem-syspopup.xml.in ${CMAKE_SOURCE_DIR}/data/org.tizen.lowmem-syspopup.xml)
+INSTALL(TARGETS ${PACKAGE} DESTINATION ${TZ_SYS_RO_APP}/org.tizen.lowmem-syspopup/bin)
+INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.lowmem-syspopup.xml DESTINATION ${TZ_SYS_RO_PACKAGES})
+INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.lowmem-syspopup.rule DESTINATION ${TZ_SYS_SMACK}/accesses.d)
