@@ -38,6 +38,5 @@ TARGET_LINK_LIBRARIES(${PACKAGE} ${pkgs_LDFLAGS} "-lsvi")
 CONFIGURE_FILE(${CMAKE_SOURCE_DIR}/data/org.tizen.lowbat-syspopup.xml.in ${CMAKE_SOURCE_DIR}/data/org.tizen.lowbat-syspopup.xml)
 INSTALL(TARGETS ${PACKAGE} DESTINATION ${TZ_SYS_RO_APP}/org.tizen.lowbat-syspopup/bin)
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/org.tizen.lowbat-syspopup.xml DESTINATION ${TZ_SYS_RO_PACKAGES})
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.lowbat-syspopup.rule DESTINATION ${TZ_SYS_SMACK}/accesses.d)
 
 

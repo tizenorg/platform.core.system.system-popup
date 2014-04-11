@@ -54,8 +54,6 @@ INSTALL(TARGETS ${APPNAME} DESTINATION bin)
 
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/${APPNAME}/src/org.tizen.system.popup.service DESTINATION /usr/share/dbus-1/services)
 
-# instatll rule file
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/${APPNAME}/src/system-apps.rule DESTINATION /etc/smack/accesses2.d)
 
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/datausage_warning.png  DESTINATION ${SYSTEM_ICONDIR})
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/led_torch.png          DESTINATION ${SYSTEM_ICONDIR})

@@ -44,5 +44,3 @@ INSTALL(TARGETS ${PACKAGE} DESTINATION ${BINDIR})
 CONFIGURE_FILE(${CMAKE_SOURCE_DIR}/data/org.tizen.usbotg-syspopup.xml.in ${CMAKE_SOURCE_DIR}/data/org.tizen.usbotg-syspopup.xml)
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/data/${PKGNAME}.xml DESTINATION ${MANIFESTDIR})
 
-# instatll rule file
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.usbotg-syspopup.rule DESTINATION ${TZ_SYS_SMACK}/accesses.d)

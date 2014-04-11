@@ -12,13 +12,7 @@ Source1003:    org.tizen.lowbat-syspopup.manifest
 Source1004:    org.tizen.mmc-syspopup.manifest
 Source1005:    org.tizen.usb-syspopup.manifest
 Source1006:    org.tizen.usbotg-syspopup.manifest
-Source1007:    org.tizen.poweroff-syspopup.rule
-Source1008:    org.tizen.lowmem-syspopup.rule
-Source1009:    org.tizen.lowbat-syspopup.rule
-Source1010:    org.tizen.mmc-syspopup.rule
-Source1011:    org.tizen.usb-syspopup.rule
-Source1012:    org.tizen.usbotg-syspopup.rule
-Source1013:    org.tizen.poweroff-syspopup.manifest
+Source1007:    org.tizen.poweroff-syspopup.manifest
 BuildRequires:  pkgconfig(evas)
 BuildRequires:  pkgconfig(ecore-input)
 BuildRequires:  pkgconfig(elementary)
@@ -104,12 +98,6 @@ cp %{SOURCE1004} .
 cp %{SOURCE1005} .
 cp %{SOURCE1006} .
 cp %{SOURCE1007} .
-cp %{SOURCE1008} .
-cp %{SOURCE1009} .
-cp %{SOURCE1010} .
-cp %{SOURCE1011} .
-cp %{SOURCE1012} .
-cp %{SOURCE1013} .
 
 cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix} \
 -DTZ_SYS_RO_APP=%{TZ_SYS_RO_APP} \
@@ -146,7 +134,6 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 /usr/share/system-apps/res/icons/battery_full_indi.png
 %{_bindir}/popup-launcher
 /usr/share/dbus-1/services/org.tizen.system.popup.service
-/etc/smack/accesses2.d/system-apps.rule
 /usr/share/license/system-popup
 
 %files -n org.tizen.poweroff-syspopup
@@ -154,7 +141,6 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 %defattr(-,root,root,-)
 %{TZ_SYS_RO_APP}/org.tizen.poweroff-syspopup/bin/poweroff-popup
 %{TZ_SYS_RO_PACKAGES}/org.tizen.poweroff-syspopup.xml
-%{TZ_SYS_SMACK}/accesses.d/org.tizen.poweroff-syspopup.rule
 /usr/share/license/org.tizen.poweroff-syspopup
 
 %files -n org.tizen.lowmem-syspopup
@@ -162,7 +148,6 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 %defattr(-,root,root,-)
 %{TZ_SYS_RO_APP}/org.tizen.lowmem-syspopup/bin/lowmem-popup
 %{TZ_SYS_RO_PACKAGES}/org.tizen.lowmem-syspopup.xml
-%{TZ_SYS_SMACK}/accesses.d/org.tizen.lowmem-syspopup.rule
 /usr/share/license/org.tizen.lowmem-syspopup
 
 %files -n org.tizen.lowbat-syspopup
@@ -170,7 +155,6 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 %defattr(-,root,root,-)
 %{TZ_SYS_RO_APP}/org.tizen.lowbat-syspopup/bin/lowbatt-popup
 %{TZ_SYS_RO_PACKAGES}/org.tizen.lowbat-syspopup.xml
-%{TZ_SYS_SMACK}/accesses.d/org.tizen.lowbat-syspopup.rule
 /usr/share/license/org.tizen.lowbat-syspopup
 
 %files -n org.tizen.mmc-syspopup
@@ -178,7 +162,6 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 %defattr(-,root,root,-)
 %{TZ_SYS_RO_APP}/org.tizen.mmc-syspopup/bin/mmc-popup
 %{TZ_SYS_RO_PACKAGES}/org.tizen.mmc-syspopup.xml
-%{TZ_SYS_SMACK}/accesses.d/org.tizen.mmc-syspopup.rule
 /usr/share/license/org.tizen.mmc-syspopup
 
 %files -n org.tizen.usb-syspopup
@@ -186,7 +169,6 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 %defattr(-,root,root,-)
 %{TZ_SYS_RO_APP}/org.tizen.usb-syspopup/bin/usb-syspopup
 %{TZ_SYS_RO_PACKAGES}/org.tizen.usb-syspopup.xml
-%{TZ_SYS_SMACK}/accesses.d/org.tizen.usb-syspopup.rule
 /usr/share/license/org.tizen.usb-syspopup
 
 %files -n org.tizen.usbotg-syspopup
@@ -194,5 +176,4 @@ cp LICENSE.Apache_v2 %{buildroot}/usr/share/license/org.tizen.usbotg-syspopup
 %defattr(-,root,root,-)
 %{TZ_SYS_RO_APP}/org.tizen.usbotg-syspopup/bin/usbotg-syspopup
 %{TZ_SYS_RO_PACKAGES}/org.tizen.usbotg-syspopup.xml
-%{TZ_SYS_SMACK}/accesses.d/org.tizen.usbotg-syspopup.rule
 /usr/share/license/org.tizen.usbotg-syspopup
