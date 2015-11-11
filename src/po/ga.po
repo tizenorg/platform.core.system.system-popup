@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Cuir ar ceal"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "Criptigh an cárta SD"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Socruithe"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "Brabhsáil"
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "Ceamara"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "Níl freagairt ann"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "Nasctha mar ghléas meán"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "Rabhadh maidir le húsáid sonraí"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "Teorainn ar úsáid sonraí sonraithe bainte amach. D'fhéadfadh an soláthraí seirbhíse táillí a ghearradh ar úsáid sonraí breise."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "Tapáil le hamharc ar úsáid agus ar shocruithe"
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "Stóras USB bán nó córas comhad gan tacú ann"
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Aire"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Sonraí móibíleacha díchumasaithe"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "Ceallra dícheangailte."
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Ceallra lag."
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "Ceamara ceangailte."
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "Eochairchlár ceangailte."
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "Ceallra lag. Múchfar an fón."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "Luchóg ceangailte."
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "Printéir ceangailte."
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "Gléas USB anaithnid nasctha."
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "Díghléas ollstóras USB sula mbainfear é chun cailliúint sonraí a sheachaint"
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "Nascóir USB nasctha."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "Nascóir USB dínasctha."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "Ollstóras USB ceangailte."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "Ollstóras USB bainte gan choinne."
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "Atriail"
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "Fan"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "Cuimhne íseal."
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "Díchriptigh an cárta SD"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "Cárta SD á dhíchriptiú..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "Cárta SD á chriptiú..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "Theip ar ghléasadh chárta SD. Ionsáigh an cárta SD arís nó déan formáidiú air."
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "Cumhacht as"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "Ceallra lánluchtaithe."
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "Sonraí MMC á dtúsú..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "Tá solas cúnta air"
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "Luchtú ar sos. Teocht an cheallra ró-ard."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "Luchtú ar sos. Teocht an cheallra ró-íseal."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "Ná cas as"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "Gléas casta as go huathoibríoch"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "Nascadh an leaba nasctha"
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Tá do ghléas róthe. Casfar as é le fuarú."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "D'éirigh do ghléas róthe. Casadh as é ionas nach ndéanfaí aon damáiste dó.\n\nÉiríonn sé róthe mar gheall ar:\nFheidhmchláir atá dian ar ghrafaicí a úsáid, amhail cluichí agus feidhmchláir nascleanúna, ar feadh tréimhsí ama fada.\nChomhaid mhóra a aistriú.\nDo ghléas a úsáid i dtimpeallacht the."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "Cuir teorainn le húsáid sonraí"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "Cumhacht as"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "Gléas USB inléite amháin nasctha"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "Cárta SD díchriptithe."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "Tharla earráid díchriptithe an chárta SD"
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "Cárta SD criptithe."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "Tharla earráid chriptithe ar chárta SD"
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "Cárta SD gléasta i mód inléite amháin."
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "Tapáil le solas cúnta a chasadh as"
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Ní féidir an cárta SD a dhíchriptiú. Easpa spáis ar an gcárta. Tá thart ar %.2f MB de dhíth. Scrios roinnt comhad."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Ní féidir an cárta SD a chriptiú. Easpa spáis ar an gcárta. Tá thart ar %.2f MB de dhíth. Scrios roinnt comhad."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "Stóras USB"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "Díchriptigh an cárta SD"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "Díchumasaigh criptiú"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "Cumasaigh criptiú"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "Cript. cárta SD"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "Cumhacht as"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "Cuireann an beartas slándála bac ar úsáid shioncronú deisce"
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "Ceallra an-lag"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "Ceallra lág. Athluchtaigh."
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Le do chárta SD a úsáid, ní mór é a dhíchriptiú. Díchriptigh cárta SD nó cumasaigh criptiú gléis?"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Le do chárta SD a úsáid, ní mór é a bheith criptithe. Criptigh cárta SD nó díchumasaigh criptiú gléis?"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "Bain luchtaire."
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "Cas cumhacht an gléis as?"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "Brabhsáil ceamara nasctha trí USB?"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "Brabhsáil stóras nasctha trí USB?"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "Ollstóras USB bainte go sábháilte."
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "Díghléas"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d ghléas USB nasctha"
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "Gléasanna USB"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "Theip ar nasc USB"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "Cábla HDMI ceangailte."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "Cábla HDMI dícheangailte."
+

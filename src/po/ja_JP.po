@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "キャンセル"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "外部SDカードを暗号化"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "設定"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "参照"
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "カメラ"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "応答なし"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "メディアデバイスとして接続"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "データ使用警告"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "設定したデータ使用制限に達しました。追加でデータを使用すると、サービスプロバイダからの追加料金が発生する可能性があります。"
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "タップして使用状況と設定を表示"
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "ユーザーメモリ（本体）が空または未対応のファイルシステムです。"
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "注意"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "モバイルデータ無効"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "バッテリーが取り外されました。"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "バッテリー残量が不足しています。"
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "カメラが接続されました。"
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "キーボードが接続されました。"
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "バッテリー残量が不足しています。端末の電源が切れます。"
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "マウスが接続されました。"
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "プリンターが接続されました。"
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "不明なUSBデバイスが接続されました。"
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "データ消失を避けるため、USB大容量ストレージを取り外す前にマウントを解除してください。"
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "デバイスが接続されました。"
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "デバイスが取り外されました。"
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "USB大容量ストレージが接続されました。"
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "USB大容量ストレージが予期せず取り外されました。"
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "やり直す"
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "待機"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "メモリの容量不足です。"
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "外部SDカードを復号化します。"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "外部SDカードを復号中..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "外部SDカードのデータを暗号化中..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "外部SDカードの取り付けに失敗しました。外部SDカードを挿入し直すか初期化してください。"
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "電源OFF"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "バッテリー充電完了"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "メモリカードのデータを初期化中..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "ライトをONにしました。"
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "充電が停止しました。バッテリーの温度が高すぎます。"
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "充電が停止しました。バッテリーの温度が低すぎます。"
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "電源をOFFにしない"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "端末の自動電源OFF"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "ドックが接続されました。"
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "端末が過熱しています。端末の温度を下げるため、電源をOFFにします。"
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "端末が過熱しています。損傷を防止するため、電源をOFFにします。\n\n過熱の原因は下記の可能性があります。\nゲームやナビゲーションアプリのようにグラフィックスを多用するアプリケーションの長時間使用\n大容量のファイルの転送\n温度が高い環境での端末の使用"
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "データ使用制限"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "電源OFF"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "読み取り専用USBデバイス接続"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "外部SDカードを復号しました。"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "外部SDカードの復号エラーが発生しました。"
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "外部SDカードを暗号化しました。"
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "外部SDカードの暗号化エラーが発生しました。"
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "マウント済み外部SDカードは読み取り専用です。"
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "タップしてライトをOFFにします。"
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "外部SDカードを復号化できません。カードの空き容量が低下しています。約%.2f MB必要です。ファイルをいくつか削除してください。"
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "外部SDカードを暗号化できません。カードの空き容量が低下しています。約%.2f MB必要です。ファイルをいくつか削除してください。"
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "ユーザーメモリ(本体)"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "外部SDカードを復号化する"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "暗号化を無効にする"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "暗号化を有効にする"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "SDｶｰﾄﾞを暗号化"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "電源OFF"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "デスクトップ同期の使用は、セキュリティポリシーによって制限されています。"
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "バッテリー残量なし"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "バッテリー残量が不足しています。充電してください。"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "外部SDカードを使用するには、復号化する必要があります。外部SDカードを復号化するか、端末の暗号化を有効にしますか？"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "外部SDカードを使用するには、暗号化する必要があります。外部SDカードを暗号化するか、端末の暗号化を無効にしますか？"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "充電器を取り外してください。"
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "端末の電源をOFFにしますか？"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "USB接続されたカメラの映像を表示しますか？"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "USBで接続されたストレージに移動しますか？"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "USB大容量ストレージが安全に取り外されました。"
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "アンマウント"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d台のUSBデバイスが接続"
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "USBデバイス"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "USB接続に失敗しました。"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "HDMIケーブルが接続されました。"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "HDMIケーブルが接続されていません。"
+

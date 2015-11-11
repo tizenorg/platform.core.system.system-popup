@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Откажи"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "Шифрирај SD-картичка"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Опции"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "Пребар."
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "Камера"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "Нема одговор"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "Поврзано како медиумски уред"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "Предупредување за користење податоци"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "Достигнато е одреденото ограничување за користење податоци. Дополнителните податоци може да направат трошоци кај операторот."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "Допрете за преглед на користењето и опции."
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "Меморијата USB е празна или има неподдржан систем за фајлови."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Внимание"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Мобилните податоци се оневозможени"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "Батеријата е откачена."
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Батеријата е празна."
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "Камерата е поврзана."
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "Поврзана е тастатура."
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "Батеријата е празна. Телефонот ќе се исклучи."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "Поврзано е глувче."
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "Поврзан е печатач."
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "Поврзан е непознат уред USB."
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "Демонтирајте ја меморијата USB пред да ја извадите за да избегнете губење податоци."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "Приклучокот за USB е поврзан."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "Приклучокот за USB е откачен."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "Поврзана е меморија USB."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "Меморијата USB е извадена неочекувано."
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "Повт."
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "Почекајте"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "Има уште малку меморија."
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "Дешифрирај SD-картичка"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "Се дешифрира SD-картичката..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "Се шифрира SD-картичката..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "Неуспешно монтирање SD-картичка. Вметнете ја повторно или форматирајте ја."
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "Исклучув."
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "Батеријата е наполнета."
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "Податоците за MMC се активираат..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "Помошното светло е вклучено."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "Полнењето е паузирано. Температурата на батеријата е превисока."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "Полнењето е паузирано. Температурата на батеријата е прениска."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "Не исклучувај"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "Уредот се исклучува автоматски"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "Лежиштето е поврзано."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Уредот се прегрева. Сега ќе се исклучи за да се излади."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "Уредот се прегреа. Се исклучи за да се спречи оштетување.\n\nПрегревањето може да го предизвика:\nКористење апликации што користат многу графика, како игри и апликации за навигација подолго време.\nПренесување големи фајлови.\nКористење на уредот во жешка средина."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "Ограничи користење податоци"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "Исклучување"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "Поврз.е уред USB за читање"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "SD-картичката е дешифрирана."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "Дојде до грешка при дешифрирањето на SD-картичката."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "SD-картичката е шифрирана."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "Дојде до грешка при шифрирањето на SD-картичката."
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "Само читање на вметната SD-картичка."
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "Допрете да се исклучи помошното светло."
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Не може да се дешифрира SD-картичката. Нема доволно место на картичката. Потребни се околу %.2f MB. Избришете некој фајл."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Не може да се шифрира SD-картичката. Нема доволно место на картичката. Потребни се околу %.2f MB. Избришете некој фајл."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "Меморија USB"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "Дешифрирај SD-картичка"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "Исклучи шифрирање"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "Вклучи шифрирање"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "Шифр. SD-карт."
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "Исклучување"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "Политиката за безбедност спречува користење синхронизирање со компјутер."
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "Батеријата е многу слаба"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "Слаба батерија. Наполнете."
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "За да ја користите SD-картичката, мора да се дешифрира. Да се дешифрира SD-картичката или да се вклучи шифрирање на уредот?"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "За да ја користите SD-картичката, мора да се шифрира. Да се шифрира SD-картичката или да се исклучи шифрирањето на уредот?"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "Извадете го полначот."
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "Да се исклучи уредот?"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "Прегледна камера поврзана преку USB?"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "Да се разгледа меморијата поврзана преку USB?"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "Меморијата USB е безбедно отстранета."
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "Демонтирај"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d USB уреди се поврзани"
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "Уреди USB"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "Неуспешно поврзување USB."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "Поврзан е кабел HDMI."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "Кабелот HDMI е откачен."
+

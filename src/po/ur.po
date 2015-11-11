@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "منسوخ"
+
+msgid "IDS_COM_SK_OK"
+msgstr "ٹھیک ہے"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "SD کارڈ خفیہ کاری کریں"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "سیٹنگز"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "براؤز کریں"
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "کیمرہ"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "کوئی جواب نہیں آرہا ہے"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "بطور میڈیا آلہ جڑ گیا"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "ڈیٹا استعمال تنبیہ سیٹ کریں"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "مخصوص ڈیٹا استعمال کی حد آن پہنچی۔ اضافی ڈیٹا استعمال سے خدمت فراہم کنندہ کی طرف سے اضافی خرچ آسکتا ہے۔"
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "استعمال اور سیٹنگز دیکھنے کے لئے تھپتھپائیں"
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "USB کارڈ خالی ہے یا غیرتائید کردہ فائل سسٹم ہے"
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "توجہ"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "موبائل ڈیٹا نا اہل بنا دیا"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "بیٹری منقطع ہوگئی۔"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "بیٹری لو۔"
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "کیمرہ جڑ گیا۔"
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "کی بورڈ جڑ گیا۔"
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "بیٹری کمزور ہے۔ فون بند ہوجائے گا۔"
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "ماؤس جڑگیا۔"
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "پرنٹر جڑگیا۔"
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "نامعلوم USB آلہ جوڑا گیا ہے۔"
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "ڈیٹا کے نقصانات سے بچنے کے لئے ہٹانے سے قبل USB ذخیرہ انبار اتارلیں"
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "USB کنیکٹر جڑا ہوا ہے۔"
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "USB کنیکٹر نہیں جڑا ہوا ہے۔"
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "USB ذخیرہ انبار جڑگیا۔"
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "USB ذخیرہ انبار غیر متوقع طور پر ہٹادیا گیا۔"
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "دوبارہ"
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "انتظار کریں"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "میموری کم ہے۔"
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "SD کارڈ خفیہ کشائی کریں"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "SD کارڈ خفیہ کشائی کررہا ہے..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "SD کارڈ خفیہ کاری کررہا ہے..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "SD کارڈ چڑہانے میں ناکام ہوگیا۔ دوبارہ لگائیں یا SD کارڈ وضع کریں۔"
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "بند"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "بیٹری مکمل چارج۔"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC کوائف کی ابتدا کررہا ہے..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "معاونت کار روشنی آن ہے"
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "چارج کرنے میں وقفہ۔ بیٹری کا درجہ حرارت بہت زیادہ ہے۔"
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "چارج کرنے میں وقفہ۔ بیٹری کا درجہ حرارت بہت کم ہے۔"
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "پاور آف نہ کریں"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "ڈیوائس خودکار طور پر پاور آف ہوگیا"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "یہ ڈاک جڑ گیا ہے"
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "آپ کا ڈیوائس بہت زیادہ گرم ہورہا ہے۔ اب یہ ٹھنڈا ہونے کے لئے پاور آف ہوجائے گا۔"
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "آپ کا ڈیوائس بہت زیادہ گرم ہوگیا تھا۔ یہ نقصان سے بچنے کے لئے پاور آف ہوگيا۔\n\nزیادہ گرم ہونا ہو سکتا ہے بذریعہ:\nلمبی مدت تک کے لئے، زیادہ گرافکس والے ایپلیکیشنز کا استعمال کرنا، جیسے کہ گیمس اور نیویگیشن ایپلیکیشنز۔\nبڑی فائلوں کو منتقل کرنا۔\nاپنے ڈیوائس کو کسی گرم ماحول میں استعمال کرنا۔"
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "ڈیٹا استعمال محدود کریں"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "پاور آف"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "فقط مطالعہ USB آلہ مربوط"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "SD کارڈ خفیہ کشائی ہوگئی۔"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "SD کارڈ خفیہ کشائی غلطی واقع ہوگئی"
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "SD کارڈ خفیہ کاری ہوگئی۔"
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "SD کارڈ خفیہ کاری غلطی واقع ہوگئی"
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "SD کارڈ لگا دیا صرف پڑھنے کے لئے۔"
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "معاونت کار روشنی آف کرنے کے لئے تھپتھپائیں"
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "SD کارڈ خفیہ کشائی کرنے سے قاصر۔ کارڈ پر کافی جگہ نہیں ہے۔ تقریبا f2% MB درکار ہے۔ کچھ فائلیں حذف کریں"
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "SD کارڈ خفیہ کاری کرنے سے قاصر۔ کارڈ پر کافی جگہ نہیں ہے۔ تقریبا f2% MB درکار ہے۔ کچھ فائلیں حذف کریں۔"
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "USB ذخیرہ"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "SD کارڈ کی خفیہ کشائی کریں"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "خفیہ کشائی غیر فعال کریں"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "خفیہ کشائی فعال کریں"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "SD کارڈ خفیہ کریں"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "پاور آف"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "سلامتی پالیسی کے تحت ‏‏‫ڈیسک ٹاپ ہم وقت کے استعمال پر روکتا"
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "بیٹری نازک حالت تک کم ہے"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "بیٹری کمزور۔ پھرچارج کریں۔"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "آپ کا SD استعمال کرنے کیلئے اس کی خفیہ کشانی کرنا ضروری ہے۔ SD کارڈ کی خفیہ کشانی کریں یا آلہ کی خفیہ کاری فعال کریں؟"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "آپ کا SD استعمال کرنے کیلئے اس کا خفیہ ہونا ضروری ہے۔ SD کارڈ کی خفیہ کاری کریں یا آلہ کی خفیہ کاری کو غیر فعال کریں؟"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "چارجر ہٹائیں۔"
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "آلہ کا پاور آف کریں؟"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "براستہ USB جڑا کیمرہ براؤز کریں؟"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "براستہ USB جڑا ہوا ذخیرہ براؤز کریں؟"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "USB ذخیرہ انبار بحفاظت ہٹادیا گیا۔"
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "اتاریں"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d آلہ جات USB جڑ گئے"
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "USB آلہ جات"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "USB کنکشن ناکام ہوگیا"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "HDMI کیبل جڑ گیا۔"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "HDMI کیبل منقطع ہو گیا۔"
+

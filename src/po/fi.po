@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Peruuta"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "Salaa SD-kortti"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Asetukset"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "Selaa"
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "Kamera"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "Ei vastausta"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "Yhdistetty medialaitteena"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "Datankäyttövaroitus"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "Määritetty datankäyttörajoitus on saavutettu. Palveluntarjoaja voi periä ylimääräisestä tietojen käytöstä maksun."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "Tarkastele käyttöä ja asetuksia napauttamalla."
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "USB-muisti on tyhjä tai sen tiedostojärjestelmää ei tueta."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Huomio"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobiilidata poistettu käytöstä"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "Akku irrotettu."
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Akku on loppumassa."
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "Kamera kytketty."
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "Näppäimistö kytketty."
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "Akku lopussa. Puhelin sammutetaan."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "Hiiri kytketty."
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "Tulostin kytketty."
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "Tuntematon USB-laite yhdistetty."
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "Estä tietojen menettäminen poistamalla USB-massamuisti käytöstä ennen irrottamista."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "USB-liitin kytketty."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "USB-liitin irrotettu."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "USB-massamuisti kytketty."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "USB-massamuisti on poistettu odottamattomasti."
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "Uud."
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "Odota"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "Muisti vähissä."
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "Poista SD-kortin salaus"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "SD-kortin salausta puretaan..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "SD-korttia salataan..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "SD-kortin liittäminen epäonnistui. Aseta SD-kortti uudelleen tai alusta se."
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "Sammuta"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "Akku on täysin ladattu."
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC-tietoja alustetaan..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "Apuvalo on käytössä."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "Lataus keskeytetty. Akun lämpötila on liian korkea."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "Lataus keskeytetty. Akun lämpötila on liian matala."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "Älä sammuta"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "Laite sammutettiin automaattisesti"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "Telakka on yhdistetty."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Laite ylikuumenee. Se sammutetaan, jotta se pääsee jäähtymään."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "Laite ylikuumeni. Se sammutettiin vahinkojen estämiseksi.\n\nYlikuumenemisen syynä voi olla\nrunsaasti grafiikkatehoa vaativien sovellusten, kuten pelien ja navigointisovellusten, pitkäaikainen käyttäminen\nsuurten tiedostojen siirtäminen\nlaitteen käyttäminen kuumassa ympäristössä."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "Rajoita datan käyttöä"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "Virta pois päältä"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "Vain luku -m. USB-laite yhd."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "SD-kortin salaus on purettu."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "SD-kortin salausta purettaessa tapahtui virhe."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "SD-kortti on salattu."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "SD-korttia salattaessa tapahtui virhe."
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "Liitetty SD-kortti on vain luku -tilassa."
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "Poista apuvalo käytöstä napauttamalla."
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "SD-kortin salausta ei voi purkaa. Kortilla ei ole tarpeeksi tilaa. Tarvitaan noin %.2f Mt. Poista joitain tiedostoja."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "SD-korttia ei voi salata. Kortilla ei ole tarpeeksi tilaa. Tarvitaan noin %.2f Mt. Poista joitain tiedostoja."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "USB-muisti"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "Poista SD-kortin salaus"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "Poista salaus käytöstä"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "Ota salaus käyttöön"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "Salaa SD-kortti"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "Katkaise virta"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "Suojauskäytäntö estää työpöydän synkronoinnin käytön."
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "Akun varaus on erittäin alhainen"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "Akku lopussa. Lataa se."
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Jos haluat käyttää SD-korttia, sen salaus on purettava. Puretaanko SD-kortin salaus vai otetaanko laitteen salaus käyttöön?"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Jos haluat käyttää SD-korttia, se on salattava. Salataanko SD-kortti vai poistetaanko laitteen salaus käytöstä?"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "Irrota laturi."
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "Sammutetaanko laite?"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "Selataanko USB-yhteyden välityksellä yhdistettyä kameraa?"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "Selataanko USB-yhteyden kautta yhdistettyä tallennuslaitetta?"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "USB-massamuisti on turvallisesti poistettu."
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "Poista käytöstä"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d USB-laitetta yhdist."
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "USB-laitteet"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "USB-yhteys epäonnistui."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "HDMI-kaapeli kytketty."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "HDMI-kaapeli irrotettu."
+

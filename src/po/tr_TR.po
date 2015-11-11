@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "İptal"
+
+msgid "IDS_COM_SK_OK"
+msgstr "Tamam"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "SD kartı şifrele"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Ayarlar"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "Gözat"
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "Kamera"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "Cevap yok"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "Ortam cihazı olarak bağlandı"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "Veri kullanımı uyarısı"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "Belirtilen veri kullanım limitine ulaşıldı. Ek veri kullanımı, servis sağlayıcının ek ücretine tabi olabilir."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "Kullanım ve ayarları görüntülemek için dokunun."
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "USB belleği boş veya desteklenmeyen dosya sistemine sahip."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Dikkat"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobil veri devre dışı bırakıldı"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "Pil çıkartıldı."
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Düşük pil."
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "Kamera bağlandı."
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "Klavye bağlandı."
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "Düşük pil. Telefon kapatılacak."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "Fare bağlı."
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "Yazıcı bağlı."
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "Bilinmeyen USB cihazı takıldı."
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "Veri kaybını önlemek için çıkarmadan önce USB yığın depolamayı kaldırın."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "USB bağlayıcı takıldı."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "USB bağlayıcı çıkartıldı."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "USB yığın depolama bağlı."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "USB yığın depolama beklenmedik şekilde çıkarıldı."
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "Y.dene"
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "Bekleyin"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "Hafıza düşük."
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "SD kart şifresini çöz"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "SD kart şifresi çözülüyor..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "SD kart şifreleniyor..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "SD kart takılamadı. SD kartı yeniden takın veya biçimlendirin."
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "Kapat"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "Pil tümüyle şarj oldu."
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC verileri başlatılıyor..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "Yardımcı ışık açık."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "Şarj duraklatıldı. Pil sıcaklığı çok yüksek."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "Şarj duraklatıldı. Pil sıcaklığı çok düşük."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "Kapatma"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "Cihaz otomatik olarak kapatıldı"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "Yuva bağlandı."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Cihazınız aşırı ısınıyor. Şimdi soğumak için kapanacak."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "Cihazınız aşırı ısındı. Hasarı önlemek için kapandı.\n\nAşırı ısınma şunlardan kaynaklanabilir:\nOyun ve navigasyon uygulamaları gibi yoğun grafik içeren uygulamaların uzun süre kullanılması.\nBüyük dosyaların aktarılması.\nCihazınızın sıcak bir ortamda kullanılması."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "Veri kullanımını sınırla"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "Kapat"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "Salt oknr USB cih. bağlandı"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "SD kart şifresi çözüldü."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "SD kart şifre çözmede hata oluştu."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "SD kartı şifrelendi."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "SD kart şifrelemede hata oluştu."
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "SD kart salt okunur olarak takıldı."
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "Yardımcı ışığı kapatmak için dokunun."
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "SD kartın şifresi çözülemiyor. Kartta yeterli bellek yok. Yaklaşık %.2f MB gerekli. Bazı dosyaları silin."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "SD kartı şifrelenemiyor. Kartta yeterli bellek yok. Yaklaşık %.2f MB gerekli. Bazı dosyaları silin."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "USB bellek"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "SD kart şifresini çöz"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "Şifrelemeyi devre dışı bırak"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "Şifrelemeyi etkinleştir"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "SD kart şifrele"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "Kapat"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "Güvenlik ilkesi masaüstü eşitleme kullanımını engelliyor."
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "Pil kritik seviyede düşük"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "Düşük pil. Şarj edin."
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "SD kartınızı kullanmanız için şifresinin çözülmesi gerekir. SD kartın şifresi çözülsün mü, yoksa cihaz şifreleme başlatılsın mı?"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "SD kartınızı kullanmanız için şifrelenmesi gerekir. SD kart şifrelensin mi, yoksa cihaz şifre çözme devre dışı bırakılsın mı?"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "Şarj aletini çıkartın."
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "Cihazı kapat?"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "USB ile takılı kameraya göz atılsın mı?"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "USB ile takılı belleğe göz atılsın mı?"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "USB yığın depolama güvenli şekilde çıkarıldı."
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "Çıkart"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d USB cihazı takılı"
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "USB cihazları"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "USB bağlantısı kurulamadı"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "HDMI kablosu takılı."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "HDMI kablosu takılı değil."
+

@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "રદ કરો"
+
+msgid "IDS_COM_SK_OK"
+msgstr "ઓકે"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "SD કાર્ડ એન્ક્રિપ્ટ કરો"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "સેટિંગ્સ"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "બ્રાઉઝ કરો"
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "કૅમેરા"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "કોઈ પ્રતિસાદ નથી"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "મિડિયા ઉપકરણ તરીકે જોડાયું"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "ડેટા વપરાશ ચેતવણી"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "ઉલ્લેખિત ડેટા વપરાશ સીમા પર પહોંચ્યા. અતિરિક્ત ડેટા વપરાશ માટે સેવા પ્રદાતાનો શુલ્ક લાગી શકે છે."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "ઉપયોગ અને સેટિંગ્સ જોવા માટે ટેપ કરો"
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "USB સંગ્રહ ખાલી છે અથવા ટેકો ન આપેલા ફાઇલ સિસ્ટમ છે."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "સાવધાન"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "મોબાઇલ ડેટા નિષ્ક્રિય"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "બેટરી ડિસ્કનેક્ટ થઈ."
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "બેટરી ઓછી."
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "કૅમેરા જોડાયેલ છે."
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "કીબોર્ડ જોડાયેલ છે."
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "બેટરી ઓછી. ફોન બંધ થઈ જશે."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "માઉસ જોડાયેલ છે."
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "પ્રિન્ટર જોડાયેલ છે."
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "અજ્ઞાત USB ઉપકરણ જોડેલ છે."
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "ડેટા હાનિ ટાળવા માટે કાઢી નાખતા પહેલાં USB માસ સંગ્રહને અનમાઉન્ટ કરો."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "USB કનેક્ટર જોડાયેલ છે."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "USB કનેક્ટર ડિસ્કનેક્ટ થયું."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "USB માસ સંગ્રહ જોડાયેલ છે."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "USB માસ સંગ્રહને અનપેક્ષિત રૂપે કાઢી નાખવામાં આવ્યો."
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "ફરી ચલાવો"
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "રાહ જુઓ"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "બેટરી ઓછી."
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "SD કાર્ડ ડીક્રિપ્ટ કરો"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "SD કાર્ડ ડીક્રિપ્ટ કરે છે..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "SD કાર્ડ એન્ક્રિપ્ટ કરે છે..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "SD કાર્ડ માઉન્ટ કરવામાં નિષ્ફળ. SD કાર્ડ પુનઃસામેલ અથવા ફોર્મેટ કરો"
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "પાવર બંધ"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "બેટરી સંપૂર્ણ ચાર્જ થઈ ગઈ."
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC ડેટા શરૂ થાય છે..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "સહાયક લાઇટ ચાલુ છે"
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "ચાર્જિંગ પોઝ કર્યુ. બેટરી તાપમાન ખૂબ ઊંચું."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "ચાર્જિંગ પોઝ કર્યુ. બેટરી તાપમાન ખૂબ ઓછું."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "પાવર બંધ કરશો નહીં"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "ઉપકરણનો આપમેળે પાવર બંધ થયો"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "ડૉક જોડેલું છે."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "તમારું ઉપકરણ વધુ પડતું ગરમ થઈ રહ્યું છે. ઠંડુ થવા માટે હવે તેનો પાવર બંધ થશે."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "તમારું ઉપકરણ વધુ પડતું ગરમ થઈ ગયું છે. ક્ષતિથી બચવા માટે તેનો પાવર બંધ કર્યો છે.\n\nઆના કારણે વધુ પડતું ગરમ થઈ શકે છે:\nગ્રાફિક-સઘન એપ્લિકેશનો, જેમ કે રમતો અને નેવિગેશન એપ્લિકેશનોનો લાંબો સમય સુધી ઉપયોગ કરવાથી.\nમોટી ફાઇલ્સ સ્થાનાંતરિત કરવાથી.\nગરમ વાતાવરણમાં ઉપકરણનો ઉપયોગ કરવાથી."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "ડેટા વપરાશ મર્યાદિત કરો"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "પાવર બંધ"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "માત્ર વાંચન USB ઉપકરણનું જોડાણ કર્યુ."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "SD કાર્ડ ડીક્રિપ્ટ થયું."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "SD કાર્ડ ડિક્રિપ્શન ભૂલ થઈ છે."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "SD કાર્ડ એન્ક્રિપ્ટ થયું."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "SD કાર્ડ એન્ક્રિપ્શન ભૂલ થઈ છે."
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "SD કાર્ડ ફક્ત વાંચવા માટે ચડાવ્યું."
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "સહાયક લાઇટ બંધ કરવા માટે ટેપ કરો"
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "SD કાર્ડ ડીક્રિપ્ટ કરવામાં અસમર્થ. કાર્ડ પર પર્યાપ્ત સ્થાન નથી. આશરે %.2f MB આવશ્યક. કેટલીક ફાઇલ્સ હટાવો."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "SD કાર્ડ એન્ક્રિપ્ટ કરવામાં અસમર્થ. કાર્ડ પર પર્યાપ્ત સ્થાન નથી. આશરે %.2f MB આવશ્યક. કેટલીક ફાઇલ્સ હટાવો."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "USB સ્મૃતિ"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "SD કાર્ડને ડિક્રિપ્ટ કરો"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "એન્ક્રિપ્શન અક્ષમ કરો"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "એન્ક્રિપ્શન સક્ષમ કરો"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "SD કાર્ડને એન્ક્રિપ્ટ કરો"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "પાવર બંધ"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "સલામતી નીતિ ડેસ્કટોપ સમન્વયના ઉપયોગને અટકાવે છે."
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "બેટરી ખૂબ ઓછી"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "બેટરી ઓછી. રીચાર્જ કરો"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "તમારા SD કાર્ડનો ઉપયોગ કરવા, તે ડિક્રિપ્ટ કરેલું હોવું જરૂરી છે. SD કાર્ડને ડિક્રિપ્ટ કરીએ અથવા ઉપકરણ એન્ક્રિપ્શનને સમર્થ કરીએ?"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "તમારા SD કાર્ડનો ઉપયોગ કરવા, તે એન્ક્રિપ્ટ કરેલું હોવું જરૂરી છે. SD કાર્ડને એન્ક્રિપ્ટ કરીએ અથવા ઉપકરણ એન્ક્રિપ્શનને અક્ષમ કરીએ?"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "ચાર્જર કાઢો."
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "ઉપકરણ બંધ કરીએ?"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "USB દ્વારા કનેક્ટ કરેલા કૅમેરાને બ્રાઉઝ કરીએ?"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "USB દ્વારા જોડેલા સંગ્રહણને બ્રાઉઝ કરીએ?"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "USB માસ સંગ્રહ સુરક્ષિત રીતે દૂર કર્યો."
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "અનમાઉન્ટ"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d USB ઉપકરણો કનેક્ટ કર્યા"
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "USB ઉપકરણો"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "USB જોડાણ નિષ્ફળ."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "HDMI કેબલ જોડેલું છે."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "HDMI કેબલ ડિસ્કનેક્ટ કરેલું છે."
+

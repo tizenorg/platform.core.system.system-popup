@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "రద్దు"
+
+msgid "IDS_COM_SK_OK"
+msgstr "సరే"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "ఎస్‌డి కార్డ్ ఎన్‌క్రిప్ట్ చేయి"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "సెట్టింగులు"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "బ్రౌజ్"
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "కెమెరా"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "స్పందన లేదు"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "మీడియా పరికరం వలె అనుసంధానించబడింది"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "డేటా ఉపయోగ హెచ్చరిక"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "పేర్కొనబడిన డాటా ఉపయోగం పరిమితికి చేరుకున్నారు. సేవ ప్రొవైడర్ నుంచి అదనపు డాటా ఉపయోగం వలన ఛార్జీలు పడచ్చు."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "వాడుక మరియు సెట్టింగ్లను వీక్షించడానికి నొక్కండి."
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "USB నిల్వ ఖాళీగా ఉంది లేదా ఒక మద్దతులేని ఫైల్ సిస్టమ్."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "అటెన్షన్"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "మొబైల్ డేటా నిలిపివేయబడింది"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "బ్యాటరీ డిస్‌కనెక్ట్ చేయబడింది."
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "బ్యాటరీ తక్కువగా ఉంది."
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "కెమెరా కనెక్టయింది."
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "కీబోర్డు కనెక్టయింది."
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "బ్యాటరీ తక్కువగా ఉంది. ఫోన్ షట్ డౌన్ చెయ్యబడుతుంది."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "మౌస్ కనెక్టయింది."
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "ప్రింటర్ కనెక్టయింది."
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "తెలియని USB పరికరం కనెక్టయింది."
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "డేటా నష్టాన్ని నిర్మూలించడానికి USB అధిక నిల్వను తీసివేయడానికి ముందే అన్‌మౌంట్ చేయండి."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "USB కనెక్టర్ కనెక్ట్ చేయబడింది."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "USB కనెక్టర్ డిస్‌కనెక్ట్ చేయబడింది."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "USB అధిక నిల్వ కనెక్టయింది."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "USB అధిక నిల్వ అనుకోకుండా తీసివేయబడింది."
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "మళ్ళీ ప్రయత్నిం."
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "వేచి ఉండండి"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "బ్యాటరీ తక్కువగా ఉంది."
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "SD కార్డును డిక్రిప్ట్ చేయి"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "SD కార్డును డిక్రిప్ట్ చేస్తోంది…"
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "SD కార్డును ఎన్‌క్రిప్ట్ చేస్తోంది..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "ఎస్‌డి కార్డును మౌంట్ చేయడం విఫలమైంది. ఎస్‌డి కార్డును మళ్లీ చొప్పించండి లేదా ఫార్మాట్ చెయ్యండి"
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "పవర్ ఆఫ్ చేయి"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "బ్యాటరీ పూర్తిగా ఛార్జ్ చేయబడింది."
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC డాటా ఇనిషియలైజింగ్..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "సహాయపడే లైట్ ఆన్‌లో ఉంది."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "ఛార్జ్ చేయడం ఆపబడింది. బ్యాటరీ ఉష్ణోగ్రత చాలా అధికంగా ఉంది."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "ఛార్జ్ చేయడం ఆపబడింది. బ్యాటరీ ఉష్ణోగ్రత చాలా తక్కువుగా ఉంది."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "పవర్ ఆఫ్ చేయవద్దు"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "పరికరం పవర్ స్వయంచాలకంగా ఆఫ్ చేయబడింది"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "డాక్ అనుసంధానించబడింది."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "మీ పరికరం ఎక్కువ వేడెక్కుతోంది. దీన్ని చల్లార్చడానికి ఇ్పపుడే పవర్ ఆఫ్ చేయండి."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "మీ పరికరం ఎక్కువ వేడెక్కింది. నష్టాన్ని నిరోధించడానికి దీని పవర్ ఆఫ్ చేయండి.\n\nదీని వల్ల ఎక్కువ వేడెక్కుతుంది:\nఎక్కువ సమయం గేమ్‌లు మరియు నావిగేషన్ అప్లికేషన్‌ల వంటి గ్రాఫిక్-ఆకర్షణీయమైన అప్లికేషన్‌లను ఉపయోగంచడం.\nపెద్ద ఫైల్‌లను బదిలీ చేయడం.\nమీ పరికరాన్ని వేడి వాతావరణంలో ఉపయోగించడం."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "డేటా ఉపయోగాన్ని పరమితి చేయి"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "పవర్ ఆఫ్‌"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "చదవడానికి మాత్రమే USB పరికరం కనెక్ట్ చేయబడింది."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "SD కార్డ్ డిక్రిప్ట్ చేయబడింది."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "SD కార్డ్ డిక్రిప్షన్ లోపం ఏర్పడింది."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "SD కార్డ్ ఎన్‌క్రిప్షన్ చేయబడింది."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "SD కార్డ్ ఎన్‌క్రిప్షన్ లోపం ఏర్పడింది."
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "SD కార్డ్ మౌంట్ చేయబడింది చదవడానికి-మాత్రమే."
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "సహాయక లైట్‌ను నిలిపివేయబడానికి నొక్కండి."
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "SD కార్డ్‌ను డిక్రిప్ట్ చేయడం సాధ్యం కాదు. కార్డ్‌లో తగినంత స్థలం లేదు. దాదాపు %.2f MB అవసరం. కొన్ని ఫైళ్లను తొలగించండి."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "SD కార్డ్‌ను ఎన్‌క్రిప్ట్ చేయడం సాధ్యం కాదు. కార్డ్‌లో తగినంత స్థలం లేదు. దాదాపు %.2f MB అవసరం. కొన్ని ఫైళ్లను తొలగించండి."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "USB నిల్వ"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "SD కార్డ్‌ని డీక్రిప్ట్ చేయి"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "ఎన్‌క్రిప్షన్‌ను నిలిపివేయి"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "ఎన్‌క్రిప్షన్‌ను ప్రారంభించు"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "SD కార్డ్ ఎన్‌క్రిప్ట్ చేయి"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "పవర్ ఆఫ్‌"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "భద్రతా విధానం డెస్క్‌టాప్ సమకాలీకరణ ఉపయోగాన్ని నిరోధిస్తుంది."
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "బ్యాటరీ తక్కువగా ఉంది"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "బ్యాటరీ తక్కువగా ఉంది. రీఛార్జ్ చెయ్యండి"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "మీ SD కార్డ్ ఉపయోగించడానికి, ఇది తప్పక డీక్రిప్ట్ చేయబడాలి. SD కార్డ్ డీక్రిప్ట్ చేయాలా లేదా పరికర ఎన్‌క్రిప్షన్ ప్రారంభించాలా?"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "మీ SD కార్డ్ ఉపయోగించడానికి, ఇది తప్పక ఎన్‌క్రిప్ట్ చేయబడాలి. SD కార్డ్ ఎన్‌క్రిప్ట్ చేయాలా లేదా పరికర ఎన్‌క్రిప్షన్ నిలిపివేయాలా?"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "ఛార్జరు తొలగింపు."
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "పరికరం పవర్ ఆఫ్ చేయాలా?"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "USB ద్వారా అనుసంధానించబడిన కెమెరాను బ్రౌజ్ చేయాలా?"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "USB ద్వారా అనుసంధానించబడిన నిల్వను బ్రౌజ్ చేయాలా?"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "USB అధిక నిల్వ సురక్షితంగా తీసివేయబడింది."
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "అన్‌మౌంట్ చేయి"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d USB పరికరాలు అనుసంధానించబడ్డాయి"
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "USB పరికరాలు"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "USB కనెక్షన్ విఫలమైంది."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "HDMI కేబుల్ కనెక్ట్ చేయబడింది."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "HDMI కేబుల్ డిస్కనెక్ట్ చేయబడింది."
+

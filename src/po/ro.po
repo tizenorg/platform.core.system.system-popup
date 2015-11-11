@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Anulare"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "Criptare cartelă SD"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Setări"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "Navigare"
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "Cameră"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "Niciun răspuns"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "Conectat ca dispozitiv media"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "Avertisment utilizare date"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "S-a atins limita specificată pentru utilizarea datelor. Utilizarea datelor suplimentare poate genera costuri din partea furnizorului de servicii."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "Atingeţi pentru a vizualiza utilizarea şi setările."
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "Card USB fără conţinut sau cu sistem de fişiere neacceptat"
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Atenţie"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Date mobile dezactivate"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "Baterie deconectată"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Baterie descărcată"
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "Cameră conectată"
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "Tastatură conectată"
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "Baterie descărcată. Telefonul se va închide."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "Mouse conectat"
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "Imprimantă conectată"
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "Dispozitiv USB necunoscut conectat"
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "Dezinstalaţi spaţiul de stocare în masă USB înainte de eliminare, pentru a evita pierderea de date."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "Conector USB conectat"
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "Conector USB deconectat"
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "Memorie USB conectată"
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "Spaţiul de stocare în masă USB a fost eliminat în mod neaşteptat."
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "Reîn."
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "Aşteptaţi"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "Memorie insuficientă"
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "Decriptare cartelă SD"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "Se decriptează cartela SD..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "Se criptează cartela SD..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "Activarea cartelei SD nu a reuşit. Reintroduceţi sau formataţi cartela SD."
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "Închidere"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "Baterie încărcată complet"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "Se iniţializează datele MMC..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "Lumina de ajutor este aprinsă."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "Încărcare întreruptă. Temperatura bateriei este prea ridicată."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "Încărcare întreruptă. Temperatura bateriei este prea scăzută."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "Nu opriţi"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "Dispozitivul s-a oprit automat"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "Andocarea este conectată."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Dispozitivul se supraîncălzeşte. Acesta se va opri pentru a se răci."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "Dispozitivul s-a supraîncălzit. Pentru a preveni daunele, acesta s-a oprit.\n\nSupraîncălzirea poate fi cauzată de:\nutilizarea îndelungată a aplicaţiilor cu un nivel intens de grafică, de exemplu, jocuri şi aplicaţii de navigare;\ntransferul fişierelor mari;\nutilizarea dispozitivului într-un mediu cu temperatură ridicată."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "Limitare utilizare date"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "Oprire"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "Disp. USB doar în citire conect."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "Cartelă SD decriptată"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "A apărut o eroare la decriptarea cartelei SD."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "Cartelă SD criptată"
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "A apărut o eroare la criptarea cartelei SD."
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "Cartelă SD instalată doar pentru mod citire"
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "Atingeţi pentru a stinge lumina de ajutor."
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Imposibil de decriptat cartela SD. Spaţiu insuficient pe cartelă. Sunt necesari aproximativ %.2f MO. Ştergeţi unele fişiere."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Imposibil de criptat cartela SD. Spaţiu insuficient pe cartelă. Sunt necesari aproximativ %.2f MO. Ştergeţi unele fişiere."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "Spaţiu stocare USB"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "Decriptare card SD"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "Dezactivaţi criptarea"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "Activaţi criptarea"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "Cript. card SD"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "Închidere"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "Politica de securitate nu permite utilizarea sincronizării desktopului."
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "Baterie epuizată"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "Bat. desc. Reîncărcaţi."
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Pentru a utiliza cardul SD, acesta trebuie să fie decriptat. Decriptaţi cardul SD sau activaţi criptarea dispozitivului?"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Pentru a utiliza cardul SD, acesta trebuie să fie criptat. Criptaţi cardul SD sau dezactivaţi criptarea dispozitivului?"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "Scoateţi încărcătorul"
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "Opriţi dispozitivul?"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "Răsfoiţi camera conectată prin USB?"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "Răsfoiţi dispozitivul de stocare conectat prin USB?"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "Spaţiul de stocare în masă USB a fost eliminat."
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "Anulare andocare"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d dispozitive USB con."
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "Dispozitive USB"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "Conexiunea USB nu a reuşit"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "Cablu HDMI conectat"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "Cablu HDMI deconectat"
+

@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Cancelar"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "Codificar cartão SD"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Configurações"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "Consultar"
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "Câmera"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "Nenhuma resposta"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "Conectado como um dispositivo de mídia"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "Aviso de uso de dados"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "Limite de uso de dados especificado atingido. O uso adicional de dados pode acarretar em tarifas do provedor de serviços."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "Tocar para visualizar o uso e configurações."
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "Armazenamento USB em branco ou sistema de arquivos não suportado."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Atenção"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Dados móveis desativados"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "Bateria desligada."
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Bateria fraca."
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "Câmera conectada."
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "Teclado conectado."
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "Bateria fraca. O telefone será desligado."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "Mouse conectado."
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "Impressora conectada."
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "Dispositivo USB desconhecido conectado."
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "Desative o armazenamento USB antes da remoção para evitar perda de dados."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "Conector USB ligado."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "Conector USB desligado."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "Armazen. massa USB conectado."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "Armazenamento USB removido inesperadamente."
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "Tentar novamente"
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "Aguardar"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "Baixa memória."
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "Decodificar cartão SD"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "Decodificando cartão SD..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "Codificando cartão SD..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "Falha ao instalar cartão SD. Reintroduza ou formate o cartão SD."
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "Desligar"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "Bateria completamente carregada."
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "Os dados MMC estão sendo iniciados..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "A Luz de assistência está acesa."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "Carregamento em pausa. Temperatura da bateria muito alta."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "Carregamento em pausa. Temperatura da bateria muito baixa."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "Não desligar"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "Dispositivo desligado automaticamente"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "O acoplador está conectado."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Seu dispositivo está superaquecido. Ele desligará agora para resfriar."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "Seu dispositivo superaqueceu. Ele foi desligado para evitar danos.\n\nO superaquecimento pode ter sido causado por:\nUso de aplicativos com uso intensivo de gráficos, tais como aplicativos de jogos e de navegação por longos períodos de tempo.\nTransferência de arquivos grandes.\nUso do seu dispositivo em um ambiente quente."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "Limitar o uso de dados"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "Desligar"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "disp. USB som. leit. conec."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "Cartão SD decodificado."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "Erro de decodificação do cartão SD."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "Cartão SD codificado."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "Erro de codificação do cartão SD."
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "O cartão SD instalado é apenas de leitura."
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "Toque para desligar a luz auxiliar."
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Não é possível decodificar cartão SD. Espaço insuficiente no cartão. São necessários aproximadamente %.2f MB. Exclua alguns arquivos."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Não é possível codificar cartão SD. Espaço insuficiente no cartão. São necessários aproximadamente %.2f MB. Exclua alguns arquivos."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "Armazenamento USB"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "Decodificar cartão SD"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "Desativar codificação"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "Ativar codificação"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "Cod. cartão SD"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "Desligar"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "A política de segurança evita o uso da sincronização da área de trabalho."
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "Bateria extremamente fraca"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "Bateria fraca. Recarregue."
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Para usar o seu cartão SD, ele deve ser decodificado. Decodificar cartão SD ou ativar codificação do dispositivo?"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Para usar o seu cartão SD, ele deve ser codificado. Codificar cartão SD ou desativar codificação do dispositivo?"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "Remover carregador."
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "Desligar o dispositivo?"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "Procurar câmera conectada via USB?"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "Procurar armazenamento conectado via USB?"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "Armazenamento USB removido com segurança."
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "Desmontar"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d disposit. USB conec."
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "Dispositivos USB"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "Falha da conexão USB"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "Cabo HDMI conectado."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "Cabo HDMI desconectado."
+

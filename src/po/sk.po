@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Zrušiť"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "Šifrovať kartu SD"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Nastavenia"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "Prehliad."
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "Fotoaparát"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "Žiadna odpoveď"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "Pripojené ako mediálne zariadenie"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "Upozornenie na využitie dát"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "Dosiahol sa zadaný limit prenesených dát. Ďalšie dátové prenosy môžu znamenať poplatky účtované poskytovateľom služby."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "Ťuknutím môžete zobraziť využitie a nastavenia."
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "Ukladací priestor USB je prázdny alebo má nepodporovaný systém súborov."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Pozor"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobilné dátové pripojenie je zakázané"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "Batéria je odpojená."
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Batéria vybitá."
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "Fotoaparát je pripojený."
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "Klávesnica je pripojená."
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "Batéria je vybitá. Telefón sa vypne."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "Myš je pripojená."
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "Tlačiareň je pripojená."
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "Pripojené je neznáme zariadenie USB."
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "Pred odstránením veľkokapacitného úložného priestoru USB ho odpojte, aby sa zabránilo strate údajov."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "Konektor USB je pripojený."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "Konektor USB je odpojený."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "Veľk. pamäť USB je pripojená."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "Veľkokapacitný úložný priestor USB bol neočakávane odstránený."
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "Opakov."
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "Počkať"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "Nedostatok pamäte."
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "Dešifrovať kartu SD"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "Dešifruje sa karta SD..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "Šifruje sa karta SD..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "Nepodarilo sa pripojiť kartu SD. Znova vložte alebo naformátujte kartu SD."
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "Vypnúť"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "Batéria je plne nabitá."
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "Inicializujú sa údaje MMC..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "Pomocné osvetlenie je zapnuté."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "Nabíjanie je pozastavené. Teplota batérie je príliš vysoká."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "Nabíjanie je pozastavené. Teplota batérie je príliš nízka."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "Nevypínať"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "Zariadenie sa automaticky vyplo"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "Dok je pripojený."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Zariadenie sa prehrieva. Teraz sa vypne, aby sa ochladilo."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "Zariadenie je prehriate. Vyplo sa, aby sa zabránilo poškodeniu.\n\nDôvodom prehrievania môže byť:\nDlhodobé používanie aplikácií intenzívne využívajúcich grafiku, ako napríklad hry a navigačné aplikácie.\nPrenos veľkých súborov.\nPoužívanie zariadenia v horúcom prostredí."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "Obmedziť používanie dátových prenosov"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "Vypnúť"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "Zar. USB iba na čít. pripoj."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "Karta SD je dešifrovaná."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "Vyskytla sa chyba dešifrovania karty SD."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "Karta SD je šifrovaná."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "Vyskytla sa chyba šifrovania karty SD."
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "Načítaná karta SD je iba na čítanie."
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "Ťuknutím môžete vypnúť pomocné svetlo."
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Karta SD sa nedá dešifrovať. Nedostatok miesta na karte. Vyžaduje sa približne %.2f MB. Odstráňte niektoré súbory."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Karta SD sa nedá zašifrovať. Nedostatok miesta na karte. Vyžaduje sa približne %.2f MB. Odstráňte niektoré súbory."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "Uklad. priestor USB"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "Dešifrovať kartu SD"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "Vypnúť šifrovanie"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "Zapnúť šifrovanie"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "Šifr. kartu SD"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "Vypnúť zariadenie"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "Politika zabezpečenie zabraňuje používaniu synchronizácie s počítačom."
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "Batéria je takmer vybitá"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "Batéria je vybitá. Nabite."
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Ak chcete používať kartu SD, musí byť dešifrovaná. Dešifrovať kartu SD alebo zapnúť šifrovanie zariadenia?"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Ak chcete používať kartu SD, musí byť šifrovaná. Zašifrovať kartu SD alebo vypnúť šifrovanie zariadenia?"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "Odpojte nabíjačku."
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "Vypnúť zariadenie?"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "Prehliadať obsah fotoaparátu pripojeného cez USB?"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "Prehliadať úložný priestor pripojený cez USB?"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "Veľkokapacitný úložný priestor USB bol bezpečne odstránený."
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "Odpojiť"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "Prip. zariadenie USB: %d"
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "Zariadenia USB"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "Pripojenie USB zlyhalo"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "Kábel HDMI je pripojený."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "Kábel HDMI je odpojený."
+

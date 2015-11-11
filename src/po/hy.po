@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Չեղարկել"
+
+msgid "IDS_COM_SK_OK"
+msgstr "Ընդունել"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "Ծածկագրել SD քարտը"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Պարամետրեր"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "Դիտել"
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "Խցիկ"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "Պատասխան չկա"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "Միացված է որպես մեդիա սարք"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "Տվյալների օգտագործման նախազգուշացում"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "Հասել է տվյալների օգտագործման նշված սահմանին: Լրացուցիչ տվյալների օգտագործումը կարող է վճարներ պահանջել ծառայության մատակարարի կողմից:"
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "Թակեք՝ օգտագործումն ու դրվածքները դիտելու համար:"
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "USB պահոցը դատարկ է կամ ունի չապահովվող ֆայլային համակարգ:"
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Ուշադրություն"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Շարժական տվյալները կասեցված են"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "Մարտկոցն անջատված է:"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Մարտկոցի լիցքը թույլ է:"
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "Խցիկը միացված է:"
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "Ստեղնաշարը միացված է:"
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "Մարտկոցը նստած է: Հեռախոսը կանջատվի:"
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "Մկնիկը միացված է:"
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "Տպիչը միացված է:"
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "Անհայտ USB սարքը միացվեց:"
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "Ապասարել USB զանգվածային պահոցը նախքան հեռացնելը՝ տվյալների կորստից խուսափելու համար:"
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "USB միակցիչը կապակցվել է:"
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "USB միակցիչն անջատվել է:"
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "USB զանգված. պահոցը միացված է:"
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "USB զանգվածային պահոցն անսպասելիորեն հեռացվեց:"
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "Նց փր"
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "Սպասել"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "Մարտկոցի լիցքը թույլ է:"
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "Վերծանել SD քարտը"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "SD քարտը վերծանվում է..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "SD քարտը ծածկագրվում է..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "Չհաջողվեց սարել SD քարտը: Նորից մտցնել կամ ձևաչափել SD քարտը:"
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "Հսնք՝ անջ."
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "Մարտկոցը ամբողջովին լիցքավորված է:"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC տվյալներ են նախապատրաստվում..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "Օժանդակ լույսը միացված է:"
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "Լիցքավորումն ընդհատվեց. մարտկոցի ջերմաստիճանը շատ բարձր է:"
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "Լիցքավորումն ընդհատվեց. մարտկոցի ջերմաստիճանը շատ ցածր է:"
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "Սնուցումը չանջատել"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "Սարքի սնուցումն ինքնաբերաբար անջատվել է"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "Միակցման բլոկը միացված է:"
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Ձեր սարքը գերտաքանում է: Հիմա սնուցումը կանջատվի, որպեսզի սարքը հովանա:"
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "Ձեր սարքը գերտաքացել է: Սնուցումն անջատվել է, որպեսզի սարքը չվնասվի:\n\nԳերտաքացման պատճառ կարող են լինել՝\nերկար ժամանակ գրաֆիկական պատկերներով հարուստ ծրագրեր օգտագործելը, օրինակ՝ խաղերի և նավարկման ծրագրեր.\nմեծ ֆայլեր փոխանցելը.\nսարքը տաք միջավայրում օգտագործելը:"
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "Սահմանափակել տվյալների օգտագործումը"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "Սնուցումն անջատված է"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "Միայն կարդ. USB սարք կպկցվել"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "SD քարտը վերծանվեց:"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "SD քարտի վերծանման սխալ է տեղի ունեցել:"
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "SD քարտը ծածկագրվեց:"
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "SD քարտի ծածկագրման սխալ է տեղի ունեցել:"
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "Տեղադրված SD քարտը «միայն կարդալու է»:"
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "Թակեք՝ օժանդակ լույսն անջատելու համար:"
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Անհնար է վերծանել SD քարտը. քարտում բավարար տեղ չկա: Հարկավոր է մոտավորապես %.2f ՄԲ: Վերացրեք որոշ ֆայլեր:"
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Անհնար է ծածկագրել SD քարտը. քարտում բավարար տեղ չկա: Հարկավոր է մոտավորապես %.2f ՄԲ: Վերացրեք որոշ ֆայլեր:"
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "USB պահոց"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "Վերծանել SD քարտը"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "Կասեցնել ծածկագրումը"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "Ընձեռել ծածկագրում"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "Ծծկգրել SD քարտ"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "Անջատել հոսանքը"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "Անվտանգության քաղաքականությունը կանխում է աշխատասեղանի համաժամացման օգտագործումը:"
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "Մարտկոցը սաստիկ նստած է"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "Մրտկցը նստծ է: Վերլցքվորել:"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Ձեր SD քարտն օգտագործելու համար այն պետք է վերծանված լինի. վերծանե՞լ SD քարտը, թե՞ ընձեռել սարքի ծածկագրումը:"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Ձեր SD քարտն օգտագործելու համար այն պետք է ծածկագրված լինի. ծածկագրե՞լ SD քարտը, թե՞ կասեցնել սարքի ծածկագրումը:"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "Անջատել լիցքավորման սարքը:"
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "Անջատե՞լ սարքի սնուցումը:"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "Զննարկե՞լ USB-ով միացված խցիկը:"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "Զննարկե՞լ USB-ով միացված պահոցը:"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "USB զանգվածային պահոցն ապահով հեռացվեց:"
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "Ապասարել"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d USB սարքեր են միացված"
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "USB սարքեր"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "USB միացումը ձախողվեց"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "HDMI կաբելը միացված է:"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "HDMI կաբելն անջատված է:"
+

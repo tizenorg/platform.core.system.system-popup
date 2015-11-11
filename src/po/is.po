@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Hætta við"
+
+msgid "IDS_COM_SK_OK"
+msgstr "Í lagi"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "Dulkóða SD-kort"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Stillingar"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "Skoða"
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "Myndavél"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "Ekkert svar"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "Tengt sem margmiðlunartæki"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "Gagnanotkunarviðvörun"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "Tilgreindu hámarki gagnanotkunar náð. Meiri gagnanotkun getur haft í för með sér gjöld frá þjónustuveitu."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "Pikkaðu til að skoða notkun og stillingar."
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "USB-geymslan er tóm eða með óstutt skráakerfi."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Athuga"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Farsímagögn óvirk"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "Rafhlaða aftengd."
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Rafhlaðan er að tæmast."
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "Myndavél tengd."
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "Lyklaborð tengt."
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "Rafhlaðan er að tæmast. Slökkt verður á símanum."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "Mús tengd."
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "Prentari tengdur."
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "Óþekkt USB-tæki tengt."
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "Aftengdu USB-gagnageymsluna áður en þú fjarlægir hana til að koma í veg fyrir gagnatap."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "USB-tengi tengt."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "USB-tengi er aftengt."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "USB-gagnageymsla tengd."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "USB-gagnageymsla var óvænt fjarlægð."
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "Aftur"
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "Bíða"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "Það er of lítið minni."
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "Afkóða SD-kort"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "Afkóða SD-kort..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "Dulkóða SD-kort..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "Mistókst að tengja SD-kort. Settu SD-kortið í aftur eða forsníddu það."
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "Slökkva"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "Rafhlaða fullhlaðin."
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC-gögn ræsast..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "Kveikt á hjálparljósi."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "Hlé var gert á hleðslu. Rafhlaðan er of heit."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "Hlé var gert á hleðslu. Rafhlaðan er of köld."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "Ekki slökkva"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "Slökkt á tækinu sjálfkrafa"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "Dokkan er tengd."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Tækið er að ofhitna. Slökkt verður á því til að kæla það."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "Tækið ofhitnaði. Slökkt var á því til að koma í veg fyrir skemmdir.\n\nOfhitnun kann að orsakast af:\nNotkun mjög myndrænna forrita á borð við leiki og leiðsagnarforrit í lengri tíma.\nFlutningi stórra skráa.\nNotkun tækisins í miklum hita."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "Takmarka gagnanotkun"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "Slökkt"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "Skrifvarið USB-tæki tengt"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "SD-kort afkóðað."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "Villa kom upp við afkóðun á SD-korti."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "SD-kort dulkóðað."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "Villa kom upp við dulkóðun á SD-korti."
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "SD-kortið er aðeins með lesaðgangi."
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "Pikkaðu til að slökkva á hjálparljósinu."
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Tókst ekki að afkóða SD-kort. Ekki nægt minni á korti. U.þ.b. %.2f MB er þörf. Eyddu einhverjum skrám."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Ekki tókst að dulkóða SD-kort. Ekki nægt minni á korti. U.þ.b. %.2f MB er þörf. Eyddu einhverjum skrám."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "USB-geymsla"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "Afkóða SD-kort"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "Slökkva á dulkóðun"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "Kveikja á dulkóðun"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "Dulkóða SD-kort"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "Slökkt"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "Öryggisstefna kemur í veg fyrir notkun skjáborðssamstillingar."
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "Hleðsla rafhlöðu er mjög lítil"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "Lítil hleðsla. Hladdu."
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Til að nota SD-kortið þarf að afkóða það. Hvort viltu afkóða SD-kortið eða kveikja á dulkóðun tækis?"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Til að nota SD-kortið þarf að dulkóða það. Hvort viltu dulkóða SD-kortið eða slökkva á dulkóðun tækis?"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "Fjarlægja hleðslutæki."
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "Viltu slökkva á tækinu?"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "Leita í myndavél sem tengd er með USB?"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "Skoða geymslu sem tengd er um USB?"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "USB-gagnageymsla fjarlægð."
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "Aftengja"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d USB-tæki tengd"
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "USB-tæki"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "USB-tenging mistókst"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "HDMI-snúra er tengd."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "HDMI-snúran er ótengd."
+

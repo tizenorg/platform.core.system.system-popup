@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Avbryt"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "Krypter SD-kort"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Innstillinger"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "Bla gjen."
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "Kamera"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "Ikke noe svar"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "Koblet til som en medieenhet"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "Advarsel for databruk"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "Den angitte grensen for databruk er nådd. Videre databruk kan medføre ekstra kostnader fra tjenesteleverandør."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "Trykk for å vise bruk og innstillinger."
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "USB-lagring er tomt eller har et filsystem som ikke støttes."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "OBS!"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobildata deaktivert"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "Batteri koblet fra."
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Lavt batterinivå."
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "Kamera tilkoblet."
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "Tastatur tilkoblet."
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "Lavt batteri. Telefonen slåes av."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "Mus tilkoblet."
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "Skriver tilkoblet."
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "Ukjent USB-enhet tilkoblet."
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "Løs ut USB-masselagring før du fjerner den for å unngå datatap."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "USB-kontakt tilkoblet."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "USB-kontakt frakoblet."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "USB-masselagringsenh. tilkobl."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "USB-masselagring ble uventet fjernet."
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "Gjenta"
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "Vent"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "Lite minne."
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "Dekrypter SD-kort"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "Dekrypterer SD-kort ..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "Krypterer SD-kort ..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "Kunne ikke montere SD-kort. Sett inn eller formater SD-kortet på nytt."
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "Slå av"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "Batteri fulladet."
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC-data initialiserer..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "Hjelpelys er på."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "Lading stanset midlertidig. Batteritemperatur for høy."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "Lading stanset midlertidig. Batteritemperatur for lav."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "Ikke slå av"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "Enheten slått av automatisk"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "Dokken er tilkoblet."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Enheten er overopphetet. Den slår seg av for å kjøle seg ned."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "Enheten er overopphetet. Den slo seg av for å forhindre skade.\n\nOveroppheting kan være forårsaket av:\nå bruke apper som krever mye grafikk, som spill og navigeringsapper, over lengre tid.\nå overføre store filer.\nå bruke enheten i varme omgivelser."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "Begrens databruk"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "Slå av"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "Skriveb. USB-enh. tilkoblet."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "SD-kortet dekryptert."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "Det oppstod en feil under SD-kortdekrypteringen."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "SD-kortet kryptert."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "Det oppstod en feil under SD-kortkrypteringen."
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "Skrivebeskyttet SD-kort montert."
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "Trykk for å skru av hjelpelys."
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Kan ikke dekryptere SD-kortet. Ikke nok plass på kortet. Det trengs omtrent %.2f MB ledig plass. Slett noen filer."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Kan ikke kryptere SD-kortet. Ikke nok plass på kortet. Det trengs omtrent %.2f MB ledig plass. Slett noen filer."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "USB-minne"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "Dekrypter SD-kort"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "Deaktiver kryptering"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "Aktiver kryptering"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "Krypter SD-kort"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "Slå av"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "Sikkerhetspolicyen hindrer bruk av skrivebordssynkronisering."
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "Batterinivået er kritisk lavt"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "Batteri lavt. Lad opp."
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "SD-kortet må dekrypteres før det kan brukes. Vil du dekryptere SD-kortet eller aktivere enhetskryptering?"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "SD-kortet må krypteres før det kan brukes. Vil du kryptere SD-kortet eller deaktivere enhetskryptering?"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "Fjern lader."
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "Vil du slå av enheten?"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "Se gjennom kameraet som er koblet til med USB?"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "Se gjennom lagringsmediet som er koblet til via USB?"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "USB-masselagring trygt fjernet."
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "Løs ut"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d USB-enheter koblet til"
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "USB-enheter"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "USB-tilkobling mislyktes."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "HDMI-kabelen tilkoblet."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "HDMI-kabelen frakoblet."
+

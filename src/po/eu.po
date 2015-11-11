@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Ezeztatu"
+
+msgid "IDS_COM_SK_OK"
+msgstr "Ados"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "Enkriptatu SD txartela"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Ezarpenak"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "Arakatu"
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "Kamera"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "Erantzunik ez"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "Multimedia gailu gisa konektatuta"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "Datu erabileraren abisua"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "Datu erabilera muga zehaztura iritsi zara. Datu gehiago erabiltzen badituzu zerbitzu hornitzaileak kobratu egingo dizu."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "Ukitu erabilera eta ezarpenak ikusteko"
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "USB biltegiratzea hutsik dago edo onartzen ez den fitxategi sistema du"
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Oharra"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mugikorraren datuak desgaituta"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "Bateria deskonektatu da"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Bateria gutxi"
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "Kamera konektatuta"
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "Teklatua konektatuta"
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "Bateria baxu. Telefonoa itzaliko da."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "Sagua konektatuta"
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "Inprimagailua konektatuta"
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "USB gailu ezezaguna konektatuta"
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "Desmuntatu USB biltegiratze masiboa kendu aurretik, datuak galdu ez daitezen"
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "USB konektorea konektatua"
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "USB konektorea deskonektatuta"
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "USB biltegiratze masiboa konektatuta"
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "USB biltegiratze masiboa ezustean kendu da"
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "Birsaiatu"
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "Itxaron"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "Memoria gutxi"
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "Desenkriptatu SD txartela"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "SD txartela desenkriptatzen..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "SD txartela enkriptatzen..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "Ezin izan da SD txartela muntatu. Birsartu edo formateatu SD txartela."
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "Itzalita"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "Bateria guztiz kargatuta"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC datuak abiarazten..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "Laguntza argia piztuta dago"
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "Kargatzea etenda. Bateriaren tenperatura altuegia da."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "Kargatzea etenda. Bateriaren tenperatura baxuegia da."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "Ez itzali"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "Gailua automatikoki itzalita"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "Docka konektatuta dago"
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Zure gailua gehiegi berotzen ari da. Orain itzali egingo da, hozteko."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "Zure gailua gehiegi berotu da. Itzali egingo da kalteak saihesteko.\n\nHurrengoengatik berotu daiteke gehiegi:\nDenbora luzez grafikoki intentsuak diren aplikazioak erabiltzeagatik, adibidez, jokoak eta nabigatzeko aplikazioak.\nFitxategi handiak transferitzeagatik.\nGailua inguru bero batean erabiltzeagatik."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "Datu erabiltze mugatua"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "Itzali"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "Irak. soilik USBa konektatua"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "SD txartela desenkriptatuta"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "Errorea gertatu da SD txartela desenkriptatzean"
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "SD txartela enkriptatuta"
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "Errorea gertatu da SD txartela enkriptatzean"
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "SD txartela irakurtzeko soilik moduan"
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "Ukitu eta itzali laguntza argia"
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Ezin da SD txartela desenkriptatu. Ez dago toki nahikorik txartelean. Gutxi gorabehera %.2f MB behar dira. Ezabatu zenbait fitxategi."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Ezin da SD txartela enkriptatu. Ez dago toki nahikorik txartelean. Gutxi gorabehera %.2f MB behar dira. Ezabatu zenbait fitxategi."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "USB memoria"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "Desenkriptatu SD txartela"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "Ezgaitu enkriptatzea"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "Gaitu enkriptatzea"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "Enkr. SD txar."
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "Itzalita"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "Segurtasun politikak idazmahai sinkronizazioaren erabilera galarazten du"
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "Bateria oso baxu dago"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "Bateria baxu. Kargatu mesedez."
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Zure SD txartela erabiltzeko, desenkriptatuta egon behar du. Desenkriptatu SD txartela edo gaitu gailu enkripzioa?"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Zure SD txartela erabiltzeko, enkriptatuta egon behar du. Enkriptatu SD txartela edo ezgaitu gailu enkripzioa?"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "Kargagailua kendu"
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "Itzali gailua?"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "Arakatu USB bidez konektatutako kamera?"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "Arakatu USB bidez konektatutako memoria?"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "USB biltegiratze masiboa seguru kendu da"
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "Desmuntatu"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d USB gailu konektatuta"
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "USB gailuak"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "USB konexioak huts egin du"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "HDMI kablea konektatuta"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "HDMI kablea deskonektatuta"
+

@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "გაუქმება"
+
+msgid "IDS_COM_SK_OK"
+msgstr "კი"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "SD ბარათის დაშიფვრა"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "პარამეტრები"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "დათვალ."
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "კამერა"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "პასუხი არ არის"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "დაკავშირებულია, როგორც მედია მოწყობილობა"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "მონაცემთა გამოყენების გაფრთხილება"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "მიღწეულია მონაცემების გამოყენების მითითებული ლიმიტი. დამატებით მონაცემთა გამოყენებისთვის შეიძლება მომსახურების მომწოდებელმა გადაგახდევინოთ დამატებით."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "დააკაკუნეთ და ნახეთ გამოყენების ინფორმაცია და პარამეტრები."
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "USB მეხსიერება ცარიელია, ან მისი ფაილების სისტემა არაა გათვალისწინებული."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "ყურადღება"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "მობილური მონაცემები გამორთულია"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "კვების ელემენტი გათიშულია."
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "კვების ელემენტი იცლება."
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "კამერა დაკავშირებულია."
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "კლავიატურა დაკავშირებულია."
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "კვების ელემენტი იცლება. ტელეფონი გამოირთვება."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "თაგუნა დაკავშირებულია."
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "პრინტერი დაკავშირებულია."
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "დაკავშირებულია უცნობი USB მოწყობილობა."
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "შეწყვიტეთ USB მასიური მეხსიერების კავშირი, სანამ მას მოაცილებთ, რათა თავიდან აიცილოთ მონაცემების დაკარგვა."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "USB დამაკავშირებელი დაკავშირებულია."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "USB დამაკავშირებელი გათიშულია."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "USB მეხსიერება დაკავშირებულია."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "USB მასიური მეხსიერება მოულოდნელად გაითიშა."
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "ახ. ცდა"
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "მოიცადეთ"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "კვების ელემენტი იცლება."
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "SD ბარათის გაშიფვრა"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "სრულდება SD ბარათის გაშიფვრა..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "სრულდება SD ბარათის დაშიფვრა..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "SD ბარათი ვერ დაკავშირდა სისტემასთან. თავიდან ჩადეთ ან დააფორმატეთ SD ბარათი."
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "გამორთვა"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "კვების ელემენტი დაიტენა."
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "სრულდება MMC მონაცემთა ინიციალიზაცია..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "დამხმარე განათება ჩართულია."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "დამუხტვა შეჩერდა. კვების ელემენტის ტემპერატურა ძალიან მაღალია."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "დამუხტვა შეჩერდა. კვების ელემენტის ტემპერატურა ძალიან დაბალია."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "არ გამორთოთ"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "მოწყობილობა ავტომატურად გამოირთო"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "დოკი დაკავშირებულია."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "თქვენი მოწყობილობა გადახურდება. ახლა ის გამოირთვება, რომ გაგრილდეს."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "თქვენი მოწყობილობა გადახურდა. ის გამოირთო, რომ არ დაზიანებულიყო.\n\nგადახურების მიზეზი შეიძლება იყოს:\nგრაფიკულად დატვირთული ისეთი პროგრამების ხანგრძლივი გამოყენება, როგორიცაა თამაში და ნავიგაციის პროგრამები.\nდიდი ფაილების გადაცემა.\nაპარატის გამოყენება ცხელ გარემოში."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "მონაცემთა გამოყენების ლიმიტი"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "კვების გამორთვა"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "დაკავშირდა USB მხ. წაკითხვით"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "SD ბარათი გაიშიფრა."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "SD ბარათის გაშიფვრის დროს მოხდა შეცდომა."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "SD ბარათი დაიშიფრა."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "SD ბარათის დაშიფვრის დროს მოხდა შეცდომა."
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "SD ბარათის მხოლოდ წაკითხვა შეიძლება."
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "დააკაკუნეთ და გამოირთვება დამხმარე სინათლე."
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "SD ბარათის გაშიფვრა შეუძლებელია. ბარათზე არ არის საკმარისი ადგილი. საჭიროა დაახლოებით %.2f მბ. წაშალეთ ზოგიერთი ფაილი."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "SD ბარათის დაშიფვრა შეუძლებელია. ბარათზე არ არის საკმარისი ადგილი. საჭიროა დაახლოებით %.2f მბ. წაშალეთ ზოგიერთი ფაილი."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "აპარატის მეხსიერება"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "SD ბარათის გაშიფვრა"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "დაშიფვრის გამორთვა"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "დაშიფვრის ჩართვა"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "SD-ს დაშიფვრა"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "გამორთვა"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "უსაფრთხოების პოლიტიკა კრძალავს სამუშაო დაფის სინქრონიზაციის გამოყენებას."
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "კვების ელემენტი თითქმის დაიცალა"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "ელემენტი იცლება. დამუხტეთ."
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "SD ბარათის გამოსაყენებლად იგი უნდა გაშიფროთ. გაიშიფროს SD ბარათი თუ გააქტიურდეს მოწყობილობის დაშიფვრა?"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "SD ბარათის გამოსაყენებლად იგი უნდა დაშიფროთ. დაიშიფროს SD ბარათი თუ გააქტიურდეს მოწყობილობის გაშიფვრა?"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "დამტენის მოცილება."
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "გამოირთოს მოწყობილობა?"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "მოძებნით USB-თი დაკავშირებულ კამერას?"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "მოძებნით USB-თი დაკავშირებულ მეხსიერებას?"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "USB მასიური მეხსიერება უსაფრთხოდ გაითიშა."
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "გათიშვა"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "მიერთებულია %d USB მოწყ."
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "USB მოწყობილობები"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "USB კავშირი ვერ დამყარდა"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "HDMI სადენი მიერთებულია."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "HDMI სადენი გამორთულია."
+

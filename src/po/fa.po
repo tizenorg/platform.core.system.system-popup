@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "خیر"
+
+msgid "IDS_COM_SK_OK"
+msgstr "تاييد"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "رمزگذاری کارت حافظه"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "تنظيمات"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "مرور"
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "دوربين"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "پاسخی وجود ندارد"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "به عنوان یک دستگاه ذخیره خارجی وصل شده"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "هشدار مصرف داده"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "به حداکثر محدوده استفاده از داده مشخص شده رسید. استفاده از داده های بیشتر مشمول هزینه از طرف ارائه دهنده خدمات است."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "برای مشاهده میزان استفاده و تنظیمات، ضربه بزنید."
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "حافظه USB خالی است یا یک سیستم فایل پشتیبانی نشده دارد."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "توجه"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "داده های تلفن همراه غیرفعال شد"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "باتری جدا شد."
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "باطری ضعيف است."
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "دوربین وصل شد."
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "صفحه کلید متصل شد."
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "شارژ باتری کم است. تلفن خاموش می‌شود."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "ماوس متصل شد."
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "چاپگر متصل شد."
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "دستگاه USB ناشناس وصل شد."
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "قبل از برداشتن حافظه انبوه USB آن را لغو نصب کنید تا داده ها از بین نروند."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "رابط USB وصل شد."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "رابط USB جدا شد."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "حافظه ذخیره انبوه USB متصل شد."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "حافظه انبوه USB بصورت غیرمنتظره برداشته شد."
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "دوباره"
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "صبر کنید"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "حافظه کم است."
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "رمزگشایی کارت حافظه"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "رمزگشایی کارت حافظه..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "رمزگذاری کارت حافظه..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "کارت حافظه نصب نشد. کارت حافظه را دوباره درون دستگاه قرار دهید. یا فرمت کنید."
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "خاموش کردن"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "باطری بطور کامل پرشد."
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "در حال وارد کردن داده MMC است..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "چراغ کمکی روشن است."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "شارژ متوقف شد. دمای باتری بسیار زیاد است."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "شارژ متوقف شد. دمای باتری بسیار کم است."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "خاموش نکنید"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "دستگاه به طور خودکار خاموش شد"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "جایگاه متصل است."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "دستگاهتان بیش از حد داغ است. برای خنک شدن خاموش می‌شود."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "دستگاهتان بیش از حد داغ است. برای جلوگیری از بروز آسیب خاموش می‌شود.‎\n\nداغ شدن بیش از حد ممکن است در اثر عوامل زیر رخ دهد:‎\nاستفاده از برنامه‌های گرافیکی سنگین مثل بازی‌ها و پیمایش برنامه‌ها برای مدت طولانی.‎\nانتقال فایل‌های بزرگ.‎\nاستفاده از دستگاه در هوای خیلی گرم."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "محدود کردن استفاده از داده"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "خاموش"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "USB فقط‌خواندنی وصل شد"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "کارت حافظه رمزگشایی شد."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "هنگام رمزگشایی کارت حافظه خطایی رخ داد."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "کارت حافظه رمزگذاری شد."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "هنگام رمزگذاری کارت حافظه خطایی رخ داد."
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "کارت حافظه به صورت فقط خواندنی نصب شده است."
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "برای غیرفعال کردن چراغ کمکی ضربه بزنید."
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "نمی توانید کارت حافظه را رمزگشایی کنید. فضای موجود در کارت کافی نیست. تقریباً %.2f مگابایت لازم است. برخی از فایل ها را حذف کنید."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "نمی توانید کارت حافظه را رمزگذاری کنید. فضای موجود در کارت کافی نیست. تقریباً %.2f مگابایت لازم است. برخی از فایل ها را حذف کنید."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "محل ذخیره USB"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "رمزگشایی کارت حافظه"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "غیرفعال کردن رمزگذاری"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "فعال کردن رمزگذاری"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "رمزگذاری کارت"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "خاموش کردن"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "سیاست امنیتی از استفاده از همگام‌سازی دسکتاپ جلوگیری می‌کند."
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "باتری خیلی ضعیف است"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "باتری ضعیف. شارژ مجدد."
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "برای استفاده از کارت حافظه باید آن را رمزگشایی کنید. کارت حافظه را رمزگشایی می‌کنید یا رمزگذاری دستگاه را فعال می‌کنید؟"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "برای استفاده از کارت حافظه باید آن را رمزگذاری کنید. کارت حافظه را رمزگذاری می‌کنید یا رمزگذاری دستگاه را غیرفعال می‌کنید؟"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "شارژر را خارج کنید."
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "دستگاه خاموش شود؟"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "دوربینی که با USB متصل شده مرور شود؟"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "محل ذخیره ای که با USB متصل شده مرور شود؟"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "حافظه انبوه USB با ایمنی برداشته شد."
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "جدا کردن"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d دستگاه USB متصل شده"
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "دستگاه های USB"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "اتصال USB برقرار نشد"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "سیم HDMI وصل است."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "سیم HDMI جدا شده است."
+

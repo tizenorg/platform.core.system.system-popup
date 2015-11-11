@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "ரத்து"
+
+msgid "IDS_COM_SK_OK"
+msgstr "சரி"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "எஸ்டி அட்டை மறைகுறியிடுக"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "அமைவுகள்"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "உலாவு"
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "கேமரா"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "பதில் இல்லை"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "ஊடக சாதனமாக இணைக்கப்பட்டுள்ளது"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "தரவு பயன்பாட்டு எச்சரிக்கை"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "குறிப்பிடப்பட்ட தரவு பயன்பாடு வரம்பை அடைந்தது. கூடுதல் தரவு பயன்படுத்தும் பட்சத்தில் சேவை வழங்குநரால் கூடுதல் கட்டணங்களை வசூலிக்கப்படலாம்."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "பயன்பாடுகள் மற்றும் அமைவுகளை காண டேப் செய்க."
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "USB சேமிப்பகம் காலியாக உள்ளது அல்லது துணைபுரியாத கோப்பு முறையைக் கொண்டுள்ளது."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "கவனம்"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "மொபைல் தரவு செயல்நீக்கப்பட்டது"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "மின்கலம் துண்டிக்கப்பட்டது."
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "மின்கலம் திறன் குறைந்தது."
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "கேமரா இணைக்கப்பட்டது."
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "விசைப்பலகை இணைக்கப்பட்டது."
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "பேட்டரி குறைவு. ஃபோன் பணி நிறுத்தப்படும்."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "மவுஸ் இணைக்கப்பட்டது."
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "அச்சுப்பொறி இணைக்கப்பட்டது."
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "அறியப்படாத USB சாதனம் இணைக்கப்பட்டுள்ளது."
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "தரவு இழப்பை தடுக்க, USB திரள் சேமிப்பகத்தை நீக்கும்முன் அதை அன்மவுன்ட் செய்க."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "USB இணைப்பான் இணைக்கப்பட்டது."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "USB இணைப்பான் துண்டிக்கப்பட்டது."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "USB திரள் சேமிப்பகம் இணைக்கப்பட்டது."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "USB திரள் சேமிப்பகம் எதிர்பாராமல் நீக்கப்பட்டது."
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "முயலு"
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "காத்திருக்கவும்"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "நினைவகம் குறைவு."
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "SD அட்டையை மறைகுறிநீக்குக"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "SD அட்டையை மறைகுறிநீக்குகிறது..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "SD அட்டையை மறைகுறியாக்குகிறது..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "எஸ்டி அட்டையை மவுண்ட் செய்தல் தோல்வி. எஸ்டி அட்டையை மீண்டும் நுழைக்கவும் அல்லது முறைப்படுத்துக"
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "பவர் ஆஃப்"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "பேட்டரி முழுவதும் சார்ஜ்."
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "MMC தரவு ஆரம்பிக்கப்படுகிறது..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "உதவி ஒளி இயக்கத்தில் உள்ளது."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "சார்ஜிங் இடைநிறுத்தப்பட்டது. மின்கல வெப்பநிலை மிகவும் அதிகம்."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "சார்ஜிங் இடைநிறுத்தப்பட்டது. மின்கல வெப்பநிலை மிகவும் குறைவு."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "ஆஃப் செய்ய வேண்டாம்"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "சாதனம் தானாகவே ஆஃப் செய்யப்பட்டது"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "டாக் இணைக்கப்பட்டுள்ளது."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "உங்கள் சாதனம் அதிக சூடாகிறது. இப்போது இது குளிர்வதற்கு ஆஃப் ஆகும்."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "உங்கள் சாதனம் அதிக சூடாகியுள்ளது. சேதத்தைத் தடுப்பதற்கு இது ஆஃப் ஆகியது.\n\nஅதிக சூடாகுதல் இவற்றால் உண்டாகலாம்:\nவிளையாட்டுகள் மற்றும் நகர்வு பயன்பாடுகள் போன்ற கிராபிக்ஸ் உணர்ச்சிமிக்க பயன்பாடுகளை நீண்ட நேரம் பயன்படுத்துவது.\nபெரிய கோப்புகளை இடமாற்றுதல்.\nஉங்கள் சாதனத்தை சூடான சூழலில் பயன்படுத்துதல்."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "தரவு பயன்பாடு வரம்பு"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "பவர் ஆஃப்"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "படிக்க மட்டும் USB சாதனம் இணைக்கப்பட்டது."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "SD அட்டை மறைகுறிநீக்கப்பட்டது."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "SD அட்டை மறைகுறிநீக்கம் பிழை ஏற்பட்டுள்ளது."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "SD அட்டை மறைகுறியாக்கப்பட்டது."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "SD அட்டை மறைகுறியாக்க பிழை ஏற்பட்டுள்ளது."
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "SD அட்டை வாசிப்புக்கு-மட்டும் மவுண்ட் செய்யப்பட்டுள்ளது."
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "உதவி ஒளியை ஆஃப் செய்ய டேப் செய்க."
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "SD அட்டை மறைகுறிநீக்க இயலவில்லை. அட்டையில் போதுமான இடம் இல்லை. தோராயமாக %.2f MB தேவை. சில கோப்புகளை அழிக்கவும்."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "SD அட்டை மறைகுறியாக்க இயலவில்லை. அட்டையில் போதுமான இடம் இல்லை. தோராயமாக %.2f MB தேவை. சில கோப்புகளை அழிக்கவும்."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "USB ஃபோன் நினைவகம்"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "SD அட்டையை மறைகுறிநீக்குக"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "மறைகுறியாக்கத்தை செயல்நீக்குக"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "மறைகுறியாக்கத்தை செயல்படுத்துக"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "SD அட்டை ம.குறியாக்கு"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "பவர் ஆஃப்"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "டெஸ்க்டாப் ஒத்திசைவைப் பாதுகாப்புக் கொள்கை தடுக்கிறது."
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "மின்கலம் மிக குறைவாக உள்ளது"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "குறைமின்கலம். ரீசார்ஜ்"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "உங்கள் SD அட்டையைப் பயன்படுத்த இதை மறைகுறிநீக்க வேண்டும். SD அட்டையை மறைகுறிநீக்கவா அல்லது சாதன மறைகுறியாக்கத்தைச் செயல்படுத்தவா?"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "உங்கள் SD அட்டையைப் பயன்படுத்த இதை மறைகுறியாக்க வேண்டும். SD அட்டையை மறைகுறியாக்கவா அல்லது சாதன மறைகுறியாக்கத்தைச் செயல்நீக்கவா?"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "சார்ஜரை அகற்று."
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "சாதனத்தை பவர் ஆஃப் செய்யவா?"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "USB வாயிலாக இணைக்கப்பட்ட கேமராவைத் தேடவா?"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "USB வாயிலாக இணைக்கப்பட்ட சேமிப்பகத்தை உலாவியறியவா?"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "USB திரள் சேமிப்பகம் பாதுகாப்பாக நீக்கப்பட்டது."
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "மவுண்ட் நீக்கவும்"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d USB சாதனங்கள் இணைக்கப்பட்டுள்ளன"
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "USB சாதனங்கள்"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "USB இணைப்பு தோல்வி."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "HDMI கேபிள் இணைக்கப்பட்டது."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "HDMI கேபிள் துண்டிக்கப்பட்டது."
+

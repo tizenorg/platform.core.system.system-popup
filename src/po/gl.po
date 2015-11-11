@@ -1,0 +1,237 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Cancelar"
+
+msgid "IDS_COM_SK_OK"
+msgstr "Aceptar"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "Cifrar tarxeta SD"
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "Axustes"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "Explorar"
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "Cámara"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "Sen resposta"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "Conectado como dispositivo multimedia"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "Advertencia de uso de datos"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "Alcanzouse o límite de uso de datos especificado. O uso de datos adicionais pode implicar a aplicación de tarifas por parte do provedor de servizos."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "Toca para ver o uso e os axustes"
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "O almacenamento USB está en branco ou ten un sistema de arquivos que non está admitido"
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Atención"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Datos móbiles desactivados"
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "Batería desconectada"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Batería baixa"
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "Cámara conectada"
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "Teclado conectado"
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "Batería baixa. O teléfono vaise apagar."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "Rato conectando"
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "Impresora conectada"
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "Dispositivo USB descoñecido conectado"
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "Desmontar o almacenamento masivo USB antes da extracción para evitar a perda de datos"
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "Conectador USB conectado"
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "Conectador USB desconectado"
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "Almac. masivo USB conectado"
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "Almacenamento masivo USB extraído inesperadamente"
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "Reint"
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "Agarda"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "Memoria baixa"
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "Descifrar tarxeta SD"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "Descifrando tarxeta SD..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "Cifrando tarxeta SD..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "Non se puido montar a tarxeta SD. Volve inserila ou formátaa."
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "Apagar"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "Batería totalmente cargada"
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "Os datos MMC estanse inicializando..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "A luz de asistencia está acendida"
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "Carga interrompida. A temperatura da batería é demasiado alta."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "Carga interrompida. A temperatura da batería é demasiado baixa."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "Non apagar"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "Dispositivo apagado automaticamente"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "A base está conectada"
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "O dispositivo está quecéndose. Agora apagarase para arrefriarse."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "O dispositivo está demasiado quente. Apagouse para evitar danos.\n\nO exceso de temperatura pode deberse a:\nO uso de aplicacións con moitos gráficos, como aplicacións de xogos e navegación, durante períodos de tempo prolongados.\nA transferencia de arquivos de grandes dimensións.\nO uso do dispositivo en contornos a altas temperaturas."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "Limitar uso de datos"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "Apagar"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "Dispos. USB só lect. conect."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "Tarxeta SD descifrada"
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "Produciuse un erro ao descifrar a tarxeta SD"
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "Tarxeta SD cifrada"
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "Produciuse un erro ao cifrar a tarxeta SD"
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "Tarxeta SD activada de só lectura"
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "Toca para desactivar a luz de asistencia"
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Non se pode descifrar a tarxeta SD. Non hai espazo suficiente na tarxeta. Precísanse aproximadamente %.2f MB. Elimina algúns arquivos."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "Non se pode cifrar a tarxeta SD. Non hai espazo suficiente na tarxeta. Precísanse aproximadamente %.2f MB. Elimina algúns arquivos."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "Almacenamento USB"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "Descifrar tarxeta SD"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "Desactivar cifrado"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "Activar cifrado"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "Cifrar tarx. SD"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "Apagar"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "A política de seguridade impide o uso da sincronización do escritorio"
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "Batería moi baixa"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "Batería baixa. Recárgaa."
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Para usar a túa tarxeta SD, debe estar descifrada. Desexas descifrar a tarxeta SD ou activar o cifrado do dispositivo?"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "Para usar a túa tarxeta SD, debe estar cifrada. Desexas cifrar a tarxeta SD ou desactivar o cifrado do dispositivo?"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "There is not enough space in your device storage."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "Retirar cargador"
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "Desexas apagar o dispositivo?"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "Examinar a cámara conectada por USB?"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "Desexas examinar o almacenamento que está conectado por USB?"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "Almacenamento masivo USB extraído de xeito seguro"
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "Desmontar"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "%d dispositivos USB con."
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "Dispositivos USB"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "Erro na conexión USB"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "O cable de HDMI non está conectado"
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "O cable de HDMI está desconectado"
+
