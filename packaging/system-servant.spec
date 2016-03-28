@@ -94,6 +94,7 @@ cp %{SOURCE1001} .
 		-DTZ_SYS_RO_PACKAGES=%{TZ_SYS_RO_PACKAGES} \
 		-DTZ_SYS_SMACK=%{TZ_SYS_SMACK} \
 		-DTZ_SYS_SHARE=%{TZ_SYS_SHARE} \
+		-DTZ_SYS_RO_SHARE=%{TZ_SYS_RO_SHARE} \
 		-DTZ_SYS_RO_APP=%{TZ_SYS_RO_APP} \
 		-DPOWEROFF_POPUP=%{poweroff_popup} \
 
@@ -109,6 +110,7 @@ rm -rf %{buildroot}
 %{_bindir}/sysapp-launcher
 %{_datadir}/license/sysapp-launcher
 %{_datadir}/dbus-1/system-services/org.tizen.system.popup.service
+%config %{_sysconfdir}/dbus-1/system.d/launcher.conf
 
 #po files to support multi-languages
 %lang(ar) %{_datadir}/locale/ar/LC_MESSAGES/system-servant.mo
@@ -179,5 +181,5 @@ rm -rf %{buildroot}
 %license LICENSE
 %defattr(-,root,root,-)
 %{TZ_SYS_RO_APP}/org.tizen.poweroff-syspopup/bin/poweroff-popup
-%{TZ_SYS_SHARE}/packages/org.tizen.poweroff-syspopup.xml
+%{TZ_SYS_RO_SHARE}/packages/org.tizen.poweroff-syspopup.xml
 %endif

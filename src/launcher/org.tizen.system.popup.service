@@ -1,4 +1,4 @@
 [D-BUS Service]
 Name=org.tizen.system.popup
-Exec=/usr/bin/popup-launcher
+Exec=/usr/bin/sysapp-launcher
 User=system
