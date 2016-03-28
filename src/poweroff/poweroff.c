@@ -21,6 +21,13 @@
 
 #define SYSTEMD_STOP_POWER_OFF 4
 
+#define POWER_BUS_NAME        "org.tizen.system.deviced"
+#define POWER_OBJECT_PATH     "/Org/Tizen/System/DeviceD/Power"
+#define POWER_INTERFACE_NAME  POWER_BUS_NAME".power"
+
+#define POWER_METHOD            "reboot"
+#define POWER_OPERATION_OFF     "poweroff"
+
 static void remove_popup(const struct popup_ops *ops)
 {
 	static bool terminating = false;
@@ -95,6 +102,9 @@ static void poweroff_clicked(const struct popup_ops *ops)
 	Evas_Object *rect, *win;
 	Evas_Coord w, h, size;
 	static int bPowerOff = 0;
+	char *param[2];
+	char data[8];
+	int ret;
 
 	if (bPowerOff == 1)
 		return;
@@ -115,6 +125,17 @@ static void poweroff_clicked(const struct popup_ops *ops)
 
 	if (vconf_set_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, SYSTEMD_STOP_POWER_OFF) != 0)
 		_E("Failed to request poweroff to deviced");
+
+	param[0] = POWER_OPERATION_OFF;
+	snprintf(data, sizeof(data), "0");
+	param[1] = data;
+	ret = popup_dbus_method_sync(POWER_BUS_NAME,
+			POWER_OBJECT_PATH,
+			POWER_INTERFACE_NAME,
+			POWER_METHOD,
+			"si", param);
+	if (ret < 0)
+		_E("Failed to request poweroff to deviced (%d)", ret);
 }
 
 static const struct popup_ops poweroff_ops = {

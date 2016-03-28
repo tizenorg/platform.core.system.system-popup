@@ -6,4 +6,7 @@
 	<ui-application appid="org.tizen.poweroff-syspopup" exec="/usr/apps/org.tizen.poweroff-syspopup/bin/poweroff-popup" nodisplay="true" multiple="false" type="capp" taskmanage="false">
 		<label>Power off system popup</label>
 	</ui-application>
+	<privileges>
+		<privilege>http://tizen.org/privilege/power</privilege>
+	</privileges>
 </manifest>
