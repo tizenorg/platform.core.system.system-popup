@@ -3,23 +3,29 @@
 %bcond_with emulator
 
 %define PROFILE common
+%define FORMFACTOR none
 
 #Main applications
 %define poweroff_popup on
 
-%if "%{?tizen_profile_name}" == "mobile"
+%if "%{?profile}" == "mobile"
 %define PROFILE mobile
 #Main applicaitons
 %define poweroff_popup on
 %endif
 
-%if "%{?tizen_profile_name}" == "wearable"
+%if "%{?profile}" == "wearable"
 %define PROFILE wearable
+%if "%_repository" == "target-circle" || "%_repository" == "emulator-circle"
+	%define FORMFACTOR circle
+%else
+	%define FORMFACTOR rectangle
+%endif
 #Main applicaitons
 %define poweroff_popup on
 %endif
 
-%if "%{?tizen_profile_name}" == "tv"
+%if "%{?profile}" == "tv"
 %define PROFILE tv
 %endif
 
@@ -89,6 +95,7 @@ cp %{SOURCE1001} .
 		-DCMAKE_INSTALL_PREFIX=%{_prefix} \
 		-DPKGNAME=%{name} \
 		-DPROFILE=%{PROFILE} \
+		-DFORMFACTOR=%{FORMFACTOR} \
 		-DDPMS=%{DPMS} \
 		-DTZ_SYS_RO_APP=%{TZ_SYS_RO_APP} \
 		-DTZ_SYS_RO_PACKAGES=%{TZ_SYS_RO_PACKAGES} \
@@ -96,7 +103,7 @@ cp %{SOURCE1001} .
 		-DTZ_SYS_SHARE=%{TZ_SYS_SHARE} \
 		-DTZ_SYS_RO_SHARE=%{TZ_SYS_RO_SHARE} \
 		-DTZ_SYS_RO_APP=%{TZ_SYS_RO_APP} \
-		-DPOWEROFF_POPUP=%{poweroff_popup} \
+		-DPOWEROFF_POPUP=%{poweroff_popup}
 
 make %{?jobs:-j%jobs}
 
@@ -182,4 +189,6 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %{TZ_SYS_RO_APP}/org.tizen.poweroff-syspopup/bin/poweroff-popup
 %{TZ_SYS_RO_SHARE}/packages/org.tizen.poweroff-syspopup.xml
+%{TZ_SYS_RO_APP}/org.tizen.poweroff-syspopup/res/circle_btn_check.png
+%{TZ_SYS_RO_APP}/org.tizen.poweroff-syspopup/res/circle_btn_delete.png
 %endif
