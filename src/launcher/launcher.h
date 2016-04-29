@@ -32,6 +32,61 @@
 /* Popup names */
 #define POWEROFF_SYSPOPUP  "poweroff-syspopup"
 #define SYSTEM_SYSPOPUP    "system-syspopup"
+#define CRASH_SYSPOPUP     "crash-syspopup"
+
+/* Setting ugs */
+#define SETTING_ENCRYPTING_APP    "org.tizen.setting.encrypting"
+#define SETTING_LIGHTOFF_APP      "org.tizen.setting.turnofflight"
+#define SETTING_DATAUSAGE_UG      "setting-datausage-efl"
+
+/* App to show Host devices list */
+#define HOST_DEVICES              "org.tizen.host-devices"
+#define APPOPER_TYPE              "_TYPE_"
+#define APPOPER_TYPE_DEVICE_LIST  "DEVICE_LIST"
+
+/* Notification icons */
+#define DATAUSAGE_ICON   SYSTEM_ICONDIR"/datausage_warning.png"
+#define LED_TORCH_ICON   SYSTEM_ICONDIR"/led_torch.png"
+#define ODE_ENCRYPT_ICON SYSTEM_ICONDIR"/sdcard_encryption.png"
+#define ODE_DECRYPT_ICON SYSTEM_ICONDIR"/sdcard_decryption.png"
+#define ODE_ENCRYPT_ERROR_ICON SYSTEM_ICONDIR"/sdcard_encryption_error.png"
+#define ODE_DECRYPT_ERROR_ICON SYSTEM_ICONDIR"/sdcard_decryption_error.png"
+#define TIMA_ICON        SYSTEM_ICONDIR"/tima.png"
+#define USB_ICON         SYSTEM_ICONDIR"/usb.png"
+#define BATT_INDI_ICON   SYSTEM_ICONDIR"/batt_full_indicator.png"
+#define BATT_NOTI_ICON   SYSTEM_ICONDIR"/batt_full_icon.png"
+
+/* App launching */
+#define CRADLE_APP_NAME  "org.tizen.desk-dock"
+#define PWLOCK_APP_NAME  "org.tizen.pwlock"
+#define SERVANT_APP_NAME "/usr/bin/system-servant"
+
+enum noti_type {
+	NOTI_NONE = 0,
+	DATAUSAGE_WARNING,
+	DATAUSAGE_DISABLED,
+	LED_TORCH,
+	ODE_COMPLETE,
+	ODE_PROGRESS,
+	ODE_ERROR,
+	TIMA_LKM_PREVENTION,
+	TIMA_PKM_DETECTION,
+	TICKER,
+	USB_STORAGE,
+	USB_STORAGE_RO,
+	USB_DEVICE,
+	BATTERY_FULL,
+	/* Add here additional notificatoins */
+	NOTI_TYPE_MAX
+};
+
+enum service_type {
+	TTS_SCREENOFF,
+	TTS_ENABLED,
+	TTS_DISABLED,
+	CHARGER_CONNECTION,
+	SERVICE_MAX,
+};
 
 struct edbus_method {
 	const char *member;

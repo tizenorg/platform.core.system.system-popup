@@ -25,6 +25,13 @@ static E_DBus_Connection *edbus_conn;
 static DBusPendingCall *edbus_request_name;
 static Ecore_Timer *term_timer = NULL;
 
+extern DBusMessage *activate_notification_no_param(E_DBus_Object *obj, DBusMessage *msg, int type);
+extern DBusMessage *launch_system_servant_app(E_DBus_Object *obj,	DBusMessage *msg, char **argv);
+extern DBusMessage *activate_notification_single_param(E_DBus_Object *obj, DBusMessage *msg, int type);
+extern DBusMessage *activate_notification_double_param(E_DBus_Object *obj, DBusMessage *msg, int type);
+extern DBusMessage *deactivate_notification(E_DBus_Object *obj, DBusMessage *msg);
+extern DBusMessage *update_notification_double_param(E_DBus_Object *obj, DBusMessage *msg, int type);
+
 static Eina_Bool exit_idler_cb(void *data)
 {
 	e_dbus_connection_close(edbus_conn);
@@ -77,10 +84,102 @@ static DBusMessage *poweroff_popup(E_DBus_Object *obj, DBusMessage *msg)
 	return launch_poweroff_popup(obj, msg, POWEROFF_SYSPOPUP);
 }
 
+/* Crash popup */
+static DBusMessage *crash_popup(E_DBus_Object *obj, DBusMessage *msg)
+{
+	set_timer_to_terminate();
+	return launch_popup(obj, msg, CRASH_SYSPOPUP);
+}
+
+/* Battery notifications */
+static DBusMessage *battery_full_noti_on(E_DBus_Object *obj, DBusMessage *msg)
+{
+	set_timer_to_terminate();
+	return activate_notification_no_param(obj, msg, BATTERY_FULL);
+}
+
+static DBusMessage *battery_charge_noti_on(E_DBus_Object *obj, DBusMessage *msg)
+{
+	char param[2];
+	char *args[3];
+
+	set_timer_to_terminate();
+
+	args[0] = SERVANT_APP_NAME;
+	snprintf(param, sizeof(param), "%d", CHARGER_CONNECTION);
+	args[1] = param;
+	args[2] = NULL;
+	return launch_system_servant_app(obj, msg, args);
+}
+
+/* Notification Off */
+static DBusMessage *noti_off(E_DBus_Object *obj, DBusMessage *msg)
+{
+	set_timer_to_terminate();
+	return deactivate_notification(obj, msg);
+}
+
+/* LED */
+static DBusMessage *led_torch_noti_on(E_DBus_Object *obj, DBusMessage *msg)
+{
+	set_timer_to_terminate();
+	return activate_notification_no_param(obj, msg, LED_TORCH);
+}
+
+/* USB host notifications */
+static DBusMessage *usb_storage_noti_on(E_DBus_Object *obj, DBusMessage *msg)
+{
+	set_timer_to_terminate();
+	return activate_notification_single_param(obj, msg, USB_STORAGE);
+}
+
+static DBusMessage *usb_storage_ro_noti_on(E_DBus_Object *obj, DBusMessage *msg)
+{
+	set_timer_to_terminate();
+	return activate_notification_single_param(obj, msg, USB_STORAGE_RO);
+}
+
+static DBusMessage *usb_device_noti_on(E_DBus_Object *obj, DBusMessage *msg)
+{
+	set_timer_to_terminate();
+	return activate_notification_double_param(obj, msg, USB_DEVICE);
+}
+
+static DBusMessage *usb_device_noti_update(E_DBus_Object *obj, DBusMessage *msg)
+{
+	set_timer_to_terminate();
+	return update_notification_double_param(obj, msg, USB_DEVICE);
+}
+
 static const struct edbus_method
 dbus_poweroff_methods[] = {
 	{ "PopupLaunch", NULL, "i", poweroff_popup },
 	/* Add methods here */
+};
+
+static const struct edbus_method
+dbus_crash_methods[] = {
+	{ "PopupLaunch", "a{ss}", "i", crash_popup	},
+	/* Add methods here */
+};
+
+static const struct edbus_method
+dbus_noti_methods[] = {
+	/* LED */
+	{ "LedTorchNotiOn"			, NULL		, "i"	, led_torch_noti_on			},
+	{ "LedTorhNotiOff"			, "i"		, "i"	, noti_off					},
+	/* USB storage */
+	{ "UsbStorageNotiOn"		, "s"		, "i"	, usb_storage_noti_on		},
+	{ "UsbStorageRoNotiOn"		, "s"		, "i"	, usb_storage_ro_noti_on	},
+	{ "UsbStorageNotiOff"		, "i"		, "i"	, noti_off					},
+	{ "UsbDeviceNotiOn" 		, "ss"		, "i"	, usb_device_noti_on		},
+	{ "UsbDeviceNotiUpdate" 	, "isss"	, "i"	, usb_device_noti_update	},
+	{ "UsbDeviceNotiOff"		, "i"		, "i"	, noti_off					},	
+	/* Battery */
+	{ "BatteryFullNotiOn"		, NULL		, "i"	, battery_full_noti_on		},
+	{ "BatteryFullNotiOff"		, "i"		, "i"	, noti_off					},
+	{ "BatteryChargeNotiOn"		, NULL		, "i"	, battery_charge_noti_on	},
+	/* Add notifications here */
 };
 
 static struct edbus_object
@@ -89,6 +188,10 @@ edbus_objects[]= {
 		dbus_system_methods     , ARRAY_SIZE(dbus_system_methods)		},
 	{ POPUP_PATH_POWEROFF	, POPUP_IFACE_POWEROFF	, NULL	, NULL	,
 		dbus_poweroff_methods	, ARRAY_SIZE(dbus_poweroff_methods)	},
+	{ POPUP_PATH_NOTI		, POPUP_IFACE_NOTI		, NULL	, NULL	,
+		dbus_noti_methods		, ARRAY_SIZE(dbus_noti_methods)			},
+	{ POPUP_PATH_CRASH		, POPUP_IFACE_CRASH		, NULL	, NULL	,
+		dbus_crash_methods		, ARRAY_SIZE(dbus_crash_methods)		},
 	/* Add new object & interface here*/
 };
 

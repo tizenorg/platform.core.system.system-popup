@@ -6,12 +6,34 @@
 %define FORMFACTOR none
 
 #Main applications
-%define poweroff_popup on
+%define poweroff_popup off
+%define crash_popup off
+%define system_popup off
+%define notification_service off
+%define signal_sender off
+#sub-popups of system-popup
+%define battery_popup off
+%define mmc_popup off
+%define usb_popup off
+%define watchdog_popup off
+%define overheat_popup off
+%define storage_popup off
 
 %if "%{?profile}" == "mobile"
 %define PROFILE mobile
 #Main applicaitons
 %define poweroff_popup on
+%define crash_popup on
+%define system_popup on
+%define notification_service on
+%define signal_sender on
+#sub-popups of system-popup
+%define battery_popup on
+%define mmc_popup on
+%define usb_popup on
+%define watchdog_popup on
+%define overheat_popup on
+%define storage_popup on
 %endif
 
 %if "%{?profile}" == "wearable"
@@ -23,10 +45,19 @@
 %endif
 #Main applicaitons
 %define poweroff_popup on
+%define crash_popup on
+%define system_popup on
+#sub-popups of system-popup
+%define storage_popup on
+%define watchdog_popup on
+%define battery_popup on
+%define overheat_popup on
 %endif
 
 %if "%{?profile}" == "tv"
 %define PROFILE tv
+#Main applications
+%define crash_popup on
 %endif
 
 Name:       system-servant
@@ -38,6 +69,11 @@ License:    Apache-2.0
 Source0:    %{name}-%{version}.tar.gz
 Source1:    %{name}.manifest
 Source1001:    org.tizen.poweroff-syspopup.manifest
+Source1015:    org.tizen.crash-syspopup.manifest
+Source2001:    org.tizen.system-syspopup.manifest
+Source2003:    org.tizen.system-signal-sender.manifest
+BuildRequires:  pkgconfig(appsvc)
+BuildRequires:  pkgconfig(pkgmgr-info)
 BuildRequires:  pkgconfig(elementary)
 BuildRequires:  pkgconfig(appcore-efl)
 BuildRequires:  pkgconfig(syspopup)
@@ -63,24 +99,76 @@ BuildRequires:  gettext-devel
 System applications such as app-launcher
 and service file for dbus activation
 
+%if %{?crash_popup} == on
+%package -n org.tizen.crash-syspopup
+Summary:    System popup application (crash system popup)
+Group:      System/Utilities
+Requires:   %{name} = %{version}-%{release}
+
+%description -n org.tizen.crash-syspopup
+to inform user crash information. It is activated
+when crash event is happend
+%endif
+
 %if %{?poweroff_popup} == on
 %package -n org.tizen.poweroff-syspopup
-Summary:    poweroff-popup application
-Group:      main
+Summary:    Poweroff-popup application
+Group:      System/Utilities
 Requires:   %{name} = %{version}-%{release}
 
 %description -n org.tizen.poweroff-syspopup
-poweroff-popup application.
+to inform user poweroff information. It is activated
+when user power event is happened
 %endif
+
+%if %{?signal_sender} == on
+%package -n org.tizen.system-signal-sender
+Summary:    System FW signal sender
+Group:      System/Utilities
+Requires:   %{name} = %{version}-%{release}
+
+%description -n org.tizen.system-signal-sender
+to inform user system FW signal sender. It is activated
+when system event is happend
+%endif
+
+%if %{?system_popup} == on
+%package -n org.tizen.system-syspopup
+Summary:    System popup application
+Group:      System/Utilities
+Requires:   %{name} = %{version}-%{release}
+
+%description -n org.tizen.system-syspopup
+to inform user system information. It is activated
+when system event is happend
+
+%endif # system_popup
 
 %prep
 %setup -q
 
 %build
+chmod 0644 %{SOURCE1}
 cp %{SOURCE1} .
 
 %if %{poweroff_popup} == on
+chmod 0644 %{SOURCE1001}
 cp %{SOURCE1001} .
+%endif
+
+%if %{crash_popup} == on
+chmod 0644 %{SOURCE1015}
+cp %{SOURCE1015} .
+%endif
+
+%if %{system_popup} == on
+chmod 0644 %{SOURCE2001}
+cp %{SOURCE2001} .
+%endif
+
+%if %{signal_sender} == on
+chmod 0644 %{SOURCE2003}
+cp %{SOURCE2003} .
 %endif
 
 %define DPMS none
@@ -103,7 +191,16 @@ cp %{SOURCE1001} .
 		-DTZ_SYS_SHARE=%{TZ_SYS_SHARE} \
 		-DTZ_SYS_RO_SHARE=%{TZ_SYS_RO_SHARE} \
 		-DTZ_SYS_RO_APP=%{TZ_SYS_RO_APP} \
-		-DPOWEROFF_POPUP=%{poweroff_popup}
+		-DPOWEROFF_POPUP=%{poweroff_popup} \
+		-DCRASH_POPUP=%{crash_popup} \
+		-DNOTIFICATION_SERVICE=%{notification_service} \
+		-DBATTERY_POPUP=%{battery_popup} \
+		-DSYSTEM_POPUP=%{system_popup} \
+		-DSIGNAL_SENDER=%{signal_sender} \
+		-DMMC_POPUP=%{mmc_popup} \
+		-DSTORAGE_POPUP=%{storage_popup} \
+		-DUSB_POPUP=%{usb_popup} \
+		-DWATCHDOG_POPUP=%{watchdog_popup} \
 
 make %{?jobs:-j%jobs}
 
@@ -181,6 +278,29 @@ rm -rf %{buildroot}
 %lang(zh_HK) %{_datadir}/locale/zh_HK/LC_MESSAGES/system-servant.mo
 %lang(zh_TW) %{_datadir}/locale/zh_TW/LC_MESSAGES/system-servant.mo
 
+%if %{notification_service} == on
+%{_datadir}/system-apps/res/icons/batt_full_icon.png
+%{_datadir}/system-apps/res/icons/batt_full_indicator.png
+%{TZ_SYS_RO_SHARE}/system-apps/res/icons/datausage_warning.png
+%{TZ_SYS_RO_SHARE}/system-apps/res/icons/led_torch.png
+%endif
+
+%if %{crash_popup} == on
+%files -n org.tizen.crash-syspopup
+%manifest org.tizen.crash-syspopup.manifest
+%license LICENSE
+%defattr(-,root,root,-)
+%{TZ_SYS_RO_APP}/org.tizen.crash-syspopup/bin/crash-popup
+%{TZ_SYS_RO_SHARE}/packages/org.tizen.crash-syspopup.xml
+%endif
+
+%if %{system_popup} == on
+%files -n org.tizen.system-syspopup
+%manifest org.tizen.system-syspopup.manifest
+%defattr(-,root,root,-)
+%{TZ_SYS_RO_APP}/org.tizen.system-syspopup/bin/system-syspopup
+%{TZ_SYS_RO_SHARE}/packages/org.tizen.system-syspopup.xml
+%endif
 
 %if %{poweroff_popup} == on
 %files -n org.tizen.poweroff-syspopup
@@ -191,4 +311,12 @@ rm -rf %{buildroot}
 %{TZ_SYS_RO_SHARE}/packages/org.tizen.poweroff-syspopup.xml
 %{TZ_SYS_RO_APP}/org.tizen.poweroff-syspopup/res/circle_btn_check.png
 %{TZ_SYS_RO_APP}/org.tizen.poweroff-syspopup/res/circle_btn_delete.png
+%endif
+
+%if %{signal_sender} == on
+%files -n org.tizen.system-signal-sender
+%manifest org.tizen.system-signal-sender.manifest
+%defattr(-,root,root,-)
+%{TZ_SYS_RO_APP}/org.tizen.system-signal-sender/bin/system-signal-sender
+%{TZ_SYS_RO_SHARE}/packages/org.tizen.system-signal-sender.xml
 %endif

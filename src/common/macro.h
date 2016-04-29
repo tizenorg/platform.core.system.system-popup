@@ -66,5 +66,21 @@
 #define POPUP_PATH_APP			POPUP_DBUS_PATH"/Apps"
 #define POPUP_IFACE_APP			BUS_NAME".Apps"
 
+
+/* App to launch a popup on a notification */
+#define SYSTEM_SIGNAL_SENDER          "org.tizen.system-signal-sender"
+#define SIGNAL_SENDER_TYPE            "_SIGNAL_TYPE_"
+#define SIGNAL_SENDER_TYPE_RECOVERY   "recovery-popup"
+#define SIGNAL_SENDER_TYPE_USBSTORAGE_UNMOUNT "usbstorage-unmount-popup"
+#define SIGNAL_SENDER_TYPE_ENCRYPT    ODE_ENCRYPT
+#define SIGNAL_SENDER_TYPE_DECRYPT    ODE_DECRYPT
+#define SIGNAL_SENDER_TYPE_ODE_UG     "ode-setting-ug"
+#define SIGNAL_SENDER_DEVICE_PATH     "_DEVICE_PATH_"
+#define SIGNAL_SENDER_ERROR_TYPE      "_ERROR_TYPE_"
+#define SIGNAL_SENDER_MEMORY_SPACE    "_MEMORY_SPACE_"
+
+/* ODE */
+#define ODE_ENCRYPT "encrypt"
+#define ODE_DECRYPT "decrypt"
 #endif /* __MACRO_H__ */
 

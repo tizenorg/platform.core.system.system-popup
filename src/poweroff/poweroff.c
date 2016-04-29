@@ -28,6 +28,16 @@
 #define POWER_METHOD            "reboot"
 #define POWER_OPERATION_OFF     "poweroff"
 
+static void remove_popup(const struct popup_ops *ops);
+static void pm_state_changed(keynode_t *key, void *data);
+static void event_back_key_up(void *data, Evas_Object *obj, void *event_info);
+static void register_handlers(const struct popup_ops *ops);
+static void unregister_handlers(const struct popup_ops *ops);
+static int poweroff_launch(bundle *b, const struct popup_ops *ops);
+static void poweroff_terminate(const struct popup_ops *ops);
+static void poweroff_clicked(const struct popup_ops *ops);
+static __attribute__ ((constructor)) void poweroff_register_popup(void);
+
 static void remove_popup(const struct popup_ops *ops)
 {
 	static bool terminating = false;

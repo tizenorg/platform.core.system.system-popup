@@ -1,0 +1,65 @@
+#################### Crash #########################
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+
+IF("${CRASH_POPUP}" STREQUAL "off")
+	RETURN()
+ENDIF("${CRASH_POPUP}" STREQUAL "off")
+
+SET(CRASH_SRCS ${COMMON_SRCS} crash.c)
+
+INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR})
+INCLUDE_DIRECTORIES(${COMMON_DIR})
+
+SET(VENDOR "tizen")
+SET(PACKAGE "crash-syspopup")
+SET(EXECNAME "crash-popup")
+SET(PKGNAME "org.${VENDOR}.${PACKAGE}")
+SET(CRASH_PREFIX "${TZ_SYS_RO_APP}/${PKGNAME}")
+SET(BINDIR "${CRASH_PREFIX}/bin")
+SET(RESDIR "${CRASH_PREFIX}/res")
+SET(MANIFESTDIR "${TZ_SYS_RO_SHARE}/packages")
+
+SET(PKG_MODULES
+		appcore-efl
+		elementary
+		dlog
+		deviced
+		evas
+		ecore
+		edbus
+		vconf
+		syspopup
+		syspopup-caller
+		feedback
+		efl-extension
+		pkgmgr-info
+)
+
+IF("${DPMS}" STREQUAL "x")
+SET(PKG_MODULES ${PKG_MODULES}
+		ecore-x
+		utilX
+)
+ENDIF("${DPMS}" STREQUAL "x")
+
+INCLUDE(FindPkgConfig)
+pkg_check_modules(crash_pkgs REQUIRED ${PKG_MODULES})
+
+FOREACH(flag ${crash_pkgs_CFLAGS})
+	SET(EXTRA_CFLAGS "${EXTRA_CFLAGS} ${flag}")
+ENDFOREACH(flag)
+
+SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${EXTRA_CFLAGS} -O2 -g -Wall -fpie")
+SET(CMAKE_C_FLAGS_DEBUG "-O0 -g -fpie")
+SET(CMAKE_C_FLAGS_RELEASE "-O2 -fpie")
+
+ADD_DEFINITIONS("-DPREFIX=\"${CMAKE_INSTALL_PREFIX}\"")
+ADD_DEFINITIONS("-DPACKAGE=\"${PACKAGE}\"")
+
+SET(CMAKE_EXE_LINKER_FLAGS "-Wl,--as-needed -pie")
+
+ADD_EXECUTABLE(${EXECNAME} ${CRASH_SRCS})
+TARGET_LINK_LIBRARIES(${EXECNAME} ${crash_pkgs_LDFLAGS})
+
+INSTALL(TARGETS ${EXECNAME} DESTINATION ${TZ_SYS_RO_APP}/${PKGNAME}/bin)
+INSTALL(FILES ${CMAKE_SOURCE_DIR}/src/crash/${PKGNAME}.xml DESTINATION ${MANIFESTDIR})

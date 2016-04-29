@@ -107,7 +107,7 @@ msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
 msgstr "Battery fully charged."
 
 msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
-msgstr "MMC data is initializing…"
+msgstr "MMC data is initializing??"
 
 msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
 msgstr "Assistive light is on."
@@ -235,3 +235,11 @@ msgstr "HDMI cable connected."
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI cable disconnected."
 
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s has closed unexpectedly."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s is not responding. Close %s?"
+
+msgid "IDS_DAV_BODY_LOW_MEMORY_LEFT_ORANGE"
+msgstr "Low memory left"

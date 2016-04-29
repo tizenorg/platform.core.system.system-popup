@@ -22,6 +22,8 @@
 static syspopup_handler handler;
 static GList *popup_list = NULL;
 
+extern int reset_window_priority(int priority);
+
 GList *get_popup_list(void)
 {
 	return popup_list;
@@ -221,7 +223,7 @@ static int app_reset(bundle *b, void *data)
 		}
 
 		/* change window priority to normal */
-		reset_window_priority(WIN_PRIORITY_HIGH);
+		(void)reset_window_priority(WIN_PRIORITY_HIGH);
 	}
 
 	ret = load_popup_by_type(b);
