@@ -98,7 +98,7 @@ msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
 msgstr "Encrypting SD card..."
 
 msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
-msgstr "Failed to mount SD card. Reinsert or format SD card"
+msgstr "Failed to mount SD card. Reinsert or format SD card."
 
 msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
 msgstr "Power off"
@@ -113,10 +113,10 @@ msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
 msgstr "Assistive light is on."
 
 msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
-msgstr "Charging paused. Battery temperature too high"
+msgstr "Charging paused. Battery temperature too high."
 
 msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
-msgstr "Charging paused. Battery temperature too low"
+msgstr "Charging paused. Battery temperature too low."
 
 msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
 msgstr "Do not power off"
@@ -140,7 +140,7 @@ msgid "IDS_ST_BODY_POWER_OFF"
 msgstr "Power off"
 
 msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
-msgstr "Read-only USB dev. connected"
+msgstr "Read-only USB dev. connected."
 
 msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
 msgstr "SD card decrypted."
@@ -161,10 +161,10 @@ msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
 msgstr "Tap to turn off assistive light."
 
 msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
-msgstr "Unable to decrypt SD card. Not enough space on card. Approximately %.2f MB needed. Delete some files"
+msgstr "Unable to decrypt SD card. Not enough space on card. Approximately %.2f MB needed. Delete some files."
 
 msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
-msgstr "Unable to encrypt SD card. Not enough space on card. Approximately %.2f MB needed. Delete some files"
+msgstr "Unable to encrypt SD card. Not enough space on card. Approximately %.2f MB needed. Delete some files."
 
 msgid "IDS_ST_BODY_USB_STORAGE_ABB"
 msgstr "USB storage"
@@ -191,7 +191,7 @@ msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
 msgstr "Battery critically low"
 
 msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
-msgstr "Battery low. Recharge"
+msgstr "Battery low. Recharge."
 
 msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
 msgstr "To use your SD card, it must be decrypted. Decrypt SD card or enable device encryption?"
@@ -206,7 +206,7 @@ msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
 msgstr "Remove charger."
 
 msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
-msgstr "Power off the device?"
+msgstr "Your device will power off"
 
 msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
 msgstr "Browse camera connected via USB?"
@@ -227,7 +227,7 @@ msgid "IDS_USB_MBODY_USB_DEVICES"
 msgstr "USB devices"
 
 msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
-msgstr "USB connection failed"
+msgstr "USB connection failed."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
 msgstr "HDMI cable connected."
@@ -243,3 +243,12 @@ msgstr "%s is not responding. Close %s?"
 
 msgid "IDS_DAV_BODY_LOW_MEMORY_LEFT_ORANGE"
 msgstr "Low memory left"
+
+msgid "IDS_COM_SK_RESTART"
+msgstr "Restart"
+
+msgid "IDS_HS_BUTTON_RESTART_ABB2"
+msgstr "Restart"
+
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Device will restart."

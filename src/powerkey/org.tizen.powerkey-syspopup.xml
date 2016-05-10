@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" package="org.tizen.powerkey-syspopup" api-version="3.0" version="0.2.0" install-location="internal-only">
+	<label>Power key system popup</label>
+	<author email="changjoo.lee@samsung.com" href="www.samsung.com">ChangJoo Lee</author>
+	<description>System popup application (power key system popup)</description>
+	<ui-application appid="org.tizen.powerkey-syspopup" exec="/usr/apps/org.tizen.powerkey-syspopup/bin/powerkey-popup" nodisplay="true" multiple="false" type="capp" taskmanage="false">
+		<label>Power key system popup</label>
+	</ui-application>
+	<privileges>
+		<privilege>http://tizen.org/privilege/power</privilege>
+		<privilege>http://tizen.org/privilege/window.priority.set</privilege>
+		<privilege>http://tizen.org/privilege/haptic</privilege>
+	</privileges>
+</manifest>

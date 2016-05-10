@@ -30,7 +30,7 @@
 #include "macro.h"
 
 /* Popup names */
-#define POWEROFF_SYSPOPUP  "poweroff-syspopup"
+#define POWERKEY_SYSPOPUP  "powerkey-syspopup"
 #define SYSTEM_SYSPOPUP    "system-syspopup"
 #define CRASH_SYSPOPUP     "crash-syspopup"
 
@@ -108,7 +108,7 @@ struct edbus_object {
 /* launch popup */
 DBusMessage *launch_popup(E_DBus_Object *obj,
 				DBusMessage *msg, char *name);
-DBusMessage *launch_poweroff_popup(E_DBus_Object *obj,
+DBusMessage *launch_powerkey_popup(E_DBus_Object *obj,
 				DBusMessage *msg, char *name);
 
 #endif /* __LAUNCHER_H__ */

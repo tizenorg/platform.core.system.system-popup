@@ -23,9 +23,9 @@
 #define SIGNAL_CHARGEERR_RESPONSE   "ChargeErrResponse"
 
 #define SYSTEMD_STOP_POWER_OFF 4
-#define POWER_BUS_NAME        "org.tizen.system.deviced"
+#define DEVICED_BUS_NAME        "org.tizen.system.deviced"
 #define POWER_OBJECT_PATH     "/Org/Tizen/System/DeviceD/Power"
-#define POWER_INTERFACE_NAME  POWER_BUS_NAME".power"
+#define POWER_INTERFACE_NAME  DEVICED_BUS_NAME".power"
 #define POWER_METHOD            "reboot"
 #define POWER_OPERATION_OFF     "poweroff"
 
@@ -89,14 +89,12 @@ static void charger_status_changed(keynode_t *key, void *data)
 
 static void unregister_charger_status_handler(void)
 {
-	_D("unregister_charger_status_handler() is finished");
 	vconf_ignore_key_changed(VCONFKEY_SYSMAN_CHARGER_STATUS,
 				charger_status_changed);
 }
 
 static void register_charger_status_handler(const struct popup_ops *ops)
 {
-	_D("register_charger_status_handler() is finished");
 	if (vconf_notify_key_changed(VCONFKEY_SYSMAN_CHARGER_STATUS,
 				charger_status_changed, (void *)ops) < 0)
 		_E("Failed to register vconf key handler");
@@ -104,17 +102,15 @@ static void register_charger_status_handler(const struct popup_ops *ops)
 
 static int lowbattery_launch(bundle *b, const struct popup_ops *ops)
 {
-	_D("lowbattery_launch() is finished");
 	unregister_charger_status_handler();
 	remove_other_lowbattery_popups(ops);
 	register_charger_status_handler(ops);
-	
+
 	return 0;
 }
 
 static void lowbattery_terminate(const struct popup_ops *ops)
 {
-	_D("lowbattery_terminate() is finished");
 	unregister_charger_status_handler();
 }
 
@@ -127,7 +123,6 @@ static void poweroff_clicked(const struct popup_ops *ops)
 	char data[8];
 	int ret;
 
-	_D("poweroff_clicked() is finished");
 	if (bPowerOff == 1)
 		return;
 	bPowerOff = 1;
@@ -151,7 +146,7 @@ static void poweroff_clicked(const struct popup_ops *ops)
 	param[0] = POWER_OPERATION_OFF;
 	snprintf(data, sizeof(data), "0");
 	param[1] = data;
-	ret = popup_dbus_method_sync(POWER_BUS_NAME,
+	ret = popup_dbus_method_sync(DEVICED_BUS_NAME,
 			POWER_OBJECT_PATH,
 			POWER_INTERFACE_NAME,
 			POWER_METHOD,

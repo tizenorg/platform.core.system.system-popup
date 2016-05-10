@@ -49,33 +49,24 @@ static void send_result_dbus_signal(int result)
 static void usb_device_confirm_ok_clicked(const struct popup_ops *ops)
 {
 	_I("OK is selected");
-
 	unload_simple_popup(ops);
-
 	send_result_dbus_signal(USB_DEVICE_CONFIRM_OK);
-
 	terminate_if_no_popup();
 }
 
 static void usb_device_confirm_cancel_clicked(const struct popup_ops *ops)
 {
 	_I("CANCEL is selected");
-
 	unload_simple_popup(ops);
-
 	send_result_dbus_signal(USB_DEVICE_CONFIRM_NOK);
-
 	terminate_if_no_popup();
 }
 
 static void usb_device_confirm_terminate(const struct popup_ops *ops)
 {
 	_I("terminate usb device confirm popup");
-
 	unload_simple_popup(ops);
-
 	send_result_dbus_signal(USB_DEVICE_CONFIRM_NOK);
-
 	terminate_if_no_popup();
 }
 

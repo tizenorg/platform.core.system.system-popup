@@ -77,11 +77,11 @@ dbus_system_methods[] = {
 	/* Add methods here */
 };
 
-/* Poweroff popup */
-static DBusMessage *poweroff_popup(E_DBus_Object *obj, DBusMessage *msg)
+/* Powerkey popup */
+static DBusMessage *powerkey_popup(E_DBus_Object *obj, DBusMessage *msg)
 {
 	set_timer_to_terminate();
-	return launch_poweroff_popup(obj, msg, POWEROFF_SYSPOPUP);
+	return launch_powerkey_popup(obj, msg, POWERKEY_SYSPOPUP);
 }
 
 /* Crash popup */
@@ -152,8 +152,8 @@ static DBusMessage *usb_device_noti_update(E_DBus_Object *obj, DBusMessage *msg)
 }
 
 static const struct edbus_method
-dbus_poweroff_methods[] = {
-	{ "PopupLaunch", NULL, "i", poweroff_popup },
+dbus_powerkey_methods[] = {
+	{ "PopupLaunch", NULL, "i", powerkey_popup },
 	/* Add methods here */
 };
 
@@ -186,8 +186,8 @@ static struct edbus_object
 edbus_objects[]= {
 	{ POPUP_PATH_SYSTEM		, POPUP_IFACE_SYSTEM	, NULL	, NULL	,
 		dbus_system_methods     , ARRAY_SIZE(dbus_system_methods)		},
-	{ POPUP_PATH_POWEROFF	, POPUP_IFACE_POWEROFF	, NULL	, NULL	,
-		dbus_poweroff_methods	, ARRAY_SIZE(dbus_poweroff_methods)	},
+	{ POPUP_PATH_POWERKEY	, POPUP_IFACE_POWERKEY	, NULL	, NULL	,
+		dbus_powerkey_methods	, ARRAY_SIZE(dbus_powerkey_methods)	},
 	{ POPUP_PATH_NOTI		, POPUP_IFACE_NOTI		, NULL	, NULL	,
 		dbus_noti_methods		, ARRAY_SIZE(dbus_noti_methods)			},
 	{ POPUP_PATH_CRASH		, POPUP_IFACE_CRASH		, NULL	, NULL	,

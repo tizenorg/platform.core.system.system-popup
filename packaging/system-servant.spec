@@ -6,7 +6,7 @@
 %define FORMFACTOR none
 
 #Main applications
-%define poweroff_popup off
+%define powerkey_popup off
 %define crash_popup off
 %define system_popup off
 %define notification_service off
@@ -22,7 +22,7 @@
 %if "%{?profile}" == "mobile"
 %define PROFILE mobile
 #Main applicaitons
-%define poweroff_popup on
+%define powerkey_popup on
 %define crash_popup on
 %define system_popup on
 %define notification_service on
@@ -44,7 +44,7 @@
 	%define FORMFACTOR rectangle
 %endif
 #Main applicaitons
-%define poweroff_popup on
+%define powerkey_popup on
 %define crash_popup on
 %define system_popup on
 #sub-popups of system-popup
@@ -68,7 +68,7 @@ Group:      System/Utilities
 License:    Apache-2.0
 Source0:    %{name}-%{version}.tar.gz
 Source1:    %{name}.manifest
-Source1001:    org.tizen.poweroff-syspopup.manifest
+Source1001:    org.tizen.powerkey-syspopup.manifest
 Source1015:    org.tizen.crash-syspopup.manifest
 Source2001:    org.tizen.system-syspopup.manifest
 Source2003:    org.tizen.system-signal-sender.manifest
@@ -78,7 +78,7 @@ BuildRequires:  pkgconfig(elementary)
 BuildRequires:  pkgconfig(appcore-efl)
 BuildRequires:  pkgconfig(syspopup)
 BuildRequires:  pkgconfig(syspopup-caller)
-BuildRequires:  pkgconfig(notification) 
+BuildRequires:  pkgconfig(notification)
 BuildRequires:  pkgconfig(vconf)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(dlog)
@@ -110,15 +110,15 @@ to inform user crash information. It is activated
 when crash event is happend
 %endif
 
-%if %{?poweroff_popup} == on
-%package -n org.tizen.poweroff-syspopup
-Summary:    Poweroff-popup application
+%if %{?powerkey_popup} == on
+%package -n org.tizen.powerkey-syspopup
+Summary:    Powerkey-popup application
 Group:      System/Utilities
 Requires:   %{name} = %{version}-%{release}
 
-%description -n org.tizen.poweroff-syspopup
-to inform user poweroff information. It is activated
-when user power event is happened
+%description -n org.tizen.powerkey-syspopup
+to inform user powerkey information. It is activated
+when user power key event is happened
 %endif
 
 %if %{?signal_sender} == on
@@ -151,7 +151,7 @@ when system event is happend
 chmod 0644 %{SOURCE1}
 cp %{SOURCE1} .
 
-%if %{poweroff_popup} == on
+%if %{powerkey_popup} == on
 chmod 0644 %{SOURCE1001}
 cp %{SOURCE1001} .
 %endif
@@ -191,7 +191,7 @@ cp %{SOURCE2003} .
 		-DTZ_SYS_SHARE=%{TZ_SYS_SHARE} \
 		-DTZ_SYS_RO_SHARE=%{TZ_SYS_RO_SHARE} \
 		-DTZ_SYS_RO_APP=%{TZ_SYS_RO_APP} \
-		-DPOWEROFF_POPUP=%{poweroff_popup} \
+		-DPOWERKEY_POPUP=%{powerkey_popup} \
 		-DCRASH_POPUP=%{crash_popup} \
 		-DNOTIFICATION_SERVICE=%{notification_service} \
 		-DBATTERY_POPUP=%{battery_popup} \
@@ -302,15 +302,15 @@ rm -rf %{buildroot}
 %{TZ_SYS_RO_SHARE}/packages/org.tizen.system-syspopup.xml
 %endif
 
-%if %{poweroff_popup} == on
-%files -n org.tizen.poweroff-syspopup
-%manifest org.tizen.poweroff-syspopup.manifest
+%if %{powerkey_popup} == on
+%files -n org.tizen.powerkey-syspopup
+%manifest org.tizen.powerkey-syspopup.manifest
 %license LICENSE
 %defattr(-,root,root,-)
-%{TZ_SYS_RO_APP}/org.tizen.poweroff-syspopup/bin/poweroff-popup
-%{TZ_SYS_RO_SHARE}/packages/org.tizen.poweroff-syspopup.xml
-%{TZ_SYS_RO_APP}/org.tizen.poweroff-syspopup/res/circle_btn_check.png
-%{TZ_SYS_RO_APP}/org.tizen.poweroff-syspopup/res/circle_btn_delete.png
+%{TZ_SYS_RO_APP}/org.tizen.powerkey-syspopup/bin/powerkey-popup
+%{TZ_SYS_RO_SHARE}/packages/org.tizen.powerkey-syspopup.xml
+%{TZ_SYS_RO_APP}/org.tizen.powerkey-syspopup/res/circle_btn_check.png
+%{TZ_SYS_RO_APP}/org.tizen.powerkey-syspopup/res/circle_btn_delete.png
 %endif
 
 %if %{signal_sender} == on

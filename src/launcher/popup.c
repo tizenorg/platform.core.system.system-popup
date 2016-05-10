@@ -21,7 +21,7 @@
 #include "launcher.h"
 
 #define POPUP_CONTENT		"_SYSPOPUP_CONTENT_"
-#define POPUP_NAME_POWEROFF	"poweroff"
+#define POPUP_NAME_POWERKEY	"powerkey"
 
 DBusMessage *launch_popup(E_DBus_Object *obj,
 				DBusMessage *msg, char *name)
@@ -80,7 +80,7 @@ out:
 	return reply;
 }
 
-DBusMessage *launch_poweroff_popup(E_DBus_Object *obj,
+DBusMessage *launch_powerkey_popup(E_DBus_Object *obj,
 				DBusMessage *msg, char *name)
 {
 	DBusMessage *reply;
@@ -101,9 +101,9 @@ DBusMessage *launch_poweroff_popup(E_DBus_Object *obj,
 		goto out;
 	}
 
-	ret = bundle_add(b, POPUP_CONTENT, POPUP_NAME_POWEROFF);
+	ret = bundle_add(b, POPUP_CONTENT, POPUP_NAME_POWERKEY);
 	if (ret < 0) {
-		_E("Failed to add bundle (%s,%s) (ret:%d)", POPUP_CONTENT, POPUP_NAME_POWEROFF, ret);
+		_E("Failed to add bundle (%s,%s) (ret:%d)", POPUP_CONTENT, POPUP_NAME_POWERKEY, ret);
 		goto out;
 	}
 
