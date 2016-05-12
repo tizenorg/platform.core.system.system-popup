@@ -30,6 +30,8 @@
 #define DD_SIGNAL_REMOVE_MMC    "RemoveMmc"
 
 static const struct popup_ops mount_error_ops;
+static const struct popup_ops unmount_error_ops;
+static const struct popup_ops nosd_card_ops;
 static const struct popup_ops mount_read_only_ops;
 static const struct popup_ops check_smack_ops;
 static const struct popup_ops ode_encrypt_ops;
@@ -39,6 +41,12 @@ static void remove_other_mmc_popups(const struct popup_ops *ops)
 {
 	if (ops != &mount_error_ops)
 		unload_simple_popup(&mount_error_ops);
+
+	if (ops != &unmount_error_ops)
+		unload_simple_popup(&unmount_error_ops);
+
+	if (ops != &nosd_card_ops)
+		unload_simple_popup(&nosd_card_ops);
 
 	if (ops != &mount_read_only_ops)
 		unload_simple_popup(&mount_read_only_ops);
@@ -67,6 +75,16 @@ static bool mmc_mounted(void)
 	int val;
 	if (vconf_get_int(VCONFKEY_SYSMAN_MMC_MOUNT, &val) == 0
 			&& val == VCONFKEY_SYSMAN_MMC_MOUNT_FAILED)
+		return false;
+	return true;
+}
+
+static bool mmc_unmounted(void)
+{
+	int val;
+
+	if (vconf_get_int(VCONFKEY_SYSMAN_MMC_UNMOUNT, &val) == 0
+			&& val == VCONFKEY_SYSMAN_MMC_UNMOUNT_FAILED)
 		return false;
 	return true;
 }
@@ -133,9 +151,19 @@ static bool skip_mount_error_popup(bundle *b, const struct popup_ops *ops)
 	return mmc_mounted();
 }
 
+static bool skip_unmount_error_popup(bundle *b, const struct popup_ops *ops)
+{
+	return mmc_unmounted();
+}
+
 static bool skip_ode_popup(bundle *b, const struct popup_ops *ops)
 {
 	return !mmc_inserted();
+}
+
+static bool skip_nosdcard_popup(bundle *b, const struct popup_ops *ops)
+{
+	return mmc_inserted();
 }
 
 static E_DBus_Signal_Handler *mmc_removed_handler= NULL;
@@ -184,6 +212,17 @@ static void mmc_mount_status_changed(keynode_t *in_key, void *data)
 	terminate_if_no_popup();
 }
 
+static void mmc_unmount_status_changed(keynode_t *in_key, void *data)
+{
+	const struct popup_ops *ops = data;
+
+	if (vconf_keynode_get_int(in_key) == VCONFKEY_SYSMAN_MMC_UNMOUNT_FAILED)
+		return;
+
+	unload_simple_popup(ops);
+	terminate_if_no_popup();
+}
+
 static void register_mmc_mount_handler(const struct popup_ops *ops)
 {
 	if (vconf_notify_key_changed(VCONFKEY_SYSMAN_MMC_MOUNT,
@@ -197,6 +236,19 @@ static void unregister_mmc_mount_handler(const struct popup_ops *ops)
 			mmc_mount_status_changed);
 }
 
+static void register_mmc_unmount_handler(const struct popup_ops *ops)
+{
+	if (vconf_notify_key_changed(VCONFKEY_SYSMAN_MMC_UNMOUNT,
+				mmc_unmount_status_changed, (void *)ops) != 0)
+		_E("Failed to register mmc unmount handler");
+}
+
+static void unregister_mmc_unmount_handler(const struct popup_ops *ops)
+{
+	vconf_ignore_key_changed(VCONFKEY_SYSMAN_MMC_UNMOUNT,
+			mmc_unmount_status_changed);
+}
+
 static int launch_mmc_popup(bundle *b, const struct popup_ops *ops)
 {
 	remove_other_mmc_popups(ops);
@@ -204,6 +256,9 @@ static int launch_mmc_popup(bundle *b, const struct popup_ops *ops)
 
 	if (ops == &mount_error_ops)
 		register_mmc_mount_handler(ops);
+
+	if (ops == &unmount_error_ops)
+		register_mmc_unmount_handler(ops);
 
 	if (ops == &ode_encrypt_ops ||
 		ops == &ode_decrypt_ops)
@@ -215,15 +270,37 @@ static int launch_mmc_popup(bundle *b, const struct popup_ops *ops)
 static void terminate_mmc_popup(const struct popup_ops *ops)
 {
 	unregister_mmc_mount_handler(ops);
+	unregister_mmc_unmount_handler(ops);
 	unregister_ode_handler(ops);
 }
 
 static const struct popup_ops mount_error_ops = {
 	.name		= "mounterr",//"mmc_mount_error",
 	.show		= load_simple_popup,
+	.title		= "IDS_DN_BODY_UNABLETO_MOUNT_SD_CARD",
 	.content	= "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD",
 	.left_text	= "IDS_COM_SK_OK",
 	.skip		= skip_mount_error_popup,
+	.pre		= launch_mmc_popup,
+};
+
+static const struct popup_ops unmount_error_ops = {
+	.name		= "unmounterr",//"mmc_unmount_error",
+	.show		= load_simple_popup,
+	.title		= "IDS_DN_BODY_UNABLETO_UNMOUNT_SD_CARD",
+	.content	= "IDS_DN_POP_FAILED_TO_UNMOUNT_SD_CARD_REINSERT_OR_TRY_LATER",
+	.left_text	= "IDS_COM_SK_OK",
+	.skip		= skip_unmount_error_popup,
+	.pre		= launch_mmc_popup,
+};
+
+static const struct popup_ops nosd_card_ops = {
+	.name		= "nosdcard",//"no_sdcard",
+	.show		= load_simple_popup,
+	.title		= "IDS_DN_BODY_NO_SD_CARD",
+	.content	= "IDS_DN_POP_NO_SD_CARD_REINSERT_OR_TRY_LATER",
+	.left_text	= "IDS_COM_SK_OK",
+	.skip		= skip_nosdcard_popup,
 	.pre		= launch_mmc_popup,
 };
 
@@ -275,6 +352,8 @@ static const struct popup_ops ode_decrypt_ops = {
 static __attribute__ ((constructor)) void register_mmc_popup(void)
 {
 	register_popup(&mount_error_ops);
+	register_popup(&unmount_error_ops);
+	register_popup(&nosd_card_ops);
 	register_popup(&mount_read_only_ops);
 	register_popup(&check_smack_ops);
 	register_popup(&ode_encrypt_ops);

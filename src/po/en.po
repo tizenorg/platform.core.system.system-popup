@@ -98,7 +98,10 @@ msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
 msgstr "Encrypting SD card..."
 
 msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
-msgstr "Failed to mount SD card. Reinsert or format SD card."
+msgstr "Remove and reinsert or format your SD card. And then try again."
+
+msgid "IDS_DN_POP_FAILED_TO_UNMOUNT_SD_CARD_REINSERT_OR_TRY_LATER"
+msgstr "SD card may be in use. Please try it again later."
 
 msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
 msgstr "Power off"
@@ -252,3 +255,15 @@ msgstr "Restart"
 
 msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
 msgstr "Device will restart."
+
+msgid "IDS_DN_BODY_UNABLETO_MOUNT_SD_CARD"
+msgstr "Unable to mount SD card"
+
+msgid "IDS_DN_BODY_UNABLETO_UNMOUNT_SD_CARD"
+msgstr "Unable to unmount SD card"
+
+msgid "IDS_DN_POP_NO_SD_CARD_REINSERT_OR_TRY_LATER"
+msgstr "No SD card is inserted. Insert an SD card and try again."
+
+msgid "IDS_DN_BODY_NO_SD_CARD"
+msgstr "No SD card"
