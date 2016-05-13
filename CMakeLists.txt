@@ -31,7 +31,6 @@ SET(COMMON_SRCS
 		${COMMON_DIR}/core.c
 		${COMMON_DIR}/popup-common.c
 		${COMMON_DIR}/popup-ui.c
-		${COMMON_DIR}/popup-ui-normal.c
 )
 
 IF("${FORMFACTOR}" STREQUAL "circle")
