@@ -260,4 +260,4 @@ msgid "IDS_DN_BODY_UNABLETO_MOUNT_SD_CARD"
 msgstr "Unable to mount SD card"
 
 msgid "IDS_DN_BODY_UNABLETO_UNMOUNT_SD_CARD"
-msgstr "Unable to unmount SD card"
+msgstr "Can't unmount SD card"
