@@ -111,16 +111,6 @@ gl_text_get_cb(void *data, Evas_Object *obj, const char *part)
 	return strdup(_(items[index]));
 }
 
-static void _popup_hide_cb(void *data, Evas_Object *obj, void *event_info)
-{
-	evas_object_del(obj);
-}
-
-static void _popup_hide_finished_cb(void *data, Evas_Object *obj, void *event_info)
-{
-	evas_object_del(obj);
-}
-
 static void gl_sel_cb(void *data, Evas_Object *obj, void *event_info)
 {
 	Evas_Object *popup = data;
@@ -176,9 +166,6 @@ int powerkey_list(bundle *b, const struct popup_ops *ops)
 
 	elm_popup_align_set(popup, ELM_NOTIFY_ALIGN_FILL, 1.0);
 	evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-
-	eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, _popup_hide_cb, NULL);
-	evas_object_smart_callback_add(popup, "dismissed", _popup_hide_finished_cb, NULL);
 
 	/* box */
 	box = elm_box_add(popup);
@@ -239,7 +226,10 @@ static void pm_state_changed(keynode_t *key, void *data)
 static void event_back_key_up(void *data, Evas_Object *obj, void *event_info)
 {
 	const struct popup_ops *ops = data;
-	remove_popup(ops);
+
+	if (ops)
+		remove_popup(ops);
+	terminate_if_no_popup();
 }
 
 static void register_handlers(const struct popup_ops *ops)
@@ -266,6 +256,12 @@ static void unregister_handlers(const struct popup_ops *ops)
 	win = get_window();
 	if (win)
 		eext_object_event_callback_del(win, EEXT_CALLBACK_BACK, event_back_key_up);
+}
+
+powerkey_list_launch(bundle *b, const struct popup_ops *ops)
+{
+	register_handlers(ops);
+	return 0;
 }
 
 static int poweroff_launch(bundle *b, const struct popup_ops *ops)
@@ -349,6 +345,7 @@ static const struct popup_ops poweroff_ops = {
 static const struct popup_ops powerkey_ops = {
 	.name		= "powerkey",
 	.show		= powerkey_list,
+	.pre		= powerkey_list_launch,
 	.terminate	= powerkey_terminate,
 };
 
