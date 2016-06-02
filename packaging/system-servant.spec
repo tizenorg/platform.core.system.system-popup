@@ -32,7 +32,9 @@
 %define mmc_popup on
 %define usb_popup on
 %define watchdog_popup on
+%if %{?system_popup} == on
 %define overheat_popup on
+%endif
 %define storage_popup on
 %endif
 
@@ -51,13 +53,16 @@
 %define storage_popup on
 %define watchdog_popup on
 %define battery_popup on
+%if %{?system_popup} == on
 %define overheat_popup on
+%endif
 %endif
 
 %if "%{?profile}" == "tv"
 %define PROFILE tv
 #Main applications
 %define crash_popup on
+#sub-popups of system-popup
 %endif
 
 Name:       system-servant
@@ -88,6 +93,8 @@ BuildRequires:  pkgconfig(deviced)
 BuildRequires:  pkgconfig(feedback)
 BuildRequires:  pkgconfig(efl-extension)
 BuildRequires:  pkgconfig(libtzplatform-config)
+BuildRequires:  edje-bin
+
 %if %{with x}
 BuildRequires:  pkgconfig(ecore-x)
 BuildRequires:  pkgconfig(utilX)
@@ -201,6 +208,7 @@ cp %{SOURCE2003} .
 		-DSTORAGE_POPUP=%{storage_popup} \
 		-DUSB_POPUP=%{usb_popup} \
 		-DWATCHDOG_POPUP=%{watchdog_popup} \
+		-DOVERHEAT_POPUP=%{overheat_popup} \
 
 make %{?jobs:-j%jobs}
 
@@ -299,6 +307,9 @@ rm -rf %{buildroot}
 %manifest org.tizen.system-syspopup.manifest
 %defattr(-,root,root,-)
 %{TZ_SYS_RO_APP}/org.tizen.system-syspopup/bin/system-syspopup
+%if %{overheat_popup} == on
+%{TZ_SYS_RO_APP}/org.tizen.system-syspopup/shared/res/system-syspopup.edj
+%endif
 %{TZ_SYS_RO_SHARE}/packages/org.tizen.system-syspopup.xml
 %endif
 
