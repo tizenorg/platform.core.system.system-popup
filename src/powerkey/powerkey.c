@@ -42,9 +42,8 @@ static void register_handlers(const struct popup_ops *ops);
 static void unregister_handlers(const struct popup_ops *ops);
 static int poweroff_launch(bundle *b, const struct popup_ops *ops);
 static void poweroff_terminate(const struct popup_ops *ops);
-static void powerkey_terminate(const struct popup_ops *ops);
 static void poweroff_clicked(const struct popup_ops *ops);
-static __attribute__ ((constructor)) void powerkey_register_popup(void);
+static __attribute__ ((constructor)) void poweroff_register_popup(void);
 static const struct popup_ops powerkey_ops;
 static const struct popup_ops poweroff_ops;
 static const struct popup_ops restart_ops;
@@ -61,7 +60,7 @@ static int restart_launch(bundle *b, const struct popup_ops *ops)
 
 static void restart_terminate(const struct popup_ops *ops)
 {
-
+	return 0;
 }
 
 static void restart_clicked(const struct popup_ops *ops)
@@ -114,24 +113,25 @@ gl_text_get_cb(void *data, Evas_Object *obj, const char *part)
 
 static void gl_sel_cb(void *data, Evas_Object *obj, void *event_info)
 {
+	Evas_Object *popup = data;
 	Elm_Object_Item *item = event_info;
 	bundle *b = NULL;
 
 	clicked_index = (int)elm_object_item_data_get(item);
-	unload_simple_popup(data);
+	evas_object_del(popup);
 
 	if(clicked_index == 0 )
 	{
 		_D("poweroff is chosen");
 		load_simple_popup(b, &poweroff_ops);
+		register_handlers(&poweroff_ops);
 	}
 	else if(clicked_index == 1 )
 	{
 		_D("restart is chosen");
 		load_simple_popup(b, &restart_ops);
+		register_handlers(&restart_ops);
 	}
-	else _E("Wrong button is pressed");
-
 }
 
 int powerkey_list(bundle *b, const struct popup_ops *ops)
@@ -183,7 +183,7 @@ int powerkey_list(bundle *b, const struct popup_ops *ops)
 	itc.func.del = NULL;
 
 	for (i = 0; i < 2; i++) {
-		elm_genlist_item_append(genlist, &itc, (void *) i, NULL, ELM_GENLIST_ITEM_NONE, gl_sel_cb, ops);
+		elm_genlist_item_append(genlist, &itc, (void *) i, NULL, ELM_GENLIST_ITEM_NONE, gl_sel_cb, popup);
 	}
 	evas_object_show(genlist);
 	elm_box_pack_end(box, genlist);
@@ -258,7 +258,7 @@ static void unregister_handlers(const struct popup_ops *ops)
 		eext_object_event_callback_del(win, EEXT_CALLBACK_BACK, event_back_key_up);
 }
 
-static int powerkey_list_launch(bundle *b, const struct popup_ops *ops)
+powerkey_list_launch(bundle *b, const struct popup_ops *ops)
 {
 	register_handlers(ops);
 	return 0;
@@ -349,7 +349,7 @@ static const struct popup_ops powerkey_ops = {
 	.terminate	= powerkey_terminate,
 };
 
-static __attribute__ ((constructor)) void powerkey_register_popup(void)
+static __attribute__ ((constructor)) void poweroff_register_popup(void)
 {
 	register_popup(&powerkey_ops);
 	register_popup(&poweroff_ops);
