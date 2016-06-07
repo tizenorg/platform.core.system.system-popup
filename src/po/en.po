@@ -238,6 +238,18 @@ msgstr "HDMI cable connected."
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI cable disconnected."
 
+msgid "IDS_COM_TURN_OFF_NOW"
+msgstr "Turn off now"
+
+msgid "IDS_ST_BODY_OVERHEAT"
+msgstr "Phone overheating"
+
+msgid "IDS_ST_BODY_OVERHEAT_POWEROFF"
+msgstr "Phone powering off"
+
+msgid "IDS_COM_POP_OVERHEAT_PHONE_WILL_SHUT_DOWN"
+msgstr "Your device is overheating. It may power off without warning to prevent damage.\n\nOverheating can be caused by:\n- Using graphics-intensive apps, such as video games and navigation apps, for long periods of time\n- Transferring large files\n- Using your device in a hot environment"
+
 msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
 msgstr "%s has closed unexpectedly."
 
