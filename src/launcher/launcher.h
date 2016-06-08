@@ -59,7 +59,7 @@
 /* App launching */
 #define CRADLE_APP_NAME  "org.tizen.desk-dock"
 #define PWLOCK_APP_NAME  "org.tizen.pwlock"
-#define SERVANT_APP_NAME "/usr/bin/system-servant"
+#define SERVANT_APP_NAME "/usr/bin/system-cooperator"
 
 enum noti_type {
 	NOTI_NONE = 0,
@@ -81,9 +81,6 @@ enum noti_type {
 };
 
 enum service_type {
-	TTS_SCREENOFF,
-	TTS_ENABLED,
-	TTS_DISABLED,
 	CHARGER_CONNECTION,
 	SERVICE_MAX,
 };

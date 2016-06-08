@@ -18,6 +18,7 @@
 %define watchdog_popup off
 %define overheat_popup off
 %define storage_popup off
+%define system_cooperator off
 
 %if "%{?profile}" == "mobile"
 %define PROFILE mobile
@@ -27,6 +28,7 @@
 %define system_popup on
 %define notification_service on
 %define signal_sender on
+%define system_cooperator on
 #sub-popups of system-popup
 %define battery_popup on
 %define mmc_popup on
@@ -49,6 +51,7 @@
 %define powerkey_popup on
 %define crash_popup on
 %define system_popup on
+%define system_cooperator on
 #sub-popups of system-popup
 %define storage_popup on
 %define watchdog_popup on
@@ -94,6 +97,8 @@ BuildRequires:  pkgconfig(feedback)
 BuildRequires:  pkgconfig(efl-extension)
 BuildRequires:  pkgconfig(libtzplatform-config)
 BuildRequires:  edje-bin
+BuildRequires:  pkgconfig(capi-media-sound-manager)
+BuildRequires:  pkgconfig(capi-media-wav-player)
 
 %if %{with x}
 BuildRequires:  pkgconfig(ecore-x)
@@ -204,6 +209,7 @@ cp %{SOURCE2003} .
 		-DBATTERY_POPUP=%{battery_popup} \
 		-DSYSTEM_POPUP=%{system_popup} \
 		-DSIGNAL_SENDER=%{signal_sender} \
+		-DSYSTEM_COOPERATOR=%{system_cooperator} \
 		-DMMC_POPUP=%{mmc_popup} \
 		-DSTORAGE_POPUP=%{storage_popup} \
 		-DUSB_POPUP=%{usb_popup} \
@@ -291,6 +297,10 @@ rm -rf %{buildroot}
 %{_datadir}/system-apps/res/icons/batt_full_indicator.png
 %{TZ_SYS_RO_SHARE}/system-apps/res/icons/datausage_warning.png
 %{TZ_SYS_RO_SHARE}/system-apps/res/icons/led_torch.png
+%endif
+
+%if %{system_cooperator} == on
+%{_bindir}/system-cooperator
 %endif
 
 %if %{crash_popup} == on
