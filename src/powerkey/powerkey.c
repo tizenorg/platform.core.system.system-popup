@@ -34,6 +34,7 @@
 #define DEVICED_INTERFACE_NAME	DEVICED_BUS_NAME
 
 int clicked_index = 0;
+int powerkey_index = 0;
 
 static void remove_popup(const struct popup_ops *ops);
 static void pm_state_changed(keynode_t *key, void *data);
@@ -73,15 +74,13 @@ static void restart_clicked(const struct popup_ops *ops)
 	char data[8];
 	int ret;
 
-	if (bReset == 1)
-		return;
+	if (bReset == 1) return;
 	bReset = 1;
 
 	unload_simple_popup(ops);
 
 	win = get_window();
-	if (!win)
-		popup_terminate();
+	if (!win) popup_terminate();
 
 	rect = evas_object_rectangle_add(evas_object_evas_get(win));
 	evas_object_geometry_get(win, NULL, NULL, &w, &h);
@@ -100,16 +99,25 @@ static void restart_clicked(const struct popup_ops *ops)
 			POWER_METHOD,
 			"si", param);
 
-	if (ret < 0)
-		_E("Failed to request restart to deviced (%d)", ret);
+	if (ret < 0) _E("Failed to request restart to deviced (%d)", ret);
 }
 
-static char*
-gl_text_get_cb(void *data, Evas_Object *obj, const char *part)
+static char* gl_text_get_cb(void *data, Evas_Object *obj, const char *part)
 {
 	int index = (int) data;
 
-	return strdup(_(items[index]));
+	powerkey_index = index;
+	switch (index) {
+	case 0:
+		if (!strncmp("elm.text", part, sizeof("elm.text"))) return strdup(_(items[index]));
+		else
+			return NULL;
+
+	case 1:
+		if (!strncmp("elm.text", part, sizeof("elm.text"))) return strdup(_(items[index]));
+		else
+			return NULL;
+	}
 }
 
 static void gl_sel_cb(void *data, Evas_Object *obj, void *event_info)
@@ -120,51 +128,80 @@ static void gl_sel_cb(void *data, Evas_Object *obj, void *event_info)
 	clicked_index = (int)elm_object_item_data_get(item);
 	unload_simple_popup(data);
 
-	if(clicked_index == 0 )
-	{
+	if (clicked_index == 0) {
 		_D("poweroff is chosen");
 		load_simple_popup(b, &poweroff_ops);
-	}
-	else if(clicked_index == 1 )
-	{
+	} else if (clicked_index == 1) {
 		_D("restart is chosen");
 		load_simple_popup(b, &restart_ops);
+	} else
+		_E("Wrong button is pressed");
+}
+
+static Evas_Object* gl_image_get_cb(void *data, Evas_Object *obj, const char *part)
+{
+	Evas_Object *img = elm_image_add(obj);
+	Evas_Object *check;
+
+	switch (powerkey_index) {
+	case 0:
+		if (!strncmp(part, "elm.swallow.icon", sizeof("elm.swallow.icon"))) {
+			elm_image_file_set(img, RESDIR"/core_power_off.png", NULL);
+			evas_object_size_hint_min_set(img, ELM_SCALE_SIZE(50), ELM_SCALE_SIZE(50));
+			_D("Power off img");
+			return img;
+		} else if (!strncmp(part, "elm.swallow.icon.end", sizeof("elm.swallow.icon.end"))) {
+			check = elm_check_add(obj);
+			return check;
+		} else
+			return NULL;
+
+	case 1:
+		if (!strncmp(part, "elm.swallow.icon", sizeof("elm.swallow.icon"))) {
+			elm_image_file_set(img, RESDIR"/core_restart.png", NULL);
+			evas_object_size_hint_min_set(img, ELM_SCALE_SIZE(50), ELM_SCALE_SIZE(50));
+			_D("Restart img");
+			return img;
+		} else if (!strncmp(part, "elm.swallow.icon.end", sizeof("elm.swallow.icon.end"))) {
+			check = elm_check_add(obj);
+			return check;
+		} else
+			return NULL;
+
+	default:
+		_E("BAD data!");
+		return NULL;
 	}
-	else _E("Wrong button is pressed");
 }
 
 int powerkey_list(bundle *b, const struct popup_ops *ops)
 {
-	static Elm_Genlist_Item_Class itc;
-	Evas_Object *popup;
-	Evas_Object *box;
+	Elm_Genlist_Item_Class *itc = elm_genlist_item_class_new();
+	Evas_Object *popup = NULL;
+	Evas_Object *box = NULL;
 	Evas_Object *genlist;
 	struct object_ops *obj;
 	int i;
 	Evas_Object *win;
 	int ret;
 
-	if (!ops)
-		return -EINVAL;
+	if (!ops) return -EINVAL;
 
 	ret = get_object_by_ops(ops, &obj);
-	if (ret < 0) {
-		_E("Failed to get object (%d)", ret);
-		return -EINVAL;
-	}
+	if (ret < 0) return -EINVAL;
 
 	win = get_window();
-	if (!win)
-		return -ENOMEM;
+	if (!win) return -ENOMEM;
 
 	evas_object_show(win);
 
 	popup = elm_popup_add(win);
-	if (!popup)
-		return -ENOMEM;
+	if (!popup) return -ENOMEM;
 
 	elm_popup_align_set(popup, ELM_NOTIFY_ALIGN_FILL, 1.0);
 	evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+
+	elm_object_style_set(genlist, "default");
 
 	/* box */
 	box = elm_box_add(popup);
@@ -175,34 +212,32 @@ int powerkey_list(bundle *b, const struct popup_ops *ops)
 	evas_object_size_hint_weight_set(genlist, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_size_hint_align_set(genlist, EVAS_HINT_FILL, EVAS_HINT_FILL);
 
-	itc.item_style = "default";
-	itc.func.text_get = gl_text_get_cb;
-	itc.func.content_get = NULL;
-	itc.func.state_get = NULL;
-	itc.func.del = NULL;
+	itc->item_style = "type1";
+	itc->func.text_get = gl_text_get_cb;
+	itc->func.content_get = gl_image_get_cb;
+	itc->func.state_get = NULL;
+	itc->func.del = NULL;
 
-	for (i = 0; i < 2; i++) {
-		elm_genlist_item_append(genlist, &itc, (void *) i, NULL, ELM_GENLIST_ITEM_NONE, gl_sel_cb, ops);
-	}
+	for (i = 0; i < 2; i++)
+		elm_genlist_item_append(genlist, itc, (void *) i, NULL, ELM_GENLIST_ITEM_NONE, gl_sel_cb, ops);
+
 	evas_object_show(genlist);
 	elm_box_pack_end(box, genlist);
-	evas_object_size_hint_min_set(box, -1, 250);
+	evas_object_size_hint_min_set(box, -1, 350);
 	elm_object_content_set(popup, box);
 
 	evas_object_show(popup);
 	obj->popup = popup;
 
+	elm_genlist_item_class_free(itc);
 	return 0;
 }
-
 
 static void remove_popup(const struct popup_ops *ops)
 {
 	static bool terminating = false;
 
-	if (terminating)
-		return;
-
+	if (terminating) return;
 	terminating = true;
 
 	unload_simple_popup(ops);
@@ -213,11 +248,8 @@ static void pm_state_changed(keynode_t *key, void *data)
 {
 	const struct popup_ops *ops = data;
 
-	if (!key)
-		return;
-
-	if (vconf_keynode_get_int(key) != VCONFKEY_PM_STATE_LCDOFF)
-		return;
+	if (!key) return;
+	if (vconf_keynode_get_int(key) != VCONFKEY_PM_STATE_LCDOFF) return;
 
 	remove_popup(ops);
 }
@@ -226,8 +258,7 @@ static void event_back_key_up(void *data, Evas_Object *obj, void *event_info)
 {
 	const struct popup_ops *ops = data;
 
-	if (ops)
-		remove_popup(ops);
+	if (ops) remove_popup(ops);
 	terminate_if_no_popup();
 }
 
@@ -242,8 +273,7 @@ static void register_handlers(const struct popup_ops *ops)
 		_E("Failed to register vconf");
 
 	win = get_window();
-	if (win)
-		eext_object_event_callback_add(win, EEXT_CALLBACK_BACK, event_back_key_up, (void*)ops);
+	if (win) eext_object_event_callback_add(win, EEXT_CALLBACK_BACK, event_back_key_up, (void*)ops);
 }
 
 static void unregister_handlers(const struct popup_ops *ops)
@@ -253,8 +283,7 @@ static void unregister_handlers(const struct popup_ops *ops)
 	vconf_ignore_key_changed(VCONFKEY_PM_STATE, pm_state_changed);
 
 	win = get_window();
-	if (win)
-		eext_object_event_callback_del(win, EEXT_CALLBACK_BACK, event_back_key_up);
+	if (win) eext_object_event_callback_del(win, EEXT_CALLBACK_BACK, event_back_key_up);
 }
 
 static int powerkey_list_launch(bundle *b, const struct popup_ops *ops)
@@ -288,15 +317,13 @@ static void poweroff_clicked(const struct popup_ops *ops)
 	char data[8];
 	int ret;
 
-	if (bPowerOff == 1)
-		return;
+	if (bPowerOff == 1) return;
 	bPowerOff = 1;
 
 	unload_simple_popup(ops);
 
 	win = get_window();
-	if (!win)
-		popup_terminate();
+	if (!win) popup_terminate();
 
 	rect = evas_object_rectangle_add(evas_object_evas_get(win));
 	evas_object_geometry_get(win, NULL, NULL, &w, &h);
@@ -313,8 +340,7 @@ static void poweroff_clicked(const struct popup_ops *ops)
 			POWER_INTERFACE_NAME,
 			POWER_METHOD,
 			"si", param);
-	if (ret < 0)
-		_E("Failed to request poweroff to deviced (%d)", ret);
+	if (ret < 0) _E("Failed to request poweroff to deviced (%d)", ret);
 }
 
 static const struct popup_ops restart_ops = {
