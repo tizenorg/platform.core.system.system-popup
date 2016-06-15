@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Szyfrowanie karty pamięci"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Urządzenie zostanie uruchomione ponownie."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Ustawienia"
 
@@ -34,17 +37,8 @@ msgstr "Dotknij, aby wyświetlić użycie i ustawienia."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "Pamięć USB jest pusta lub ma nieobsługiwany system plików."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Uwaga"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Dane komórkowe wyłączone"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Bateria odłączona."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Bateria rozładowana."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Aparat podłączony."
@@ -234,4 +228,115 @@ msgstr "Kabel HDMI podłączony."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "Kabel HDMI odłączony."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Uwaga"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Dane komórkowe wyłączone"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Bateria rozładowana."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Telefon przegrzewa się. Może zostać wyłączony bez ostrzeżenia, aby zapobiec uszkodzeniu.\n\nPrzegrzewanie może być spowodowane przez:\n- Korzystanie przez dłuższy czas z aplikacji w znacznym stopniu wykorzystujących grafikę, takich jak gry wideo oraz aplikacje nawigacji\n- Przesyłanie dużych plików\n- Korzystanie z telefonu w środowisku charakteryzującym się wysoką temperaturą"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Anuluj"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Ustawienia"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Anuluj"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Ustaw."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Za mało miejsca w pamięci telefonu. Usuń niektóre pliki w menu Ustawienia > Pamięć i RAM > Pamięć > Szczegóły."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Za mało miejsca na karcie pamięci. Usuń niektóre pliki w menu Ustawienia > Pamięć i RAM > Pamięć > Szczegóły."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Telefon zostanie wyłączony."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Telefon zostanie uruchomiony ponownie."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Wył. zasil."
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Uruch. pon."
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Nie włożono karty SIM"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Uruchom ponownie"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "Włożona karta SIM"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "Przygotowywanie karty pamięci..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Stygnięcie telefonu"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Stygnięcie telefonu"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Telefon przegrzewa się. Zostaną zastosowane rozwiązania, aby go ochłodzić.\n\nNadal możesz używać telefonu, ale:\n- Ekran może zostać przyciemniony.\n- Telefon może pracować wolniej.\n- Ładowanie może zostać wstrzymane.\n\nPo ochłodzeniu telefonu zacznie on automatycznie działać w normalny sposób."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Przegrzanie telefonu"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Telefon przegrzewa się. Zostanie teraz wyłączony, aby mógł się ochłodzić."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "Do wyłączenia urządzenia pozostało sekund: %d."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Wyłącz teraz"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Wyłączanie telefonu"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "Aplikacja %s została niespodziewanie zamknięta."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "Karta pamięci może być w użyciu. Spróbuj ponownie później."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "Aplikacja %s nie odpowiada. Zamknąć %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Ur. pon."
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Ur. pon."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Podł. karty pamięci niemożl."
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Błąd podczas szyfrowania karty pamięci. Nie można zainstalować karty pamięci."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Odł. karty pamięci niemożl."
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Wyłącz teraz"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Nie można nagrać. Za mało miejsca w pamięci zegarka Gear."
 

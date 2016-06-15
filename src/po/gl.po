@@ -7,6 +7,9 @@ msgstr "Aceptar"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Cifrar tarxeta SD"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "O dispositivo reiniciarase"
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Axustes"
 
@@ -34,17 +37,8 @@ msgstr "Toca para ver o uso e os axustes"
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "O almacenamento USB está en branco ou ten un sistema de arquivos que non está admitido"
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Atención"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Datos móbiles desactivados"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Batería desconectada"
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Batería baixa"
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Cámara conectada"
@@ -234,4 +228,115 @@ msgstr "O cable de HDMI non está conectado"
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "O cable de HDMI está desconectado"
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Atención"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Datos móbiles desactivados"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Batería baixa"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "O teléfono está demasiado quente. É posible que se apague sen avisar para evitar danos.\n\nO exceso de temperatura pode deberse a:\n- O uso de aplicacións con moitos gráficos, como aplicacións de videoxogos e navegación, durante períodos de tempo prolongados\n- A transferencia de arquivos de grandes dimensións\n- O uso do teléfono en contornos a altas temperaturas"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "ACEPTAR"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Cancelar"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Axustes"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Cancel."
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Axust"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Non hai espazo suficiente no almacenamento do teléfono. Elimina algúns arquivos en Axustes > Almacenamento e RAM > Almacenamento > Detalles."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Non hai espazo suficiente na tarxeta SD. Elimina algúns arquivos en Axustes > Almacenamento e RAM > Almacenamento > Detalles."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "O teléfono apagarase."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "O teléfono reiniciarase."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Apagar"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Reiniciar"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Tarxeta SIM non inserida"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Reiniciar"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "Tarxeta SIM inserida"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "Preparando tarxeta SD..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Teléfono arrefriándose"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Teléfono arrefriándose"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "O teléfono está demasiado quente. Tomaranse medidas para arrefrialo.\n\nPodes seguir a usar o teléfono, pero:\n- É posible que a pantalla se atenúe.\n- O teléfono pode ir máis lento.\n- É posible que a carga se pause.\n\nDespois de que arrefríe o teléfono, o rendemento normalizarase automaticamente."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Tfno. demasiado quente"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "O teléfono está quecéndose. Agora apagarase para arrefriarse."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "Quedan %d segundos ata que se apague o dispositivo."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Apagar agora"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Teléfono apagándose"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s pechouse inesperadamente"
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "É posible que se estea a usar a tarxeta SD. Téntao máis tarde."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s non responde. Desexas pechar %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Rein."
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Rein."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Non se pode ins. a tarx. SD"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Produciuse un erro ao descifrar a tarxeta SD. Non se pode montar a tarxeta SD."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Non se pode ret. a tarx. SD"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Apagar agora"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Non se pode gravar. Non hai espazo suficiente no almacenamento de Gear."
 

@@ -7,6 +7,9 @@ msgstr "ಸರಿ"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "SD ಕಾರ್ಡ್ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿ"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "ಸಾಧನ ಮರುಪ್ರಾರಂಭಿಸುತ್ತದೆ."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "ಸಂಯೋಜನೆಗಳು"
 
@@ -34,17 +37,8 @@ msgstr "ಬಳಕೆ ಮತ್ತು ಸಂಯೋಜನೆಗಳನ್ನು ನ
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB ಸಂಗ್ರಹಣೆ ಖಾಲಿ ಅಥವಾ ಬೆಂಬಲಿತವಲ್ಲದ ಫೈಲ್ ಸಿಸ್ಟಮ್ ಹೊಂದಿದೆ."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "ಗಮನಿಸಿ"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "ಮೊಬೈಲ್ ಡೇಟಾ ನಿಶಕ್ತವಾಗಿದೆ"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "ಬ್ಯಾಟರಿ ಸಂಪರ್ಕ ಕಡಿದಿದೆ."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "ಬ್ಯಾಟರಿ ಕಡಿಮೆಯಿದೆ."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "ಕ್ಯಾಮರಾ ಸಂಪರ್ಕಿತವಾಗಿದೆ."
@@ -234,4 +228,115 @@ msgstr "HDMI ಕೇಬಲ್ ಸಂಪರ್ಕಗೊಂಡಿದೆ."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI ಕೇಬಲ್ ಸಂಪರ್ಕ ಕಡಿದಿದೆ."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "ಗಮನಿಸಿ"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "ಮೊಬೈಲ್ ಡೇಟಾ ನಿಶಕ್ತವಾಗಿದೆ"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "ಬ್ಯಾಟರಿ ಕಡಿಮೆಯಿದೆ."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "ನಿಮ್ಮ ಫೋನ್ ತುಂಬಾ ಬಿಸಿಯಾಗುತ್ತಿದೆ. ಸಾಂಭಾವ್ಯ ಹಾನಿಯನ್ನು ತಡೆಯಲು ಇದು ಎಚ್ಚರಿಕೆಯನ್ನು ನೀಡದೆಯೇ ಪವರ್ ಆಫ್ ಆಗಬಹುದು.\n\nತುಂಬಾ ಬಿಸಿಯಾಗಲು ಕಾರಣ:\n- ದೀರ್ಘ ಸಮಯದವರೆಗೆ ವೀಡಿಯೊ ಗೇಮ್‌ಗಳು ಮತ್ತು ನ್ಯಾವಿಗೇಶನ್ ಅನ್ವಯಿಸುವಿಕೆಗಳಂತಹ ಗ್ರಾಫಿಕ್ಸ್-ತೀವ್ರತೆಯ ಅನ್ವಯಿಸುವಿಕೆಗಳನ್ನು ಬಳಸುವುದು\n- ದೊಡ್ಡ ಫೈಲ್‌ಗಳನ್ನು ವರ್ಗಾಯಿಸುವುದು\n- ಬಿಸಿ ವಾತಾವರಣದಲ್ಲಿ ನಿಮ್ಮ ಸಾಧನವನ್ನು ಬಳಸುವುದು"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "ಸರಿ"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "ರದ್ದು"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "ಸಂಯೋಜನೆಗಳು"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "ರದ್ದು."
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "ಸಂಯೋಜನೆಗಳು"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "ನಿಮ್ಮ ಫೋನ್ ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ಸಾಕಷ್ಟು ಸ್ಥಳಾವಕಾಶವಿಲ್ಲ. ಸಂಯೋಜನೆಗಳು > ಸಂಗ್ರಹಣೆ ಮತ್ತು RAM > ಸಂಗ್ರಹಣೆ > ವಿವರಗಳಿಗೆ ಹೋಗಿ ಕೆಲವು ಫೈಲ್‍ಗಳನ್ನು ಅಳಿಸಿ."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "ನಿಮ್ಮ SD ಕಾರ್ಡ್‌ನಲ್ಲಿ ಸಾಕಷ್ಟು ಸ್ಮರಣೆಯಿಲ್ಲ. ಸಂಯೋಜನೆಗಳು > ಸಂಗ್ರಹಣೆ ಮತ್ತು RAM > ಸಂಗ್ರಹಣೆ > ವಿವರಗಳಿಗೆ ಹೋಗಿ ಕೆಲವು ಫೈಲ್‍ಗಳನ್ನು ಅಳಿಸಿ."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "ನಿಮ್ಮ ಫೋನ್ ಆಫ್ ಆಗುತ್ತದೆ."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "ನಿಮ್ಮ ಫೋನ್ ಮರುಪ್ರಾರಂಭವಾಗುತ್ತದೆ."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "ಪವರ್ ಆಫ್‌"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "ಮರುಪ್ರಾರಂಭಿಸಿ"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "SIM ಕಾರ್ಡ್ ಸೇರಿಸಲಾಗಿಲ್ಲ"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "ಪುನಾರಂಭಿಸಿ"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM ಕಾರ್ಡ್ ಸೇರಿಸಲಾಗಿದೆ"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "SD ಕಾರ್ಡ್ ಸಿದ್ಧಗೊಳ್ಳುತ್ತಿದೆ..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "ಫೋನ್ ತಂಪಾಗುತ್ತಿದೆ"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "ಫೋನ್ ತಂಪಾಗುತ್ತಿದೆ"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "ನಿಮ್ಮ ಫೋನ್ ತುಂಬಾ ಬಿಸಿಯಾಗುತ್ತಿದೆ. ನಿಮ್ಮ ಸಾಧನವನ್ನು ತಣ್ಣಗಾಗಿಸಲು ತೆಗೆದುಕೊಳ್ಳಬೇಕಾದ ಹಂತಗಳು.\n\nನೀವು ಈಗಲೂ ನಿಮ್ಮ ಸಾಧನವನ್ನು ಬಳಸಬಹುದು, ಆದರೆ:\n- ಸ್ಕ್ರೀನ್ ಮಬ್ಬಾಗಬಹುದು.\n- ಸಾಧನ ನಿಧಾನಗತಿಯಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸಬಹುದು.\n- ಚಾರ್ಜಿಂಗ್ ಸ್ಥಗಿತಗೊಳ್ಳಬಹುದು.\n\nಸಾಧನ ತಣ್ಣಗಾದ ನಂತರ, ಕಾರ್ಯಕ್ಷಮತೆಯು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ತನ್ನ ಸಾಮಾನ್ಯ ಸ್ಥಿತಿಗೆ ತಲುಪುತ್ತದೆ."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "ಫೋನ್ ತುಂಬಾ ಬಿಸಿಯಾಗುತ್ತಿದೆ"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "ನಿಮ್ಮ ಫೋನ್ ತುಂಬಾ ಬಿಸಿಯಾಗುತ್ತಿದೆ. ತಣ್ಣಗಾಗಲು ಇದೀಗ ಇದು ಪವರ್ ಆಫ್ ಆಗುತ್ತದೆ."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "ನಿಮ್ಮ ಸಾಧನ ಆಫ್ ಆಗಲು %d ಸೆಕೆಂಡುಗಳು ಬಾಕಿ ಉಳಿದಿವೆ."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "ಇದೀಗ ಆಫ್ ಮಾಡು"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "ಫೋನ್ ಆಫ್ ಆಗುತ್ತಿದೆ"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s ಅನಿರೀಕ್ಷಿತವಾಗಿ ಮುಚ್ಚಲ್ಪಟ್ಟಿರುತ್ತದೆ."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "SD ಕಾರ್ಡ್ ಬಳಕೆಯಲ್ಲಿರಬಹುದು. ನಂತರ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s ಪ್ರತಿಕ್ರಿಯಿಸುತ್ತಿಲ್ಲ. %s ಮುಚ್ಚಲೇ?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "ಮ.ಪ್ರಾರಂಭ"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "ಮ.ಆರ."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "SD ಕಾರ್ಡ್ ಮೌಂಟ್ ಮಾಡಲು ಅಸಾಧ್ಯ"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "SD ಕಾರ್ಡ್ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡುವಿಕೆ ದೋಷ. SD ಕಾರ್ಡ್ ಮೌಂಟ್ ಮಾಡಲು ಅಸಮರ್ಥ."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "SD ಕಾರ್ಡ್ ಅನ್‌ಮೌಂಟ್ ಅಸಾಧ್ಯ"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "ಈಗ ಟರ್ನ್‌ ಆಫ್ ಮಾಡಿ"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "ರೆಕಾರ್ಡ್ ಮಾಡಲು ಅಸಮರ್ಥ. ನಿಮ್ಮ ಗೇರ್‌ ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ಸಾಕಷ್ಟು ಸ್ಥಳಾವಕಾಶವಿಲ್ಲ."
 

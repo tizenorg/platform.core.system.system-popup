@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Шифрование карты памяти SD"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Устройство будет перезагружено."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Настройки"
 
@@ -34,17 +37,8 @@ msgstr "Просмотреть сведения об использовании 
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB-накопитель пуст или имеет неподдерживаемую файловую систему."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Внимание"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Мобильное подключение для передачи данных отключено"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Батарея отсоединена."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Аккумулятор разряжен"
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Камера подключена."
@@ -234,4 +228,115 @@ msgstr "Кабель HDMI подключен."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "Кабель HDMI отключен."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Внимание"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Мобильное подключение для передачи данных отключено"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Аккумулятор разряжен"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Телефон перегревается. Чтобы предотвратить повреждения, он может выключиться без предупреждения.\n\nПерегрев может быть вызван:\n— длительным использованием приложений с большим объемом графических операций, например игр или навигаторов;\n— передачей больших файлов;\n— использованием устройства при высокой температуре окружающей среды."
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "ОК"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Отмена"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Настройки"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Отмена"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Настр."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Недостаточно места в памяти телефона. Удалите часть файлов в меню “Настройки” > “Память и ОЗУ” > “Память” > “Сведения”."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Недостаточно места на SD-карте. Удалите часть файлов в меню “Настройки” > “Память и ОЗУ” > “Память” > “Сведения”."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Телефон будет выключен."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Телефон будет перезагружен."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Выключить"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Перезапуск"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "SIM-карта не вставлена"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Продолжить"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM-карта вставлена"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "Подготовка карты памяти SD..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Телефон охлаждается"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Охлаждение телефона"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Телефон перегревается. Будут предприняты действия для его охлаждения.\n\nВы сможете использовать телефон, однако:\n— экран может быть темнее;\n— устройство может работать медленнее;\n— зарядка может быть приостановлена.\n\nПосле охлаждения производительность устройства вернется на нормальный уровень автоматически."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Перегрев телефона"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Телефон перегревается. Он будет отключен для охлаждения."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "До отключения устройства осталось %d с."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Выкл. сейчас"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Отключение телефона"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "Приложение %s неожиданно закрылось."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "Возможно, SD-карта используется. Попробуйте позже."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s не отвечает. Закрыть %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Перезапуск"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Старт"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Не удалось подкл. SD-карту"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Ошибка шифрования карты памяти SD. Не удалось подключить карту памяти SD."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Не удалось откл. SD-карту"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Отключить"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Сбой записи. Недостаточно места в памяти Gear."
 

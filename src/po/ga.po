@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Criptigh an cárta SD"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Atosófar an gléas"
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Socruithe"
 
@@ -34,17 +37,8 @@ msgstr "Tapáil le hamharc ar úsáid agus ar shocruithe"
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "Stóras USB bán nó córas comhad gan tacú ann"
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Aire"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Sonraí móibíleacha díchumasaithe"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Ceallra dícheangailte."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Ceallra lag."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Ceamara ceangailte."
@@ -234,4 +228,115 @@ msgstr "Cábla HDMI ceangailte."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "Cábla HDMI dícheangailte."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Aire"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Sonraí móibíleacha díchumasaithe"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Ceallra lag."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Tá d'fhón róthe. Is féidir go gcasfar a chumhacht as gan rabhadh le damáiste a sheachaint.\n\nIs féidir go n-éiríonn gléas róthe ar na cúiseanna seo a leanas:\n- Feidhmchláir atá dian ar ghrafaicí a úsáid ar feadh tréimhsí fada, amhail físchluichí agus feidhmchláir eolas an bhealaigh\n- Comhaid mhóra a aistriú\n- D'fhón a úsáid i dtimpeallacht the"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Cuir ar ceal"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Socruithe"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Ar Ceal"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Socruith."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Níl go leor spáis i stóras d'fhóin. Scrios roinnt comhad i Socruithe > Stóras agus RAM > Stóras > Sonraí."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Níl go leor spáis ar do chárta SD. Scrios roinnt comhad i Socruithe > Stóras agus RAM > Stóras > Sonraí."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Casfar cumhacht d'fhóin as."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Atosófar d'fhón."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Cumhacht as"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Atosaigh"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Níl cárta SIM ionsáite"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Atosaigh"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "Cárta SIM ionsáite"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "Cárta SD á ullmhú..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Fón á fhuarú"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Fón á fhuarú"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Tá d'fhón róthe. Déanfar gníomh lena fhuarú.\n\nIs féidir leat d'fhón a úsáid go fóill, ach:\n- Is féidir go maolófar an scáileán.\n- Is féidir go mbeidh moill ar an bhfón.\n- Is féidir go gcuirfear luchtú ar sos.\n\nTar éis don fhón fuarú, fillfear ar a ghnáthfheidhmíocht go huathoibríoch."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Fón róthe"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Tá d'fhón róthe. Casfar a chumhacht as anois lena fhuarú."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "Tá %d soicind fágtha sula gcasfar cumhacht do ghléis as."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Cas as anois"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Fón á chasadh as"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "Dúnadh %s gan choinne"
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "Is féidir go bhfuil an cárta SD á úsáid. Triail arís ar ball."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "Níl %s ag freagairt. Dún %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Atosaigh"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Atosaigh"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Ní féidir SD a ghléasadh"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Tharla earráid agus an cárta SD á chriptiú. Ní féidir an cárta SD a ghléasadh."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Ní féidir SD a dhíghléasadh"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Cas as anois"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Taifeadadh dodhéanta. Ní dóthain spáis i stóras do Gear."
 

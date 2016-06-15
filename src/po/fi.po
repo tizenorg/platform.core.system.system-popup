@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Salaa SD-kortti"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Laite käynnistetään uudelleen."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Asetukset"
 
@@ -34,17 +37,8 @@ msgstr "Tarkastele käyttöä ja asetuksia napauttamalla."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB-muisti on tyhjä tai sen tiedostojärjestelmää ei tueta."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Huomio"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Mobiilidata poistettu käytöstä"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Akku irrotettu."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Akku on loppumassa."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Kamera kytketty."
@@ -234,4 +228,115 @@ msgstr "HDMI-kaapeli kytketty."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI-kaapeli irrotettu."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Huomio"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobiilidata poistettu käytöstä"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Akku on loppumassa."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Puhelin ylikuumenee. Se voidaan sammuttaa ilman varoitusta vahinkojen estämiseksi.\n\nYlikuumenemisen syynä voi olla\n- runsaasti grafiikkatehoa vaativien sovellusten, kuten videopelien ja navigointisovellusten, pitkäaikainen käyttäminen\n- suurten tiedostojen siirtäminen\n- puhelimen käyttäminen kuumassa ympäristössä."
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Peruuta"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Asetukset"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Peruuta"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Aset."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Puhelimen muistissa ei ole tarpeeksi tilaa. Poista joitain tiedostoja valitsemalla Asetukset > Muisti ja RAM > Tallennus > Tiedot."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "SD-kortilla ei ole tarpeeksi tilaa. Poista joitain tiedostoja valitsemalla Asetukset > Muisti ja RAM > Tallennus > Tiedot."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Puhelin sammutetaan."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Puhelin käynnistetään uudelleen."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Virrankatk."
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Käynn. uud."
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "SIM-korttia ei ole asetettu"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Käynnistä uudelleen"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM-kortti asetettu"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "Valmistellaan SD-korttia..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Puhelin jäähtyy"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Puhelin jäähtyy"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Puhelin ylikuumenee. Ryhdytään toimenpiteisiin sen jäähdyttämiseksi.\n\nVoit jatkaa puhelimen käyttöä, mutta\n- näyttö voidaan himmentää\n- puhelin voi hidastua\n- lataaminen voidaan keskeyttää.\n\nKun puhelin on jäähtynyt, suorituskyky palaa automaattisesti normaaliksi."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Puhelin ylikuumenee"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Puhelin ylikuumenee. Se sammutetaan, jotta se pääsee jäähtymään."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "%d sekuntia jäljellä ennen laitteen sammumista."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Sammuta nyt"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Puhelin sammutetaan"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s on yllättäen suljettu."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "SD-kortti on ehkä käytössä. Yritä myöhemmin uudelleen."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s ei vastaa. Suljetaanko %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Käyn."
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Käyn."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "SD-korttia ei voi ottaa k."
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "SD-korttia salattaessa tapahtui virhe. SD-korttia ei voi ottaa käyttöön."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "SD-korttia ei voi poistaa k."
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Sammuta nyt"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Ei voi tallentaa. Gearin muistissa ei ole riittävästi tilaa."
 

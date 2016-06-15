@@ -7,6 +7,9 @@ msgstr "Ados"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Enkriptatu SD txartela"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Gailua berrabiaraziko da"
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Ezarpenak"
 
@@ -34,17 +37,8 @@ msgstr "Ukitu erabilera eta ezarpenak ikusteko"
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB biltegiratzea hutsik dago edo onartzen ez den fitxategi sistema du"
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Oharra"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Mugikorraren datuak desgaituta"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Bateria deskonektatu da"
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Bateria gutxi"
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Kamera konektatuta"
@@ -234,4 +228,115 @@ msgstr "HDMI kablea konektatuta"
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI kablea deskonektatuta"
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Oharra"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mugikorraren datuak desgaituta"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Bateria gutxi"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Telefonoa gehiegi berotzen ari da. Abisurik gabe itzal daiteke kalteak saihesteko.\n\nArrazoi hauengatik gerta daiteke hori:\n- Denbora luzez grafiko ugari darabiltzaten aplikazioak erabiltzeagatik, adibidez, bideo jokoak eta nabigatzeko aplikazioak.\n- Fitxategi handiak transferitzeagatik.\n- Gailua ingurune beroetan erabiltzeagatik"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "ADOS"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Utzi"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Ezarpenak"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Utzi"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Ezarp."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Ez dago behar adina toki telefonoaren biltegian. Ezabatu fitxategi batzuk Ezarpenak > Biltegia eta RAM > Biltegia > Xehetasunak atalean."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Ez dago behar adina toki SD txartelean. Ezabatu fitxategi batzuk Ezarpenak > Biltegia eta RAM > Biltegia > Xehetasunak atalean."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Telefonoa itzali egingo da."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Telefonoa berrabiaraziko da."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Itzali"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Berrabiarazi"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Ez dago SIM txartelik"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Berrabiarazi"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM txartela sartu da"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "SD txartela prestatzen..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Telefonoa hozten"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Telefonoa hozten"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Telefonoa gehiegi berotzen ari da. Hozteko neurriak hartuko dira.\n\nTelefonoa erabiltzen jarrai dezakezu, baina baliteke:\n- Pantaila iluntzea.\n- Telefonoa motelago aritzea.\n- Kargatze prozesua pausatzea.\n\nTelefonoa hoztu ondoren, funtzionamendua ohikoa izango da berriz."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Telefonoa beroegi dago"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Telefonoa gehiegi berotzen ari da. Itzali egingo da orain, hozteko."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "%d segundo geratzen dira gailua itzaltzeko."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Itzali"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Telefonoa itzaltzen"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s ezustean itxi da"
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "Baliteke SD txartela erabiltzen aritzea. Saiatu berriz geroago."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s-(e)k ez du erantzuten. Itxi %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Berrabia."
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Berrab."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Ezin da SD txartela muntatu"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Errorea gertatu da SD txartela enkriptatzean. Ezin da SD txartela muntatu."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Ezin da SD txart. desmuntatu"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Itzali orain"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Ezin da grabatu. Ez dago nahikoa espazio zure Gear biltegian."
 

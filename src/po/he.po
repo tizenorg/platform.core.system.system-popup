@@ -7,6 +7,9 @@ msgstr "אישור"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "הצפן כרטיס SD"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "המכשיר יופעל מחדש."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "הגדרות"
 
@@ -34,17 +37,8 @@ msgstr "לחץ לסקירת שימוש והגדרות."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "אחסון טלפון פנימי ריק או בעל מערכת קבצים לא נתמכת."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "שים לב"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "נתונים ניידים מושבתים"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "סוללה מנותקת."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "סוללה חלשה."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "מצלמה מחוברת."
@@ -234,4 +228,115 @@ msgstr "כבל HDMI מחובר."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "כבל HDMI מנותק."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "שים לב"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "נתונים ניידים מושבתים"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "סוללה חלשה."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "התחממות יתר בטלפון. ייתכן שהוא יכבה ללא התראה כדי למנוע נזק.\n\nהתחממות יתר עשויה להיגרם מהסיבות הבאות:\n- הפעלה ממושכת של יישומים עתירי גרפיקה, כמו משחקי וידאו ויישומי ניווט\n- העברת קבצים גדולים\n- הפעלת המכשיר בסביבה חמה"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "אישור"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "ביטול"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "הגדרות"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "ביטול"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "הגדרות"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "אין די שטח פנוי באחסון הטלפון. מחק קבצים אחדים דרך 'הגדרות' 'אחסון ו-RAM' > 'אחסון' > 'פרטים'."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "אין די שטח פנוי בכרטיס ה-SD. מחק קבצים אחדים דרך 'הגדרות' 'אחסון ו-RAM' > 'אחסון' > 'פרטים'."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "הטלפון שלך יכבה."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "הטלפון שלך יופעל מחדש."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "כיבוי"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "הפעל מחדש"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "לא הוכנס כרטיס SIM"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "הפעל מחדש"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "כרטיס SIM הוכנס"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "מכין את כרטיס ה-SD..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "הטלפון בהתקררות"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "הטלפון בהתקררות"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "התחממות יתר בטלפון. כעת יינקטו פעולות כדי לקרר אותו.\n\nתוכל להמשיך להשתמש במכשיר, אולם:\n- יתכן שהמסך יתעמעם.\n- ייתכן שפעולת המכשיר תהיה איטית יותר.\n- ייתכן שהטעינה תושהה.\n\nלאחר התקררות המכשיר, הביצועים יחזרו באופן אוטומטי לרמה הרגילה."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "התחממות יתר בטלפון"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "התחממות יתר בטלפון. המכשיר יכבה עכשיו כדי להתקרר."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "נותרו %d שניות עד לכיבוי המכשיר."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "כבה עכשיו"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "תהליך כיבוי בטלפון"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s נסגר באופן בלתי צפוי."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "ייתכן שכרטיס ה-SD בשימוש. נסה שוב מאוחר יותר."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s אינו מגיב. לסגור את %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "המשך"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "המשך"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "לא ניתן לטעון כרטיס ה-SD‏"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "אירעה שגיאה במהלך פענוח כרטיס ה-SD. לא ניתן לטעון את כרטיס ה-SD."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "לא ניתן לבטל טעינת כרטיס SD‏"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "כבה כעת"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "לא ניתן להקליט. אין מספיק מקום באחסון של Gear."
 

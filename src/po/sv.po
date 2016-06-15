@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Kryptera SD-kort"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Enheten startas om."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Inställningar"
 
@@ -34,17 +37,8 @@ msgstr "Tryck för att visa användning och inställningar."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB-lagring är tomt eller har ett filsystem som inte stöds."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Obs!"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Mobil data är inaktiverat"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Batteriet urkopplat."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Låg batterinivå."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Kamera ansluten."
@@ -234,4 +228,115 @@ msgstr "HDMI-kabel ansluten."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI-kabel frånkopplad."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Obs!"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobil data är inaktiverat"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Låg batterinivå."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Telefonen överhettas. Den kan stängas av utan varning för att förhindra skada.\n\nÖverhettning kan orsakas av att\n– grafiktunga program, t.ex. spel och navigeringsprogram, används under en längre tid\n– stora filer överförs\n– telefonen används i varm miljö."
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Avbryt"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Inställn."
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Avbryt"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Inst."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Telefonens lagringsutrymme räcker inte. Radera några filer i Inställningar > Lagring och minne > Lagring > Detaljer."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "SD-kortets lagringsutrymme räcker inte. Radera några filer i Inställningar > Lagring och minne > Lagring > Detaljer."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Telefonen stängs av."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Telefonen startas om."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Stäng av"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Omstart"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Inget SIM-kort har satts i"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Starta om"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "Ett SIM-kort har satts in"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "Förbereder SD-kortet ..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Telefonen svalnar"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Telefonen svalnar"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Telefonen håller på att överhettas. Åtgärder vidtas för att kyla ned den.\n\nDu kan fortfarande använda telefonen, men\n– skärmen kan bli mörkare.\n– telefonen kan bli långsammare.\n– laddningen kan pausas.\n\nNär telefonen har kylts ned blir prestandan automatiskt normal igen."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Telefonen överhettas"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Telefonen håller på att överhettas. Den kommer att stängas av för att kylas ned."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "%d sekunder kvar innan enheten stängs av."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Stäng av nu"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Telefonen stängs av"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s stängdes oväntat."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "SD-kortet kanske används. Försök igen senare."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s svarar inte. Vill du stänga %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Omstart"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Omstart"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Kan inte montera SD-kortet"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Ett fel inträffade vid kryptering av SD-kortet. Det går inte att sätta in SD-kortet."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Kan inte avmontera SD-kortet"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Stäng av nu"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Kan inte spela in. Det saknas lagringsutrymme i Gear."
 

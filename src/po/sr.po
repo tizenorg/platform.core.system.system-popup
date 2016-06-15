@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Šifruj SD karticu"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Uređaj će se restartovati."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Podešavanja"
 
@@ -34,17 +37,8 @@ msgstr "Kucni za prikaz korišćenja i podešavanja."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB memorija prazna ili ima nepodržan fajl-sistem."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Pažnja"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Mobilna veza sa podacima onemogućena"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Baterija otkačena."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Baterija prazna."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Kamera je priključena."
@@ -234,4 +228,115 @@ msgstr "HDMI kabl priključen."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI kabl otkačen."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Pažnja"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobilna veza sa podacima onemogućena"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Baterija prazna."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Telefon se pregreva. Možda će se isključiti bez upozorenja kako bi se sprečilo oštećenje.\n\nPregrevanje može da nastane usled:\n- Korišćenja grafički zahtevnih aplikacija kao što su video igre i aplikacije za navigaciju duži vremenski period\n- Prenošenja velikih fajlova\n- Korišćenja telefona u izuzetno toplom okruženju"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Otkaži"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Podešavanja"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Otkaži"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Podeš."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Nema dovoljno prostora u skladišnoj lokaciji telefona. Izbrišite neke fajlove u okviru Podešavanja > Skladišna lokacija i RAM > Skladišna lokacija > Detalji."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Nema dovoljno prostora na vašoj SD kartici. Izbrišite neke fajlove u okviru Podešavanja > Skladišna lokacija i RAM > Skladišna lokacija > Detalji."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Telefon će se isključiti."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Telefon će se restartovati."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Isključi"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Restartuj"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Nije ubačena SIM kartica"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Restart"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM kartica je ubačena"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "Priprema se SD kartica..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Telefon se hladi"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Telefon se hladi"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Telefon se pregreva. Preduzeće se koraci kako bi se on ohladio.\n\nI dalje ćete moći da koristite telefon, ali:\n- Ekran će možda biti zatamnjen.\n- Telefon će možda sporije raditi.\n- Punjenje će možda biti pauzirano.\n\nNakon što se telefon ohladi, performanse će se automatski vratiti u normalno stanje."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Telefon se pregreva"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Telefon se pregreva. On će se sada isključiti kako bi se ohladio."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "Preostao je sledeći broj sekundi pre isključivanja uređaja: %d."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Isključi sada"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Isključivanje telefona"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "Aplikacija %s se neočekivano zatvorila."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "SD kartica je možda u upotrebi. Pokušajte ponovo kasnije."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s ne reaguje. Zatvoriti %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Rest."
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Rest."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Nemoguće postaviti SD karticu"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Došlo je do greške prilikom šifrovanja SD kartice. SD kartica ne može da se uključi."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Nemoguće izvaditi SD karticu"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Isključi sad"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Nije moguće snimiti. Nedovoljno prostora na Gear memoriji."
 

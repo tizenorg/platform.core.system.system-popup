@@ -7,6 +7,9 @@ msgstr "موافق"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "تشفير بطاقة SD"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "ستتم إعادة تشغيل الجهاز."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "الضبط"
 
@@ -34,17 +37,8 @@ msgstr "انقر لعرض المساحة المستخدمة‬ والإعداد�
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "وحدة تخزين USB فارغة أو نظام الملفات غير معتمد."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "انتباه"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "تم إلغاء تفعيل بيانات الهاتف المحمول"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "تم فصل البطارية."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "البطارية ضعيفة."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "تم توصيل الكاميرا."
@@ -113,10 +107,10 @@ msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
 msgstr "تم تشغيل الضوء المساعد."
 
 msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
-msgstr "تم إيقاف الشحن مؤقتا. درجة حرارة البطارية عالية للغاية."
+msgstr "تم إيقاف الشحن مؤقتاً. درجة حرارة البطارية عالية للغاية."
 
 msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
-msgstr "تم إيقاف الشحن مؤقتا. درجة حرارة البطارية منخفضة للغاية."
+msgstr "تم إيقاف الشحن مؤقتاً. درجة حرارة البطارية منخفضة للغاية."
 
 msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
 msgstr "لا توقف التشغيل"
@@ -146,13 +140,13 @@ msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
 msgstr "تم فك تشفير بطاقة SD."
 
 msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
-msgstr "قم بحدث خطأ أثناء فك تشفير بطاقة SD."
+msgstr "حدث خطأ أثناء فك تشفير بطاقة SD."
 
 msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
 msgstr "تم تشفير بطاقة SD."
 
 msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
-msgstr "قم بحدث خطأ أثناء تشفير بطاقة SD."
+msgstr "حدث خطأ أثناء تشفير بطاقة SD."
 
 msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
 msgstr "تم تثبيت بطاقة SD للقراءة فقط."
@@ -185,7 +179,7 @@ msgid "IDS_ST_HEADER_POWER_OFF_ABB"
 msgstr "إيقاف التشغيل"
 
 msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
-msgstr "يمنع نهج الأمان استخدام مزامنة سطح المكتب."
+msgstr "تمنع سياسة الأمان استخدام مزامنة سطح المكتب."
 
 msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
 msgstr "شحن البطارية ضعيف للغاية"
@@ -234,4 +228,115 @@ msgstr "تم توصيل كابل HDMI."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "لم يتم توصيل كابل HDMI."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "انتباه"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "تم إلغاء تفعيل بيانات الهاتف المحمول"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "البطارية ضعيفة."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "تجاوزت درجة سخونة هاتفك المستوى المسموح به. قد يتوقف الجهاز عن التشغيل من دون أي تحذير لتجنب إلحاق الضرر به.\n\nقد يكون تجاوز درجة سخونة الجهاز المستوى المسموح به ناجماً عن:\n- استخدام تطبيقات ذات رسومات مكثفة، مثل ألعاب الفيديو وتطبيقات الملاحة، لفترات طويلة من الوقت\n- نقل ملفات كبيرة\n- استخدام هاتفك في بيئة حارة"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "موافق"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "إلغاء"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "ضبط"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "إلغاء"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "الضبط"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "لا تتوفر مساحة كافية في وحدة تخزين هاتفك. احذف بعض الملفات في الضبط > وحدة التخزين وRAM > وحدة التخزين > التفاصيل."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "لا تتوفر مساحة كافية على بطاقة SD. احذف بعض الملفات في الضبط > وحدة التخزين وRAM > وحدة التخزين > التفاصيل."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "سيتوقف هاتفك عن التشغيل."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "ستتم إعادة تشغيل هاتفك."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "إيقاف التشغيل"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "إعادة التشغيل"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "لم يتم إدخال بطاقة SIM"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "إعادة التشغيل"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "تم إدخال بطاقة SIM"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "جارٍ تحضير بطاقة SD..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "تبريد الهاتف"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "تبريد الهاتف"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "تجاوزت درجة سخونة هاتفك المستوى المسموح به. سيتم اتخاذ خطوات لتبريد الجهاز.\n\nسيظل بإمكانك استخدام هاتفك، ولكن:\n- قد تخفت إضاءة الشاشة.\n- قد يبطؤ عمل الهاتف.\n- قد يتوقف الشحن مؤقتاً.\n\nبعد أن يبرد الهاتف، سيعود مستوى الأداء إلى مستواه الطبيعي بشكل تلقائي."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "تجاوزت درجة سخونة الهاتف المستوى المسموح به"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "تجاوزت درجة سخونة هاتفك المستوى المسموح به. سيتوقف الآن عن التشغيل ليبرد."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "تبقّت %d من الثواني قبل إيقاف تشغيل جهازك."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "إيقاف التشغيل الآن"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "إيقاف تشغيل الهاتف"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "تم إغلاق %s بشكل مفاجئ."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "قد تكون بطاقة SD قيد الاستخدام. حاول مرة أخرى لاحقاً."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s لا يستجيب. إغلاق %s؟"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "إ. ت."
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "إ.تشغيل"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "يتعذر تحميل بطاقة SD"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "حدث خطأ أثناء تشفير بطاقة SD‬. يتعذر تحميل بطاقة SD.."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "يتعذر إلغاء تحميل بطاقة SD"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "إيقاف تشغيل الآن"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "يتعذر التسجيل. لا توجد مساحة كافية على وحدة تخزين الساعة Gear."
 

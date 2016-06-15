@@ -7,8 +7,11 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Шифрирај SD-картичка"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Уредот ќе се рестартира."
+
 msgid "IDS_COM_BODY_SETTINGS"
-msgstr "Опции"
+msgstr "Поставувања"
 
 msgid "IDS_BT_SK_BROWSE"
 msgstr "Пребар."
@@ -29,22 +32,13 @@ msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_I
 msgstr "Достигнато е одреденото ограничување за користење податоци. Дополнителните податоци може да направат трошоци кај операторот."
 
 msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
-msgstr "Допрете за преглед на користењето и опции."
+msgstr "Допрете за преглед на користењето и поставувања."
 
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "Меморијата USB е празна или има неподдржан систем за фајлови."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Внимание"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Мобилните податоци се оневозможени"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Батеријата е откачена."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Батеријата е празна."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Камерата е поврзана."
@@ -234,4 +228,115 @@ msgstr "Поврзан е кабел HDMI."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "Кабелот HDMI е откачен."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Внимание"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Мобилните податоци се оневозможени"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Батеријата е празна."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Телефонот се прегрева. Може да се исклучи без предупредување за да се спречи оштетување.\n\nПрегревање може да се предизвика со:\n- Користење апликации што користат многу графика, како видео-игри и апликации за навигација подолго време\n- Пренесување големи датотеки\n- Користење на телефонот во жешка средина"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Откажи"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Поставувања"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Откажи"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Поставувања"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Нема доволно простор во меморијата на Вашиот телефон. Избришете некои датотеки во Поставувања > Меморија и RAM > Меморија > Детали."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Нема доволно простор на SD-картичката. Избришете некои датотеки во Поставувања > Меморија и RAM > Меморија > Детали."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Вашиот телефон ќе се исклучи."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Вашиот телефон ќе се рестартира."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Исклучување"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Рестартирање"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Не е вметната SIM-картичка"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Рестартирај"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "Вметната е SIM-картичка"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "SD-картичката се подготвува..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Телефонот се лади"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Телефонот се лади"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Телефонот се прегрева. Ќе се преземат чекори за ладење.\n\nСè уште можете да го користите телефонот, но:\n- Екранот може да се затемни.\n- Телефонот може да биде побавен.\n- Полнењето може да се паузира.\n\nОткако ќе се излади уредот, перформансите автоматски ќе се вратат во нормала."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Телефонот се прегрева"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Телефонот се прегрева. Сега ќе се исклучи за да се излади."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "Остануваат уште %d секунди пред Вашиот уред да се исклучи."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Искл. веднаш"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Телефонот се исклучува"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s неочекувано затвори."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "SD-картичката може да се користи. Обидете се повторно подоцна."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s не реагира. Да се затвори %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Ресет."
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Ресет."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Не може да монтира SD-карт."
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Грешка при шифрирањето на SD-картичката. SD-картичката не може да се монтира."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Не може да демонтира SD-карт."
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Исклучи сега"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Не може да се снима. Нема доволно место во меморијата на Gear."
 

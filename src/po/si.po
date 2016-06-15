@@ -7,6 +7,9 @@ msgstr "හරි"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "SD කාඩ්පත සංකේතනය කරන්න"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "උපාංගය නැවත ඇරඹෙනු ඇත."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "සැකසුම්"
 
@@ -34,17 +37,8 @@ msgstr "භාවිතය සහ සැකසුම් බැලීමට ත�
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB ගබඩාව හිස් හෝ ගොනු පද්ධතියට බාධා වී ඇත."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "අවධානය යොමු කරන්න"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "ජංගම දත්ත අක්‍රිය කෙරිණි"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "බැටරිය විසන්ධි කෙරිණි."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "බැටරිය අවමයි."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "කැමරාව සම්බන්ධ කෙරිණි."
@@ -218,7 +212,7 @@ msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
 msgstr "USB ගබඩාව ආරක්ෂිත ඉවත් කරන ලදි."
 
 msgid "IDS_USB_BUTTON_UNMOUNT"
-msgstr "ඉවත් කරන්න"
+msgstr "නොඈඳන්න"
 
 msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
 msgstr "USB උපාංග %d ක් සම්බන්ධිතයි"
@@ -234,4 +228,115 @@ msgstr "HDMI රැහැන සම්බන්ධ විය."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI රැහැන විසන්ධි විය."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "අවධානය යොමු කරන්න"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "ජංගම දත්ත අක්‍රිය කෙරිණි"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "බැටරිය අවමයි."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "ඔබේ දුරකථනය අධිකව රත් වේ. හානිය වැළැක්වීම සඳහා එය අනතුරු ඇඟවීමකින් තොරව බල රහිත විය හැක.\n\nපමණට වඩා රත් වීම මේවා නිසා විය හැක:\n- විඩීයෝ ක්‍රීඩා සහ සංචාලන යෙදුම් වැනි, චිත්‍රක-දැඩි යෙදුම්, දිගු කාල සීමාවක් සඳහා භාවිතා කිරීම\n- විශාල ගොනු මාරු කිරීම\n- ඔබේ දුරකථනය උණුසුම් පරිසරයක් තුළ භාවිතා කිරීම"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "හරි"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "අවලංගු කරන්න"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "සැකසුම්"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "අව. කර."
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "සැකසුම්"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "ඔබේ දුරකථන ගබඩාවේ ප්‍රමාණවත් ඉඩක් නැත. සැකසුම් > ගබඩාව හා RAM > ගබඩාව > විස්තර තුළ ඇතැම් ගොනු මකන්න."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "ඔබේ SD කාඩ්පතේ ප්‍රමාණවත් ඉඩක් නැත. සැකසුම් > ගබඩාව හා RAM > ගබඩාව > විස්තර තුළ ඇතැම් ගොනු මකන්න."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "ඔබේ දුරකථනය බල රහිත වනු ඇත."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "ඔබේ දුරකථනය යළි ඇරඹෙනු ඇත."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "බලය අක්‍රි. කර."
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "යළි අරඹන්න"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "SIM කාඩ්පතක් ඇතුළු කර නැත"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "යළි අරඹන්න"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM කාඩ්පත ඇතුළත් කෙරිණි"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "SD කාඩ්පත සූදානම් කරමින්..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "දුරකථනය සිසිලනය වේ"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "දුරකථනය සිසිලනය වේ"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "ඔබේ දුරකථනය අධිකව රත් වේ. එය සිසිල් කිරීමට පියවර ගනු ලැබේ.\n\nඔබට තවමත් ඔබේ දුරකථනය භාවිතා කළ හැක, නමුත්:\n- තිරය අඳුරු විය හැක.\n- දුරකථනය මන්දගාමී විය හැක.\n- චාර්ජ් වීම විරාම ගැන්වෙනු ඇත.\n\nදුරකථනය සිසිල් වූ පසුව, ක්‍රියාකාරීත්වය ස්වයංක්‍රීයව සාමාන්‍ය වනු ඇත."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "දුරකථනය අධිකව රත් වේ"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "ඔබේ දුරකථනය අධිකව රත් වේ. දැන් එය සිසිලනය වීමට බල රහිත වනු ඇත."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "ඔබේ උපාංගය බල රහිත වීමට පෙර තත්පර %d ඉතිරියි."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "දැන් බල ර. ක."
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "දුරකථනය බල රහිත වේ"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s අනපේක්ෂිත ලෙස වැසී ඇත."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "SD කාඩ්පත භාවිතයේ විය හැක. පසුව නැවත උත්සාහ කරන්න."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s ප්‍රතිචාර නොදක්වයි. %s වසන්නද?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "නැ.ආ.ක."
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "නැවත ආර. කර."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "SD කාඩ්පත සවි කළ නොහැකිය"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "SD කාඩ්පත් සංකේතන දෝෂයකි. SD කාඩ්පත සවි කළ නොහැක."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "SD කාඩ්පත වියෑදිය නොහැකිය"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "දැන් අක්‍රිය ක."
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "පටිගත කිරීමට නොහැක. ඔබගේ ගියර ගබඩාව තුළ ප්‍රමාණවත් ඉඩ නැත."
 

@@ -7,6 +7,9 @@ msgstr "ओके"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "SD कार्ड एन्क्रिप्‍ट करें"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "डिवाइस पुनः चालू होगा।"
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "सेटिंग्स"
 
@@ -34,17 +37,8 @@ msgstr "उपयोग और सेटिंग्स देखने के �
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB स्टोरेज खाली या उसमें असमर्थित फ़ाइल सिस्टम है"
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "ध्यान दें"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "मोबाइल डाटा अक्षम किया गया"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "बैटरी डिसकनेक्‍ट की गई है।"
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "बैटरी कम है।"
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "कैमरा कनेक्ट किया गया।"
@@ -234,4 +228,115 @@ msgstr "HDMI केबल जुड़ी है।"
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI केबल डिस्कनेक्ट है।"
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "ध्यान दें"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "मोबाइल डाटा अक्षम किया गया"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "बैटरी कम है।"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "आपका फोन जरूरत से ज्यादा गरम हो रहा है। क्षति से बचने के लिए यह चेतावनी दिए बिना बंद हो सकता है।\n\nजरूरत से ज्यादा गरम होने के निम्न कारण हो सकते हैं:\n- अधिक समय तक वीडियो गेम्स और नेविगेशन एप्स जैसे ग्राफिक्स-इंटेंसिव एप्स का उपयोग करना\n- बड़ी फाइलें स्थानांतरित करना\n- गर्म पर्यावरण में अपने फोन का उपयोग करना"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "ओके"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "रद्द करें"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "सेटिंग्स"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "रद्द"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "सेटिंग्स"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "आपके फोन स्टोरेज में पर्याप्त स्थान नहीं है। सेटिंग्स > स्टोरेज और RAM > स्टोरेज > विवरण में कुछ फाइलें हटाएँ।"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "आपके SD कार्ड में पर्याप्त स्‍थान नहीं है। सेटिंग्स > स्टोरेज और RAM > स्टोरेज > विवरण में कुछ फाइलें हटाएँ।"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "आपका फोन बंद हो जाएगा।"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "आपका फोन पुनः चालू होगा।"
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "बंद करें"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "पुनः चालू"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "कोई SIM कार्ड इंसर्ट नहीं है"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "पुनः चालू करें"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM कार्ड इंसर्ट किया गया"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "SD कार्ड तैयार हो रहा है..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "फोन ठंडा हो रहा है"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "फोन ठंडा हो रहा है"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "आपका फोन जरूरत से ज्यादा गरम हो रहा है। इसे ठंडा करने के लिए कदम उठाए जाएँगे।\n\nआप अभी भी अपने फोन का उपयोग कर सकते हैं, लेकिन:\n- स्क्रीन मंद हो सकती है।\n- फोन धीमा हो सकता है।\n- चार्जिंग को विराम दिया जा सकता है।\n\nफोन ठंडा होने के बाद, कार्यप्रदर्शन स्वचालित रूप से सामान्य हो जाएगा।"
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "फोन बहुत गर्म हो रहा है"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "आपका फोन जरूरत से ज्यादा गरम हो रहा है। अब यह ठंडा होने के लिए हो जाएगा।"
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "आपका डिवाइस बंद होने में %d सेकंड बाकी हैं।"
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "अभी बंद करें"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "फोन बंद हो रहा है"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s अनपेक्षित ढंग से बंद हो गया है"
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "हो सकता है, SD कार्ड उपयोग में है। बाद में फिर से प्रयास करें।"
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s प्रतिसाद नहीं दे रहा/रही है। %s बंद करें?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "रीस्टार्ट"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "पु. शुरू"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "SD कार्ड माउंट करना असमर्थ"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "SD कार्ड एन्क्रिप्‍ट करने में त्रुटि। SD कार्ड माउंट करने में असमर्थ।"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "SD कार्ड अनमाउंट करना असमर्थ"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "अभी बंद करें"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "रिकॉर्ड करने में असमर्थ। आपके गियर स्टोरेज में पर्याप्त स्थान नहीं है।"
 

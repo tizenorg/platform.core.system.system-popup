@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "SD-kartani shifrlash"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Qurilma qayta ishga tushiriladi."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Parametrlar"
 
@@ -34,17 +37,8 @@ msgstr "Foydalanish va parametrlarni ko‘rib chiqish uchun cherting."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB-ichki xotira bo‘sh yoki qo‘llab-quvvatlanmagan fayl tizimiga ega."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Diqqat"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Mobil ma'lumot o‘chirilgan"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Batareya chiqarildi."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Batareya quvvati kam."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Kamera ulandi."
@@ -234,4 +228,115 @@ msgstr "HDMI kabel ulangan."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI kabel uzilgan."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Diqqat"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobil ma'lumot o‘chirilgan"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Batareya quvvati kam."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Telefon qizimoqda. Zarar yetkazilmasligi uchun u ogohlantirishsiz o‘chirilishi mumkin.\n\nQizib ketish sababi quyidagilar bo‘lishi mumkin:\n- O‘yinlar va navigatsiya ilovalari kabi intensiv grafikli ilovalardan uzoq vaqt davomida foydalanish\n- Katta fayllarni uzatish\n- Telefondan issiq muhitda foydalanish"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Bekor qilish"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Parametrlar"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Bek/qil"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Parametr"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Telefon xotirasida joy yetarli emas. Parametrlar > Xotira va RAM > Xotira > Tafsilotlarda ayrim fayllarni o‘chirib tashlang."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "SD-kartada joy yetarli emas. Parametrlar > Xotira va RAM > Xotira > Tafsilotlarda ayrim fayllarni o‘chirib tashlang."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Telefoningiz o‘chiriladi."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Telefon o‘chirib yoqiladi."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "O‘chirish"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Qayta yukla"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "SIM-karta kiritilmagan"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Qayta yuklash"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM-karta kiritildi"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "SD-karta tayyorlanmoqda..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Telefon sovimoqda"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Telefon sovimoqda"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Telefon qizimoqda. Uning haroratini pasaytirish uchun bir nechta narsa bajariladi.\n\nTelefondan foydalanishda davom etishingiz mumkin, lekin:\n- Ekran qorayishi mumkin.\n- Telefon tezligi pasayishi mumkin.\n- Zaryadlash to‘xtatilishi mumkin.\n\nTelefon harorati pasaygandan so‘ng, ishlash tezligi avtomatik ravishda normalga qaytariladi."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Telefon qizimoqda"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Telefon qizimoqda. Sovitish uchun u hozir o‘chiriladi."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "%d soniyadan so‘ng qurilma o‘chadi."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Hozir o‘chir"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Telefon o‘chirilmoqda"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s kutimaganda yopildi."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "SD-karta ishlatilayotgan bo‘lishi mumkin. Keyinroq qayta urinib ko‘ring."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s javob bermayapti. %s yopilsinmi?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Q/yuk"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Qay/yukl"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "SD-kartani montajlanmadi"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "SD-kartani shifrlashda xato yuzaga keldi. SD-kartani montajlab bo‘lmadi."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "SD-kartani chiqarib olinmadi"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Hozir o‘chir"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Yozib olib bo‘lmaydi. Gearingiz xotirasida yetarli bo‘sh joy mavjud emas."
 

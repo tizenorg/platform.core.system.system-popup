@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Criptare cartelă SD"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Dispozitivul va reporni."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Setări"
 
@@ -29,22 +32,13 @@ msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_I
 msgstr "S-a atins limita specificată pentru utilizarea datelor. Utilizarea datelor suplimentare poate genera costuri din partea furnizorului de servicii."
 
 msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
-msgstr "Atingeţi pentru a vizualiza utilizarea şi setările."
+msgstr "Atingeți pentru a vizualiza utilizarea și setările."
 
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
-msgstr "Card USB fără conţinut sau cu sistem de fişiere neacceptat"
-
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Atenţie"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Date mobile dezactivate"
+msgstr "Card USB fără conținut sau cu sistem de fișiere neacceptat"
 
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Baterie deconectată"
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Baterie descărcată"
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Cameră conectată"
@@ -65,7 +59,7 @@ msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
 msgstr "Dispozitiv USB necunoscut conectat"
 
 msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
-msgstr "Dezinstalaţi spaţiul de stocare în masă USB înainte de eliminare, pentru a evita pierderea de date."
+msgstr "Dezinstalați spațiul de stocare în masă USB înainte de eliminare, pentru a evita pierderea de date."
 
 msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
 msgstr "Conector USB conectat"
@@ -77,13 +71,13 @@ msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
 msgstr "Memorie USB conectată"
 
 msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
-msgstr "Spaţiul de stocare în masă USB a fost eliminat în mod neaşteptat."
+msgstr "Spațiul de stocare în masă USB a fost eliminat în mod neașteptat."
 
 msgid "IDS_COM_SK_RETRY_A"
 msgstr "Reîn."
 
 msgid "IDS_CST_OPT_WAIT"
-msgstr "Aşteptaţi"
+msgstr "Așteptați"
 
 msgid "IDS_IDLE_BODY_LOW_MEMORY"
 msgstr "Memorie insuficientă"
@@ -98,7 +92,7 @@ msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
 msgstr "Se criptează cartela SD..."
 
 msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
-msgstr "Activarea cartelei SD nu a reuşit. Reintroduceţi sau formataţi cartela SD."
+msgstr "Activarea cartelei SD nu a reușit. Reintroduceți sau formatați cartela SD."
 
 msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
 msgstr "Închidere"
@@ -107,7 +101,7 @@ msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
 msgstr "Baterie încărcată complet"
 
 msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
-msgstr "Se iniţializează datele MMC..."
+msgstr "Se inițializează datele MMC..."
 
 msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
 msgstr "Lumina de ajutor este aprinsă."
@@ -119,7 +113,7 @@ msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
 msgstr "Încărcare întreruptă. Temperatura bateriei este prea scăzută."
 
 msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
-msgstr "Nu opriţi"
+msgstr "Nu opriți"
 
 msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
 msgstr "Dispozitivul s-a oprit automat"
@@ -128,10 +122,10 @@ msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
 msgstr "Andocarea este conectată."
 
 msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
-msgstr "Dispozitivul se supraîncălzeşte. Acesta se va opri pentru a se răci."
+msgstr "Dispozitivul se supraîncălzește. Acesta se va opri pentru a se răci."
 
 msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
-msgstr "Dispozitivul s-a supraîncălzit. Pentru a preveni daunele, acesta s-a oprit.\n\nSupraîncălzirea poate fi cauzată de:\nutilizarea îndelungată a aplicaţiilor cu un nivel intens de grafică, de exemplu, jocuri şi aplicaţii de navigare;\ntransferul fişierelor mari;\nutilizarea dispozitivului într-un mediu cu temperatură ridicată."
+msgstr "Dispozitivul s-a supraîncălzit. Pentru a preveni daunele, acesta s-a oprit.\n\nSupraîncălzirea poate fi cauzată de:\nutilizarea îndelungată a aplicațiilor cu un nivel intens de grafică, de exemplu, jocuri și aplicații de navigare;\ntransferul fișierelor mari;\nutilizarea dispozitivului într-un mediu cu temperatură ridicată."
 
 msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
 msgstr "Limitare utilizare date"
@@ -158,25 +152,25 @@ msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
 msgstr "Cartelă SD instalată doar pentru mod citire"
 
 msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
-msgstr "Atingeţi pentru a stinge lumina de ajutor."
+msgstr "Atingeți pentru a stinge lumina de ajutor."
 
 msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
-msgstr "Imposibil de decriptat cartela SD. Spaţiu insuficient pe cartelă. Sunt necesari aproximativ %.2f MO. Ştergeţi unele fişiere."
+msgstr "Imposibil de decriptat cartela SD. Spațiu insuficient pe cartelă. Sunt necesari aproximativ %.2f MO. Ștergeți unele fișiere."
 
 msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
-msgstr "Imposibil de criptat cartela SD. Spaţiu insuficient pe cartelă. Sunt necesari aproximativ %.2f MO. Ştergeţi unele fişiere."
+msgstr "Imposibil de criptat cartela SD. Spațiu insuficient pe cartelă. Sunt necesari aproximativ %.2f MO. Ștergeți unele fișiere."
 
 msgid "IDS_ST_BODY_USB_STORAGE_ABB"
-msgstr "Spaţiu stocare USB"
+msgstr "Spațiu stocare USB"
 
 msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
 msgstr "Decriptare card SD"
 
 msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
-msgstr "Dezactivaţi criptarea"
+msgstr "Dezactivați criptarea"
 
 msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
-msgstr "Activaţi criptarea"
+msgstr "Activați criptarea"
 
 msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
 msgstr "Cript. card SD"
@@ -191,31 +185,31 @@ msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
 msgstr "Baterie epuizată"
 
 msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
-msgstr "Bat. desc. Reîncărcaţi."
+msgstr "Bat. desc. Reîncărcați."
 
 msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
-msgstr "Pentru a utiliza cardul SD, acesta trebuie să fie decriptat. Decriptaţi cardul SD sau activaţi criptarea dispozitivului?"
+msgstr "Pentru a utiliza cardul SD, acesta trebuie să fie decriptat. Decriptați cardul SD sau activați criptarea dispozitivului?"
 
 msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
-msgstr "Pentru a utiliza cardul SD, acesta trebuie să fie criptat. Criptaţi cardul SD sau dezactivaţi criptarea dispozitivului?"
+msgstr "Pentru a utiliza cardul SD, acesta trebuie să fie criptat. Criptați cardul SD sau dezactivați criptarea dispozitivului?"
 
 msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
 msgstr "There is not enough space in your device storage."
 
 msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
-msgstr "Scoateţi încărcătorul"
+msgstr "Scoateți încărcătorul"
 
 msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
-msgstr "Opriţi dispozitivul?"
+msgstr "Opriți dispozitivul?"
 
 msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
-msgstr "Răsfoiţi camera conectată prin USB?"
+msgstr "Răsfoiți camera conectată prin USB?"
 
 msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
-msgstr "Răsfoiţi dispozitivul de stocare conectat prin USB?"
+msgstr "Răsfoiți dispozitivul de stocare conectat prin USB?"
 
 msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
-msgstr "Spaţiul de stocare în masă USB a fost eliminat."
+msgstr "Spațiul de stocare în masă USB a fost eliminat."
 
 msgid "IDS_USB_BUTTON_UNMOUNT"
 msgstr "Anulare andocare"
@@ -227,11 +221,122 @@ msgid "IDS_USB_MBODY_USB_DEVICES"
 msgstr "Dispozitive USB"
 
 msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
-msgstr "Conexiunea USB nu a reuşit"
+msgstr "Conexiunea USB nu a reușit"
 
 msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
 msgstr "Cablu HDMI conectat"
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "Cablu HDMI deconectat"
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Atenție"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Date mobile dezactivate"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Baterie descărcată"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Telefonul dvs. se supraîncălzește. Este posibil ca acesta să se oprească fără avertisment, pentru a preveni deteriorarea.\n\nSupraîncălzirea poate fi cauzată de:\n- utilizarea îndelungată a aplicațiilor cu un nivel intens de grafică, de exemplu, jocuri video și aplicații de navigare, pentru perioade mari de timp\n-transferul fișierelor mari\n- utilizarea telefonului într-un mediu cu temperatură ridicată"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Anulare"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Setări"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Anulare"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Setări"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Spațiul din memoria dispozitivului este insuficient. Ștergeți câteva fișiere din Setări > Spațiu de stocare și memorie RAM > Spațiu de stocare > Detalii."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Spațiul de pe cardul SD este insuficient. Ștergeți câteva fișiere din Setări > Spațiu de stocare și memorie RAM > Spațiu de stocare > Detalii."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Telefonul se va opri."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Telefonul va reporni."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Închidere"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Reporniți"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Nicio cartelă SIM introdusă"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Repornire"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "Cartelă SIM introdusă"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "Se pregătește cardul SD..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Răcire telefon"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Răcire telefon"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Telefonul se supraîncălzește. Se vor lua măsuri pentru răcirea acestuia.\n\nÎl puteți utiliza în continuare, dar este posibil ca:\n- luminozitatea ecranului să fie redusă.\n- telefonul să funcționeze mai lent.\n- încărcarea să fie întreruptă.\n\nDupă răcirea dispozitivului, performanța va reveni automat la normal."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Supraîncălzire telefon"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Telefonul se supraîncălzește. Acesta se va opri acum pentru a se răci."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "%d secunde rămase la oprirea dispozitivului."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Oprire acum"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Oprire telefon"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s s-a închis în mod neașteptat."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "Este posibil ca acest card SD să fie utilizat. Încercați din nou mai târziu."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s nu răspunde. Închideți %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Rep."
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Rep."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Cardul SD nu se poate inst."
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Eroare la criptarea cartelei SD. Imposibil de instalat cartela SD."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Cardul SD nu se poate dezin."
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Oprire acum"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Nu se poate înregistra. Spațiul din memoria Gear este insuficient."
 

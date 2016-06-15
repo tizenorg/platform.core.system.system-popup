@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Crittografa scheda SD"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Il dispositivo verrà riavviato."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Impostaz."
 
@@ -34,17 +37,8 @@ msgstr "Toccate per visualizzare l'utilizzo e le impostazioni."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "Memoria USB vuota o con filesystem non supportato."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Attenzione"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Connessione dati disattiva"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Batteria scollegata."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Batteria scarica."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Fotocamera collegata."
@@ -234,4 +228,115 @@ msgstr "Cavo HDMI collegato."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "Cavo HDMI scollegato."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Attenzione"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Connessione dati disattiva"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Batteria scarica."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Il dispositivo si sta surriscaldando. Potrebbe spegnersi senza preavviso per evitare danni.\n\nIl surriscaldamento può essere causato da:\n- Utilizzo prolungato di applicazioni a uso intensivo di grafica, come videogiochi e applicazioni di navigazione\n- Trasferimento di file di grandi dimensioni\n- Utilizzo del dispositivo in ambienti molto caldi"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Annulla"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Impostazioni"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Annulla"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Impostaz."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Spazio insufficiente sulla memoria del dispositivo. Eliminate alcuni file in Impostazioni > Memoria e RAM > Memoria > Dettagli."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Spazio insufficiente sulla scheda SD. Eliminate alcuni file in Impostazioni > Memoria e RAM > Memoria > Dettagli."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Il dispositivo verrà spento."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Il dispositivo verrà riavviato."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Spegni"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Riavvia"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Nessuna SIM inserita"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Riavvia"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "Scheda SIM inserita"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "Preparazione scheda SD in corso..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Raffreddamento dispositivo"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Raffreddamento dispos."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Il dispositivo si sta surriscaldando. È in corso la procedura di raffreddamento.\n\nPotete comunque utilizzare il dispositivo, ma:\n- La luminosità dello schermo potrebbe essere attenuata.\n- Le prestazioni del dispositivo potrebbero risultare rallentate.\n- La ricarica potrebbe essere sospesa.\n\nDopo il raffreddamento del dispositivo, le prestazioni torneranno automaticamente alla normalità."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Surriscaldamento dispos."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Il dispositivo si sta surriscaldando. Verrà spento per consentirne il raffreddamento."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "%d secondi rimanenti prima dello spegnimento del dispositivo."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Spegni adesso"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Spegnimento dispositivo"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "Chiusura improvvisa di %s."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "La scheda SD potrebbe essere in uso. Riprovate più tardi."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s non risponde. Chiudere %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Riavvia"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Riavvia"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Impossibile montare scheda SD"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Errore durante la crittografia della scheda SD. Impossibile montare la scheda SD."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Impossibile smontare scheda SD"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Disatt. ora"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Impossibile registrare. Spazio insufficiente nella memoria di Gear."
 

@@ -7,6 +7,9 @@ msgstr "Labi"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Šifrēt SD karti"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Ierīce tiks restartēta."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Iestatījumi"
 
@@ -34,17 +37,8 @@ msgstr "Pieskarieties, lai skatītu lietojumu un iestatījumus."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB krātuve ir tukša vai tajā ir neatbalstītu failu sistēma."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Uzmanību"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Mobilie dati ir deaktivizēti"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Akumulators ir atvienots."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Akumulators gandrīz tukšs."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Kamera pievienota."
@@ -234,4 +228,115 @@ msgstr "Pievienots HDMI kabelis."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI kabelis ir atvienots."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Uzmanību"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobilie dati ir deaktivizēti"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Akumulators gandrīz tukšs."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Tālrunis pārkarst. Tas var tikt izslēgts bez brīdinājuma, lai novērstu bojājumus.\n\nPārkaršanu var izraisīt:\n- ilgstoša intensīvas grafikas, piemēram, videospēļu un navigācijas programmu, lietošana;\n- lielu failu pārsūtīšana;\n- ierīces lietošana karstā vidē."
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "Labi"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Atcelt"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Iestatījumi"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Atcelt"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Iestat."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Tālruņa krātuvē nepietiek vietas. Izdzēsiet dažus failus, izvēloties Iestatījumi > Krātuve un RAM > Krātuve > Dati."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "SD kartē nepietiek vietas. Izdzēsiet dažus failus, izvēloties Iestatījumi > Krātuve un RAM > Krātuve > Dati."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Tālrunis tiks izslēgts."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Tālrunis tiks restartēts."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Izslēgt"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Restartēt"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Nav ievietota SIM karte"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Restartēt"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "Ievietota SIM karte"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "Sagatavo SD karti..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Tālrunis atdziest"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Tālrunis atdziest"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Tālrunis pārkarst. Tiks veiktas darbības, lai to atdzesētu.\n\nJūs varat turpināt lietot tālruni, bet:\n- ekrāns var tikt aptumšots;\n- tālrunis var darboties lēnāk;\n- var tikt apturēta uzlāde.\n\nKad tālrunis būs atdzisis, veiktspēja automātiski atgriezīsies parastajā režīmā."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Tālrunis ir pārkarsis"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Tālrunis pārkarst. Lai to atdzesētu, tas tiks izslēgts."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "Līdz ierīces izslēgšanās brīdim atlikušas %d sekundes."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Izslēgt tūlīt"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Tālrunis tiek izslēgts"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "Programma %s tika negaidīti aizvērta."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "SD karte, iespējams, tiek lietota. Mēģiniet vēlreiz vēlāk."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s neatbild. Vai aizvērt %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Restartēt"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Restar."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Nevar ievietot SD karti"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Šifrējot SD karti, radās kļūda. Nevar ievietot SD karti."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Nevar atvienot SD karti"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Izsl. tūlīt"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Nevar ierakstīt. Gear krātuvē nepietiek vietas."
 

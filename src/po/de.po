@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "SD-Karte verschlüsseln"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Gerät wird neu gestartet."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Einstellungen"
 
@@ -34,17 +37,8 @@ msgstr "Nutzung und Einstellungen anzeigen"
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB-Speicher leer oder hat nicht unterstütztes Dateisystem"
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Information"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Mobile Datenverbindung deaktiviert"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Verbindung zu Akku getrennt."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Akku fast leer"
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Kamera verbunden"
@@ -68,10 +62,10 @@ msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
 msgstr "Deaktivieren Sie den USB-Massenspeicher vor dem Entnehmen ordnungsgemäß, um Datenverluste zu vermeiden."
 
 msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
-msgstr "USB-Connector verbunden."
+msgstr "USB-Adapter verbunden."
 
 msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
-msgstr "USB-Connector getrennt."
+msgstr "USB-Adapter getrennt."
 
 msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
 msgstr "USB-Massenspeicher verbunden"
@@ -234,4 +228,115 @@ msgstr "HDMI-Kabel verbunden"
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI-Kabel getrennt"
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Information"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobile Datenverbindung deaktiviert"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Akku fast leer"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Ihr Telefon ist überhitzt. Es schaltet sich möglicherweise ohne Warnung aus, um Schaden zu verhindern.\n\nEine Überhitzung kann folgende Ursachen haben:\n- Verwendung von grafikintensiven Apps wie Videospielen und Navigations-Apps über einen längeren Zeitraum\n- Übertragung von großen Dateien\n- Verwendung Ihres Telefons in einer heißen Umgebung"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Abbrechen"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Einstellungen"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Abbrechen"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Einstellungen"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Es ist nicht genügend Telefonspeicher frei. Löschen Sie einige Dateien in „Einstellungen > Speicher und RAM > Speicher > Details“."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Es ist nicht genügend Speicherplatz auf Ihrer SD-Karte vorhanden. Löschen Sie einige Dateien in „Einstellungen > Speicher und RAM > Speicher > Details“."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Ihr Telefon wird ausgeschaltet."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Ihr Telefon wird neu gestartet."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Ausschalten"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Neustart"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Keine SIM-Karte"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Neustarten"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM-Karte eingelegt"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "SD-Karte wird vorbereitet..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Telefon kühlt ab"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Telefon kühlt ab"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Ihr Telefon ist überhitzt. Es wird versucht, das Gerät zu kühlen.\n\nSie können das Telefon weiterhin verwenden, aber:\n- Der Bildschirm könnte abgedunkelt werden.\n- Das Telefon könnte langsamer werden.\n- Der Ladevorgang wird möglicherweise unterbrochen.\n\nNach Abkühlen des Telefons wird sich die Leistung automatisch normalisieren."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Telefon überhitzt"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Das Telefon ist überhitzt. Es wird nun zum Abkühlen ausgeschaltet."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "%d Sekunden verbleibend, bevor Ihr Gerät ausgeschaltet wird."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Jetzt aussch."
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Ausschalten des Telefons"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s wurde unerwartet geschlossen"
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "Die SD-Karte wird möglicherweise verwendet. Versuchen Sie es später erneut."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "Anwendung %s reagiert nicht. %s schließen?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Neustart"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Neustart"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Fehler bei SD-Kartenaktivierung"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Fehler bei der SD-Kartenverschlüsselung. Verbindung mit SD-Karte nicht möglich."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Fehler bei SD-Kartendeaktivierung"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Jetzt auss."
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Aufnahme nicht möglich. Auf der Gear steht nicht genügend Speicherplatz zur Verfügung."
 

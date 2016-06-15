@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "SD-kártya titkosítása"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Az eszköz újraindul."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Beállítások"
 
@@ -34,17 +37,8 @@ msgstr "Érintse meg a használat és a beállítások megtekintéséhez."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "Az USB-kártya üres, vagy nem támogatott a fájlrendszere."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Figyelem"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Mobil internetkapcsolat letiltva"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Akkumulátor leválasztva."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Az akkumulátor lemerült."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Fényképező csatlakoztatva."
@@ -234,4 +228,115 @@ msgstr "HDMI-kábel csatlakoztatva."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI-kábel leválasztva."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Figyelem"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobil internetkapcsolat letiltva"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Az akkumulátor lemerült."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "A telefon túlmelegedett, és a meghibásodások megelőzése érdekében figyelmeztetés nélkül kikapcsolhat.\n\nA túlmelegedés lehetséges okai:\n– Nagy grafikus teljesítményt igénylő alkalmazások, például videojátékok vagy navigációs alkalmazások hosszan tartó használata\n– Nagy fájlok átvitele\n– A telefon magas hőmérsékletű környezetben történő használata"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Mégse"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Beállítások"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Mégse"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Beállít."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Nincs elég hely a telefon tárhelyén. Töröljön néhány fájlt a Beállítások > Tárhely és RAM > Tárhely > Részletek menüpontban."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Nincs elég hely az SD-kártyán. Töröljön néhány fájlt a Beállítások > Tárhely és RAM > Tárhely > Részletek menüpontban."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "A telefon kikapcsol."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "A telefon újraindul."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Kikapcsolás"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Újraindítás"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Nincs SIM kártya"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Újraindítás"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM kártyát helyezett be"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "SD-kártya előkészítése..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "A telefon lehűl"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "A telefon lehűl"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "A telefon túlmelegedett, ezért a rendszer most megpróbálja lehűteni.\n\nTovábbra is használhatja, de számolnia kell a következőkkel:\n– Sötétebb lehet a képernyő.\n– A telefon lassabban működhet.\n– Szünetelhet a töltés.\n\nA telefon a lehűlése után normál módon működik tovább."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "A telefon túl meleg"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "A telefon túlmelegedett. Ki fog kapcsolni, hogy lehűlhessen."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "Az eszköz %d másodperc múlva kikapcsol."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Kikapcs. most"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "A telefon kikapcsol"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "A(z) %s váratlanul bezáródott."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "Lehet, hogy használatban van az SD-kártya. Próbálja meg később."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "A(z) %s nem válaszol. Bezárja a(z) %s alkalmazást?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Újraindít"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Újra."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Az SD-kártya nem csatolható"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Az SD-kártya titkosítása során hiba történt. Nem lehet csatolni az SD-kártyát."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Az SD-kártya nem választh. le"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Kikapcsolás"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Nem lehet rögzíteni. Nincs elég hely a Gear tárhelyén."
 

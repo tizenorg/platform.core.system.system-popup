@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Šifrovať kartu SD"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Zariadenie sa reštartuje."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Nastavenia"
 
@@ -34,17 +37,8 @@ msgstr "Ťuknutím môžete zobraziť využitie a nastavenia."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "Ukladací priestor USB je prázdny alebo má nepodporovaný systém súborov."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Pozor"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Mobilné dátové pripojenie je zakázané"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Batéria je odpojená."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Batéria vybitá."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Fotoaparát je pripojený."
@@ -234,4 +228,115 @@ msgstr "Kábel HDMI je pripojený."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "Kábel HDMI je odpojený."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Pozor"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobilné dátové pripojenie je zakázané"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Batéria vybitá."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Telefón sa prehrieva. Môže sa bez akéhokoľvek upozornenia vypnúť, aby sa zabránilo poškodeniu.\n\nDôvodom prehrievania môže byť:\n- dlhodobé používanie aplikácií intenzívne využívajúcich grafiku, ako sú napríklad videohry a navigačné aplikácie,\n- prenos veľkých súborov,\n- používanie telefónu v horúcom prostredí."
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Zrušiť"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Nastavenia"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Zrušiť"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Nast."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "V úložisku telefónu nie je dostatok miesta. Odstráňte niektoré súbory v menu Nastavenia > Úložisko a pamäť RAM > Úložisko > Podrobnosti."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Na karte SD nie je dostatok miesta. Odstráňte niektoré súbory v menu Nastavenia > Úložisko a pamäť RAM > Úložisko > Podrobnosti."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Telefón sa vypne."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Telefón sa reštartuje."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Vyp. napáj."
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Reštartovať"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Nie je vložená karta SIM"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Reštartovať"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "Karta SIM je vložená"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "Pripravuje sa karta SD..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Telefón sa ochladzuje"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Telefón sa ochladzuje"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Telefón sa prehrieva. Vykonajú sa kroky na jeho ochladenie.\n\nTelefón môžete stále používať, ale:\n- jas obrazovky môže byť stlmený,\n- telefón sa môže spomaliť,\n- nabíjanie sa môže pozastaviť.\n\nPo ochladení telefónu sa automaticky obnoví normálna úroveň výkonu."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Telefón sa prehrieva"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Telefón sa prehrieva. Teraz sa vypne, aby sa ochladil."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "Do vypnutia zariadenia zostáva doba %d sekúnd."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Vypnúť"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Telefón sa vypína"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "Aplikácia %s sa neočakávane ukončila."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "Karta SD sa zrejme používa. Skúste to znova neskôr."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "Aplikácia %s neodpovedá. Ukončiť aplikáciu %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Rešt."
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Rešt."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Karta SD sa nedá pripojiť"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Pri šifrovaní karty SD sa vyskytla chyba. Karta SD sa nedá pripojiť."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Karta SD sa nedá odpojiť"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Vyp. teraz"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Nemožno nahrávať. V úložnom priestore hodiniek Gear nie je dostatok miesta."
 

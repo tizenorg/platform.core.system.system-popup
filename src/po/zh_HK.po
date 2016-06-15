@@ -7,6 +7,9 @@ msgstr "確定"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "加密 SD 卡"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "裝置將重新啟動。"
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "設定"
 
@@ -34,20 +37,11 @@ msgstr "輕觸以檢視使用量和設定。"
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB 儲存裝置空白或有不支援的檔案系統。"
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "注意"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "已停用流動數據"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "電池中斷連接。"
 
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "電量不足"
-
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
-msgstr "相機已連接。"
+msgstr "[相機] 已連接。"
 
 msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
 msgstr "鍵盤已連接。"
@@ -234,4 +228,115 @@ msgstr "HDMI 數據線已連接。"
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI 數據線已中斷。"
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "注意"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "已停用流動數據"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "電量不足"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "您的手機過熱。手機可能會未經警告而關機以防止損壞。\n\n過熱可能是由於以下原因造成：\n- 長時間使用圖形密集的應用程式，如遊戲與導航應用程式\n- 傳輸大型檔案\n- 在高溫環境中使用您的手機"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "確定"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "取消"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "設定"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "取消"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "設定"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "您的手機儲存空間不足。請在 [設定] > [儲存空間與 RAM] > [儲存空間] > [詳細資料] 中刪除部分檔案。"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "您的 SD 卡空間不足。請在 [設定] > [儲存空間與 RAM] > [儲存空間] > [詳細資料] 中刪除部分檔案。"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "您的手機將關機。"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "您的手機將重新啟動。"
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "關機"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "重新啟動"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "未插入 SIM 卡"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "重新啟動"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "已插入 SIM 卡"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "正在準備 SD 卡…"
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "手機正在降溫"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "手機正在降溫"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "您的手機過熱。將採取措施使其降溫。\n\n您仍可使用手機，但是：\n- 螢幕可能越來越暗。\n- 手機速度可能變慢。\n- 充電可能暫停。\n\n手機降溫後，效能將自動回復正常。"
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "手機過熱"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "您的手機過熱。將立即關閉以降溫。"
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "您的裝置將在 %d 秒後關機。"
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "現在關機"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "手機關機"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s已意外關閉。"
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "SD 卡可能正在使用中。請稍後重試。"
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s未回應。關閉%s嗎？"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "重新啟動"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "重新啟動"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "無法裝載 SD 卡"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "加密 SD 卡發生錯誤。無法掛載 SD 卡。"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "無法卸載 SD 卡"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "現在關閉"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "無法錄製。Gear 儲存空間不足。"
 

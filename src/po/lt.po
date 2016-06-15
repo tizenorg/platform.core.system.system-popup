@@ -7,6 +7,9 @@ msgstr "Gerai"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Šifruoti SD kortelę"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Įrenginys bus paleistas iš naujo."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Nustatymai"
 
@@ -34,17 +37,8 @@ msgstr "Bakstelėkite ir žiūrėkite naudojimo ir nustatymų informaciją."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB laikmena tuščia arba nepalaikoma jos failų sistema."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Dėmesio"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Mobilieji duomenys išjungti"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Akumuliatorius atjungtas."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Senka akumuliatorius!"
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Fotoaparatas prijungtas."
@@ -234,4 +228,115 @@ msgstr "HDMI laidas prijungtas."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI laidas atjungtas."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Dėmesio"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobilieji duomenys išjungti"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Senka akumuliatorius!"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Jūsų telefonas kaista. Jis gali būti išjungtas neįspėjus, kad nebūtų sugadintas.\n\nĮrenginys gali perkaisti:\n– ilgą laiką veikiant daug grafinių duomenų naudojančioms programoms, pvz., žaidimams ir navigacijos programoms;\n– perkeliant didelius failus;\n– naudojantis įrenginiu karštoje aplinkoje"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "GERAI"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Atšaukti"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Nustatymai"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Atšaukt"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Nustat."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Telefono atmintyje trūksta vietos. Ištrinkite kelis failus Nustatymai > Atmintis ir RAM > Saugykla > Išsami informacija."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "SD kortelėje nepakanka vietos. Ištrinkite kelis failus Nustatymai > Atmintis ir RAM > Saugykla > Išsami informacija."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Jūsų telefonas bus išjungtas."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Jūsų telefonas bus paleistas iš naujo."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Išj. mait."
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Leisti vėl"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Neįdėta SIM kortelė"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Leisti vėl"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM kortelė įdėta"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "Ruošiama SD kortelė..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Telefonas vėsta"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Telefonas vėsta"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Jūsų telefonas kaista. Bus imtasi veiksmų, kad jis atvėstų.\n\nGalite toliau naudotis savo įrenginiu, tačiau:\n– ekranas gali pritemti;\n– telefono veikimas gali sulėtėti;\n– gali būti pristabdytas įkrovimas.\n\nKai telefonas atvės, jis automatiškai pradės veikti įprastai."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Telefonas kaista"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Jūsų telefonas kaista. Dabar jis išsijungs, kad atvėstų."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "Kol jūsų įrenginys bus išjungtas, liko %d sek."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Išsijungia"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Telefonas išsijungia"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "„%s“ netikėtai užsidarė."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "SD kortelė gali būti naudojama. Bandykite dar kartą vėliau."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s neatsako. Uždaryti %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Pal.iš n."
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Iš naujo"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Negalima prijungt SD kortel."
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Užšifruojant SD kortelę įvyko klaida. Neįmanoma prijungti SD kortelės."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Negalima atjungt SD kortelės"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Išjung.dabar"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Neįmanoma įrašyti. „Gear“ atmintyje nepakanka vietos."
 

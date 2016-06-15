@@ -7,6 +7,9 @@ msgstr "Tamam"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "SD kartı şifrele"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Cihaz yeniden başlayacak."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Ayarlar"
 
@@ -34,17 +37,8 @@ msgstr "Kullanım ve ayarları görüntülemek için dokunun."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB belleği boş veya desteklenmeyen dosya sistemine sahip."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Dikkat"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Mobil veri devre dışı bırakıldı"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Pil çıkartıldı."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Düşük pil."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Kamera bağlandı."
@@ -234,4 +228,115 @@ msgstr "HDMI kablosu takılı."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI kablosu takılı değil."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Dikkat"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobil veri devre dışı bırakıldı"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Düşük pil."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Telefonunuz aşırı ısınıyor. Hasarı önlemek için uyarı vermeden kapanabilir.\n\nAşırı ısınmanın olası nedenleri:\n- Video oyunları ve navigasyon uygulamaları gibi yoğun grafik içeren uygulamaların uzun süre kullanılması\n- Büyük dosyaların aktarılması\n- Telefonunuzun sıcak bir ortamda kullanılması"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "Tamam"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "İptal et"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Ayarlar"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "İptl et"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Ayarlar"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Telefonunuzun hafızasında yeterli alan yok. Ayarlar > Depolama ve RAM > Depolama > Ayrıntılar bölümünde bazı dosyaları silin."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "SD kartınızda yeterli alan yok. Ayarlar > Depolama ve RAM > Depolama > Ayrıntılar bölümünde bazı dosyaları silin."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Telefonunuz kapanacak."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Telefonunuz yeniden başlatılacak."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Kapat"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Yenidn başlt"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "SIM kart takılı değil"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Yeniden başlat"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM kart takıldı"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "SD kart hazırlanıyor..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Telefon soğuyor"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Telefon soğuyor"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Telefonunuz aşırı ısınıyor. Soğutmak için bazı adımlar atılacak.\n\nTelefonunuzu kullanmaya devam edebilirsiniz ancak:\n- Ekran ışığı kısılabilir.\n- Telefon yavaşlayabilir.\n- Şarj işlemi duraklatılabilir.\n\nTelefon soğuduktan sonra performans otomatik olarak normale döner."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Telefon aşırı ısınıyor"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Telefonunuz aşırı ısınıyor. Şimdi soğumak için kapanacak."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "Cihazınızın kapanmasına %d saniye kaldı."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Şimdi kapat"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Telefon kapatılıyor"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s beklenmedik şekilde kapandı."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "SD kart kullanımda olabilir. Daha sonra tekrar deneyin."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s yanıt vermiyor. %s kapatılsın mı?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Y.bşl"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Ynd bşlt"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "SD kart takılamıyor"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "SD kartı şifrelenirken hata. SD kart takılamıyor."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "SD kart çıkartılamıyor"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Şimdi kapat"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Kaydedilemiyor. Gear deponuzda yeterli alan yok."
 

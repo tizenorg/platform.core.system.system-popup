@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "SD картасын шифрлау"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Құрылғы өшіп қосылады."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Қондырғылар"
 
@@ -34,17 +37,8 @@ msgstr "Пайдалану мен параметрлерді көру үшін �
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB сақтау құрылғысы бос немесе құрамында қолданылмайтын файл жүйесі бар."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Назар аударыңыз"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Ұялы деректер өшірілді"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Батарея ажыратылған."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Батареяның заряды  аз."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Камера қосылды."
@@ -234,4 +228,115 @@ msgstr "HDMI кабелі қосылған."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI кабелі ажыратылған."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Назар аударыңыз"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Ұялы деректер өшірілді"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Батареяның заряды  аз."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Телефоныңыз қызып кетті. Телефон зақымдалуға жол бермеу мақсатында ескертусіз өшіп қалуы мүмкін.\n\nҚызып кетудің себептері:\n- Бейне-ойындар және навигация қолданбалары сияқты графикасы жоғары қолданбаларды ұзақ уақыт бойы пайдалану\n- Көлемі үлкен файлдарды тасымалдау\n- Телефонды ыстық ортада пайдалану"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Бас тарту"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Параметрлер"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Бол-мау"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Параме-р"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Телефоныңыздың жадында бос орын жеткіліксіз. Параметрлер > Жад және оперативті жад > Жад > Мәліметтер бөлімінде кейбір файлдарды жойыңыз."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "SD картаңызда жадында бос орын жеткіліксіз. Параметрлер > Жад және оперативті жад > Жад > Мәліметтер бөлімінде кейбір файлдарды жойыңыз."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Телефоныңыз өшіріледі."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Телефоныңыз қайта іске қосылады."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Өшіру"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Қайта қосу"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "SIM карта енгізілмеді"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Қайта іске қосу"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM карта енгізілді"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "SD картасы дайындалуда..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Телефон салқындатылды"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Телефон салқындатылды"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Телефоныңыз қызып кетті. Оны салқындату мақсатында шаралар қолданылады.\n\nТелефоныңызды әлі де пайдалана аласыз, бірақ:\n- Экран күңгірттенуі мүмкін.\n- Телефон баяу жұмыс істеуі мүмкін.\n- Зарядтау уақытша тоқтатылуы мүмкін.\n\nТелефон салқындағаннан кейін, оның жұмыс өнімділігі қалыпты жағдайға автоматты түрде оралады."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Телефон қызып кетті"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Телефоныңыз қызып кетті. Телефон қазір салқындау мақсатында өшеді."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "Құрылғыңыз өшірілгенге дейін %d секунд қалды."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Қазір өшіру"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Телефон өшірілді"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s байқаусызда жабылды."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "SD картасы пайдаланылуда болуы мүмкін. Әрекетті кейін қайталаңыз."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s жауап бермейді. %s жабу керек пе?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Бас."
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Бас."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "SD картасын салу мүмкін емес"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "SD картасын шифрлау кезіндегі қате. SD картасын салу мүмкін емес."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "SD картасын алу мүмкін емес"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Қазір өшіру"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Жазу мүмкін емес. Gear құрылғысының жадында бос орын жеткіліксіз."
 

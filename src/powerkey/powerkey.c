@@ -51,7 +51,7 @@ static const struct popup_ops restart_ops;
 
 static char *items[] = {
 	"IDS_ST_BODY_POWER_OFF",
-	"IDS_COM_SK_RESTART"
+	"IDS_COM_SK_RESTART_ABB"
 };
 
 static int restart_launch(bundle *b, const struct popup_ops *ops)
@@ -183,7 +183,7 @@ int powerkey_list(bundle *b, const struct popup_ops *ops)
 	Elm_Genlist_Item_Class *itc = elm_genlist_item_class_new();
 	Evas_Object *popup = NULL;
 	Evas_Object *box = NULL;
-	Evas_Object *genlist;
+	Evas_Object *genlist = NULL;
 	struct object_ops *obj;
 	int i;
 	Evas_Object *win;
@@ -350,10 +350,10 @@ static void poweroff_clicked(const struct popup_ops *ops)
 static const struct popup_ops restart_ops = {
 	.name				= "restart",
 	.show				= load_simple_popup,
-	.title				= "IDS_COM_SK_RESTART",
+	.title				= "IDS_COM_SK_RESTART_ABB",
 	.content			= "IDS_ST_POP_DEVICE_WILL_RESTART",
 	.left_text			= "IDS_COM_SK_CANCEL",
-	.right_text			= "IDS_HS_BUTTON_RESTART_ABB2",
+	.right_text			= "IDS_IDLE_BUTTON_RESTART_ABB3",
 	.right				= restart_clicked,
 	.pre				= restart_launch,
 	.terminate			= restart_terminate,

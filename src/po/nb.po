@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Krypter SD-kort"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Enheten starter på nytt."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Innstillinger"
 
@@ -34,17 +37,8 @@ msgstr "Trykk for å vise bruk og innstillinger."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB-lagring er tomt eller har et filsystem som ikke støttes."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "OBS!"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Mobildata deaktivert"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Batteri koblet fra."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Lavt batterinivå."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Kamera tilkoblet."
@@ -234,4 +228,115 @@ msgstr "HDMI-kabelen tilkoblet."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI-kabelen frakoblet."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "OBS!"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobildata deaktivert"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Lavt batterinivå."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Telefonen er overopphetet. Den kan slå seg av uten varsel for å forhindre skade.\n\nOveroppheting kan være forårsaket av:\n– bruk av apper som krever mye grafikk, som spill og navigeringsapper, over lengre tid\n– overføring av store filer\n– bruk av telefonen i varme omgivelser"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Avbryt"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Innst."
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Avbryt"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Innst."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Ikke nok plass i telefonlagringen. Slett noen filer i Innstillinger > Lagring og RAM > Lagring > Detaljer."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Ikke nok plass på SD-kortet. Slett noen filer i Innstillinger > Lagring og RAM > Lagring > Detaljer."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Telefonen slås av."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Telefonen starter på nytt."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Slå av"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Omstart"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Ingen SIM-kort satt inn"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Omstart"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM-kort er satt inn"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "Forbereder SD-kort..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Telefonen kjøles ned"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Telefonen kjøles ned"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Telefonen er overopphetet. Det blir igangsatt tiltak for å kjøle den ned.\n\nDu kan fortsatt bruke telefonen, men:\n– Skjermbelysningen kan bli dempet.\n– Telefonen kan bli tregere.\n– Ladingen kan bli stanset midlertidig.\n\nNår telefonen har kjølt seg ned, går ytelsen automatisk tilbake til normalt nivå."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Telefonen overopphetet"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Telefonen er overopphetet. Den slår seg av for å kjøle seg ned."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "%d sekunder igjen før enheten slås av."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Slå av nå"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Telefonen slår seg av"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s har uventet lukket."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "SD-kortet kan være i bruk. Prøv igjen senere."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s svarer ikke. Lukke %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Omstart"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Omstart"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Kan ikke montere SD-kort"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Feil under kryptering av SD-kortet. Kan ikke sette inn SD-kortet."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Kan ikke løse ut SD-kort"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Slå av nå"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Kan ikke ta opp. Det er ikke nok ledig plass i Gear-minnet."
 

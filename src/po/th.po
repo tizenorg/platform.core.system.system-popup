@@ -7,6 +7,9 @@ msgstr "ตกลง"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "เข้า​รหัส SD ​การ์ด"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "อุปกรณ์​จะ​เริ่ม​ใหม่"
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "การตั้งค่า"
 
@@ -34,17 +37,8 @@ msgstr "แตะเพื่อดูการใช้งานและกา
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "ที่​​เก็บข้อมูล USB ​ว่าง​ หรือ​มีระบบ​ไฟล์​ที่​ไม่​รอง​รับ"
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "โปรดทราบ"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "ปิด​ใช้​งาน​ข้อมูล​มือ​ถือ"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "ถอด​แบตเตอรี่​แล้ว"
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "แบตเตอรี่​ต่ำ"
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "เชื่อม​ต่อ​กล้อง​แล้ว"
@@ -104,7 +98,7 @@ msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
 msgstr "ปิดเครื่อง"
 
 msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
-msgstr "ชาร์จ​แบตเตอรี่​เต็ม\n​แล้ว"
+msgstr "ชาร์จแบตเตอรี่เต็มแล้ว"
 
 msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
 msgstr "กำลัง​ทำ​รายการ​ข้อมูล MMC..."
@@ -234,4 +228,115 @@ msgstr "ต่อ​สาย HDMI ​แล้ว"
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "ถอด​สาย HDMI ​แล้ว"
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "โปรดทราบ"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "ปิด​ใช้​งาน​ข้อมูล​มือ​ถือ"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "แบตเตอรี่​ต่ำ"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "โทรศัพท์ของคุณร้อนเกินไป เครื่องอาจปิดโดยไม่แจ้งให้ทราบเพื่อป้องกันความเสียหาย\n\nความร้อนเกินอาจเกิดจาก:\n- การใช้แอพที่มีกราฟิกมาก เช่น วิดีโอเกม และแอพนำทาง เป็นระยะเวลานาน\n- การถ่ายโอนไฟล์ขนาดใหญ่\n- การใช้โทรศัพท์ของคุณภายใต้อุณหภูมิสูง"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "ตกลง"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "ยกเลิก"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "ตั้ง​ค่า"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "ยกเลิก"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "ตั้ง​ค่า"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "พื้นที่ในที่จัดเก็บภายในโทรศัพท์ของคุณไม่พอ ลบบางไฟล์ออกใน การตั้งค่า > พื้นที่จัดเก็บข้อมูลและ RAM > พื้นที่จัดเก็บข้อมูล > รายละเอียด"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "SD การ์ดของคุณมีพื้นที่ไม่เพียงพอ ลบบางไฟล์ออกใน การตั้งค่า > พื้นที่จัดเก็บข้อมูลและ RAM > พื้นที่จัดเก็บข้อมูล > รายละเอียด"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "โทรศัพท์ของคุณจะปิดลง"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "โทรศัพท์ของคุณจะเริ่มใหม่"
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "ปิดเครื่อง"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "เริ่มใหม่"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "ไม่ได้เสียบ SIM การ์ด"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "เริ่มใหม่"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "ใส่ SIM การ์ดแล้ว"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "กำลังเตรียม SD การ์ด..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "โทรศัพท์กำลังเย็นลง"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "โทรศัพท์กำลังเย็นลง"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "โทรศัพท์ของคุณร้อนเกินไป ระบบจะดำเนินการเพื่อให้เครื่องเย็นลง\n\nคุณยังสามารถใช้โทรศัพท์ได้ แต่:\n- หน้าจออาจมืดลง\n- โทรศัพท์อาจช้าลง\n- การชาร์จอาจถูกพัก\n\nหลังจากโทรศัพท์เย็นลงแล้ว ประสิทธิภาพจะกลับสู่ปกติโดยอัตโนมัติ"
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "โทรศัพท์ร้อนเกินไป"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "โทรศัพท์ของคุณร้อนเกินไป ขณะนี้เครื่องจะปิด เพื่อให้เย็นลง"
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "เหลืออีก %d วินาทีก่อนที่อุปกรณ์ของคุณจะปิด"
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "ปิดเครื่องตอนนี้"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "โทรศัพท์กำลังปิด"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s ปิดโดยกะทันหัน"
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "SD การ์ดอาจใช้งานอยู่ โปรดลองอีกครั้งในภายหลัง"
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s ไม่ตอบสนอง ปิด %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "เริ่ม​ใหม่"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "เริ่ม​ใหม่"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "ไม่สามารถติดตั้ง SD การ์ดได้"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "มี​ข้อ​ผิด​พลาด​การ​เข้า​รหัส SD ​การ์ด ไม่​สามารถ​ติด​ตั้ง SD ​การ์ด​ได้"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "ไม่สามารถถอด SD การ์ดได้"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "ปิด​เดี๋ยว​นี้"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "ไม่สามารถบันทึกได้ มีพื้นที่ว่างในที่จัดเก็บของ Gear ไม่เพียงพอ"
 

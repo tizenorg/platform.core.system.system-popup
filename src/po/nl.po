@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "SD-kaart coderen"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Apparaat wordt opnieuw gestart."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Instellingen"
 
@@ -34,17 +37,8 @@ msgstr "Tik om gebruik en instellingen weer te geven."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB-opslag leeg of bestandssysteem niet ondersteund."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Let op"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Mobiele gegevens uitgeschakeld"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Batterij verwijderd."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Batterij bijna leeg."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Camera aangesloten."
@@ -234,4 +228,115 @@ msgstr "HDMI-kabel aangesloten."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI-kabel niet aangesloten."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Let op"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobiele gegevens uitgeschakeld"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Batterij bijna leeg."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Uw telefoon raakt oververhit. Het toestel kan zonder waarschuwing worden uitgeschakeld om schade te voorkomen.\n\nOververhitting kan worden veroorzaakt door:\n- Lang achtereen gebruikmaken van grafisch intensieve apps, zoals videogames en navigatie-apps\n- Grote bestanden overbrengen\n- Uw telefoon gebruiken in een warme omgeving"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Annuleren"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Instellingen"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Annuleren"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Instell."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Onvoldoende opslagruimte op uw telefoon. Verwijder bestanden in Instellingen > Opslag en RAM > Opslag > Details."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Onvoldoende opslagruimte op uw SD-kaart. Verwijder bestanden in Instellingen > Opslag en RAM > Opslag > Details."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Uw telefoon wordt uitgeschakeld."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Uw telefoon wordt opnieuw opgestart."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Uitschakelen"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Herstart"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Geen SIM-kaart geplaatst"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Opnieuw starten"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM-kaart geplaatst"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "SD-kaart voorbereiden..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Telefoon laten afkoelen"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Telef. laten afkoelen"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Uw telefoon raakt oververhit. Er wordt actie ondernomen om het toestel af te laten koelen.\n\nU kunt de telefoon nog gebruiken, maar:\n- Het scherm wordt minder helder.\n- De telefoon werkt trager.\n- Het opladen wordt mogelijk onderbroken.\n\nNadat de telefoon is afgekoeld, zal deze automatisch weer normaal werken."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Telefoon oververhit"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Uw telefoon raakt oververhit. De telefoon wordt nu uitgeschakeld om af te koelen."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "%d seconden over voordat uw apparaat wordt uitgeschakeld."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Nu uitschak."
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Telefoon uitschakelen"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s is onverwacht gesloten."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "De SD-kaart kan in gebruik zijn. Probeer het later opnieuw."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s reageert niet. %s sluiten?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Herstart"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Herstart"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Kan SD-kaart niet koppelen"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Fout bij coderen van SD-kaart. Kan SD-kaart niet plaatsen."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Kan SD-krt niet ontkoppelen"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Nu uitzetten"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Kan niet opnemen. Er is onvoldoende opslagruimte op Gear."
 

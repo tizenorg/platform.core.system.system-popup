@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "SD-kaardi krüptimine"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Seade taaskäivitub."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Seaded"
 
@@ -34,17 +37,8 @@ msgstr "Toksake, et vaadata kasutust ja seadeid."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB-malu on tuhi voi kasutab toetuseta failisusteemi."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Tähelepanu!"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Mobiilne andmeside desaktiveeritud"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Aku lahti ühendatud."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Aku on peaaegu tühi."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Kaamera on ühendatud."
@@ -234,4 +228,115 @@ msgstr "HDMI-kaabel ühendatud."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI-kaabel lahti ühendatud."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Tähelepanu!"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobiilne andmeside desaktiveeritud"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Aku on peaaegu tühi."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Teie telefon on ülekuumenemas. See võib kahjustuste vältimiseks ootamatult välja lülituda.\n\nÜlekuumenemist võivad põhjustada järgmised tegurid.\n- Graafikatundlike rakenduste, nt videomängud ja navigatsioonirakendused, kasutamine pika aja jooksul.\n- Suurte failide edastamine.\n- Seadme kasutamine kuumas keskkonnas"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Tühista"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Seaded"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Tühista"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Seaded"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Telefoni mälus pole piisavalt ruumi. Kustutage mõned failid menüüs Seaded > Mälu ja RAM > Mälu > Üksikasjad."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "SD-kaardil pole piisavalt ruumi. Kustutage mõned failid menüüs Seaded > Mälu ja RAM > Mälu > Üksikasjad."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Teie telefon lülitub välja."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Teie telefon taaskäivitub."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Toide välja"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Taaskäivita"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "SIM-kaart pole sisestatud"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Taaskäivita"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM-kaart on paigaldatud"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "SD-kaardi ettevalmistamine..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Telefon jahtub"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Telefon jahtub"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Teie telefon on ülekuumenemas. Selle jahutamiseks võetakse tarvitusele meetmed.\n\nSaate ikkagi kasutada oma seadet, kuid:\n- ekraan võib muutuda tuhmimaks;\n- seade võib muutuda aeglasemaks;\n- laadimine võib peatuda.\n\nKui telefon on jahtunud, taastub tavaline jõudlus automaatselt."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Telefon kuumeneb üle"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Teie telefon on ülekuumenemas. See lülitub nüüd jahtumiseks välja."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "Teie seadme väljalülitumiseni on jäänud %d sekundit."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Lül. koh.väl."
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Telefon lülitub välja"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s on ootamatult suletud."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "SD-kaart võib olla kasutusel. Proovige hiljem uuesti."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s ei vasta. Kas sulgeda %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Taaskäiv."
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Taask."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "SD-kaardi ühendamine nurjus"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Torge SD-kaardi kruptimisel. SD-kaardi uhendamine nurjus."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "SD-kaardi ühen. ei saa katk."
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Lül. kohe v."
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Ei saa salvestada. Seadme Gear malus pole piisavalt ruumi."
 

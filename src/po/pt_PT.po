@@ -7,6 +7,9 @@ msgstr "OK"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Encriptar cartão SD"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Dispositivo será reiniciado."
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Definições"
 
@@ -34,17 +37,8 @@ msgstr "Tocar para ver a utilização e as definições."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "Armazenamento USB em branco ou sistema de ficheiros não suportado."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Atenção"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Dados móveis desactivados"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Bateria desligada."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Bateria fraca."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Câmara ligada."
@@ -234,4 +228,115 @@ msgstr "Cabo HDMI ligado."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "Cabo HDMI desligado."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Atenção"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Dados móveis desactivados"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Bateria fraca."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Sobreaquecimento do telefone. Poderá desligar-se sem avisar, para prevenir danos.\n\nO sobreaquecimento pode ser causado por:\n- Utilização de aplicações com muitos gráficos, como jogos de vídeo e aplicações de navegação, durante longos períodos de tempo.\n- Transferência de ficheiros grandes.\n- Utilização do telefone num ambiente quente."
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Cancelar"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Definições"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Cancelar"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Defin."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Não existe espaço suficiente no armazenamento do seu telefone. Elimine alguns ficheiros em Definições > Armazenamento e RAM > Armazenamento > Detalhes."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Não existe espaço suficiente no seu cartão SD. Elimine alguns ficheiros em Definições > Armazenamento e RAM > Armazenamento > Detalhes."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "O seu telefone será desligado."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "O seu telefone será reiniciado."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Desligar"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Reiniciar"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Sem cartão SIM inserido"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Reiniciar"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "Cartão SIM inserido"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "A preparar cartão SD..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Arrefecimento do telefone"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Arrefecimento do telefone"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Sobreaquecimento do telefone. Serão tomadas medidas para o arrefecer.\n\nPode continuar a utilizar o seu telefone, mas:\n- O ecrã pode ficar mais escuro.\n- O telefone pode tornar-se mais lento.\n- O carregamento pode ser colocado em pausa.\n\nDepois de o telefone arrefecer, o desempenho regressará automaticamente ao normal."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Sobreaquecimento telefone"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Sobreaquecimento do telefone. Será desligado para arrefecer."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "Faltam %d segundos para o dispositivo se desligar."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Desligar agora"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Desligação do telefone"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s foi encerrado inesperadamente."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "O cartão SD pode estar a ser utilizado. Tente novamente mais tarde."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s não está a responder. Fechar %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Rein."
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Reinic."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Impossível montar cartão SD"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Erro ao encriptar o cartão SD. Impossível instalar cartão SD."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Impossível desmontar cartão SD"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Desl. agora"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Impossível gravar. Não existe espaço suficiente no armazenamento do seu Gear."
 

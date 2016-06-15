@@ -1,11 +1,14 @@
 msgid "IDS_COM_SK_CANCEL"
-msgstr "Annullér"
+msgstr "Annuller"
 
 msgid "IDS_COM_SK_OK"
 msgstr "OK"
 
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
-msgstr "Kryptér SD-kort"
+msgstr "Krypter SD-kort"
+
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Enhed genstarter."
 
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Indstillinger"
@@ -34,17 +37,8 @@ msgstr "Tryk for at se brug og indstillinger."
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB-lageret er tomt eller indeholder ikke-understøttet filsystem."
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Bemærk!"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Mobile data deaktiveret"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Batteriet frakoblet."
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Lavt batteriniveau."
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Kamera tilsluttet."
@@ -65,7 +59,7 @@ msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
 msgstr "Ukendt USB-enhed tilsluttet."
 
 msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
-msgstr "Deaktivér USB-masselageret, før det fjernes, for at forhindre tab af data."
+msgstr "Deaktiver USB-masselageret, før det fjernes, for at forhindre tab af data."
 
 msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
 msgstr "Intet USB-stik tilsluttet."
@@ -89,7 +83,7 @@ msgid "IDS_IDLE_BODY_LOW_MEMORY"
 msgstr "Kun lidt hukommelse."
 
 msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
-msgstr "Dekryptér SD-kort"
+msgstr "Dekrypter SD-kort"
 
 msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
 msgstr "Dekrypterer SD-kort ..."
@@ -170,7 +164,7 @@ msgid "IDS_ST_BODY_USB_STORAGE_ABB"
 msgstr "USB-lager"
 
 msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
-msgstr "Dekryptér SD-kort"
+msgstr "Dekrypter SD-kort"
 
 msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
 msgstr "Deaktiver kryptering"
@@ -179,7 +173,7 @@ msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
 msgstr "Aktiver kryptering"
 
 msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
-msgstr "Kryptér SD-kort"
+msgstr "Krypter SD-kort"
 
 msgid "IDS_ST_HEADER_POWER_OFF_ABB"
 msgstr "Sluk"
@@ -194,10 +188,10 @@ msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
 msgstr "Batteri lavt. Oplad."
 
 msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
-msgstr "For at bruge dit SD-kort skal det være dekrypteret. Dekryptér SD-kort eller aktivér enhedskryptering?"
+msgstr "For at bruge dit SD-kort skal det være dekrypteret. Dekrypter SD-kort eller aktiver enhedskryptering?"
 
 msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
-msgstr "For at bruge dit SD-kort skal det være krypteret. Kryptér SD-kort eller deaktivér enhedskryptering?"
+msgstr "For at bruge dit SD-kort skal det være krypteret. Krypter SD-kort eller deaktiver enhedskryptering?"
 
 msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
 msgstr "There is not enough space in your device storage."
@@ -234,4 +228,115 @@ msgstr "HDMI-kabel tilsluttet."
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI-kabel frakoblet."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Bemærk!"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Mobile data deaktiveret"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Lavt batteriniveau."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Din telefon overopheder. Den slukkes muligvis uden varsel for ikke at blive beskadiget.\n\nOverophedning kan skyldes:\n- Brug af grafikkrævende apps som f.eks. spil og navigationsapps i længere tidsrum\n- Overførsel af store filer\n- Brug af din telefon i et varmt miljø"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Annuller"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Indstill."
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Annul."
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Indst."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Der er ikke tilstrækkelig plads på din telefons lager. Slet nogle filer under Indstillinger > Lager og RAM > Lager > Detaljer."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Der er ikke tilstrækkelig plads på dit SD-kort. Slet nogle filer under Indstillinger > Lager og RAM > Lager > Detaljer."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Din telefon vil blive slukket."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Din telefon vil genstarte."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Sluk"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Genstart"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Intet SIM-kort isat"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Genstart"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM-kort isat"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "Forbereder SD-kort ..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Telefonen køler af"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Telefonen køler af"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Din telefon overopheder. Der bliver igangsat tiltag for at køle den af.\n\nDu kan stadig bruge din telefon, men:\n– skærmen dæmpes muligvis.\n– telefonen fungerer muligvis langsommere.\n– opladningen stoppes muligvis midlertidigt.\n\nNår telefonen er kølet af, vender ydeevnen automatisk tilbage til normal tilstand."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Telefonen overophedes"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Din telefon overopheder. Den vil nu blive slukket for at køle af."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "Der er %d sekunder tilbage, før din enhed slukkes."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Sluk nu"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Telefonen slukker"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s lukkede uventet."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "SD-kortet kan være i brug. Prøv igen senere."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s svarer ikke. Luk %s?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Gens."
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Kør igen"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Kan ikke isætte SD-kort"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Fejl under kryptering af SD-kort. Det er ikke muligt at montere SD-kortet."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Kan ikke fjerne SD-kort"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Sluk nu"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Kan ikke optage. Der er ikke nok plads i dit Gears lager."
 

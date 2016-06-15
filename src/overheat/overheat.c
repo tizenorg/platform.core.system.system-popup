@@ -42,9 +42,9 @@ static void overheat_poweroff_warning_terminate(const struct popup_ops *ops);
 static __attribute__ ((constructor)) void overheat_register_popup(void);
 
 static char *items[] = {
-	"IDS_ST_BODY_OVERHEAT",
+	"IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB",
 	"IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN",
-	"IDS_COM_TURN_OFF_NOW",
+	"IDS_ST_BUTTON_TURN_OFF_NOW",
 };
 
 char* gl_text_get(int index)
@@ -296,8 +296,8 @@ static const struct popup_ops overheat_ops = {
 static const struct popup_ops overheat_poweroff_warning_ops = {
 	.name		= "overheat_poweroff_warning", //overheat second popup
 	.show		= load_simple_popup,
-	.title		= "IDS_ST_BODY_OVERHEAT_POWEROFF",
-	.content	= "IDS_COM_POP_OVERHEAT_PHONE_WILL_SHUT_DOWN",
+	.title		= "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB",
+	.content	= "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG",
 	.left_text	= "IDS_COM_SK_OK",
 	.pre		= overheat_poweroff_warning_launch,
 	.terminate  = overheat_poweroff_warning_terminate,

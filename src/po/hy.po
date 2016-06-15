@@ -7,6 +7,9 @@ msgstr "Ընդունել"
 msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
 msgstr "Ծածկագրել SD քարտը"
 
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "Սարքը կվերագործարկվի:"
+
 msgid "IDS_COM_BODY_SETTINGS"
 msgstr "Պարամետրեր"
 
@@ -34,17 +37,8 @@ msgstr "Թակեք՝ օգտագործումն ու դրվածքները դիտե
 msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
 msgstr "USB պահոցը դատարկ է կամ ունի չապահովվող ֆայլային համակարգ:"
 
-msgid "IDS_COM_HEADER_ATTENTION"
-msgstr "Ուշադրություն"
-
-msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
-msgstr "Շարժական տվյալները կասեցված են"
-
 msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
 msgstr "Մարտկոցն անջատված է:"
-
-msgid "IDS_COM_POP_BATTERYLOW"
-msgstr "Մարտկոցի լիցքը թույլ է:"
 
 msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
 msgstr "Խցիկը միացված է:"
@@ -234,4 +228,115 @@ msgstr "HDMI կաբելը միացված է:"
 
 msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
 msgstr "HDMI կաբելն անջատված է:"
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "Ուշադրություն"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "Շարժական տվյալները կասեցված են"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "Մարտկոցի լիցքը թույլ է:"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "Ձեր հեռախոսը գերտաքանում է. Այն կարող է անջատվել առանց նախազգուշացման՝ վնասվածքը կանխելու համար:\n\nԳերտաքացման պատճառ կարող են լինել՝\n- երկար ժամանակ գրաֆիկական պատկերներով հարուստ ծրագրեր օգտագործելը, օրինակ՝ տեսախաղերի և նավարկման ծրագրեր\n- մեծ ֆայլեր փոխանցելը\n- հեռախոսը շոգ միջավայրում օգտագործելը"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "OK"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "Դադարեցնել"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "Դրվածքներ"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "Դդրցնել"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "Դրվծքր"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Բավարար տեղ չկա Ձեր հեռախոսի պահոցում: Վերացրեք որոշ ֆայլեր՝ գնալով Դրվածքներ > Պահոց և RAM > Պահոց > Մանրամասներ:"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "Բավարար տեղ չկա Ձեր SD քարտում: Վերացրեք որոշ ֆայլեր՝ գնալով Դրվածքներ > Պահոց և RAM > Պահոց > Մանրամասներ:"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "Ձեր հեռախոսի սնուցումը կանջատվի:"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "Ձեր հեռախոսը կվերագործարկվի:"
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "Անջ. սնցումը"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "Վերգործարկել"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "Ոչ մի SIM քարտ մտցված չէ"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "Վերագործարկել"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM քարտ է մտցվել"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "Նախապատրաստվում է SD քարտ..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "Հեռախոսը հովանում է"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "Հեռախոսը հովանում է"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "Ձեր հեռախոսը գերտաքանում է. Քայլեր կձեռնարկվեն այն հովացնելու համար:\n\nԴուք դեռ կարող եք օգտագործել հեռախոսը, բայց՝\n- էկրանը կարող է աղոտանալ.\n- հեռախոսի աշխատանքը կարող է դանդաղել.\n- լիցքավորումը կարող է դադարել:\n\nՀեռախոսի հովացումից հետո աշխատանքն ինքնաբերաբար կվերադառնա իր բնականոն վիճակին:"
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "Հեռախոսը գերտաքանում է"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "Ձեր հեռախոսը գերտաքանում է. Հիմա սնուցումը կանջատվի, որպեսզի սարքը հովանա:"
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "%d վայրկյան է մնացել մինչև սարքի սնուցման անջատումը:"
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "Անջատել հիմա"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "Հեռախոսն անջատվում է"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s-ն անսպասելիորեն փակվել է:"
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "Հավանաբար SD քարտը գործածվում է: Ավելի ուշ փորձեք:"
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s չի պատասխանում. փակե՞լ %s:"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "Վրգծլ"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "Վրգծլ"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "Անհնար է սարել SD քարտը"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "Սխալ՝ SD քարտը ծածկագրելիս: Անհնար է սարել SD քարտը:"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "Անհնար է ապասարել SD քարտը"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "Անջատել հիմա"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Անհնար է գրանցել. Gear-ի պահոցում բավարար տեղ չկա:"
 

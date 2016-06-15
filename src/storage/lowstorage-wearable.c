@@ -40,7 +40,7 @@ static int remove_other_lowstorage_popups(const struct popup_ops *ops)
 static const struct popup_ops lowstorage_warning_ops = {
 	.name		= "lowstorage_warning",
 	.show		= load_simple_popup,
-	.content	= "IDS_DAV_BODY_LOW_MEMORY_LEFT_ORANGE",
+	.content	= "IDS_IDLE_BODY_LOW_MEMORY",
 	.left_text	= "IDS_COM_SK_OK",
 	.pre		= remove_other_lowstorage_popups,
 };
@@ -48,7 +48,7 @@ static const struct popup_ops lowstorage_warning_ops = {
 static const struct popup_ops lowstorage_critical_ops = {
 	.name		= "lowstorage_critical",
 	.show		= load_simple_popup,
-	.content	= "IDS_DAV_BODY_LOW_MEMORY_LEFT_ORANGE",
+	.content	= "IDS_IDLE_BODY_LOW_MEMORY",
 	.left_text	= "IDS_COM_SK_OK",
 	.pre		= remove_other_lowstorage_popups,
 };
