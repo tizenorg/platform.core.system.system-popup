@@ -13,6 +13,7 @@
 %define signal_sender off
 #sub-popups of system-popup
 %define battery_popup off
+%define cooldown_popup off
 %define mmc_popup off
 %define usb_popup off
 %define watchdog_popup off
@@ -31,6 +32,7 @@
 %define system_cooperator on
 #sub-popups of system-popup
 %define battery_popup on
+%define cooldown_popup on
 %define mmc_popup on
 %define usb_popup on
 %define watchdog_popup on
@@ -56,6 +58,7 @@
 %define storage_popup on
 %define watchdog_popup on
 %define battery_popup on
+%define cooldown_popup on
 %if %{?system_popup} == on
 %define overheat_popup on
 %endif
@@ -207,6 +210,7 @@ cp %{SOURCE2003} .
 		-DCRASH_POPUP=%{crash_popup} \
 		-DNOTIFICATION_SERVICE=%{notification_service} \
 		-DBATTERY_POPUP=%{battery_popup} \
+		-DCOOLDOWN_POPUP=%{cooldown_popup} \
 		-DSYSTEM_POPUP=%{system_popup} \
 		-DSIGNAL_SENDER=%{signal_sender} \
 		-DSYSTEM_COOPERATOR=%{system_cooperator} \
