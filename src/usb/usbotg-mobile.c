@@ -123,7 +123,15 @@ static void launch_app(int type)
 	if (ret != APP_CONTROL_ERROR_NONE)
 		return;
 
-	ret = app_control_set_operation(app_control, APP_CONTROL_OPERATION_VIEW);
+	if (type == 0)
+		ret = app_control_set_app_id(app_control, MYFILES_APPNAME);
+	else if (type == 1)
+		ret = app_control_set_app_id(app_control, GALLERY_APPNAME);
+	else {
+		_E("No matched type(%d)", type);
+		return;
+	}
+
 	if (ret != APP_CONTROL_ERROR_NONE) {
 		(void)app_control_destroy(app_control);
 		return;
@@ -168,7 +176,6 @@ static void storage_unmount(const struct popup_ops *ops)
 	memset(removed_path, 0, sizeof(removed_path));
 
 	terminate_if_no_popup();
-	
 }
 
 static int storage_mounted_launch(bundle *b, const struct popup_ops *ops)
@@ -207,7 +214,7 @@ static int unmount_storage_launch(bundle *b, const struct popup_ops *ops)
 		return -1;
 
 	ret = get_object_by_ops(ops, &obj);
-	_D("ops = %s obj = %s",ops, obj);	
+	_D("ops = %s obj = %s", ops, obj);
 	if (ret < 0) {
 		_E("Failed to get object (%d)", ret);
 		return -2;
