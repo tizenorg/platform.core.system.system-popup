@@ -1,7 +1,7 @@
 /*
  *  system-popup
  *
- * Copyright (c) 2014 Samsung Electronics Co., Ltd. All rights reserved.
+ * Copyright (c) 2016 Samsung Electronics Co., Ltd. All rights reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,9 +30,9 @@ static const struct popup_ops charge_error_low_ops;
 static const struct popup_ops charge_error_high_ops;
 static const struct popup_ops battery_disconnected_ops;
 
-static void lowbattery_launch(bundle *b, const struct popup_ops *ops);
+static int lowbattery_launch(bundle *b, const struct popup_ops *ops);
 
-static void remove_other_lowbattery_popups(const struct popup_ops *ops)
+static int remove_other_lowbattery_popups(const struct popup_ops *ops)
 {
 	if (ops != &lowbattery_warning_ops)
 		unload_simple_popup(&lowbattery_warning_ops);
@@ -42,9 +42,11 @@ static void remove_other_lowbattery_popups(const struct popup_ops *ops)
 
 	if (ops != &lowbattery_poweroff_ops)
 		unload_simple_popup(&lowbattery_poweroff_ops);
+
+	return 0;
 }
 
-static void remove_other_charge_popups(bundle *b, const struct popup_ops *ops)
+static int remove_other_charge_popups(bundle *b, const struct popup_ops *ops)
 {
 	if (ops != &charge_error_low_ops)
 		unload_simple_popup(&charge_error_low_ops);
@@ -54,6 +56,8 @@ static void remove_other_charge_popups(bundle *b, const struct popup_ops *ops)
 
 	if (ops != &battery_disconnected_ops)
 		unload_simple_popup(&battery_disconnected_ops);
+
+	return 0;
 }
 
 static void charger_status_changed(keynode_t *key, void *data)
@@ -87,11 +91,13 @@ static void register_charger_status_handler(const struct popup_ops *ops)
 		_E("Failed to register vconf key handler");
 }
 
-static void lowbattery_launch(bundle *b, const struct popup_ops *ops)
+static int lowbattery_launch(bundle *b, const struct popup_ops *ops)
 {
 	unregister_charger_status_handler();
 	remove_other_lowbattery_popups(ops);
 	register_charger_status_handler(ops);
+
+	return 0;
 }
 
 static void lowbattery_terminate(const struct popup_ops *ops)

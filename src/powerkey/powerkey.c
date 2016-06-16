@@ -107,15 +107,19 @@ static char* gl_text_get_cb(void *data, Evas_Object *obj, const char *part)
 
 	switch (index) {
 	case 0:
-		if (!strncmp("elm.text", part, sizeof("elm.text"))) return strdup(_(items[index]));
+		if (!strncmp("elm.text", part, sizeof("elm.text")))
+			return strdup(_(items[index]));
 		else
 			return NULL;
 
 	case 1:
-		if (!strncmp("elm.text", part, sizeof("elm.text"))) return strdup(_(items[index]));
+		if (!strncmp("elm.text", part, sizeof("elm.text")))
+			return strdup(_(items[index]));
 		else
 			return NULL;
 	}
+
+	return NULL;
 }
 
 static void gl_sel_cb(void *data, Evas_Object *obj, void *event_info)

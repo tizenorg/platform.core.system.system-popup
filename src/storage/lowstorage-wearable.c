@@ -1,7 +1,7 @@
 /*
  *  system-popup
  *
- * Copyright (c) 2014 Samsung Electronics Co., Ltd. All rights reserved.
+ * Copyright (c) 2016 Samsung Electronics Co., Ltd. All rights reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@ static const struct popup_ops lowstorage_warning_ops;
 static const struct popup_ops lowstorage_critical_ops;
 static const struct popup_ops lowstorage_full_ops;
 
-static int remove_other_lowstorage_popups(const struct popup_ops *ops)
+static int remove_other_lowstorage_popups(bundle *b, const struct popup_ops *ops)
 {
 	if (ops != &lowstorage_warning_ops)
 		unload_simple_popup(&lowstorage_warning_ops);

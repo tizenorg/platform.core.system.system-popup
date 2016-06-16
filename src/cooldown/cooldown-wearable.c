@@ -217,7 +217,7 @@ static Eina_Bool beep_time_expired(void *data)
 	return ECORE_CALLBACK_CANCEL;
 }
 
-static void cooldown_warning_timer(const struct popup_ops *ops)
+static int cooldown_warning_timer(bundle *b, const struct popup_ops *ops)
 {
 	int ret;
 
@@ -233,6 +233,7 @@ static void cooldown_warning_timer(const struct popup_ops *ops)
 	if (ret < 0)
 		_E("Failed to add dbus handler(%d)", ret);
 
+	return 0;
 }
 
 static Eina_Bool poweroff_time_expired(void *data)
@@ -244,7 +245,7 @@ static Eina_Bool poweroff_time_expired(void *data)
 	return ECORE_CALLBACK_CANCEL;
 }
 
-static void cooldown_poweroff_timer(const struct popup_ops *ops)
+static int cooldown_poweroff_timer(bundle *b, const struct popup_ops *ops)
 {
 	remove_other_popups(ops);
 
@@ -253,6 +254,8 @@ static void cooldown_poweroff_timer(const struct popup_ops *ops)
 	timer = ecore_timer_add(TIMEOUT_POWEROFF, poweroff_time_expired, ops);
 	if (!timer)
 		_E("Failed to add timer");
+
+	return 0;
 }
 
 static int cooldown_poweroff_content(const struct popup_ops *ops, char *content, unsigned int len)
@@ -273,7 +276,7 @@ static const struct popup_ops cooldown_poweroff_ops = {
 	.get_content = cooldown_poweroff_content,
 	.left_text	= "IDS_COM_SK_OK",
 	.left		= cooldown_poweroff,
-	.launch		= cooldown_poweroff_timer,
+	.show		= cooldown_poweroff_timer,
 	.terminate	= cooldown_poweroff,
 };
 
@@ -290,7 +293,7 @@ static const struct popup_ops cooldown_warning_ops = {
 	.get_content = cooldown_warning_content,
 	.left_text	= "IDS_COM_SK_OK",
 	.left		= cooldown_warning,
-	.launch		= cooldown_warning_timer,
+	.show		= cooldown_warning_timer,
 	.terminate	= cooldown_warning,
 };
 
