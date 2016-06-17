@@ -50,9 +50,11 @@ ENDIF(MMC_POPUP STREQUAL on)
 
 IF(USB_POPUP STREQUAL on)
 	IF(PROFILE_MOBILE)
-		SET(SRCS ${SRCS} usb/usb-mobile.c
-						 usb/usbotg-mobile.c
-						 usb/usb-device.c)
+		SET(SRCS ${SRCS}
+			usb/usb-mobile.c
+			usb/usbotg-mobile.c
+			usb/usb-device.c
+		)
 	ENDIF()
 ENDIF(USB_POPUP STREQUAL on)
 
