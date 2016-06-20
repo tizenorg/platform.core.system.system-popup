@@ -30,12 +30,9 @@
 
 static const struct popup_ops overheat_ops;
 static const struct popup_ops overheat_poweroff_warning_ops;
-
-static void event_back_key_up(void *data, Evas_Object *obj, void *event_info);
 static void pm_state_changed(keynode_t *key, void *data);
 static void register_handlers(const struct popup_ops *ops);
 static void unregister_handlers(const struct popup_ops *ops);
-static void remove_popup(const struct popup_ops *ops);
 static void overheat_poweroff(const struct popup_ops *ops);
 static int overheat_launch(bundle *b, const struct popup_ops *ops);
 static void overheat_poweroff_warning_terminate(const struct popup_ops *ops);
@@ -58,7 +55,7 @@ _popup_turnoff_btn_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 	const struct popup_ops *ops = data;
 
 	overheat_poweroff(ops);
- }
+}
 
 static void
 _popup_cancel_btn_clicked_cb(void *data, Evas_Object *obj, void *event_info)
@@ -97,15 +94,6 @@ progressbar_popup_del_cb(void *data, Evas *e, Evas_Object *obj, void *event_info
 	ecore_timer_del(timer);
 }
 
-static void event_back_key_up(void *data, Evas_Object *obj, void *event_info)
-{
-	const struct popup_ops *ops = data;
-
-	if (ops)
-		remove_popup(ops);
-	terminate_if_no_popup();
-}
-
 static void pm_state_changed(keynode_t *key, void *data)
 {
 	const struct popup_ops *ops = data;
@@ -116,42 +104,17 @@ static void pm_state_changed(keynode_t *key, void *data)
 	if (vconf_keynode_get_int(key) != VCONFKEY_PM_STATE_LCDOFF)
 		return;
 
-	remove_popup(ops);
+	unload_simple_popup(ops);
 }
 
 static void unregister_handlers(const struct popup_ops *ops)
 {
-	Evas_Object *win;
-
 	vconf_ignore_key_changed(VCONFKEY_PM_STATE, pm_state_changed);
-
-	win = get_window();
-	if (win)
-		eext_object_event_callback_del(win, EEXT_CALLBACK_BACK, event_back_key_up);
-}
-
-static void remove_popup(const struct popup_ops *ops)
-{
-	static bool terminating = false;
-
-	if (terminating)
-		return;
-
-	terminating = true;
-
-	unload_simple_popup(ops);
-	popup_terminate();
 }
 
 static void register_handlers(const struct popup_ops *ops)
 {
-	Evas_Object *win;
-
-	win = get_window();
-	if (win)
-		eext_object_event_callback_add(win, EEXT_CALLBACK_BACK, event_back_key_up, (void*)ops);
-	else
-	    _D("Something wrong in win!");
+		return;
 }
 
 static void overheat_poweroff(const struct popup_ops *ops)
@@ -171,7 +134,7 @@ static void overheat_poweroff(const struct popup_ops *ops)
 
 	win = get_window();
 	if (!win)
-		popup_terminate();
+		window_terminate();
 
 	rect = evas_object_rectangle_add(evas_object_evas_get(win));
 	evas_object_geometry_get(win, NULL, NULL, &w, &h);
@@ -258,6 +221,9 @@ int overheat_popup(bundle *b, const struct popup_ops *ops)
 	elm_object_text_set(btn, gl_text_get(2));
 	elm_object_part_content_set(popup, "button2", btn);
 	evas_object_smart_callback_add(btn, "clicked", _popup_turnoff_btn_clicked_cb, ops);
+
+	/* back key */
+	eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, event_back_key_up, (void*)ops);
 
 	/* layout */
 	layout = elm_layout_add(popup);

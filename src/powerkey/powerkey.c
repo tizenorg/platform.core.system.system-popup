@@ -35,9 +35,7 @@
 
 int clicked_index = 0;
 
-static void remove_popup(const struct popup_ops *ops);
 static void pm_state_changed(keynode_t *key, void *data);
-static void event_back_key_up(void *data, Evas_Object *obj, void *event_info);
 static void register_handlers(const struct popup_ops *ops);
 static void unregister_handlers(const struct popup_ops *ops);
 static int poweroff_launch(bundle *b, const struct popup_ops *ops);
@@ -79,7 +77,7 @@ static void restart_clicked(const struct popup_ops *ops)
 	unload_simple_popup(ops);
 
 	win = get_window();
-	if (!win) popup_terminate();
+	if (!win) window_terminate();
 
 	rect = evas_object_rectangle_add(evas_object_evas_get(win));
 	evas_object_geometry_get(win, NULL, NULL, &w, &h);
@@ -215,6 +213,9 @@ int powerkey_list(bundle *b, const struct popup_ops *ops)
 	box = elm_box_add(popup);
 	evas_object_size_hint_weight_set(box, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 
+	/* back key */
+	eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, event_back_key_up, (void*)ops);
+
 	/* genlist */
 	genlist = elm_genlist_add(box);
 	evas_object_size_hint_weight_set(genlist, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
@@ -241,17 +242,6 @@ int powerkey_list(bundle *b, const struct popup_ops *ops)
 	return 0;
 }
 
-static void remove_popup(const struct popup_ops *ops)
-{
-	static bool terminating = false;
-
-	if (terminating) return;
-	terminating = true;
-
-	unload_simple_popup(ops);
-	popup_terminate();
-}
-
 static void pm_state_changed(keynode_t *key, void *data)
 {
 	const struct popup_ops *ops = data;
@@ -259,15 +249,7 @@ static void pm_state_changed(keynode_t *key, void *data)
 	if (!key) return;
 	if (vconf_keynode_get_int(key) != VCONFKEY_PM_STATE_LCDOFF) return;
 
-	remove_popup(ops);
-}
-
-static void event_back_key_up(void *data, Evas_Object *obj, void *event_info)
-{
-	const struct popup_ops *ops = data;
-
-	if (ops) remove_popup(ops);
-	terminate_if_no_popup();
+	unload_simple_popup(ops);
 }
 
 static void register_handlers(const struct popup_ops *ops)
@@ -279,9 +261,6 @@ static void register_handlers(const struct popup_ops *ops)
 		pm_state_changed,
 		(void *)ops) != 0)
 		_E("Failed to register vconf");
-
-	win = get_window();
-	if (win) eext_object_event_callback_add(win, EEXT_CALLBACK_BACK, event_back_key_up, (void*)ops);
 }
 
 static void unregister_handlers(const struct popup_ops *ops)
@@ -289,9 +268,6 @@ static void unregister_handlers(const struct popup_ops *ops)
 	Evas_Object *win;
 
 	vconf_ignore_key_changed(VCONFKEY_PM_STATE, pm_state_changed);
-
-	win = get_window();
-	if (win) eext_object_event_callback_del(win, EEXT_CALLBACK_BACK, event_back_key_up);
 }
 
 static int powerkey_list_launch(bundle *b, const struct popup_ops *ops)
@@ -331,7 +307,7 @@ static void poweroff_clicked(const struct popup_ops *ops)
 	unload_simple_popup(ops);
 
 	win = get_window();
-	if (!win) popup_terminate();
+	if (!win) window_terminate();
 
 	rect = evas_object_rectangle_add(evas_object_evas_get(win));
 	evas_object_geometry_get(win, NULL, NULL, &w, &h);
