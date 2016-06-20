@@ -32,6 +32,7 @@ GList *get_popup_list(void)
 void register_popup(const struct popup_ops *ops)
 {
 	struct object_ops *obj;
+
 	if (!ops) {
 		_E("Invalid parameter");
 		return;
@@ -72,7 +73,7 @@ void terminate_if_no_popup(void)
 			return;
 		}
 	}
-	popup_terminate();
+	window_terminate();
 }
 
 static int load_popup_by_type(bundle *b)
@@ -95,7 +96,7 @@ static int load_popup_by_type(bundle *b)
 		obj = (struct object_ops *)(l->data);
 		if (!obj || !(obj->ops) || !(obj->ops->name) || !(obj->ops->show))
 			continue;
-		if (strncmp (type, obj->ops->name, strlen(type) + 1))
+		if (strncmp(type, obj->ops->name, strlen(type) + 1))
 			continue;
 
 		if (obj->ops->skip && obj->ops->skip(b, obj->ops)) {
@@ -233,7 +234,7 @@ static int app_reset(bundle *b, void *data)
 	return 0;
 
 out:
-	popup_terminate();
+	window_terminate();
 	return ret;
 }
 

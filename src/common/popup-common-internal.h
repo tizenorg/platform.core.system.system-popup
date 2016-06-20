@@ -52,7 +52,7 @@ struct object_ops {
 
 /* Common */
 GList *get_popup_list(void);
-void popup_terminate(void);
+void window_terminate(void);
 void release_evas_object(Evas_Object **obj);
 int get_object_by_ops(const struct popup_ops *ops, struct object_ops **obj);
 

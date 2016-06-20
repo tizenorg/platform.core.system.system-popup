@@ -26,14 +26,14 @@
 
 static E_DBus_Connection *edbus_conn = NULL;
 
-/* Terminate popup */
+/* Terminate window */
 static Eina_Bool exit_idler_cb(void *data)
 {
 	elm_exit();
 	return ECORE_CALLBACK_CANCEL;
 }
 
-void popup_terminate(void)
+void window_terminate(void)
 {
 	if (ecore_idler_add(exit_idler_cb, NULL))
 		return;

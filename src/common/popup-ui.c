@@ -21,6 +21,7 @@
 
 static Evas_Object *window = NULL;
 
+
 /* Common */
 void release_evas_object(Evas_Object **obj)
 {
@@ -48,7 +49,7 @@ void remove_window(void)
 
 static void win_del(void *data, Evas_Object * obj, void *event)
 {
-	popup_terminate();
+	window_terminate();
 }
 
 int create_window(const char *name)

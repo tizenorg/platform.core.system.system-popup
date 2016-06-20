@@ -190,7 +190,7 @@ static void cooldown_warning(const struct popup_ops *ops)
 
 	unload_simple_popup(ops);
 	cooldown_send_warning_signal(ops);
-	popup_terminate();
+	window_terminate();
 }
 
 static Eina_Bool beep_time_expired(void *data)

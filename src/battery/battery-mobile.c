@@ -131,7 +131,7 @@ static void poweroff_clicked(const struct popup_ops *ops)
 
 	win = get_window();
 	if (!win)
-		popup_terminate();
+		window_terminate();
 
 	rect = evas_object_rectangle_add(evas_object_evas_get(win));
 	evas_object_geometry_get(win, NULL, NULL, &w, &h);
@@ -180,7 +180,7 @@ static int remove_battery_popups(bundle *b, const struct popup_ops *ops)
 	unload_simple_popup(&charge_error_high_ops);
 	unload_simple_popup(&battery_disconnected_ops);
 	terminate_if_no_popup();
-	
+
 	return 0;
 }
 

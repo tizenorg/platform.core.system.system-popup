@@ -94,5 +94,5 @@ void play_feedback(int type, int pattern);
 void notify_feedback(long pattern); /* using thread */
 
 void change_display_state(void); /* using thread */
-
+void event_back_key_up(void *data, Evas_Object *obj, void *event_info);
 #endif /* __POPUP_COMMON_H__ */
