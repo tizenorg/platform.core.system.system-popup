@@ -64,14 +64,13 @@ static void set_language(void)
 	setenv("LC_MESSAGES", lang, 1);
 
 	r = setlocale(LC_ALL, "");
-	if (!r) {
+	if (!r)
 		setlocale(LC_ALL, lang);
-	}
 
 	free(lang);
 }
 
-static int add_notification (
+static int add_notification(
 		int type, int layout,
 		char *title, char *content,
 		char *icon, char *icon_indi,
@@ -115,7 +114,7 @@ static int add_notification (
 	}
 
 	if (title) {
-		noti_err = notification_set_text (noti,
+		noti_err = notification_set_text(noti,
 				NOTIFICATION_TEXT_TYPE_TITLE,
 				_(title),
 				title,
@@ -128,7 +127,7 @@ static int add_notification (
 	}
 
 	if (content) {
-		noti_err = notification_set_text (noti,
+		noti_err = notification_set_text(noti,
 				NOTIFICATION_TEXT_TYPE_CONTENT,
 				_(content),
 				content,
@@ -141,7 +140,7 @@ static int add_notification (
 	}
 
 	if (icon) {
-		noti_err = notification_set_image (noti,
+		noti_err = notification_set_image(noti,
 				NOTIFICATION_IMAGE_TYPE_ICON,
 				icon);
 		if (noti_err != NOTIFICATION_ERROR_NONE) {
@@ -152,7 +151,7 @@ static int add_notification (
 	}
 
 	if (icon_indi && (applist & NOTIFICATION_DISPLAY_APP_INDICATOR)) {
-		noti_err = notification_set_image (noti,
+		noti_err = notification_set_image(noti,
 				NOTIFICATION_IMAGE_TYPE_ICON_FOR_INDICATOR,
 				icon_indi);
 		if (noti_err != NOTIFICATION_ERROR_NONE) {
@@ -162,7 +161,7 @@ static int add_notification (
 		}
 	}
 
-	noti_err = notification_set_property (noti, prop);
+	noti_err = notification_set_property(noti, prop);
 	if (noti_err != NOTIFICATION_ERROR_NONE) {
 		_E("FAIL: notification_set_property()");
 		priv_id = -ENOMEM;
@@ -395,7 +394,7 @@ static int launch_ode_error_notification(void *data1, void *data2, void *data3)
 				NOTIFICATION_DISPLAY_APP_NOTIFICATION_TRAY
 				| NOTIFICATION_DISPLAY_APP_INDICATOR);
 
-	if(b)
+	if (b)
 		bundle_free(b);
 	return ret;
 }
@@ -467,7 +466,7 @@ static int launch_usb_storage_notification(void *data, int type)
 	if (!path)
 		return -EINVAL;
 
-	switch(type) {
+	switch (type) {
 	case USB_STORAGE:
 		title = "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2";
 		break;
@@ -592,11 +591,10 @@ static int launch_battery_full_notification(void)
 				"IDS_IDLE_POP_BATTERY_FULLY_CAHRGED",
 				"IDS_SYNCML_POP_DM_REMOVE_CHARGER",
 				BATT_NOTI_ICON,
-				BATT_INDI_ICON,
+				NULL,
 				NULL,
 				NOTIFICATION_PROP_DISABLE_APP_LAUNCH,
-				NOTIFICATION_DISPLAY_APP_NOTIFICATION_TRAY
-				| NOTIFICATION_DISPLAY_APP_INDICATOR);
+				NOTIFICATION_DISPLAY_APP_NOTIFICATION_TRAY);
 
 	return ret;
 }
@@ -937,7 +935,7 @@ static int update_usb_device_notification(int id, int num, char *str1, char *str
 
 	if (title) {
 		if (num > 1)
-			noti_err = notification_set_text (noti,
+			noti_err = notification_set_text(noti,
 					NOTIFICATION_TEXT_TYPE_TITLE,
 					_(title),
 					title,
@@ -945,7 +943,7 @@ static int update_usb_device_notification(int id, int num, char *str1, char *str
 					num,
 					NOTIFICATION_VARIABLE_TYPE_NONE);
 		else
-			noti_err = notification_set_text (noti,
+			noti_err = notification_set_text(noti,
 					NOTIFICATION_TEXT_TYPE_TITLE,
 					_(title),
 					title,
@@ -959,7 +957,7 @@ static int update_usb_device_notification(int id, int num, char *str1, char *str
 	}
 
 	if (content) {
-		noti_err = notification_set_text (noti,
+		noti_err = notification_set_text(noti,
 				NOTIFICATION_TEXT_TYPE_CONTENT,
 				_(content),
 				content,
