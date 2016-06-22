@@ -143,6 +143,7 @@ static Evas_Object* gl_image_get_cb(void *data, Evas_Object *obj, const char *pa
 	Evas_Object *img = elm_image_add(obj);
 	Evas_Object *check;
 	int index = (int) data;
+	Evas_Coord w, h;
 
 	if (!img) {
 		_E("BAD image");
@@ -153,7 +154,8 @@ static Evas_Object* gl_image_get_cb(void *data, Evas_Object *obj, const char *pa
 	case 0:
 		if (!strncmp(part, "elm.swallow.icon", sizeof("elm.swallow.icon"))) {
 			elm_image_file_set(img, RESDIR"/core_power_off.png", NULL);
-			evas_object_size_hint_min_set(img, ELM_SCALE_SIZE(50), ELM_SCALE_SIZE(50));
+			   elm_image_object_size_get(img, &w, &h);
+			   evas_object_size_hint_min_set(img, w, h);
 			_D("Power off img");
 			return img;
 		} else if (!strncmp(part, "elm.swallow.icon.end", sizeof("elm.swallow.icon.end"))) {
@@ -165,7 +167,9 @@ static Evas_Object* gl_image_get_cb(void *data, Evas_Object *obj, const char *pa
 	case 1:
 		if (!strncmp(part, "elm.swallow.icon", sizeof("elm.swallow.icon"))) {
 			elm_image_file_set(img, RESDIR"/core_restart.png", NULL);
-			evas_object_size_hint_min_set(img, ELM_SCALE_SIZE(50), ELM_SCALE_SIZE(50));
+			   elm_image_object_size_get(img, &w, &h);
+			   evas_object_size_hint_min_set(img, w, h);
+
 			_D("Restart img");
 			return img;
 		} else if (!strncmp(part, "elm.swallow.icon.end", sizeof("elm.swallow.icon.end"))) {
@@ -232,7 +236,7 @@ int powerkey_list(bundle *b, const struct popup_ops *ops)
 
 	evas_object_show(genlist);
 	elm_box_pack_end(box, genlist);
-	evas_object_size_hint_min_set(box, -1, 350);
+	evas_object_size_hint_min_set(box, -1, 250);
 	elm_object_content_set(popup, box);
 
 	evas_object_show(popup);
