@@ -21,6 +21,20 @@
 
 #define BUF_MAX 512
 
+void event_back_key_up(void *data, Evas_Object *obj, void *event_info)
+{
+	const struct popup_ops *ops = data;
+	Evas_Object *win;
+
+	win = get_window();
+	if (win)
+		eext_object_event_callback_del(obj, EEXT_CALLBACK_BACK, event_back_key_up);
+
+	if (ops)
+		unload_simple_popup(ops);
+	terminate_if_no_popup();
+}
+
 int load_normal_popup(const struct popup_ops *ops)
 {
 	Evas_Object *btn;
@@ -140,6 +154,7 @@ int load_normal_popup(const struct popup_ops *ops)
 		}
 	}
 
+	eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, event_back_key_up, (void*)ops);
 	evas_object_show(popup);
 
 	obj->popup = popup;

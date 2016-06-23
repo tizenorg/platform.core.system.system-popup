@@ -258,8 +258,6 @@ static void pm_state_changed(keynode_t *key, void *data)
 
 static void register_handlers(const struct popup_ops *ops)
 {
-	Evas_Object *win;
-
 	if (vconf_notify_key_changed(
 		VCONFKEY_PM_STATE,
 		pm_state_changed,
@@ -269,8 +267,6 @@ static void register_handlers(const struct popup_ops *ops)
 
 static void unregister_handlers(const struct popup_ops *ops)
 {
-	Evas_Object *win;
-
 	vconf_ignore_key_changed(VCONFKEY_PM_STATE, pm_state_changed);
 }
 
