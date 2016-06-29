@@ -154,8 +154,8 @@ static Evas_Object* gl_image_get_cb(void *data, Evas_Object *obj, const char *pa
 	case 0:
 		if (!strncmp(part, "elm.swallow.icon", sizeof("elm.swallow.icon"))) {
 			elm_image_file_set(img, RESDIR"/core_power_off.png", NULL);
-			   elm_image_object_size_get(img, &w, &h);
-			   evas_object_size_hint_min_set(img, w, h);
+			elm_image_object_size_get(img, &w, &h);
+			evas_object_size_hint_min_set(img, w, h);
 			_D("Power off img");
 			return img;
 		} else if (!strncmp(part, "elm.swallow.icon.end", sizeof("elm.swallow.icon.end"))) {
@@ -167,9 +167,8 @@ static Evas_Object* gl_image_get_cb(void *data, Evas_Object *obj, const char *pa
 	case 1:
 		if (!strncmp(part, "elm.swallow.icon", sizeof("elm.swallow.icon"))) {
 			elm_image_file_set(img, RESDIR"/core_restart.png", NULL);
-			   elm_image_object_size_get(img, &w, &h);
-			   evas_object_size_hint_min_set(img, w, h);
-
+			elm_image_object_size_get(img, &w, &h);
+			evas_object_size_hint_min_set(img, w, h);
 			_D("Restart img");
 			return img;
 		} else if (!strncmp(part, "elm.swallow.icon.end", sizeof("elm.swallow.icon.end"))) {
