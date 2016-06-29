@@ -84,6 +84,13 @@ static DBusMessage *powerkey_popup(E_DBus_Object *obj, DBusMessage *msg)
 	return launch_powerkey_popup(obj, msg, POWERKEY_SYSPOPUP);
 }
 
+/* Overheat popup */
+static DBusMessage *overheat_popup(E_DBus_Object *obj, DBusMessage *msg)
+{
+	set_timer_to_terminate();
+	return launch_overheat_popup(obj, msg, OVERHEAT_SYSPOPUP);
+}
+
 /* Crash popup */
 static DBusMessage *crash_popup(E_DBus_Object *obj, DBusMessage *msg)
 {
@@ -158,6 +165,12 @@ dbus_powerkey_methods[] = {
 };
 
 static const struct edbus_method
+dbus_overheat_methods[] = {
+	{ "PopupLaunch", "a{ss}", "i", overheat_popup },
+	/* Add methods here */
+};
+
+static const struct edbus_method
 dbus_crash_methods[] = {
 	{ "PopupLaunch", "a{ss}", "i", crash_popup	},
 	/* Add methods here */
@@ -166,32 +179,34 @@ dbus_crash_methods[] = {
 static const struct edbus_method
 dbus_noti_methods[] = {
 	/* LED */
-	{ "LedTorchNotiOn"			, NULL		, "i"	, led_torch_noti_on			},
-	{ "LedTorhNotiOff"			, "i"		, "i"	, noti_off					},
+	{ "LedTorchNotiOn"		, NULL		, "i"	, led_torch_noti_on		},
+	{ "LedTorhNotiOff"		, "i"		, "i"	, noti_off			},
 	/* USB storage */
 	{ "UsbStorageNotiOn"		, "s"		, "i"	, usb_storage_noti_on		},
 	{ "UsbStorageRoNotiOn"		, "s"		, "i"	, usb_storage_ro_noti_on	},
-	{ "UsbStorageNotiOff"		, "i"		, "i"	, noti_off					},
-	{ "UsbDeviceNotiOn" 		, "ss"		, "i"	, usb_device_noti_on		},
-	{ "UsbDeviceNotiUpdate" 	, "isss"	, "i"	, usb_device_noti_update	},
-	{ "UsbDeviceNotiOff"		, "i"		, "i"	, noti_off					},	
+	{ "UsbStorageNotiOff"		, "i"		, "i"	, noti_off			},
+	{ "UsbDeviceNotiOn"		, "ss"		, "i"	, usb_device_noti_on		},
+	{ "UsbDeviceNotiUpdate"		, "isss"	, "i"	, usb_device_noti_update	},
+	{ "UsbDeviceNotiOff"		, "i"		, "i"	, noti_off			},
 	/* Battery */
 	{ "BatteryFullNotiOn"		, NULL		, "i"	, battery_full_noti_on		},
-	{ "BatteryFullNotiOff"		, "i"		, "i"	, noti_off					},
+	{ "BatteryFullNotiOff"		, "i"		, "i"	, noti_off			},
 	{ "BatteryChargeNotiOn"		, NULL		, "i"	, battery_charge_noti_on	},
 	/* Add notifications here */
 };
 
 static struct edbus_object
-edbus_objects[]= {
+edbus_objects[] = {
 	{ POPUP_PATH_SYSTEM		, POPUP_IFACE_SYSTEM	, NULL	, NULL	,
-		dbus_system_methods     , ARRAY_SIZE(dbus_system_methods)		},
-	{ POPUP_PATH_POWERKEY	, POPUP_IFACE_POWERKEY	, NULL	, NULL	,
-		dbus_powerkey_methods	, ARRAY_SIZE(dbus_powerkey_methods)	},
-	{ POPUP_PATH_NOTI		, POPUP_IFACE_NOTI		, NULL	, NULL	,
-		dbus_noti_methods		, ARRAY_SIZE(dbus_noti_methods)			},
-	{ POPUP_PATH_CRASH		, POPUP_IFACE_CRASH		, NULL	, NULL	,
-		dbus_crash_methods		, ARRAY_SIZE(dbus_crash_methods)		},
+		dbus_system_methods	, ARRAY_SIZE(dbus_system_methods)		},
+	{ POPUP_PATH_POWERKEY		, POPUP_IFACE_POWERKEY	, NULL	, NULL	,
+		dbus_powerkey_methods	, ARRAY_SIZE(dbus_powerkey_methods)		},
+	{ POPUP_PATH_OVERHEAT		, POPUP_IFACE_OVERHEAT	, NULL	, NULL	,
+		dbus_overheat_methods	, ARRAY_SIZE(dbus_overheat_methods)		},
+	{ POPUP_PATH_NOTI		, POPUP_IFACE_NOTI	, NULL	, NULL	,
+		dbus_noti_methods	, ARRAY_SIZE(dbus_noti_methods)			},
+	{ POPUP_PATH_CRASH		, POPUP_IFACE_CRASH	, NULL	, NULL	,
+		dbus_crash_methods	, ARRAY_SIZE(dbus_crash_methods)		},
 	/* Add new object & interface here*/
 };
 
@@ -286,7 +301,7 @@ out1:
 	return ret;
 }
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int ret;
 
@@ -296,7 +311,7 @@ int main (int argc, char *argv[])
 	if (ret < 0)
 		return ret;
 
-	ret= init_methods();
+	ret = init_methods();
 	if (ret < 0)
 		return ret;
 

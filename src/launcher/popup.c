@@ -22,6 +22,7 @@
 
 #define POPUP_CONTENT		"_SYSPOPUP_CONTENT_"
 #define POPUP_NAME_POWERKEY	"powerkey"
+#define POPUP_NAME_OVERHEAT	"overheat"
 
 DBusMessage *launch_popup(E_DBus_Object *obj,
 				DBusMessage *msg, char *name)
@@ -118,5 +119,47 @@ out:
 	reply = dbus_message_new_method_return(msg);
 	dbus_message_iter_init_append(reply, &iter);
 	dbus_message_iter_append_basic(&iter, DBUS_TYPE_INT32, &ret);
+	return reply;
+}
+
+DBusMessage *launch_overheat_popup(E_DBus_Object *obj,
+				DBusMessage *msg, char *name)
+{
+	DBusMessage *reply;
+	DBusMessageIter iter;
+	int ret;
+	bundle *b = NULL;
+
+	if (!name) {
+		ret = -EINVAL;
+		goto out;
+	}
+
+	_I("launch popup (%s)", name);
+
+	b = bundle_create();
+	if (!b) {
+		ret = -ENOMEM;
+		goto out;
+	}
+
+	ret = bundle_add(b, POPUP_CONTENT, POPUP_NAME_OVERHEAT);
+	if (ret < 0) {
+		_E("Failed to add bundle (%s,%s) (ret:%d)", POPUP_CONTENT, POPUP_NAME_OVERHEAT, ret);
+		goto out;
+	}
+
+	ret = syspopup_launch(name, b);
+	if (ret < 0)
+		_E("Failed to launch popup(%d)", ret);
+
+out:
+	if (b)
+		bundle_free(b);
+
+	reply = dbus_message_new_method_return(msg);
+	dbus_message_iter_init_append(reply, &iter);
+	dbus_message_iter_append_basic(&iter, DBUS_TYPE_INT32, &ret);
+
 	return reply;
 }

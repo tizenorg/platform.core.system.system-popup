@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" package="org.tizen.overheat-syspopup" api-version="3.0" version="0.2.0" install-location="internal-only">
+	<label>Overheat system popup</label>
+	<author email="changjoo.lee@samsung.com" href="www.samsung.com">ChangJoo Lee</author>
+	<description>System popup application (overheat system popup)</description>
+	<ui-application appid="org.tizen.overheat-syspopup" exec="/usr/apps/org.tizen.overheat-syspopup/bin/overheat-popup" nodisplay="true" multiple="false" type="capp" taskmanage="false">
+		<label>Overheat system popup</label>
+	</ui-application>
+	<privileges>
+		<privilege>http://tizen.org/privilege/power</privilege>
+		<privilege>http://tizen.org/privilege/window.priority.set</privilege>
+	</privileges>
+</manifest>

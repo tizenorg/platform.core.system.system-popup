@@ -7,4 +7,7 @@ api-version="3.0" version="0.1.7" install-location="internal-only" support-mode=
 	<ui-application appid="org.tizen.crash-syspopup" exec="/usr/apps/org.tizen.crash-syspopup/bin/crash-popup" nodisplay="true" multiple="false" type="capp" taskmanage="false">
 		<label>Crash popup</label>
 	</ui-application>
+	<privileges>
+		<privilege>http://tizen.org/privilege/window.priority.set</privilege>
+	</privileges>
 </manifest>

@@ -7,6 +7,7 @@
 
 #Main applications
 %define powerkey_popup off
+%define overheat_popup off
 %define crash_popup off
 %define system_popup off
 %define notification_service off
@@ -17,7 +18,6 @@
 %define mmc_popup off
 %define usb_popup off
 %define watchdog_popup off
-%define overheat_popup off
 %define storage_popup off
 %define system_cooperator off
 
@@ -25,6 +25,7 @@
 %define PROFILE mobile
 #Main applicaitons
 %define powerkey_popup on
+%define overheat_popup on
 %define crash_popup on
 %define system_popup on
 %define notification_service on
@@ -36,9 +37,6 @@
 %define mmc_popup on
 %define usb_popup on
 %define watchdog_popup on
-%if %{?system_popup} == on
-%define overheat_popup on
-%endif
 %define storage_popup on
 %endif
 
@@ -51,6 +49,7 @@
 %endif
 #Main applicaitons
 %define powerkey_popup on
+%define overheat_popup off
 %define crash_popup on
 %define system_popup on
 %define system_cooperator on
@@ -59,9 +58,6 @@
 %define watchdog_popup on
 %define battery_popup on
 %define cooldown_popup on
-%if %{?system_popup} == on
-%define overheat_popup on
-%endif
 %endif
 
 %if "%{?profile}" == "tv"
@@ -80,6 +76,7 @@ License:    Apache-2.0
 Source0:    %{name}-%{version}.tar.gz
 Source1:    %{name}.manifest
 Source1001:    org.tizen.powerkey-syspopup.manifest
+Source1002:    org.tizen.overheat-syspopup.manifest
 Source1015:    org.tizen.crash-syspopup.manifest
 Source2001:    org.tizen.system-syspopup.manifest
 Source2003:    org.tizen.system-signal-sender.manifest
@@ -136,6 +133,17 @@ to inform user powerkey information. It is activated
 when user power key event is happened
 %endif
 
+%if %{?overheat_popup} == on
+%package -n org.tizen.overheat-syspopup
+Summary:    Overheat-popup application
+Group:      System/Utilities
+Requires:   %{name} = %{version}-%{release}
+
+%description -n org.tizen.overheat-syspopup
+to inform user overheat information. It is activated
+when overheat event is happened
+%endif
+
 %if %{?signal_sender} == on
 %package -n org.tizen.system-signal-sender
 Summary:    System FW signal sender
@@ -169,6 +177,11 @@ cp %{SOURCE1} .
 %if %{powerkey_popup} == on
 chmod 0644 %{SOURCE1001}
 cp %{SOURCE1001} .
+%endif
+
+%if %{overheat_popup} == on
+chmod 0644 %{SOURCE1002}
+cp %{SOURCE1002} .
 %endif
 
 %if %{crash_popup} == on
@@ -321,9 +334,6 @@ rm -rf %{buildroot}
 %manifest org.tizen.system-syspopup.manifest
 %defattr(-,root,root,-)
 %{TZ_SYS_RO_APP}/org.tizen.system-syspopup/bin/system-syspopup
-%if %{overheat_popup} == on
-%{TZ_SYS_RO_APP}/org.tizen.system-syspopup/shared/res/system-syspopup.edj
-%endif
 %{TZ_SYS_RO_SHARE}/packages/org.tizen.system-syspopup.xml
 %endif
 
@@ -338,6 +348,16 @@ rm -rf %{buildroot}
 %{TZ_SYS_RO_APP}/org.tizen.powerkey-syspopup/res/core_restart.png
 %{TZ_SYS_RO_APP}/org.tizen.powerkey-syspopup/res/circle_btn_check.png
 %{TZ_SYS_RO_APP}/org.tizen.powerkey-syspopup/res/circle_btn_delete.png
+%endif
+
+%if %{overheat_popup} == on
+%files -n org.tizen.overheat-syspopup
+%manifest org.tizen.overheat-syspopup.manifest
+%license LICENSE
+%defattr(-,root,root,-)
+%{TZ_SYS_RO_APP}/org.tizen.overheat-syspopup/bin/overheat-popup
+%{TZ_SYS_RO_APP}/org.tizen.overheat-syspopup/shared/res/overheat-popup.edj
+%{TZ_SYS_RO_SHARE}/packages/org.tizen.overheat-syspopup.xml
 %endif
 
 %if %{signal_sender} == on

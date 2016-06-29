@@ -15,7 +15,7 @@
  *
  */
 collections {
-   base_scale: 2.6;
+	base_scale: 2.6;
 
 	#define POPUP_CONTENT_DEFAULT_PADDING_TOP_MIN_INC 27
 	#define POPUP_CONTENT_DEFAULT_PADDING_LEFT_MIN_INC 15
@@ -821,7 +821,7 @@ collections {
 	         }
 	      }
 	   }
-}
+	}
 
 	group { name: "popup_text_slider_view_layout";
 	   parts {
