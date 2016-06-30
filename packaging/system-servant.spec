@@ -344,10 +344,14 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %{TZ_SYS_RO_APP}/org.tizen.powerkey-syspopup/bin/powerkey-popup
 %{TZ_SYS_RO_SHARE}/packages/org.tizen.powerkey-syspopup.xml
+%if "%{?profile}" == "mobile"
 %{TZ_SYS_RO_APP}/org.tizen.powerkey-syspopup/res/core_power_off.png
 %{TZ_SYS_RO_APP}/org.tizen.powerkey-syspopup/res/core_restart.png
+%endif
+%if "%{?profile}" == "wearable"
 %{TZ_SYS_RO_APP}/org.tizen.powerkey-syspopup/res/circle_btn_check.png
 %{TZ_SYS_RO_APP}/org.tizen.powerkey-syspopup/res/circle_btn_delete.png
+%endif
 %endif
 
 %if %{overheat_popup} == on
