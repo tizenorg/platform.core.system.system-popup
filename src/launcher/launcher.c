@@ -158,6 +158,12 @@ static DBusMessage *usb_device_noti_update(E_DBus_Object *obj, DBusMessage *msg)
 	return update_notification_double_param(obj, msg, USB_DEVICE);
 }
 
+static DBusMessage *media_device_noti_on(E_DBus_Object *obj, DBusMessage *msg)
+{
+	set_timer_to_terminate();
+	return activate_notification_no_param(obj, msg, MEDIA_DEVICE);
+}
+
 static const struct edbus_method
 dbus_powerkey_methods[] = {
 	{ "PopupLaunch", NULL, "i", powerkey_popup },
@@ -188,6 +194,9 @@ dbus_noti_methods[] = {
 	{ "UsbDeviceNotiOn"		, "ss"		, "i"	, usb_device_noti_on		},
 	{ "UsbDeviceNotiUpdate"		, "isss"	, "i"	, usb_device_noti_update	},
 	{ "UsbDeviceNotiOff"		, "i"		, "i"	, noti_off			},
+	/* usb connection */
+	{ "MediaDeviceNotiOn"       , NULL      , "i"   , media_device_noti_on      },
+	{ "MediaDeviceNotiOff"      , "i"       , "i"   , noti_off                  },
 	/* Battery */
 	{ "BatteryFullNotiOn"		, NULL		, "i"	, battery_full_noti_on		},
 	{ "BatteryFullNotiOff"		, "i"		, "i"	, noti_off			},

@@ -314,6 +314,7 @@ rm -rf %{buildroot}
 %{_datadir}/system-apps/res/icons/batt_full_indicator.png
 %{TZ_SYS_RO_SHARE}/system-apps/res/icons/datausage_warning.png
 %{TZ_SYS_RO_SHARE}/system-apps/res/icons/led_torch.png
+%{TZ_SYS_RO_SHARE}/system-apps/res/icons/usb_icon.png
 %endif
 
 %if %{system_cooperator} == on

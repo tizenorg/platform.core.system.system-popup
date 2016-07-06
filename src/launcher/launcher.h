@@ -77,6 +77,7 @@ enum noti_type {
 	USB_STORAGE_RO,
 	USB_DEVICE,
 	BATTERY_FULL,
+	MEDIA_DEVICE,
 	/* Add here additional notificatoins */
 	NOTI_TYPE_MAX
 };
