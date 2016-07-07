@@ -599,6 +599,24 @@ static int launch_battery_full_notification(void)
 	return ret;
 }
 
+static int launch_media_device_notification(void)
+{
+	int ret;
+
+	ret =  add_notification(NOTIFICATION_TYPE_ONGOING,
+				NOTIFICATION_LY_ONGOING_EVENT,
+				"IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE",
+				NULL,
+				USB_ICON,
+				NULL,
+				NULL,
+				NOTIFICATION_PROP_DISABLE_APP_LAUNCH |
+				NOTIFICATION_PROP_DISABLE_AUTO_DELETE,
+				NOTIFICATION_DISPLAY_APP_NOTIFICATION_TRAY);
+
+	return ret;
+}
+
 static int launch_notification_no_param_by_type(int type)
 {
 	switch (type) {
@@ -614,6 +632,8 @@ static int launch_notification_no_param_by_type(int type)
 		return launch_tima_pkm_detection_notification();
 	case BATTERY_FULL:
 		return launch_battery_full_notification();
+	case MEDIA_DEVICE:
+		return launch_media_device_notification();
 	default:
 		_E("Noti type is unknown");
 		return -EINVAL;
