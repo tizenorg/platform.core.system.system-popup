@@ -19,6 +19,7 @@
 
 #include "popup-common.h"
 
+#define BUF_MAX 512
 #define SYSTEMD_STOP_POWER_OFF 4
 
 #define POWER_BUS_NAME        "org.tizen.system.deviced"
@@ -40,12 +41,20 @@ static __attribute__ ((constructor)) void overheat_register_popup(void);
 static char *items[] = {
 	"IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB",
 	"IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN",
+	"IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF",
 	"IDS_ST_BUTTON_TURN_OFF_NOW",
 };
 
 char* gl_text_get(int index)
 {
-	return strdup(_(items[index]));
+	char *text = NULL, buffer[BUF_MAX] = {NULL};
+
+	if (index == 2) {
+		text = _(items[2]);
+		snprintf(buffer, sizeof(buffer), text, 30);
+
+		return strdup(buffer);
+	} else return strdup(_(items[index]));
 }
 
 static void
@@ -204,7 +213,7 @@ int overheat_popup(bundle *b, const struct popup_ops *ops)
 	/* turn off button */
 	btn = elm_button_add(popup);
 	elm_object_style_set(btn, "bottom");
-	elm_object_text_set(btn, gl_text_get(2));
+	elm_object_text_set(btn, gl_text_get(3));
 	elm_object_part_content_set(popup, "button2", btn);
 	evas_object_smart_callback_add(btn, "clicked", _popup_turnoff_btn_clicked_cb, ops);
 
@@ -215,11 +224,13 @@ int overheat_popup(bundle *b, const struct popup_ops *ops)
 	layout = elm_layout_add(popup);
 	_D("ELM_OVERHEAT_EDC = %s", ELM_OVERHEAT_EDC);
 	elm_layout_file_set(layout, ELM_OVERHEAT_EDC, "overheat_view_layout");
+	elm_object_part_text_set(layout, "elm.text.contents1", gl_text_get(1));
+	elm_object_part_text_set(layout, "elm.text.contents2", gl_text_get(2));
 	evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-	elm_object_part_text_set(layout, "elm.text", gl_text_get(1));
 
+	/* progressbar */
 	progressbar = elm_progressbar_add(layout);
-	elm_object_style_set(progressbar, "process_medium");
+	elm_object_style_set(progressbar, "process_large");
 	evas_object_size_hint_align_set(progressbar, EVAS_HINT_FILL, 0.5);
 	evas_object_size_hint_weight_set(progressbar, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	elm_progressbar_pulse(progressbar, EINA_TRUE);

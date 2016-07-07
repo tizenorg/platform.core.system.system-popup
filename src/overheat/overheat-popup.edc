@@ -35,8 +35,10 @@ collections {
 
 	#define POPUP_PROGRESSBAR_VIEW_LAYOUT_PADDING_INC 15 27
 	#define POPUP_PROGRESSBAR_VIEW_LAYOUT_TEXT_FONT_SIZE_INC 0 38
+	#define POPUP_PROGRESSBAR_VIEW_LAYOUT_TEXT_FONT_OVERHEAT_SIZE_INC 20 20
 	#define POPUP_PROGRESSBAR_VIEW_LAYOUT_BG_INC 0 69
 	#define POPUP_PROGRESSBAR_VIEW_LAYOUT_BG_MIN_INC 0 161
+	#define POPUP_PROGRESSBAR_VIEW_LAYOUT_BG_OVERHEAT_MIN_INC 0 300
 
 	#define POPUP_PROGRESSBAR_2TEXT_VIEW_LAYOUT_BG_MIN_INC 0 193
 	#define POPUP_PROGRESSBAR_VIEW_LAYOUT_SUBTEXT_FONT_SIZE_INC 0 32
@@ -388,8 +390,8 @@ collections {
 
 	group { name: "overheat_view_layout";
 	   styles {
-	      style { name: "overheat_progress_style";
-	         base: "font=Tizen:style=Regular align=left font_size="POPUP_TEXT_FONT_SIZE0" color=#000000 wrap=mixed text_class=tizen";
+	       style { name: "overheat_processing_style";
+	         base: "font=Tizen:style=Regular align=left linegap=20 font_size="POPUP_TEXT_FONT_SIZE0" color=#000000 wrap=mixed text_class=tizen";
 	         tag:  "br" "\n";
 	         tag:  "tab" "\t";
 	      }
@@ -399,98 +401,98 @@ collections {
 	         type: SPACER;
 	         scale: 1;
 	         description { state: "default" 0.0;
-	            min: OVERHEAT_POPUP_PROCESSING_VIEW_LAYOUT_BG_MIN_INC;
+	             min: POPUP_PROGRESSBAR_VIEW_LAYOUT_BG_OVERHEAT_MIN_INC;
+	             fixed: 1 0;
 	         }
 	      }
-	      part { name: "pad_l";
+	      part { name: "pad_l_t";
 	         type: SPACER;
 	         scale: 1;
 	         description { state: "default" 0.0;
-	            min: POPUP_CONTENT_DEFAULT_PADDING_LEFT_MIN_INC 0;
-	            fixed: 1 0;
-	            rel1 {
-	               relative: 0.0 0.0;
-	               to: "bg";
-	            }
-				rel2 {
-	               relative: 0.0 1.0;
-	               to: "bg";
-	            }
-	            align: 0.0 0.5;
+	             min: POPUP_PROGRESSBAR_VIEW_LAYOUT_TEXT_FONT_OVERHEAT_SIZE_INC;
+	             max: POPUP_PROGRESSBAR_VIEW_LAYOUT_TEXT_FONT_OVERHEAT_SIZE_INC;
+	             fixed: 1 1;
+	             rel1.relative: 0.0 0.0;
+	             rel2.relative: 0.0 1.0;
+	             align: 0.0 0.0;
 	         }
 	      }
-	      part { name: "pad_r";
+	      part { name: "pad_r_t";
 	         type: SPACER;
 	         scale: 1;
 	         description { state: "default" 0.0;
-	            min: POPUP_CONTENT_DEFAULT_PADDING_LEFT_MIN_INC 0;
-	            fixed: 1 0;
-	            rel1 {
-	               relative: 1.0 0.0;
-	               to: "bg";
-	            }
-				rel2 {
-	               relative: 1.0 1.0;
-	               to: "bg";
-	            }
-	            align: 1.0 0.5;
+	             min: POPUP_PROGRESSBAR_VIEW_LAYOUT_TEXT_FONT_OVERHEAT_SIZE_INC;
+	             max: POPUP_PROGRESSBAR_VIEW_LAYOUT_TEXT_FONT_OVERHEAT_SIZE_INC;
+	             fixed: 1 1;
+	             rel1.relative: 1.0 0.0;
+	             rel2.relative: 1.0 1.0;
+	             align: 1.0 1.0;
 	         }
+	      }
+	      part { name: "elm.text.contents1";
+	          type: TEXTBLOCK;
+	          scale: 1;
+	          multiline: 1;
+	          description { state: "default" 0.0;
+	             fixed: 0 1;
+	             min: 0 130;
+	             rel1 {
+	             	relative: 1.0 0.0;
+	             	to: "pad_l_t";
+		     }
+		     rel2 {
+	             	relative: 0.0 1.0;
+	             	to_x: "pad_r_t";
+	             	to_y: "pad_l_t";
+	             }
+	             text {
+	             	style: "overheat_processing_style";
+	             	min: 0 1;
+	             }
+	             align: 0.5 0.0;
+	          }
 	      }
 	      part { name: "processing";
 	         type: SWALLOW;
 	         scale: 1;
 	         description { state: "default" 0.0;
-	            min: POPUP_PROCESSING_SWALLOW_VIEW_LAYOUT_MIN_INC;
-	            max: POPUP_PROCESSING_SWALLOW_VIEW_LAYOUT_MAX_INC;
-	            rel1 {
-	               relative: 1.0 0.0;
-	               to_x: "pad_l";
-	            }
-	            rel2 {
-	               relative: 1.0 0.0;
-	               to: "pad_after_processing";
-	            }
-	            align: 0.5 0.5;
-	            fixed: 1 1;
+	             min: POPUP_PROCESSING_SWALLOW_VIEW_LAYOUT_MIN_INC;
+	             max: POPUP_PROCESSING_SWALLOW_VIEW_LAYOUT_MAX_INC;
+	             rel1 {
+	                relative: 0.0 1.1;
+	                to: "elm.text.contents1";
+	             }
+	             rel2 {
+	                relative: 1.0 0.0;
+	                to_x: "pad_l_t";
+	                to_y: "pad_r_t";
+	             }
+	             align: 0.0 0.0;
+	             fixed: 1 1;
 	         }
 	      }
-	      part { name: "pad_after_processing";
-	         type: SPACER;
-	         scale: 1;
-	         description { state: "default" 0.0;
-	            min: 0 10;
-	            rel1 {
-	               to: "elm.text";
-	               relative: 0.0 0.0;
-	            }
-	            rel2 {
-	               to: "elm.text";
-	               relative: 1.0 0.0;
-	            }
-	            align: 0.5 1.0;
-	            fixed: 0 1;
-	         }
-	      }
-	      part { name: "elm.text";
+	      part { name: "elm.text.contents2";
 	         type: TEXTBLOCK;
 	         scale: 1;
 	         multiline: 1;
 	         description { state: "default" 0.0;
-	            min: POPUP_PROCESSING_SWALLOW_VIEW_LAYOUT_TEXT_MIN_INC;
-	            rel1 {
-	               relative: 1.0 1.0;
-	               to_x: "pad_l";
-	            }
-	            rel2 {
-	               relative: 0.0 1.0;
-	               to_x: "pad_r";
-	            }
-	            align: 0.5 1.0;
-	            fixed: 0 1;
-	            text {
-	               style: "overheat_progress_style";
-	               min: 0 1;
-	            }
+	             fixed: 0 1;
+	             min: 0 130;
+	             rel1 {
+	                relative: 1.0 1.0;
+	                to_x: "processing";
+	                to_y: "elm.text.contents1";
+	             }
+	             rel2 {
+	                relative: 0.0 0.0;
+	                to: "pad_r_t";
+	             }
+	             text {
+	                style: "overheat_processing_style";
+			min: 0 1;
+	             }
+	             align: 0.0 0.0;
+	             fixed: 1 1;
 	         }
 	      }
 	   }
