@@ -53,7 +53,7 @@
 #define ODE_ENCRYPT_ERROR_ICON SYSTEM_ICONDIR"/sdcard_encryption_error.png"
 #define ODE_DECRYPT_ERROR_ICON SYSTEM_ICONDIR"/sdcard_decryption_error.png"
 #define TIMA_ICON        SYSTEM_ICONDIR"/tima.png"
-#define USB_ICON         SYSTEM_ICONDIR"/usb.png"
+#define USB_ICON         SYSTEM_ICONDIR"/usb_icon.png"
 #define BATT_INDI_ICON   SYSTEM_ICONDIR"/batt_full_indicator.png"
 #define BATT_NOTI_ICON   SYSTEM_ICONDIR"/batt_full_icon.png"
 
