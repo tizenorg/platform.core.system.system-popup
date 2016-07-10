@@ -57,8 +57,10 @@ static void free_obj(gpointer data)
 
 void unregister_all_popup(void)
 {
-	if (popup_list)
+	if (popup_list) {
 		g_list_free_full(popup_list, free_obj);
+		popup_list = NULL;
+	}
 }
 
 void terminate_if_no_popup(void)
