@@ -235,7 +235,8 @@ int powerkey_list(bundle *b, const struct popup_ops *ops)
 
 	evas_object_show(genlist);
 	elm_box_pack_end(box, genlist);
-	evas_object_size_hint_min_set(box, -1, 250);
+	elm_genlist_mode_set(genlist, ELM_LIST_COMPRESS);
+	elm_scroller_content_min_limit(genlist, EINA_FALSE, EINA_TRUE);
 	elm_object_content_set(popup, box);
 
 	evas_object_show(popup);
