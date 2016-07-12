@@ -282,6 +282,7 @@ rm -rf %{buildroot}
 %lang(ka) %{_datadir}/locale/ka/LC_MESSAGES/system-servant.mo
 %lang(kk) %{_datadir}/locale/kk/LC_MESSAGES/system-servant.mo
 %lang(kn) %{_datadir}/locale/kn/LC_MESSAGES/system-servant.mo
+%lang(ko_KR) %{_datadir}/locale/ko_KR/LC_MESSAGES/system-servant.mo
 %lang(lt) %{_datadir}/locale/lt/LC_MESSAGES/system-servant.mo
 %lang(lv) %{_datadir}/locale/lv/LC_MESSAGES/system-servant.mo
 %lang(mk) %{_datadir}/locale/mk/LC_MESSAGES/system-servant.mo

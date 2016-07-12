@@ -1,0 +1,345 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "취소"
+
+msgid "IDS_COM_SK_OK"
+msgstr "확인"
+
+msgid "IDS_DN_BODY_ENCRYPT_SD_CARD"
+msgstr "SD 카드 암호화"
+
+msgid "IDS_ST_POP_DEVICE_WILL_RESTART"
+msgstr "디바이스를 종료한 후 다시 시작합니다."
+
+msgid "IDS_COM_BODY_SETTINGS"
+msgstr "설정"
+
+msgid "IDS_BT_SK_BROWSE"
+msgstr "파일 탐색"
+
+msgid "IDS_CAM_HEADER_CAMERA_M_APPLICATION"
+msgstr "카메라"
+
+msgid "IDS_CLD_HEADER_NO_RESPONSE"
+msgstr "답장 없음"
+
+msgid "IDS_COM_BODY_CONNECTED_AS_A_MEDIA_DEVICE"
+msgstr "미디어 디바이스로 연결"
+
+msgid "IDS_COM_BODY_DATA_USAGE_WARNING"
+msgstr "데이터 사용 경고"
+
+msgid "IDS_COM_BODY_SPECIFIED_DATA_USAGE_LIMIT_REACHED_ADDITIONAL_DATA_USE_MAY_INCUR_CHARGES_FROM_SERVICE_PROVIDER"
+msgstr "데이터 사용한도에 도달하였습니다. 추가로 데이터를 사용하면 서비스 공급자로부터 요금이 부과될 수 있습니다."
+
+msgid "IDS_COM_BODY_TAP_TO_VIEW_USAGE_AND_SETTINGS"
+msgstr "사용량 및 설정을 보려면 누르세요."
+
+msgid "IDS_COM_BODY_USB_STORAGE_BLANK_OR_HAS_UNSUPPORTED_FILE_SYSTEM"
+msgstr "USB 저장공간이 비어 있거나 지원하지 않는 파일 시스템입니다."
+
+msgid "IDS_COM_POP_BATTERY_DISCONNECTED_ABB"
+msgstr "배터리를 분리하였습니다."
+
+msgid "IDS_COM_POP_CAMERA_CONNECTED_ABB2"
+msgstr "[카메라]를 연결하였습니다."
+
+msgid "IDS_COM_POP_KEYBOARD_CONNECTED_ABB2"
+msgstr "키보드를 연결하였습니다."
+
+msgid "IDS_COM_POP_LOW_BATTERY_PHONE_WILL_SHUT_DOWN"
+msgstr "배터리가 부족하여 휴대전화 전원이 꺼집니다."
+
+msgid "IDS_COM_POP_MOUSE_CONNECTED_ABB2"
+msgstr "마우스를 연결하였습니다."
+
+msgid "IDS_COM_POP_PRINTER_CONNECTED_ABB2"
+msgstr "프린터를 연결하였습니다."
+
+msgid "IDS_COM_POP_UNKNOWN_USB_DEVICE_CONNECTED"
+msgstr "알 수 없는 USB 디바이스를 연결하였습니다."
+
+msgid "IDS_COM_POP_UNMOUNT_USB_MASS_STORAGE_BEFORE_REMOVING_TO_AVOID_DATA_LOSS"
+msgstr "데이터 손실을 방지하려면 USB 대용량 저장공간을 분리하기 전에 마운트 해제하세요."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_CONNECTED"
+msgstr "USB 커넥터를 연결하였습니다."
+
+msgid "IDS_COM_POP_USB_CONNECTOR_DISCONNECTED"
+msgstr "USB 커넥터 연결을 해제하였습니다."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_CONNECTED_ABB2"
+msgstr "USB 대용량 저장공간을 연결하였습니다."
+
+msgid "IDS_COM_POP_USB_MASS_STORAGE_UNEXPECTEDLY_REMOVED"
+msgstr "USB 대용량 저장공간이 예상치 않게 분리된 상태입니다."
+
+msgid "IDS_COM_SK_RETRY_A"
+msgstr "다시 시도"
+
+msgid "IDS_CST_OPT_WAIT"
+msgstr "대기"
+
+msgid "IDS_IDLE_BODY_LOW_MEMORY"
+msgstr "메모리가 부족합니다."
+
+msgid "IDS_DN_BODY_DECRYPT_SD_CARD"
+msgstr "SD 카드 암호화 해제"
+
+msgid "IDS_DN_POP_DECRYPTING_SD_CARD_ING"
+msgstr "SD 카드 암호화 해제 중..."
+
+msgid "IDS_DN_POP_ENCRYPTING_SD_CARD_ING"
+msgstr "SD 카드 암호화 중..."
+
+msgid "IDS_DN_POP_FAILED_TO_MOUNT_SD_CARD_REINSERT_OR_FORMAT_SD_CARD"
+msgstr "SD 카드를 마운트하지 못하였습니다. SD 카드를 다시 삽입하거나 포맷하세요."
+
+msgid "IDS_HS_BUTTON_POWER_OFF_ABB2"
+msgstr "전원 끄기"
+
+msgid "IDS_IDLE_POP_BATTERY_FULLY_CAHRGED"
+msgstr "배터리 충전을 완료하였습니다."
+
+msgid "IDS_MF_BODY_MMC_DATA_IS_INITIALIZING_ING"
+msgstr "메모리 카드 데이터 초기화 중..."
+
+msgid "IDS_QP_BODY_ASSISTIVE_LIGHT_IS_ON"
+msgstr "보조등 사용 중"
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_HIGH"
+msgstr "충전을 중지하였습니다. 배터리 온도가 너무 높습니다."
+
+msgid "IDS_QP_BODY_CHARGING_PAUSED_BATTERY_TEMPERATURE_TOO_LOW"
+msgstr "충전을 중지하였습니다. 배터리 온도가 너무 낮습니다."
+
+msgid "IDS_QP_BUTTON_DO_NOT_POWER_OFF_ABB"
+msgstr "종료하지 않기"
+
+msgid "IDS_QP_HEADER_DEVICE_POWERED_OFF_AUTOMATICALLY"
+msgstr "디바이스 자동 꺼짐"
+
+msgid "IDS_QP_POP_THE_DOCK_IS_CONNECTED"
+msgstr "도크를 연결하였습니다."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "디바이스 온도가 너무 높습니다. 온도를 낮추기 위해 디바이스를 종료합니다."
+
+msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
+msgstr "디바이스 온도가 너무 높아 손상을 방지하기 위해 디바이스를 종료하였습니다.\n\n다음 상황에서 온도가 높아질 수 있습니다.\n비디오 게임, 내비게이션과 같이 그래픽을 많이 사용하는 앱을 장시간 사용하였습니다.\n용량이 큰 파일을 다운로드 또는 업로드하였습니다.\n주변 온도가 높은 곳에 디바이스를 장시간 사용하였습니다."
+
+msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
+msgstr "데이터 사용량 제한"
+
+msgid "IDS_ST_BODY_POWER_OFF"
+msgstr "전원 끄기"
+
+msgid "IDS_ST_BODY_READ_ONLY_USB_DEV_CONNECTED_M_NOUN_ABB"
+msgstr "읽기 전용 USB 디바이스를 연결하였습니다."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTED"
+msgstr "SD 카드의 암호화를 해제하였습니다."
+
+msgid "IDS_ST_BODY_SD_CARD_DECRYPTION_ERROR_OCCURRED"
+msgstr "SD 카드 암호화 해제 오류가 발생하였습니다."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTED"
+msgstr "SD 카드를 암호화하였습니다."
+
+msgid "IDS_ST_BODY_SD_CARD_ENCRYPTION_ERROR_OCCURRED"
+msgstr "SD 카드 암호화 오류가 발생하였습니다."
+
+msgid "IDS_ST_BODY_SD_CARD_MOUNTED_READ_ONLY"
+msgstr "SD 카드를 읽기 전용으로 마운트하였습니다."
+
+msgid "IDS_ST_BODY_TAP_TO_TURN_OFF_ASSISTIVE_LIGHT"
+msgstr "[보조등]을 끄려면 누르세요."
+
+msgid "IDS_ST_BODY_UNABLE_TO_DECRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "SD 카드에 저장공간이 부족하여 SD 카드의 암호화를 해제할 수 없습니다. 약 %.2fMB의 공간이 필요합니다. 일부 파일을 삭제하세요."
+
+msgid "IDS_ST_BODY_UNABLE_TO_ENCRYPT_SD_CARD_NOT_ENOUGH_SPACE_ON_CARD_APPROXIMATELY_P2F_MB_NEEDED_DELETE_SOME_FILES"
+msgstr "SD 카드에 저장공간이 부족하여 SD 카드를 암호화할 수 없습니다. 약 %.2fMB의 공간이 필요합니다. 일부 파일을 삭제하세요."
+
+msgid "IDS_ST_BODY_USB_STORAGE_ABB"
+msgstr "USB 저장공간"
+
+msgid "IDS_ST_BUTTON_DECRYPT_SD_CARD_ABB"
+msgstr "SD 카드 암호화 해제"
+
+msgid "IDS_ST_BUTTON_DISABLE_ENCRYPTION_ABB"
+msgstr "암호화 해제"
+
+msgid "IDS_ST_BUTTON_ENABLE_ENCRYPTION_ABB"
+msgstr "암호화 실행"
+
+msgid "IDS_ST_BUTTON_ENCRYPT_SD_CARD_ABB"
+msgstr "SD 카드 암호화"
+
+msgid "IDS_ST_HEADER_POWER_OFF_ABB"
+msgstr "전원 끄기"
+
+msgid "IDS_ST_POP_SECURITY_POLICY_PREVENTS_USE_OF_DESKTOP_SYNC"
+msgstr "보안정책에 따라 PC를 동기화할 수 없습니다."
+
+msgid "IDS_COM_HEADER_BATTERY_CRITICALLY_LOW"
+msgstr "배터리 매우 부족"
+
+msgid "IDS_COM_POP_BATTERY_LOW_RECHARGE_ABB"
+msgstr "배터리가 부족합니다. 배터리를 충전하세요."
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_DECRYPTED_DECRYPT_SD_CARD_OR_ENABLE_DEVICE_ENCRYPTION_Q"
+msgstr "SD 카드를 사용하려면 먼저 SD 카드의 암호화를 해제하세요. SD 카드의 암호화를 해제할까요? 아니면 디바이스 암호화를 실행할까요?"
+
+msgid "IDS_ST_POP_TO_USE_YOUR_SD_CARD_IT_MUST_BE_ENCRYPTED_ENCRYPT_SD_CARD_OR_DISABLE_DEVICE_ENCRYPTION_Q"
+msgstr "SD 카드를 사용하려면 먼저 SD 카드를 암호화하세요. SD 카드를 암호화할까요? 아니면 디바이스 암호화를 해제할까요?"
+
+msgid "HDS_POP_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_DEVICE_STORAGE"
+msgstr "디바이스에 저장공간이 부족합니다."
+
+msgid "IDS_SYNCML_POP_DM_REMOVE_CHARGER"
+msgstr "충전기를 분리하세요."
+
+msgid "IDS_TPLATFORM_BODY_POWER_OFF_THE_DEVICE_Q"
+msgstr "디바이스의 전원을 끌까요?"
+
+msgid "IDS_USB_BODY_BROWSE_CAMERA_CONNECTED_VIA_USB_Q"
+msgstr "USB로 연결된 카메라를 검색할까요?"
+
+msgid "IDS_USB_BODY_BROWSE_STORAGE_CONNECTED_VIA_USB_Q"
+msgstr "USB로 연결된 저장공간을 탐색할까요?"
+
+msgid "IDS_USB_BODY_USB_MASS_STORAGE_SAFELY_REMOVED"
+msgstr "USB 대용량 저장공간을 안전하게 분리하였습니다."
+
+msgid "IDS_USB_BUTTON_UNMOUNT"
+msgstr "마운트 해제"
+
+msgid "IDS_USB_MBODY_PD_USB_DEVICES_CONNECTED"
+msgstr "USB 디바이스 %d개 연결"
+
+msgid "IDS_USB_MBODY_USB_DEVICES"
+msgstr "USB 디바이스"
+
+msgid "IDS_USB_POP_USB_CONNECTION_FAILED"
+msgstr "USB를 연결하지 못하였습니다."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_CONNECTED"
+msgstr "HDMI 케이블을 연결하였습니다."
+
+msgid "IDS_VPL_POP_HDMI_CABLE_DISCONNECTED"
+msgstr "HDMI 케이블을 분리하였습니다."
+
+msgid "IDS_COM_HEADER_ATTENTION"
+msgstr "주의"
+
+msgid "IDS_COM_HEADER_MOBILE_DATA_DISABLED"
+msgstr "모바일 데이터 해제"
+
+msgid "IDS_COM_POP_BATTERYLOW"
+msgstr "배터리가 부족합니다."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_MAY_POWER_OFF_WITHOUT_WARNING_TO_PREVENT_DAMAGE_MSG"
+msgstr "휴대전화 온도가 너무 높습니다. 손상을 방지하기 위해  디바이스의 전원이 경고 없이 꺼질 수 있습니다.\n다음 상황에서 온도가 높아질 수 있습니다.\n- 비디오 게임과 같이 그래픽을 많이 사용하는 앱이나 내비게이션 앱을 장시간 사용\n- 용량이 큰 파일 전송\n- 주변 온도가 높은 곳에서 휴대전화를 장시간 사용"
+
+msgid "IDS_IDLE_BUTTON_OK_ABB5"
+msgstr "확인"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB5"
+msgstr "취소"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB5"
+msgstr "설정"
+
+msgid "IDS_IDLE_BUTTON_CANCEL_ABB6"
+msgstr "취소"
+
+msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
+msgstr "설정"
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "휴대전화에 저장공간이 부족합니다. [설정 > 저장공간 및 RAM > 저장공간 > 상세정보]에서 일부 항목을 삭제하세요."
+
+msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
+msgstr "SD 카드에 저장공간이 부족합니다. [설정 > 저장공간 및 RAM > 저장공간 > 상세정보]에서 일부 항목을 삭제하세요."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
+msgstr "휴대전화의 전원을 끕니다."
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_RESTART"
+msgstr "휴대전화를 다시 시작합니다."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_ABB"
+msgstr "전원 끄기"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB3"
+msgstr "다시 시작"
+
+msgid "IDS_IDLE_HEADER_NO_SIM_CARD_INSERTED_ABB3"
+msgstr "삽입된 SIM 카드 없음"
+
+msgid "IDS_IDLE_BUTTON_RESTART_ABB5"
+msgstr "다시 시작"
+
+msgid "IDS_IDLE_HEADER_SIM_CARD_INSERTED_ABB"
+msgstr "SIM 카드 삽입됨"
+
+msgid "IDS_IDLE_TPOP_PREPARING_SD_CARD_ING"
+msgstr "SD 카드 준비 중..."
+
+msgid "IDS_IDLE_MBODY_PHONE_COOLING_DOWN"
+msgstr "휴대전화 온도 낮추기"
+
+msgid "IDS_IDLE_HEADER_PHONE_COOLING_DOWN_ABB"
+msgstr "휴대전화 온도 낮추기"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_STEPS_WILL_BE_TAKEN_TO_COOL_IT_DOWN_N_NYOU_CAN_STILL_USE_YOUR_PHONE_MSG"
+msgstr "휴대전화 온도가 높아 온도를 낮추기 위한 절차를 진행합니다.\n\n휴대전화를 계속 사용할 수 있지만 다음과 같은 현상이 발생할 수 있습니다.\n- 화면이 어두워집니다.\n- 동작 속도가 느려집니다.\n- 충전이 일시정지됩니다.\n\n휴대전화 온도가 낮아지면 모든 기능이 정상적으로 작동합니다."
+
+msgid "IDS_IDLE_HEADER_PHONE_OVERHEATING_ABB"
+msgstr "휴대전화 온도 높음"
+
+msgid "IDS_IDLE_POP_YOUR_PHONE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
+msgstr "휴대전화 온도가 너무 높습니다. 온도를 낮추기 위해 디바이스의 전원을 끕니다."
+
+msgid "IDS_IDLE_POP_PD_SECONDS_ARE_LEFT_BEFORE_YOUR_DEVICE_POWERS_OFF"
+msgstr "%d초 후 디바이스 전원이 종료됩니다."
+
+msgid "IDS_IDLE_BUTTON_POWER_OFF_NOW_ABB"
+msgstr "전원 끄기"
+
+msgid "IDS_IDLE_HEADER_PHONE_POWERING_OFF_ABB"
+msgstr "휴대전화 전원 끄기"
+
+msgid "IDS_ST_BODY_PS_HAS_CLOSED_UNEXPECTEDLY"
+msgstr "%s 앱을 예상치 않게 종료하였습니다."
+
+msgid "IDS_IDLE_POP_THE_SD_CARD_MAY_BE_IN_USE_TRY_AGAIN_LATER"
+msgstr "사용 중인 SD 카드입니다. 나중에 다시 시도하세요."
+
+msgid "IDS_ST_BODY_PS_IS_NOT_RESPONDING_CLOSE_PS_Q"
+msgstr "%s 앱이 응답하지 않습니다. %s 앱을 종료할까요?"
+
+msgid "IDS_COM_SK_RESTART_ABB"
+msgstr "다시 시작"
+
+msgid "IDS_COM_SK_RESTART_LITE"
+msgstr "다시 시작"
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_MOUNT_SD_CARD_ABB"
+msgstr "SD 카드를 마운트할 수 없음"
+
+msgid "IDS_ST_BODY_ERROR_ENCRYPTING_SD_CARD_UNABLE_TO_MOUNT_SD_CARD"
+msgstr "SD 카드를 마운트할 수 없어 SD 카드 암호화 중에 오류가 발생하였습니다."
+
+msgid "IDS_IDLE_HEADER_UNABLE_TO_UNMOUNT_SD_CARD_ABB"
+msgstr "SD 카드를 마운트 해제할 수 없음"
+
+msgid "IDS_ST_BUTTON_TURN_OFF_NOW"
+msgstr "지금 끄기"
+
+msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
+msgstr "Gear에 저장공간이 부족하여 음성을 녹음하거나 동영상을 촬영할 수 없습니다."
+
+msgid "IDS_QP_SBODY_TAP_HERE_FOR_MORE_INFO_ABB"
+msgstr "자세한 정보를 보려면 여기를 누르세요."
+
