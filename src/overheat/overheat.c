@@ -178,6 +178,8 @@ int overheat_popup(bundle *b, const struct popup_ops *ops)
 	Evas_Object *layout;
 	Evas_Object *btn;
 	Evas_Object *progressbar;
+	Evas_Object *scroller1, *scroller2;
+	Evas_Object *label1, *label2;
 	Evas_Object *win;
 	Ecore_Timer *timer;
 	struct object_ops *obj;
@@ -199,9 +201,15 @@ int overheat_popup(bundle *b, const struct popup_ops *ops)
 	if (!popup)
 		return -ENOMEM;
 
+	/* title */
 	elm_popup_align_set(popup, ELM_NOTIFY_ALIGN_FILL, 1.0);
 	elm_object_part_text_set(popup, "title,text", gl_text_get(0));
 	evas_object_size_hint_weight_set(popup, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+
+	/* layout */
+	layout = elm_layout_add(popup);
+	elm_layout_file_set(layout, ELM_OVERHEAT_EDC, "overheat_view_layout");
+	evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 
 	/* cancel button */
 	btn = elm_button_add(popup);
@@ -220,13 +228,35 @@ int overheat_popup(bundle *b, const struct popup_ops *ops)
 	/* back key */
 	eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, event_back_key_up, (void*)ops);
 
-	/* layout */
-	layout = elm_layout_add(popup);
-	_D("ELM_OVERHEAT_EDC = %s", ELM_OVERHEAT_EDC);
-	elm_layout_file_set(layout, ELM_OVERHEAT_EDC, "overheat_view_layout");
-	elm_object_part_text_set(layout, "elm.text.contents1", gl_text_get(1));
-	elm_object_part_text_set(layout, "elm.text.contents2", gl_text_get(2));
-	evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+	/* scrollers */
+	scroller1 = elm_scroller_add(layout);
+	elm_scroller_bounce_set(scroller1, EINA_TRUE, EINA_TRUE);
+	elm_scroller_policy_set(scroller1, ELM_SCROLLER_POLICY_OFF, ELM_SCROLLER_POLICY_AUTO);
+	elm_object_part_content_set(layout, "elm.swallow.content1", scroller1);
+
+	scroller2 = elm_scroller_add(layout);
+	elm_scroller_bounce_set(scroller2, EINA_TRUE, EINA_TRUE);
+	elm_scroller_policy_set(scroller2, ELM_SCROLLER_POLICY_OFF, ELM_SCROLLER_POLICY_AUTO);
+	elm_object_part_content_set(layout, "elm.swallow.content2", scroller2);
+
+	/* labels */
+	label1 = elm_label_add(scroller1);
+	elm_object_style_set(label1, "popup/default");
+	elm_label_line_wrap_set(label1, ELM_WRAP_MIXED);
+	elm_object_text_set(label1, gl_text_get(1));
+	evas_object_size_hint_weight_set(label1, EVAS_HINT_EXPAND, 0.0);
+	evas_object_size_hint_align_set(label1, EVAS_HINT_FILL, EVAS_HINT_FILL);
+	evas_object_show(label1);
+	elm_object_content_set(scroller1, label1);
+
+	label2 = elm_label_add(scroller2);
+	elm_object_style_set(label2, "popup/default");
+	elm_label_line_wrap_set(label2, ELM_WRAP_MIXED);
+	elm_object_text_set(label2, gl_text_get(2));
+	evas_object_size_hint_weight_set(label2, EVAS_HINT_EXPAND, 0.0);
+	evas_object_size_hint_align_set(label2, EVAS_HINT_FILL, EVAS_HINT_FILL);
+	evas_object_show(label2);
+	elm_object_content_set(scroller2, label2);
 
 	/* progressbar */
 	progressbar = elm_progressbar_add(layout);
@@ -237,12 +267,11 @@ int overheat_popup(bundle *b, const struct popup_ops *ops)
 	elm_object_part_content_set(layout, "processing", progressbar);
 	timer = ecore_timer_add(0.3, progressbar_timer_cb, popup);
 
-	elm_object_content_set(popup, layout);
-
 	evas_object_data_set(popup, "progressbar", progressbar);
 	evas_object_data_set(popup, "timer", timer);
 	evas_object_event_callback_add(popup, EVAS_CALLBACK_DEL, progressbar_popup_del_cb, timer);
 
+	elm_object_content_set(popup, layout);
 	evas_object_show(popup);
 	obj->popup = popup;
 

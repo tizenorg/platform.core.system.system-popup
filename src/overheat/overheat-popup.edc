@@ -38,7 +38,7 @@ collections {
 	#define POPUP_PROGRESSBAR_VIEW_LAYOUT_TEXT_FONT_OVERHEAT_SIZE_INC 20 20
 	#define POPUP_PROGRESSBAR_VIEW_LAYOUT_BG_INC 0 69
 	#define POPUP_PROGRESSBAR_VIEW_LAYOUT_BG_MIN_INC 0 161
-	#define POPUP_PROGRESSBAR_VIEW_LAYOUT_BG_OVERHEAT_MIN_INC 0 300
+	#define POPUP_PROGRESSBAR_VIEW_LAYOUT_BG_OVERHEAT_MIN_INC 200 350
 
 	#define POPUP_PROGRESSBAR_2TEXT_VIEW_LAYOUT_BG_MIN_INC 0 193
 	#define POPUP_PROGRESSBAR_VIEW_LAYOUT_SUBTEXT_FONT_SIZE_INC 0 32
@@ -389,31 +389,30 @@ collections {
 	}
 
 	group { name: "overheat_view_layout";
-	   styles {
-	       style { name: "overheat_processing_style";
-	         base: "font=Tizen:style=Regular align=left linegap=20 font_size="POPUP_TEXT_FONT_SIZE0" color=#000000 wrap=mixed text_class=tizen";
-	         tag:  "br" "\n";
-	         tag:  "tab" "\t";
-	      }
-	   }
 	   parts {
 	      part { name: "bg";
 	         type: SPACER;
 	         scale: 1;
 	         description { state: "default" 0.0;
-	             min: POPUP_PROGRESSBAR_VIEW_LAYOUT_BG_OVERHEAT_MIN_INC;
-	             fixed: 1 0;
+	         min: POPUP_PROGRESSBAR_VIEW_LAYOUT_BG_OVERHEAT_MIN_INC;
+	             rel1.relative: 0.0 0.0;
+	             rel2.relative: 1.0 1.0;
+	             align: 0.0 0.0;
 	         }
 	      }
 	      part { name: "pad_l_t";
 	         type: SPACER;
 	         scale: 1;
 	         description { state: "default" 0.0;
-	             min: POPUP_PROGRESSBAR_VIEW_LAYOUT_TEXT_FONT_OVERHEAT_SIZE_INC;
-	             max: POPUP_PROGRESSBAR_VIEW_LAYOUT_TEXT_FONT_OVERHEAT_SIZE_INC;
-	             fixed: 1 1;
-	             rel1.relative: 0.0 0.0;
-	             rel2.relative: 0.0 1.0;
+	             min: 30 30;
+	             rel1 {
+	                to:"bg";
+	                relative: 0.0 0.0;
+	             }
+	             rel2 {
+	                to:"bg";
+	                relative: 0.0 0.0;
+	             }
 	             align: 0.0 0.0;
 	         }
 	      }
@@ -421,35 +420,49 @@ collections {
 	         type: SPACER;
 	         scale: 1;
 	         description { state: "default" 0.0;
-	             min: POPUP_PROGRESSBAR_VIEW_LAYOUT_TEXT_FONT_OVERHEAT_SIZE_INC;
-	             max: POPUP_PROGRESSBAR_VIEW_LAYOUT_TEXT_FONT_OVERHEAT_SIZE_INC;
-	             fixed: 1 1;
-	             rel1.relative: 1.0 0.0;
-	             rel2.relative: 1.0 1.0;
+	             min: 30 30;
+	             rel1 {
+	                to:"bg";
+	                relative: 1.0 1.0;
+	             }
+	             rel2 {
+	                to:"bg";
+	                relative: 1.0 1.0;
+	             }
 	             align: 1.0 1.0;
 	         }
 	      }
-	      part { name: "elm.text.contents1";
-	          type: TEXTBLOCK;
+	      part { name: "pad_c_t";
+	         type: SPACER;
+	         scale: 1;
+	         description { state: "default" 0.0;
+	             rel1 {
+	                to:"pad_l_t";
+	                relative: 1.0 1.0;
+	             }
+	             rel2 {
+	                to:"pad_r_t";
+	                relative: 0.0 0.0;
+	             }
+	             align: 0.0 0.0;
+	         }
+	      }
+	      part { name: "elm.swallow.content1";
+	          type: SWALLOW;
 	          scale: 1;
-	          multiline: 1;
 	          description { state: "default" 0.0;
 	             fixed: 0 1;
-	             min: 0 130;
+	             min: POPUP_CHECK_VIEW_LAYOUT_CONTENT_MIN_INC;
 	             rel1 {
-	             	relative: 1.0 0.0;
-	             	to: "pad_l_t";
-		     }
-		     rel2 {
-	             	relative: 0.0 1.0;
-	             	to_x: "pad_r_t";
-	             	to_y: "pad_l_t";
+	                relative: 1.0 1.0;
+	                to:"pad_l_t";
 	             }
-	             text {
-	             	style: "overheat_processing_style";
-	             	min: 0 1;
+	             rel2 {
+	                relative: 0.0 0.0;
+	                to_x:"pad_r_t";
+	                to_y:"pad_l_t";
 	             }
-	             align: 0.5 0.0;
+	             align: 0.0 0.0;
 	          }
 	      }
 	      part { name: "processing";
@@ -459,41 +472,33 @@ collections {
 	             min: POPUP_PROCESSING_SWALLOW_VIEW_LAYOUT_MIN_INC;
 	             max: POPUP_PROCESSING_SWALLOW_VIEW_LAYOUT_MAX_INC;
 	             rel1 {
-	                relative: 0.0 1.1;
-	                to: "elm.text.contents1";
+	                relative: 1.0 1.0;
+	                to_x: "pad_l_t";
+	                to_y: "elm.swallow.content1";
 	             }
 	             rel2 {
 	                relative: 1.0 0.0;
-	                to_x: "pad_l_t";
-	                to_y: "pad_r_t";
+	                to_x:"pad_r_t";
 	             }
 	             align: 0.0 0.0;
-	             fixed: 1 1;
 	         }
 	      }
-	      part { name: "elm.text.contents2";
-	         type: TEXTBLOCK;
-	         scale: 1;
-	         multiline: 1;
-	         description { state: "default" 0.0;
+	      part { name: "elm.swallow.content2";
+	          type: SWALLOW;
+	          scale: 1;
+	          description { state: "default" 0.0;
 	             fixed: 0 1;
-	             min: 0 130;
 	             rel1 {
 	                relative: 1.0 1.0;
-	                to_x: "processing";
-	                to_y: "elm.text.contents1";
+	                to_x:"processing";
+	                to_y:"elm.swallow.content1";
 	             }
 	             rel2 {
 	                relative: 0.0 0.0;
-	                to: "pad_r_t";
-	             }
-	             text {
-	                style: "overheat_processing_style";
-			min: 0 1;
+	                to:"pad_r_t";
 	             }
 	             align: 0.0 0.0;
-	             fixed: 1 1;
-	         }
+	          }
 	      }
 	   }
 	}
