@@ -340,3 +340,6 @@ msgstr "ಈಗ ಟರ್ನ್‌ ಆಫ್ ಮಾಡಿ"
 msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
 msgstr "ರೆಕಾರ್ಡ್ ಮಾಡಲು ಅಸಮರ್ಥ. ನಿಮ್ಮ ಗೇರ್‌ ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ಸಾಕಷ್ಟು ಸ್ಥಳಾವಕಾಶವಿಲ್ಲ."
 
+msgid "IDS_QP_SBODY_TAP_HERE_FOR_MORE_INFO_ABB"
+msgstr "ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ ಇಲ್ಲಿ ತಟ್ಟಿ."
+

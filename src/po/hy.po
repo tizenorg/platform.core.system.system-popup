@@ -340,3 +340,6 @@ msgstr "Անջատել հիմա"
 msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
 msgstr "Անհնար է գրանցել. Gear-ի պահոցում բավարար տեղ չկա:"
 
+msgid "IDS_QP_SBODY_TAP_HERE_FOR_MORE_INFO_ABB"
+msgstr "Լրաց. տեղեկ. հր թակ. այստեղ:"
+

@@ -340,3 +340,6 @@ msgstr "දැන් අක්‍රිය ක."
 msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
 msgstr "පටිගත කිරීමට නොහැක. ඔබගේ ගියර ගබඩාව තුළ ප්‍රමාණවත් ඉඩ නැත."
 
+msgid "IDS_QP_SBODY_TAP_HERE_FOR_MORE_INFO_ABB"
+msgstr "වැඩි. තතු සඳහා මෙතැන තට්ටු ක."
+

@@ -257,10 +257,10 @@ msgid "IDS_IDLE_BUTTON_SETTINGS_ABB"
 msgstr "Ajustes"
 
 msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_IN_YOUR_PHONE_STORAGE_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
-msgstr "No hay espacio suficiente en la memoria del teléfono. Elimine algunos archivos en Ajustes > Almacenamiento y RAM > Almacenamiento > Detalles."
+msgstr "No hay espacio suficiente en la memoria del teléfono. Elimine algunos archivos en Ajustes > Memoria y RAM > Memoria > Detalles."
 
 msgid "IDS_IDLE_POP_NOT_ENOUGH_SPACE_ON_YOUR_SD_CARD_DELETE_SOME_FILES_IN_SETTINGS_STORAGE_AND_RAM_STORAGE_DETAILS"
-msgstr "No hay espacio suficiente en la tarjeta SD. Elimine algunos archivos en Ajustes > Almacenamiento y RAM > Almacenamiento > Detalles."
+msgstr "No hay espacio suficiente en la tarjeta SD. Elimine algunos archivos en Ajustes > Memoria y RAM > Memoria > Detalles."
 
 msgid "IDS_IDLE_POP_YOUR_PHONE_WILL_POWER_OFF"
 msgstr "Se apagará el teléfono."
@@ -339,4 +339,7 @@ msgstr "Desact ahora"
 
 msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
 msgstr "No se puede grabar. No hay espacio suficiente en el almacenamiento de su Gear."
+
+msgid "IDS_QP_SBODY_TAP_HERE_FOR_MORE_INFO_ABB"
+msgstr "Pulse aquí para más inform."
 

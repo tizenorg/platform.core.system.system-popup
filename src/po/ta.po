@@ -340,3 +340,6 @@ msgstr "இப்போது நிறுத்துக"
 msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
 msgstr "பதிவு செய்ய இயலவில்லை. உங்கள் கியர் சேமிப்பிடத்தில் போதுமான காலியிடம் இல்லை."
 
+msgid "IDS_QP_SBODY_TAP_HERE_FOR_MORE_INFO_ABB"
+msgstr "மே. விவர. இங். டேப் செய்க."
+

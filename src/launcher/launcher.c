@@ -140,6 +140,13 @@ static DBusMessage *usb_storage_noti_on(E_DBus_Object *obj, DBusMessage *msg)
 	return activate_notification_single_param(obj, msg, USB_STORAGE);
 }
 
+/* Cooldown notification */
+static DBusMessage *cooldown_noti_on(E_DBus_Object *obj, DBusMessage *msg)
+{
+	set_timer_to_terminate();
+	return activate_notification_no_param(obj, msg, TEMP_COOLDOWN);
+}
+
 static DBusMessage *usb_storage_ro_noti_on(E_DBus_Object *obj, DBusMessage *msg)
 {
 	set_timer_to_terminate();
@@ -195,12 +202,15 @@ dbus_noti_methods[] = {
 	{ "UsbDeviceNotiUpdate"		, "isss"	, "i"	, usb_device_noti_update	},
 	{ "UsbDeviceNotiOff"		, "i"		, "i"	, noti_off			},
 	/* usb connection */
-	{ "MediaDeviceNotiOn"       , NULL      , "i"   , media_device_noti_on      },
-	{ "MediaDeviceNotiOff"      , "i"       , "i"   , noti_off                  },
+	{ "MediaDeviceNotiOn"       	, NULL      	, "i"   , media_device_noti_on      	},
+	{ "MediaDeviceNotiOff"      	, "i"       	, "i"   , noti_off                  	},
 	/* Battery */
 	{ "BatteryFullNotiOn"		, NULL		, "i"	, battery_full_noti_on		},
 	{ "BatteryFullNotiOff"		, "i"		, "i"	, noti_off			},
 	{ "BatteryChargeNotiOn"		, NULL		, "i"	, battery_charge_noti_on	},
+	/* Temperature */
+	{ "TempCooldownNotiOn"		, NULL		, "i"	, cooldown_noti_on		},
+	{ "TempCooldownNotiOff"		, "i"		, "i"	, noti_off			},
 	/* Add notifications here */
 };
 

@@ -75,6 +75,7 @@
 #define SIGNAL_SENDER_TYPE            		"_SIGNAL_TYPE_"
 #define SIGNAL_SENDER_TYPE_RECOVERY   		"recovery-popup"
 #define SIGNAL_SENDER_TYPE_USBSTORAGE_UNMOUNT	"usbstorage-unmount-popup"
+#define SIGNAL_SENDER_TYPE_COOLDOWN		"cooldown"
 #define SIGNAL_SENDER_TYPE_ENCRYPT    		ODE_ENCRYPT
 #define SIGNAL_SENDER_TYPE_DECRYPT    		ODE_DECRYPT
 #define SIGNAL_SENDER_TYPE_ODE_UG     		"ode-setting-ug"

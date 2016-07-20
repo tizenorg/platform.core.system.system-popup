@@ -313,6 +313,7 @@ rm -rf %{buildroot}
 %if %{notification_service} == on
 %{_datadir}/system-apps/res/icons/batt_full_icon.png
 %{_datadir}/system-apps/res/icons/batt_full_indicator.png
+%{_datadir}/system-apps/res/icons/noti_cooling_down.png
 %{TZ_SYS_RO_SHARE}/system-apps/res/icons/datausage_warning.png
 %{TZ_SYS_RO_SHARE}/system-apps/res/icons/led_torch.png
 %{TZ_SYS_RO_SHARE}/system-apps/res/icons/usb_icon.png

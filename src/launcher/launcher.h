@@ -56,6 +56,8 @@
 #define USB_ICON         SYSTEM_ICONDIR"/usb_icon.png"
 #define BATT_INDI_ICON   SYSTEM_ICONDIR"/batt_full_indicator.png"
 #define BATT_NOTI_ICON   SYSTEM_ICONDIR"/batt_full_icon.png"
+#define COOLDOWN_NOTI_ICON   SYSTEM_ICONDIR"/noti_cooling_down.png"
+
 
 /* App launching */
 #define CRADLE_APP_NAME  "org.tizen.desk-dock"
@@ -78,6 +80,7 @@ enum noti_type {
 	USB_DEVICE,
 	BATTERY_FULL,
 	MEDIA_DEVICE,
+	TEMP_COOLDOWN,
 	/* Add here additional notificatoins */
 	NOTI_TYPE_MAX
 };

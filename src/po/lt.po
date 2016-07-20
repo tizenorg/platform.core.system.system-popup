@@ -340,3 +340,6 @@ msgstr "Išjung.dabar"
 msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
 msgstr "Neįmanoma įrašyti. „Gear“ atmintyje nepakanka vietos."
 
+msgid "IDS_QP_SBODY_TAP_HERE_FOR_MORE_INFO_ABB"
+msgstr "Plačiau – bakstelėkite čia."
+

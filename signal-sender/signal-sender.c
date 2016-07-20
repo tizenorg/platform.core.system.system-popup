@@ -128,6 +128,65 @@ out:
 	return ret;
 }
 
+int call_dbus_method_for_pairs(const char *dest, const char *path,
+		const char *interface, const char *method,
+		const char *sig, char *param[])
+{
+	DBusConnection *conn;
+	DBusMessage *msg = NULL;
+	DBusMessage *reply;
+	DBusMessageIter iter, aiter, piter;
+	DBusError err;
+	int ret, result, i;
+	char *key, *value;
+
+	conn = dbus_bus_get(DBUS_BUS_SYSTEM, NULL);
+	if (!conn) {
+		ret = 0;
+		_E("dbus_bus_get error");
+		return -EPERM;
+	}
+
+	msg = dbus_message_new_method_call(dest, path, interface, method);
+	if (!msg) {
+		_E("dbus_message_new_method_call(%s:%s-%s)", path, interface, method);
+		return -EBADMSG;
+	}
+
+	dbus_message_iter_init_append(msg, &iter);
+	dbus_message_iter_open_container(&iter, DBUS_TYPE_ARRAY, "{ss}", &aiter);
+	for (i = 0 ; i < sizeof(param)/sizeof(param[0]) ; i = i + 2) {
+		key = param[i];
+		value = param[i+1];
+		_I("key(%s), value(%s)", key, value);
+		dbus_message_iter_open_container(&aiter, DBUS_TYPE_DICT_ENTRY, NULL, &piter);
+		dbus_message_iter_append_basic(&piter, DBUS_TYPE_STRING, &key);
+		dbus_message_iter_append_basic(&piter, DBUS_TYPE_STRING, &value);
+		dbus_message_iter_close_container(&aiter, &piter);
+	}
+
+	dbus_message_iter_close_container(&iter, &aiter);
+	dbus_error_init(&err);
+
+	reply = dbus_connection_send_with_reply_and_block(conn, msg, DBUS_REPLY_TIMEOUT, &err);
+	dbus_message_unref(msg);
+	if (!reply) {
+		_E("dbus_connection_send error(%s:%s) %s %s:%s-%s", err.name, err.message, dest, path, interface, method);
+		dbus_error_free(&err);
+		return -ECOMM;
+	}
+
+	ret = dbus_message_get_args(reply, &err, DBUS_TYPE_INT32, &result, DBUS_TYPE_INVALID);
+	dbus_message_unref(reply);
+	if (!ret) {
+		_E("no message : [%s:%s] %s %s:%s-%s", err.name, err.message, dest, path, interface, method);
+		dbus_error_free(&err);
+		return -ENOMSG;
+	}
+
+	return result;
+}
+
 int request_to_launch_by_dbus(char *bus, char *path, char *iface,
 		char *method, char *ptype, char *param[])
 {
@@ -160,6 +219,13 @@ int request_to_launch_by_dbus(char *bus, char *path, char *iface,
 	return ret_val;
 }
 
+
+int request_to_launch_by_dbus_for_pairs(char *bus, char *path, char *iface,
+		char *method, char *ptype, char *param[])
+{
+	return (call_dbus_method_for_pairs(bus, path, iface, method, ptype, param));
+}
+
 static int send_recovery_popup_signal(void)
 {
 	char *param[2];
@@ -190,6 +256,18 @@ static int send_usbstorage_unmount_popup_signal(char *path)
 			"PopupLaunchDouble", "ssss", param);
 }
 
+static int send_cooldown_popup_signal(void)
+{
+	char *param[2];
+	int i;
+
+	param[0] = "_SYSPOPUP_CONTENT_";
+	param[1] = "cooldown";
+
+	return request_to_launch_by_dbus_for_pairs(BUS_NAME, POPUP_PATH_SYSTEM, POPUP_IFACE_SYSTEM,
+			"PopupLaunch", "a{ss}", param);
+}
+
 static int get_err_and_space(bundle *b, char *type,
 		char *error, int error_len, char *space, int space_len)
 {
@@ -211,10 +289,10 @@ static int get_err_and_space(bundle *b, char *type,
 	iErr = atoi(cErr);
 	switch (iErr) {
 	case NOT_ENOUGH_SPACE:
-		snprintf (error, error_len, "%s_not_enough_space", type);
+		snprintf(error, error_len, "%s_not_enough_space", type);
 		break;
 	case OPERATION_FAILED:
-		snprintf (error, error_len, "%s_operation_failed", type);
+		snprintf(error, error_len, "%s_operation_failed", type);
 		break;
 	default:
 		_E("Unknown type (%d)", iErr);
@@ -334,6 +412,11 @@ static int app_reset(bundle *b, void *data)
 		}
 
 		ret = send_usbstorage_unmount_popup_signal(path);
+		goto out;
+	}
+
+	if (!strncmp(type, SIGNAL_SENDER_TYPE_COOLDOWN, strlen(SIGNAL_SENDER_TYPE_COOLDOWN))) {
+		ret = send_cooldown_popup_signal();
 		goto out;
 	}
 

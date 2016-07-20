@@ -340,3 +340,6 @@ msgstr "Sluk nu"
 msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
 msgstr "Kan ikke optage. Der er ikke nok plads i dit Gears lager."
 
+msgid "IDS_QP_SBODY_TAP_HERE_FOR_MORE_INFO_ABB"
+msgstr "Tryk her for mere info."
+

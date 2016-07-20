@@ -125,7 +125,7 @@ msgid "IDS_QP_POP_YOUR_DEVICE_IS_OVERHEATING_IT_WILL_NOW_POWER_OFF_TO_COOL_DOWN"
 msgstr "Dispozitivul se supraîncălzește. Acesta se va opri pentru a se răci."
 
 msgid "IDS_QP_POP_YOUR_DEVICE_OVERHEATED_IT_POWERED_OFF_TO_PREVENT_DAMAGE_MSG"
-msgstr "Dispozitivul s-a supraîncălzit. Pentru a preveni daunele, acesta s-a oprit.\n\nSupraîncălzirea poate fi cauzată de:\nutilizarea îndelungată a aplicațiilor cu un nivel intens de grafică, de exemplu, jocuri și aplicații de navigare;\ntransferul fișierelor mari;\nutilizarea dispozitivului într-un mediu cu temperatură ridicată."
+msgstr "Dispozitivul s-a supraîncălzit. Pentru a asigura o bună funcționalitate a produsului, acesta s-a oprit.\n\nSupraîncălzirea poate fi cauzată de:\nutilizarea îndelungată a aplicațiilor cu un nivel intens de grafică, de exemplu, jocuri și aplicații de navigare;\ntransferul fișierelor mari;\nutilizarea dispozitivului într-un mediu cu temperatură ridicată."
 
 msgid "IDS_ST_BODY_LIMIT_DATA_USAGE"
 msgstr "Limitare utilizare date"
@@ -339,4 +339,7 @@ msgstr "Oprire acum"
 
 msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
 msgstr "Nu se poate înregistra. Spațiul din memoria Gear este insuficient."
+
+msgid "IDS_QP_SBODY_TAP_HERE_FOR_MORE_INFO_ABB"
+msgstr "Atingeți pt. informații."
 

@@ -340,3 +340,6 @@ msgstr "ఇప్పుడు టర్న్ ఆఫ్ చేయి"
 msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
 msgstr "రికార్డ్ చేయలేరు. మీ గేర్ నిల్వలో తగినంత ఖాళీ లేదు."
 
+msgid "IDS_QP_SBODY_TAP_HERE_FOR_MORE_INFO_ABB"
+msgstr "మరింత సమాచారం కోసం ఇక్కడ ట్యాప్ చేయండి."
+

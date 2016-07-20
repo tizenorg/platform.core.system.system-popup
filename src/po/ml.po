@@ -340,3 +340,6 @@ msgstr "ഇപ്പോള്‍ ഓഫ് ചെയ്യുക"
 msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
 msgstr "റെക്കോർഡ് ചെയ്യാനാവില്ല. നിങ്ങളുടെ ഗിയർ സംഭരണത്തിൽ മതിയായ സ്ഥലമില്ല."
 
+msgid "IDS_QP_SBODY_TAP_HERE_FOR_MORE_INFO_ABB"
+msgstr "കൂടുതൽ വിവരത്തിന് ഇവിടെ സ്പർശിക്കുക."
+

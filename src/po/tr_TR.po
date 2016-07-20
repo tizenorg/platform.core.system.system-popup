@@ -340,3 +340,6 @@ msgstr "Şimdi kapat"
 msgid "IDS_ST_POP_UNABLE_TO_RECORD_THERE_IS_NOT_ENOUGH_SPACE_IN_YOUR_GEAR_STORAGE"
 msgstr "Kaydedilemiyor. Gear deponuzda yeterli alan yok."
 
+msgid "IDS_QP_SBODY_TAP_HERE_FOR_MORE_INFO_ABB"
+msgstr "Dha fzla blgi içn brya dknn."
+

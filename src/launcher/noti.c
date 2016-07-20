@@ -506,6 +506,32 @@ static int launch_usb_storage_notification(void *data, int type)
 	return ret;
 }
 
+static int launch_temp_cooldown_notification(int type)
+{
+	int ret;
+	bundle *b;
+
+	b = bundle_create();
+	if (b) {
+		appsvc_set_pkgname(b, SYSTEM_SIGNAL_SENDER);
+		appsvc_add_data(b, SIGNAL_SENDER_TYPE, SIGNAL_SENDER_TYPE_COOLDOWN);
+	}
+
+	ret =  add_notification(NOTIFICATION_TYPE_ONGOING,
+				NOTIFICATION_LY_ONGOING_EVENT,
+				"IDS_IDLE_MBODY_PHONE_COOLING_DOWN",
+				"IDS_QP_SBODY_TAP_HERE_FOR_MORE_INFO_ABB",
+				COOLDOWN_NOTI_ICON,
+				NULL,
+				b,
+				NOTIFICATION_PROP_VOLATILE_DISPLAY,
+				NOTIFICATION_DISPLAY_APP_NOTIFICATION_TRAY);
+
+	if (b)
+		bundle_free(b);
+	return ret;
+}
+
 static int launch_usb_device_notification(char *dev, char *name)
 {
 	int ret;
@@ -634,6 +660,8 @@ static int launch_notification_no_param_by_type(int type)
 		return launch_battery_full_notification();
 	case MEDIA_DEVICE:
 		return launch_media_device_notification();
+	case TEMP_COOLDOWN:
+		return launch_temp_cooldown_notification(type);
 	default:
 		_E("Noti type is unknown");
 		return -EINVAL;
